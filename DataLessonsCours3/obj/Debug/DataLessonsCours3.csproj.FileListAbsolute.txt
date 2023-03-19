@@ -13,3 +13,5 @@ C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\bin\Debug\Guna.U
 C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\obj\Debug\DataLessonsCours3.csproj.CopyComplete
 C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\bin\Debug\Guna.UI.dll
 C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\bin\Debug\XanderUI.dll
+C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.CardExam.resources
+C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.CardDayLessons.resources

@@ -66,6 +66,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\CardDayLessons.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\CardDayLessons.Designer.cs">
+      <DependentUpon>CardDayLessons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CardExam.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\CardExam.Designer.cs">
+      <DependentUpon>CardExam.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -78,6 +90,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\CardDayLessons.resx">
+      <DependentUpon>CardDayLessons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CardExam.resx">
+      <DependentUpon>CardExam.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

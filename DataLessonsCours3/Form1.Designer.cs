@@ -38,10 +38,10 @@
 			this.LogIn = new Guna.UI2.WinForms.Guna2Button();
 			this.navSeparator = new Guna.UI2.WinForms.Guna2Separator();
 			this.gunaGradient2Panel1 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.xuiFlatTab1 = new XanderUI.XUIFlatTab();
+			this.viewDaysTabPanel = new XanderUI.XUIFlatTab();
 			this.tabPage1 = new System.Windows.Forms.TabPage();
 			this.gunaGradient2Panel21 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+			this.mainLayout = new System.Windows.Forms.FlowLayoutPanel();
 			this.gunaGradient2Panel10 = new Guna.UI.WinForms.GunaGradient2Panel();
 			this.gunaGradient2Panel11 = new Guna.UI.WinForms.GunaGradient2Panel();
 			this.pictureBox22 = new System.Windows.Forms.PictureBox();
@@ -188,9 +188,9 @@
 			this.addExam = new Guna.UI2.WinForms.Guna2Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.navigationPanel.SuspendLayout();
-			this.xuiFlatTab1.SuspendLayout();
+			this.viewDaysTabPanel.SuspendLayout();
 			this.tabPage1.SuspendLayout();
-			this.flowLayoutPanel1.SuspendLayout();
+			this.mainLayout.SuspendLayout();
 			this.gunaGradient2Panel10.SuspendLayout();
 			this.gunaGradient2Panel11.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
@@ -385,34 +385,35 @@
 			this.gunaGradient2Panel1.Size = new System.Drawing.Size(1302, 59);
 			this.gunaGradient2Panel1.TabIndex = 4;
 			// 
-			// xuiFlatTab1
+			// viewDaysTabPanel
 			// 
-			this.xuiFlatTab1.ActiveHeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
-			this.xuiFlatTab1.ActiveTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
-			this.xuiFlatTab1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.viewDaysTabPanel.ActiveHeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
+			this.viewDaysTabPanel.ActiveTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
+			this.viewDaysTabPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.xuiFlatTab1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
-			this.xuiFlatTab1.Controls.Add(this.tabPage1);
-			this.xuiFlatTab1.Controls.Add(this.tabPage2);
-			this.xuiFlatTab1.Controls.Add(this.tabPage3);
-			this.xuiFlatTab1.HeaderBackgroundColor = System.Drawing.Color.White;
-			this.xuiFlatTab1.InActiveHeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
-			this.xuiFlatTab1.InActiveTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
-			this.xuiFlatTab1.ItemSize = new System.Drawing.Size(240, 16);
-			this.xuiFlatTab1.Location = new System.Drawing.Point(12, 71);
-			this.xuiFlatTab1.Name = "xuiFlatTab1";
-			this.xuiFlatTab1.OnlyTopLine = true;
-			this.xuiFlatTab1.PageColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
-			this.xuiFlatTab1.SelectedIndex = 0;
-			this.xuiFlatTab1.Size = new System.Drawing.Size(1326, 653);
-			this.xuiFlatTab1.TabIndex = 6;
+			this.viewDaysTabPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
+			this.viewDaysTabPanel.Controls.Add(this.tabPage1);
+			this.viewDaysTabPanel.Controls.Add(this.tabPage2);
+			this.viewDaysTabPanel.Controls.Add(this.tabPage3);
+			this.viewDaysTabPanel.HeaderBackgroundColor = System.Drawing.Color.White;
+			this.viewDaysTabPanel.InActiveHeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
+			this.viewDaysTabPanel.InActiveTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
+			this.viewDaysTabPanel.ItemSize = new System.Drawing.Size(240, 16);
+			this.viewDaysTabPanel.Location = new System.Drawing.Point(12, 71);
+			this.viewDaysTabPanel.Name = "viewDaysTabPanel";
+			this.viewDaysTabPanel.OnlyTopLine = true;
+			this.viewDaysTabPanel.PageColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
+			this.viewDaysTabPanel.SelectedIndex = 0;
+			this.viewDaysTabPanel.Size = new System.Drawing.Size(1326, 653);
+			this.viewDaysTabPanel.TabIndex = 6;
+			this.viewDaysTabPanel.SelectedIndexChanged += new System.EventHandler(this.viewDaysTabPanel_SelectedIndexChanged);
 			// 
 			// tabPage1
 			// 
 			this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.tabPage1.Controls.Add(this.gunaGradient2Panel21);
-			this.tabPage1.Controls.Add(this.flowLayoutPanel1);
+			this.tabPage1.Controls.Add(this.mainLayout);
 			this.tabPage1.Location = new System.Drawing.Point(4, 20);
 			this.tabPage1.Name = "tabPage1";
 			this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -433,23 +434,23 @@
 			this.gunaGradient2Panel21.Size = new System.Drawing.Size(1302, 59);
 			this.gunaGradient2Panel21.TabIndex = 5;
 			// 
-			// flowLayoutPanel1
+			// mainLayout
 			// 
-			this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.mainLayout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.flowLayoutPanel1.AutoScroll = true;
-			this.flowLayoutPanel1.Controls.Add(this.gunaGradient2Panel10);
-			this.flowLayoutPanel1.Controls.Add(this.gunaGradient2Panel14);
-			this.flowLayoutPanel1.Controls.Add(this.gunaGradient2Panel2);
-			this.flowLayoutPanel1.Controls.Add(this.gunaGradient2Panel8);
-			this.flowLayoutPanel1.Controls.Add(this.gunaGradient2Panel12);
-			this.flowLayoutPanel1.Controls.Add(this.gunaGradient2Panel22);
-			this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 68);
-			this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-			this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(4);
-			this.flowLayoutPanel1.Size = new System.Drawing.Size(1307, 558);
-			this.flowLayoutPanel1.TabIndex = 1;
+			this.mainLayout.AutoScroll = true;
+			this.mainLayout.Controls.Add(this.gunaGradient2Panel10);
+			this.mainLayout.Controls.Add(this.gunaGradient2Panel14);
+			this.mainLayout.Controls.Add(this.gunaGradient2Panel2);
+			this.mainLayout.Controls.Add(this.gunaGradient2Panel8);
+			this.mainLayout.Controls.Add(this.gunaGradient2Panel12);
+			this.mainLayout.Controls.Add(this.gunaGradient2Panel22);
+			this.mainLayout.Location = new System.Drawing.Point(3, 68);
+			this.mainLayout.Name = "mainLayout";
+			this.mainLayout.Padding = new System.Windows.Forms.Padding(4);
+			this.mainLayout.Size = new System.Drawing.Size(1307, 558);
+			this.mainLayout.TabIndex = 1;
 			// 
 			// gunaGradient2Panel10
 			// 
@@ -2350,6 +2351,7 @@
 			this.examLayoutPanel.AutoScroll = true;
 			this.examLayoutPanel.Location = new System.Drawing.Point(3, 85);
 			this.examLayoutPanel.Name = "examLayoutPanel";
+			this.examLayoutPanel.Padding = new System.Windows.Forms.Padding(11, 12, 11, 12);
 			this.examLayoutPanel.Size = new System.Drawing.Size(1312, 541);
 			this.examLayoutPanel.TabIndex = 6;
 			// 
@@ -2390,19 +2392,19 @@
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.ClientSize = new System.Drawing.Size(1350, 736);
 			this.Controls.Add(this.navigationPanel);
-			this.Controls.Add(this.xuiFlatTab1);
+			this.Controls.Add(this.viewDaysTabPanel);
 			this.Controls.Add(this.navSeparator);
 			this.Controls.Add(this.pictureBox1);
 			this.Margin = new System.Windows.Forms.Padding(2);
-			this.MinimumSize = new System.Drawing.Size(1200, 600);
+			this.MinimumSize = new System.Drawing.Size(1154, 599);
 			this.Name = "Form1";
 			this.Text = " Расписание СибГИУ";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.navigationPanel.ResumeLayout(false);
 			this.navigationPanel.PerformLayout();
-			this.xuiFlatTab1.ResumeLayout(false);
+			this.viewDaysTabPanel.ResumeLayout(false);
 			this.tabPage1.ResumeLayout(false);
-			this.flowLayoutPanel1.ResumeLayout(false);
+			this.mainLayout.ResumeLayout(false);
 			this.gunaGradient2Panel10.ResumeLayout(false);
 			this.gunaGradient2Panel10.PerformLayout();
 			this.gunaGradient2Panel11.ResumeLayout(false);
@@ -2505,10 +2507,10 @@
 		private Guna.UI2.WinForms.Guna2Button LogIn;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel1;
 		private Guna.UI2.WinForms.Guna2Separator navSeparator;
-		private XanderUI.XUIFlatTab xuiFlatTab1;
+		private XanderUI.XUIFlatTab viewDaysTabPanel;
 		private System.Windows.Forms.TabPage tabPage1;
 		private System.Windows.Forms.TabPage tabPage2;
-		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+		private System.Windows.Forms.FlowLayoutPanel mainLayout;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel14;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel15;
 		private System.Windows.Forms.PictureBox pictureBox32;
