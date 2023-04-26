@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DataLessonsCours3.Class;
+using Guna.UI2.WinForms;
 
 namespace DataLessonsCours3
 {
@@ -84,6 +85,45 @@ namespace DataLessonsCours3
 		private void editShedulePage_Click(object sender, EventArgs e)
 		{
 			viewDaysTabPanel.SelectTab(1);
+		}
+
+		private void selectSpr_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			switch (selectSpr.SelectedIndex)
+			{
+				case 1:
+					viewDaysTabPanel.SelectTab(3);
+					break;
+				case 2:
+					viewDaysTabPanel.SelectTab(3);
+					break;
+				case 3:
+					viewDaysTabPanel.SelectTab(3);
+					break;
+				default:
+					viewDaysTabPanel.SelectedIndex = 0;
+					break;
+			}
+		}
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet.Teacher". При необходимости она может быть перемещена или удалена.
+			this.teacherTableAdapter.Fill(this.timeTableDataSet.Teacher);
+
+		}
+
+		private void fillByToolStripButton_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				this.teacherTableAdapter.FillBy(this.timeTableDataSet.Teacher);
+			}
+			catch (System.Exception ex)
+			{
+				System.Windows.Forms.MessageBox.Show(ex.Message);
+			}
+
 		}
 	}
 }

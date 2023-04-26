@@ -67,6 +67,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="timeTableDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>timeTableDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="View\CardDayLessons.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -106,6 +111,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="timeTableDataSet.xsc">
+      <DependentUpon>timeTableDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="timeTableDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>timeTableDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="timeTableDataSet.xss">
+      <DependentUpon>timeTableDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
