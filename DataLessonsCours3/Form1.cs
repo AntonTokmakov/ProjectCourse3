@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DataLessonsCours3.Class;
 
 namespace DataLessonsCours3
 {
@@ -27,15 +28,10 @@ namespace DataLessonsCours3
 			navSeparator.Location = new Point(pointX, pointY);
 		}
 
-
 		private void addExam_Click(object sender, EventArgs e)
 		{
-			for (int i = 0; i < 5; i++)
-			{
-				CardExam card = new CardExam();
-			
-				examLayoutPanel.Controls.Add(card);
-			}
+			DB db = new DB();
+			db.dfg();
 		}
 
 		private void viewDaysTabPanel_SelectedIndexChanged(object sender, EventArgs e)
@@ -43,9 +39,10 @@ namespace DataLessonsCours3
 			switch (viewDaysTabPanel.SelectedIndex)
 			{
 				case 0:
-					for (int i = 0; i < 5; i++)			//Подключить БД и поставить свои значения
+					mainLayout.Controls.Clear();
+					for (int i = 0; i < 6; i++)			//Подключить БД и поставить свои значения
 					{
-						CardDayLessons cardDay = new CardDayLessons("Понедельник", "УиАБД", "ТРПО", "ИСРПО", "ПД", "Мат мод",
+						CardDayLessons cardDay = new CardDayLessons("Понедельник", "УиАБД", "ТРПО", "ИСРПО", "ПД", "Мат мод",		//добавлять данные из БД
 						"https://do.sibsiu.ru/day/course/view.php?id=19370", "", "","","");
 						mainLayout.Controls.Add(cardDay);
 					}
@@ -56,6 +53,13 @@ namespace DataLessonsCours3
 					break;
 
 				case 2:
+					examLayoutPanel.Controls.Clear();
+					for (int i = 0; i < 5; i++)
+					{
+						CardExam cardExam = new CardExam();
+
+						examLayoutPanel.Controls.Add(cardExam);
+					}
 					break; 
 
 				case 3:
@@ -65,6 +69,21 @@ namespace DataLessonsCours3
 					viewDaysTabPanel.SelectedIndex = 0;
 					break;
 			}
+		}
+
+		private void schedulePage_Click(object sender, EventArgs e)
+		{
+			viewDaysTabPanel.SelectTab(0);
+		}
+
+		private void examPage_Click(object sender, EventArgs e)
+		{
+			viewDaysTabPanel.SelectTab(2);
+		}
+
+		private void editShedulePage_Click(object sender, EventArgs e)
+		{
+			viewDaysTabPanel.SelectTab(1);
 		}
 	}
 }
