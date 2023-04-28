@@ -65,12 +65,48 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GroupStudIdShortName.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GroupStudIdShortName.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="timeTableDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>timeTableDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="timeTableDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>timeTableDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="timeTableDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>timeTableDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="timeTableDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>timeTableDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="timeTableDataSet41.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>timeTableDataSet41.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="timeTableTeacher.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>timeTableTeacher.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AddTeacher.Designer.cs">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
     </Compile>
     <Compile Include="View\CardDayLessons.cs">
       <SubType>UserControl</SubType>
@@ -96,12 +132,26 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\AddTeacher.resx">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\CardDayLessons.resx">
       <DependentUpon>CardDayLessons.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\CardExam.resx">
       <DependentUpon>CardExam.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="GroupStudIdShortName.xsc">
+      <DependentUpon>GroupStudIdShortName.xsd</DependentUpon>
+    </None>
+    <None Include="GroupStudIdShortName.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GroupStudIdShortName.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GroupStudIdShortName.xss">
+      <DependentUpon>GroupStudIdShortName.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -121,6 +171,61 @@
     </None>
     <None Include="timeTableDataSet.xss">
       <DependentUpon>timeTableDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="timeTableDataSet1.xsc">
+      <DependentUpon>timeTableDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="timeTableDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>timeTableDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="timeTableDataSet1.xss">
+      <DependentUpon>timeTableDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="timeTableDataSet2.xsc">
+      <DependentUpon>timeTableDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="timeTableDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>timeTableDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="timeTableDataSet2.xss">
+      <DependentUpon>timeTableDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="timeTableDataSet31.xsc">
+      <DependentUpon>timeTableDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="timeTableDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>timeTableDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="timeTableDataSet31.xss">
+      <DependentUpon>timeTableDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="timeTableDataSet41.xsc">
+      <DependentUpon>timeTableDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="timeTableDataSet41.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>timeTableDataSet41.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="timeTableDataSet41.xss">
+      <DependentUpon>timeTableDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="timeTableTeacher.xsc">
+      <DependentUpon>timeTableTeacher.xsd</DependentUpon>
+    </None>
+    <None Include="timeTableTeacher.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>timeTableTeacher.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="timeTableTeacher.xss">
+      <DependentUpon>timeTableTeacher.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

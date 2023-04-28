@@ -40,8 +40,13 @@
 			this.link2 = new System.Windows.Forms.PictureBox();
 			this.secondLessonLabel = new System.Windows.Forms.Label();
 			this.link1 = new System.Windows.Forms.PictureBox();
-			this.firstLessonLabel = new System.Windows.Forms.Label();
 			this.nameDayLabel = new System.Windows.Forms.Label();
+			this.firstLessonLabel = new System.Windows.Forms.Label();
+			this.label1 = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
+			this.label3 = new System.Windows.Forms.Label();
+			this.label4 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
 			this.gunaGradient2Panel4.SuspendLayout();
 			this.gunaGradient2Panel5.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.link5)).BeginInit();
@@ -60,15 +65,21 @@
 			this.gunaGradient2Panel4.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
 			this.gunaGradient2Panel4.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
 			this.gunaGradient2Panel4.Location = new System.Drawing.Point(0, 0);
-			this.gunaGradient2Panel4.Margin = new System.Windows.Forms.Padding(15);
+			this.gunaGradient2Panel4.Margin = new System.Windows.Forms.Padding(20, 18, 20, 18);
 			this.gunaGradient2Panel4.Name = "gunaGradient2Panel4";
 			this.gunaGradient2Panel4.Radius = 10;
-			this.gunaGradient2Panel4.Size = new System.Drawing.Size(438, 246);
+			this.gunaGradient2Panel4.Size = new System.Drawing.Size(584, 303);
 			this.gunaGradient2Panel4.TabIndex = 8;
 			// 
 			// gunaGradient2Panel5
 			// 
 			this.gunaGradient2Panel5.BackColor = System.Drawing.Color.Transparent;
+			this.gunaGradient2Panel5.Controls.Add(this.label5);
+			this.gunaGradient2Panel5.Controls.Add(this.label4);
+			this.gunaGradient2Panel5.Controls.Add(this.label3);
+			this.gunaGradient2Panel5.Controls.Add(this.label2);
+			this.gunaGradient2Panel5.Controls.Add(this.label1);
+			this.gunaGradient2Panel5.Controls.Add(this.firstLessonLabel);
 			this.gunaGradient2Panel5.Controls.Add(this.link5);
 			this.gunaGradient2Panel5.Controls.Add(this.fiveLessonLabel);
 			this.gunaGradient2Panel5.Controls.Add(this.link4);
@@ -78,22 +89,23 @@
 			this.gunaGradient2Panel5.Controls.Add(this.link2);
 			this.gunaGradient2Panel5.Controls.Add(this.secondLessonLabel);
 			this.gunaGradient2Panel5.Controls.Add(this.link1);
-			this.gunaGradient2Panel5.Controls.Add(this.firstLessonLabel);
 			this.gunaGradient2Panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.gunaGradient2Panel5.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
 			this.gunaGradient2Panel5.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel5.Location = new System.Drawing.Point(0, 34);
+			this.gunaGradient2Panel5.Location = new System.Drawing.Point(0, 42);
+			this.gunaGradient2Panel5.Margin = new System.Windows.Forms.Padding(4);
 			this.gunaGradient2Panel5.Name = "gunaGradient2Panel5";
 			this.gunaGradient2Panel5.Radius = 10;
-			this.gunaGradient2Panel5.Size = new System.Drawing.Size(438, 212);
+			this.gunaGradient2Panel5.Size = new System.Drawing.Size(584, 261);
 			this.gunaGradient2Panel5.TabIndex = 1;
 			// 
 			// link5
 			// 
 			this.link5.Image = ((System.Drawing.Image)(resources.GetObject("link5.Image")));
-			this.link5.Location = new System.Drawing.Point(391, 165);
+			this.link5.Location = new System.Drawing.Point(521, 203);
+			this.link5.Margin = new System.Windows.Forms.Padding(4);
 			this.link5.Name = "link5";
-			this.link5.Size = new System.Drawing.Size(32, 32);
+			this.link5.Size = new System.Drawing.Size(43, 39);
 			this.link5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 			this.link5.TabIndex = 9;
 			this.link5.TabStop = false;
@@ -104,19 +116,20 @@
 			this.fiveLessonLabel.Cursor = System.Windows.Forms.Cursors.Default;
 			this.fiveLessonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.fiveLessonLabel.ForeColor = System.Drawing.Color.Black;
-			this.fiveLessonLabel.Location = new System.Drawing.Point(10, 169);
+			this.fiveLessonLabel.Location = new System.Drawing.Point(43, 208);
+			this.fiveLessonLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.fiveLessonLabel.Name = "fiveLessonLabel";
-			this.fiveLessonLabel.Size = new System.Drawing.Size(367, 27);
+			this.fiveLessonLabel.Size = new System.Drawing.Size(459, 33);
 			this.fiveLessonLabel.TabIndex = 8;
-			this.fiveLessonLabel.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
 			this.fiveLessonLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// link4
 			// 
 			this.link4.Image = ((System.Drawing.Image)(resources.GetObject("link4.Image")));
-			this.link4.Location = new System.Drawing.Point(391, 126);
+			this.link4.Location = new System.Drawing.Point(521, 155);
+			this.link4.Margin = new System.Windows.Forms.Padding(4);
 			this.link4.Name = "link4";
-			this.link4.Size = new System.Drawing.Size(32, 32);
+			this.link4.Size = new System.Drawing.Size(43, 39);
 			this.link4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 			this.link4.TabIndex = 7;
 			this.link4.TabStop = false;
@@ -127,19 +140,20 @@
 			this.fourLessonLabel.Cursor = System.Windows.Forms.Cursors.Default;
 			this.fourLessonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.fourLessonLabel.ForeColor = System.Drawing.Color.Black;
-			this.fourLessonLabel.Location = new System.Drawing.Point(10, 130);
+			this.fourLessonLabel.Location = new System.Drawing.Point(43, 160);
+			this.fourLessonLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.fourLessonLabel.Name = "fourLessonLabel";
-			this.fourLessonLabel.Size = new System.Drawing.Size(367, 27);
+			this.fourLessonLabel.Size = new System.Drawing.Size(459, 33);
 			this.fourLessonLabel.TabIndex = 6;
-			this.fourLessonLabel.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
 			this.fourLessonLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// link3
 			// 
 			this.link3.Image = ((System.Drawing.Image)(resources.GetObject("link3.Image")));
-			this.link3.Location = new System.Drawing.Point(391, 86);
+			this.link3.Location = new System.Drawing.Point(521, 106);
+			this.link3.Margin = new System.Windows.Forms.Padding(4);
 			this.link3.Name = "link3";
-			this.link3.Size = new System.Drawing.Size(32, 32);
+			this.link3.Size = new System.Drawing.Size(43, 39);
 			this.link3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 			this.link3.TabIndex = 5;
 			this.link3.TabStop = false;
@@ -150,19 +164,20 @@
 			this.thirdLessonLabel.Cursor = System.Windows.Forms.Cursors.Default;
 			this.thirdLessonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.thirdLessonLabel.ForeColor = System.Drawing.Color.Black;
-			this.thirdLessonLabel.Location = new System.Drawing.Point(10, 90);
+			this.thirdLessonLabel.Location = new System.Drawing.Point(41, 111);
+			this.thirdLessonLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.thirdLessonLabel.Name = "thirdLessonLabel";
-			this.thirdLessonLabel.Size = new System.Drawing.Size(367, 27);
+			this.thirdLessonLabel.Size = new System.Drawing.Size(461, 33);
 			this.thirdLessonLabel.TabIndex = 4;
-			this.thirdLessonLabel.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
 			this.thirdLessonLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// link2
 			// 
 			this.link2.Image = ((System.Drawing.Image)(resources.GetObject("link2.Image")));
-			this.link2.Location = new System.Drawing.Point(391, 47);
+			this.link2.Location = new System.Drawing.Point(521, 58);
+			this.link2.Margin = new System.Windows.Forms.Padding(4);
 			this.link2.Name = "link2";
-			this.link2.Size = new System.Drawing.Size(32, 32);
+			this.link2.Size = new System.Drawing.Size(43, 39);
 			this.link2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 			this.link2.TabIndex = 3;
 			this.link2.TabStop = false;
@@ -173,22 +188,35 @@
 			this.secondLessonLabel.Cursor = System.Windows.Forms.Cursors.Default;
 			this.secondLessonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.secondLessonLabel.ForeColor = System.Drawing.Color.Black;
-			this.secondLessonLabel.Location = new System.Drawing.Point(10, 51);
+			this.secondLessonLabel.Location = new System.Drawing.Point(42, 63);
+			this.secondLessonLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.secondLessonLabel.Name = "secondLessonLabel";
-			this.secondLessonLabel.Size = new System.Drawing.Size(367, 27);
+			this.secondLessonLabel.Size = new System.Drawing.Size(460, 33);
 			this.secondLessonLabel.TabIndex = 2;
-			this.secondLessonLabel.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
 			this.secondLessonLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// link1
 			// 
 			this.link1.Image = ((System.Drawing.Image)(resources.GetObject("link1.Image")));
-			this.link1.Location = new System.Drawing.Point(391, 7);
+			this.link1.Location = new System.Drawing.Point(521, 9);
+			this.link1.Margin = new System.Windows.Forms.Padding(4);
 			this.link1.Name = "link1";
-			this.link1.Size = new System.Drawing.Size(32, 32);
+			this.link1.Size = new System.Drawing.Size(43, 39);
 			this.link1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 			this.link1.TabIndex = 1;
 			this.link1.TabStop = false;
+			// 
+			// nameDayLabel
+			// 
+			this.nameDayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.nameDayLabel.ForeColor = System.Drawing.Color.White;
+			this.nameDayLabel.Location = new System.Drawing.Point(0, 5);
+			this.nameDayLabel.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
+			this.nameDayLabel.Name = "nameDayLabel";
+			this.nameDayLabel.Size = new System.Drawing.Size(584, 31);
+			this.nameDayLabel.TabIndex = 5;
+			this.nameDayLabel.Text = "Понедельник";
+			this.nameDayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// firstLessonLabel
 			// 
@@ -196,36 +224,80 @@
 			this.firstLessonLabel.Cursor = System.Windows.Forms.Cursors.Default;
 			this.firstLessonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.firstLessonLabel.ForeColor = System.Drawing.Color.Black;
-			this.firstLessonLabel.Location = new System.Drawing.Point(10, 11);
+			this.firstLessonLabel.Location = new System.Drawing.Point(42, 15);
+			this.firstLessonLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.firstLessonLabel.Name = "firstLessonLabel";
-			this.firstLessonLabel.Size = new System.Drawing.Size(367, 27);
-			this.firstLessonLabel.TabIndex = 0;
-			this.firstLessonLabel.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
+			this.firstLessonLabel.Size = new System.Drawing.Size(460, 33);
+			this.firstLessonLabel.TabIndex = 10;
 			this.firstLessonLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
-			// nameDayLabel
+			// label1
 			// 
-			this.nameDayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.nameDayLabel.ForeColor = System.Drawing.Color.White;
-			this.nameDayLabel.Location = new System.Drawing.Point(0, 4);
-			this.nameDayLabel.Margin = new System.Windows.Forms.Padding(11);
-			this.nameDayLabel.Name = "nameDayLabel";
-			this.nameDayLabel.Size = new System.Drawing.Size(438, 25);
-			this.nameDayLabel.TabIndex = 5;
-			this.nameDayLabel.Text = "Понедельник";
-			this.nameDayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.label1.AutoSize = true;
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label1.ForeColor = System.Drawing.Color.White;
+			this.label1.Location = new System.Drawing.Point(9, 14);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(27, 29);
+			this.label1.TabIndex = 11;
+			this.label1.Text = "1";
+			// 
+			// label2
+			// 
+			this.label2.AutoSize = true;
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label2.ForeColor = System.Drawing.Color.White;
+			this.label2.Location = new System.Drawing.Point(9, 63);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(27, 29);
+			this.label2.TabIndex = 12;
+			this.label2.Text = "2";
+			// 
+			// label3
+			// 
+			this.label3.AutoSize = true;
+			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label3.ForeColor = System.Drawing.Color.White;
+			this.label3.Location = new System.Drawing.Point(9, 111);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(27, 29);
+			this.label3.TabIndex = 13;
+			this.label3.Text = "3";
+			// 
+			// label4
+			// 
+			this.label4.AutoSize = true;
+			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label4.ForeColor = System.Drawing.Color.White;
+			this.label4.Location = new System.Drawing.Point(9, 159);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(27, 29);
+			this.label4.TabIndex = 14;
+			this.label4.Text = "4";
+			// 
+			// label5
+			// 
+			this.label5.AutoSize = true;
+			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label5.ForeColor = System.Drawing.Color.White;
+			this.label5.Location = new System.Drawing.Point(9, 208);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(27, 29);
+			this.label5.TabIndex = 15;
+			this.label5.Text = "5";
 			// 
 			// CardDayLessons
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.Controls.Add(this.gunaGradient2Panel4);
-			this.Margin = new System.Windows.Forms.Padding(15);
+			this.Margin = new System.Windows.Forms.Padding(20, 18, 20, 18);
 			this.Name = "CardDayLessons";
-			this.Size = new System.Drawing.Size(439, 248);
+			this.Size = new System.Drawing.Size(585, 305);
 			this.gunaGradient2Panel4.ResumeLayout(false);
 			this.gunaGradient2Panel5.ResumeLayout(false);
+			this.gunaGradient2Panel5.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.link5)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.link4)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.link3)).EndInit();
@@ -248,7 +320,12 @@
 		private System.Windows.Forms.PictureBox link2;
 		private System.Windows.Forms.Label secondLessonLabel;
 		private System.Windows.Forms.PictureBox link1;
-		private System.Windows.Forms.Label firstLessonLabel;
 		private System.Windows.Forms.Label nameDayLabel;
+		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label firstLessonLabel;
 	}
 }
