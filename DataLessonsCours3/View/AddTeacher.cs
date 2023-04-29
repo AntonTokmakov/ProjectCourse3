@@ -21,29 +21,28 @@ namespace DataLessonsCours3.View
 		public AddTeacher()
 		{
 			InitializeComponent();
+			this.cathedraTableAdapter.Fill(this.timeTableDataSet3.Cathedra);
 		}
-		string name, firstName, otchestvo, cachedra; 
+
 		bool create = true;
-		public AddTeacher(string cbCahedra, string tbOtchestvo, string tbFirstName, string tbName, string lbTitle)
+		int id;
+		public AddTeacher(int id, int cbCahedra, string tbOtchestvo, string tbFirstName, string tbName)
 		{
 			InitializeComponent();
-			this.cbCahedra.Text = cbCahedra;
+			this.cathedraTableAdapter.Fill(this.timeTableDataSet3.Cathedra);
+			this.id = id;
+			this.cbCahedra.SelectedIndex = cbCahedra - 1;
 			this.tbOtchestvo.Text = tbOtchestvo;
 			this.tbFirstName.Text = tbFirstName;
 			this.tbName.Text = tbName;
-			this.lbTitle.Text = lbTitle;
-
-			cachedra = cbCahedra;
-			otchestvo = tbOtchestvo;
-			firstName = tbFirstName;
-			name = tbName;
+			this.lbTitle.Text = "Изменение пользоваетеля";
 			create = false;
 		}
 
 		private void AddTeacher_Load(object sender, EventArgs e)
 		{
             // TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet3.Cathedra". При необходимости она может быть перемещена или удалена.
-            this.cathedraTableAdapter.Fill(this.timeTableDataSet3.Cathedra);
+           
 
         }
 
@@ -51,36 +50,93 @@ namespace DataLessonsCours3.View
 		{
 
 			//lbTitle.Text = cbCahedra.SelectedValue.ToString();
-
-			/*switch (create)
+			if (!(tbName.Text.Equals("") & tbFirstName.Text.Equals("") & tbOtchestvo.Text.Equals("")))
 			{
-				case false:
-					DB db = new DB();
-					string query = "INSERT INTO Teacher (cathedra, name, firstName, otchestvo) VALUES (@cachedra,'@name', '@firstName', '@Otchestvo')";
-					using (SqlCommand command = new SqlCommand(query, db.getConnection()))
-					{
-						// добавление параметров к команде SQL
-						command.Parameters.AddWithValue("@name", name);
-						command.Parameters.AddWithValue("@firstName", firstName);
-						command.Parameters.AddWithValue("@Otchestvo", otchestvo);
-						command.Parameters.AddWithValue("@cachedra", cachedra);
+				switch (create)
+				{
+					case true:
+						DB db = new DB();
+						string query = "INSERT INTO Teacher (cathedra, name, firstName, otchestvo) VALUES (@cachedra, @name, @firstName, @Otchestvo)";
+						using (SqlCommand command = new SqlCommand(query, db.getConnection()))
+						{
+							command.Parameters.AddWithValue("@name", tbName.Text);
+							command.Parameters.AddWithValue("@firstName", tbFirstName.Text);
+							command.Parameters.AddWithValue("@Otchestvo", tbOtchestvo.Text);
+							command.Parameters.AddWithValue("@cachedra", cbCahedra.SelectedValue);
 
-						// открытие подключения к базе данных
-						db.getConnection().Open();
+							db.getConnection().Open();
+							int result = command.ExecuteNonQuery();
 
-						// выполнение команды SQL
-						int result = command.ExecuteNonQuery();
+							if (result == 1)
+							{
+								notifyIcon1.Icon = SystemIcons.Hand;
+								notifyIcon1.BalloonTipTitle = "Добавление пользователя";
+								notifyIcon1.BalloonTipText = "Пользователь успешно добавлен в систему";
+								notifyIcon1.BalloonTipIcon = ToolTipIcon.Info;
+								notifyIcon1.Visible = true;
+								notifyIcon1.ShowBalloonTip(80000);
+							}
+							else
+							{
+								notifyIcon1.Icon = SystemIcons.Hand;
+								notifyIcon1.BalloonTipTitle = "Ошибка";
+								notifyIcon1.BalloonTipText = "Пользователь не добавлен в систему";
+								notifyIcon1.BalloonTipIcon = ToolTipIcon.Error;
+								notifyIcon1.Visible = true;
+								notifyIcon1.ShowBalloonTip(80000);
+							}
+							db.getConnection().Close();
+							this.Close();
+						}
+						break;
+					case false:
+						DB db2 = new DB();
+						string query2 = "UPDATE Teacher SET cathedra = @cachedra, name = @name, firstName = @firstName, otchestvo = @Otchestvo WHERE id_teacher = @id";
+						using (SqlCommand command = new SqlCommand(query2, db2.getConnection()))
+						{
+							command.Parameters.AddWithValue("@id", id);
+							command.Parameters.AddWithValue("@name", tbName.Text);
+							command.Parameters.AddWithValue("@firstName", tbFirstName.Text);
+							command.Parameters.AddWithValue("@Otchestvo", tbOtchestvo.Text);
+							command.Parameters.AddWithValue("@cachedra", cbCahedra.SelectedValue);
 
-						// закрытие подключения к базе данных
-						db.getConnection().Close();
-					}
-					break;
-				case true:
-					//создание
-					break;
-				default:
-					break;
-			}*/
+							db2.getConnection().Open();
+							int result = command.ExecuteNonQuery();
+
+							if (result == 1)
+							{
+								notifyIcon1.Icon = SystemIcons.Hand;
+								notifyIcon1.BalloonTipTitle = "Изменение пользователя";
+								notifyIcon1.BalloonTipText = "Данные пользователь успешно изменены";
+								notifyIcon1.BalloonTipIcon = ToolTipIcon.Info;
+								notifyIcon1.Visible = true;
+								notifyIcon1.ShowBalloonTip(80000);
+							}
+							else
+							{
+								notifyIcon1.Icon = SystemIcons.Hand;
+								notifyIcon1.BalloonTipTitle = "Ошибка";
+								notifyIcon1.BalloonTipText = "Пользователь не изменён";
+								notifyIcon1.BalloonTipIcon = ToolTipIcon.Error;
+								notifyIcon1.Visible = true;
+								notifyIcon1.ShowBalloonTip(80000);
+							}
+							db2.getConnection().Close();
+							this.Close();
+						}
+						break;
+					default:
+						break;
+				}
+			} else
+			{
+				notifyIcon1.Icon = SystemIcons.Exclamation;
+				notifyIcon1.BalloonTipTitle = "Ошибка";
+				notifyIcon1.BalloonTipText = "Поля не заполнены";
+				notifyIcon1.BalloonTipIcon = ToolTipIcon.Error;
+				notifyIcon1.Visible = true;
+				notifyIcon1.ShowBalloonTip(80000);
+			}
 
 		}
 

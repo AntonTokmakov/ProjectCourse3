@@ -44,6 +44,7 @@
 			this.timeTableDataSet3 = new DataLessonsCours3.timeTableDataSet3();
 			this.cathedraBindingSource = new System.Windows.Forms.BindingSource(this.components);
 			this.cathedraTableAdapter = new DataLessonsCours3.timeTableDataSet3TableAdapters.CathedraTableAdapter();
+			this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
 			this.gunaGradient2Panel5.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet3)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.cathedraBindingSource)).BeginInit();
@@ -85,6 +86,7 @@
 			// 
 			// tbName
 			// 
+			this.tbName.Animated = true;
 			this.tbName.BorderRadius = 5;
 			this.tbName.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.tbName.DefaultText = "";
@@ -101,6 +103,7 @@
 			this.tbName.HoverState.Parent = this.tbName;
 			this.tbName.Location = new System.Drawing.Point(13, 83);
 			this.tbName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbName.MaxLength = 20;
 			this.tbName.Name = "tbName";
 			this.tbName.PasswordChar = '\0';
 			this.tbName.PlaceholderText = "";
@@ -133,6 +136,7 @@
 			// 
 			// tbFirstName
 			// 
+			this.tbFirstName.Animated = true;
 			this.tbFirstName.BorderRadius = 5;
 			this.tbFirstName.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.tbFirstName.DefaultText = "";
@@ -149,6 +153,7 @@
 			this.tbFirstName.HoverState.Parent = this.tbFirstName;
 			this.tbFirstName.Location = new System.Drawing.Point(13, 188);
 			this.tbFirstName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbFirstName.MaxLength = 20;
 			this.tbFirstName.Name = "tbFirstName";
 			this.tbFirstName.PasswordChar = '\0';
 			this.tbFirstName.PlaceholderText = "";
@@ -170,6 +175,7 @@
 			// 
 			// tbOtchestvo
 			// 
+			this.tbOtchestvo.Animated = true;
 			this.tbOtchestvo.BorderRadius = 5;
 			this.tbOtchestvo.Cursor = System.Windows.Forms.Cursors.IBeam;
 			this.tbOtchestvo.DefaultText = "";
@@ -186,6 +192,7 @@
 			this.tbOtchestvo.HoverState.Parent = this.tbOtchestvo;
 			this.tbOtchestvo.Location = new System.Drawing.Point(13, 296);
 			this.tbOtchestvo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbOtchestvo.MaxLength = 30;
 			this.tbOtchestvo.Name = "tbOtchestvo";
 			this.tbOtchestvo.PasswordChar = '\0';
 			this.tbOtchestvo.PlaceholderText = "";
@@ -207,6 +214,7 @@
 			// 
 			// cbCahedra
 			// 
+			this.cbCahedra.Animated = true;
 			this.cbCahedra.BackColor = System.Drawing.Color.Transparent;
 			this.cbCahedra.DataSource = this.cathedraBindingSource;
 			this.cbCahedra.DisplayMember = "shortName";
@@ -222,6 +230,7 @@
 			this.cbCahedra.ItemHeight = 30;
 			this.cbCahedra.ItemsAppearance.Parent = this.cbCahedra;
 			this.cbCahedra.Location = new System.Drawing.Point(17, 407);
+			this.cbCahedra.MaxLength = 150;
 			this.cbCahedra.Name = "cbCahedra";
 			this.cbCahedra.ShadowDecoration.Parent = this.cbCahedra;
 			this.cbCahedra.Size = new System.Drawing.Size(474, 36);
@@ -278,6 +287,11 @@
 			// 
 			this.cathedraTableAdapter.ClearBeforeFill = true;
 			// 
+			// notifyIcon1
+			// 
+			this.notifyIcon1.Text = "notifyIcon1";
+			this.notifyIcon1.Visible = true;
+			// 
 			// AddTeacher
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -313,5 +327,6 @@
 		private timeTableDataSet3 timeTableDataSet3;
 		private System.Windows.Forms.BindingSource cathedraBindingSource;
 		private timeTableDataSet3TableAdapters.CathedraTableAdapter cathedraTableAdapter;
+		private System.Windows.Forms.NotifyIcon notifyIcon1;
 	}
 }

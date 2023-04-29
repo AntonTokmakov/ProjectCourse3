@@ -13,6 +13,7 @@ using System.Windows.Forms;
 using DataLessonsCours3.Class;
 using Guna.UI2.WinForms;
 using System.Data.SqlClient;
+using System.Xml.Linq;
 
 namespace DataLessonsCours3
 {
@@ -55,7 +56,7 @@ namespace DataLessonsCours3
 						"https://do.sibsiu.ru/day/course/view.php?id=19370", "", "","","");
 						mainLayout.Controls.Add(cardDay);*/
 					}
-					
+
 					break;
 
 				case 1:
@@ -69,7 +70,7 @@ namespace DataLessonsCours3
 
 						examLayoutPanel.Controls.Add(cardExam);
 					}
-					break; 
+					break;
 
 				case 3:
 					break;
@@ -137,16 +138,83 @@ namespace DataLessonsCours3
 			{
 				this.teacherTableAdapter.FillBy(this.timeTableDataSet.Teacher);
 			}
-			catch (System.Exception ex)
+			catch (Exception ex)
 			{
-				System.Windows.Forms.MessageBox.Show(ex.Message);
+				MessageBox.Show(ex.Message);
 			}
 
 		}
 
+
+
+		// Panel Teacher
+		#region
 		private void btnAddTicher_Click(object sender, EventArgs e)
 		{
 			new AddTeacher().ShowDialog();
+			this.teacherTableAdapter.Fill(this.timeTableDataSet.Teacher);
 		}
+
+		private void btnUpdate_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				int eventRow = dataGridTeacher.SelectedCells[0].RowIndex;
+				int idTeacher = Convert.ToInt32(dataGridTeacher.Rows[eventRow].Cells[0].Value.ToString().Trim());
+				int idCathedra = Convert.ToInt32(dataGridTeacher.Rows[eventRow].Cells[1].Value.ToString().Trim());
+				string name = dataGridTeacher.Rows[eventRow].Cells[2].Value.ToString().Trim();
+				string firstName = dataGridTeacher.Rows[eventRow].Cells[3].Value.ToString().Trim();
+				string otchestvo = dataGridTeacher.Rows[eventRow].Cells[4].Value.ToString().Trim();
+				new AddTeacher(idTeacher, idCathedra, name, firstName, otchestvo).ShowDialog();
+			}
+			catch (Exception)
+			{
+				MessageBox.Show("Выбирите ячейку для просмотра информации", "Система");
+			}
+
+			this.teacherTableAdapter.Fill(this.timeTableDataSet.Teacher);
+		}
+
+		private void DeleteTeacher_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				int eventRow = dataGridTeacher.SelectedCells[0].RowIndex;
+				int idTeacher = Convert.ToInt32(dataGridTeacher.Rows[eventRow].Cells[0].Value.ToString().Trim());
+				MessageBoxButtons button = MessageBoxButtons.YesNo;
+				DialogResult result1 = MessageBox.Show("Удалить пользователя из информационной системы?", "Удаление пользователя", MessageBoxButtons.YesNoCancel);
+				if (result1 == DialogResult.Yes)
+				{
+					DB db = new DB();
+					string query = "DELETE FROM Teacher WHERE id_teacher = @id";
+					using (SqlCommand command = new SqlCommand(query, db.getConnection()))
+					{
+						command.Parameters.AddWithValue("@id", idTeacher);
+						db.getConnection().Open();
+						int result = command.ExecuteNonQuery();
+
+						if (result == 1)
+						{
+							notifyIcon1.Icon = SystemIcons.Hand;
+							notifyIcon1.BalloonTipTitle = "Удаление пользователя";
+							notifyIcon1.BalloonTipText = "Пользователь удален из системы";
+							notifyIcon1.BalloonTipIcon = ToolTipIcon.Info;
+							notifyIcon1.Visible = true;
+							notifyIcon1.ShowBalloonTip(80000);
+						}
+						db.getConnection().Close();
+					}
+				}
+			}
+			catch (Exception)
+			{
+				MessageBox.Show("Выбирите ячейку для просмотра информации", "Система");
+			}			
+
+			this.teacherTableAdapter.Fill(this.timeTableDataSet.Teacher);
+		}
+
+		#endregion
+
 	}
 }
