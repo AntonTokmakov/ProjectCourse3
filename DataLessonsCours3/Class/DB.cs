@@ -28,18 +28,5 @@ namespace DataLessonsCours3.Class
 		{
 			return connection;
 		}
-				/*if (connection.State == System.Data.ConnectionState.Closed)
-					connection.Open();
-
-
-				connection.Open();
-				SqlCommand command = new SqlCommand("SELECT * FROM Cathedra", connection);
-				SqlDataReader reader = command.ExecuteReader();
-				while (reader.Read())
-				{
-
-				}
-				reader.Close();*/
-
 	}
 }

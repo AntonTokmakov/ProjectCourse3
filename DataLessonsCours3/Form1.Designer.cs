@@ -36,12 +36,12 @@
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.navigationPanel = new System.Windows.Forms.FlowLayoutPanel();
 			this.mainPage = new System.Windows.Forms.Label();
@@ -65,59 +65,7 @@
 			this.gunaButton4 = new Guna.UI.WinForms.GunaButton();
 			this.gunaButton5 = new Guna.UI.WinForms.GunaButton();
 			this.gunaButton6 = new Guna.UI.WinForms.GunaButton();
-			this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-			this.gunaGradient2Panel4 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.gunaGradient2Panel5 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.pictureBox7 = new System.Windows.Forms.PictureBox();
-			this.label7 = new System.Windows.Forms.Label();
-			this.pictureBox8 = new System.Windows.Forms.PictureBox();
-			this.label8 = new System.Windows.Forms.Label();
-			this.pictureBox9 = new System.Windows.Forms.PictureBox();
-			this.label9 = new System.Windows.Forms.Label();
-			this.pictureBox10 = new System.Windows.Forms.PictureBox();
-			this.label10 = new System.Windows.Forms.Label();
-			this.pictureBox11 = new System.Windows.Forms.PictureBox();
-			this.label11 = new System.Windows.Forms.Label();
-			this.label12 = new System.Windows.Forms.Label();
-			this.gunaGradient2Panel6 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.gunaGradient2Panel7 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.pictureBox12 = new System.Windows.Forms.PictureBox();
-			this.label13 = new System.Windows.Forms.Label();
-			this.pictureBox13 = new System.Windows.Forms.PictureBox();
-			this.label14 = new System.Windows.Forms.Label();
-			this.pictureBox14 = new System.Windows.Forms.PictureBox();
-			this.label15 = new System.Windows.Forms.Label();
-			this.pictureBox15 = new System.Windows.Forms.PictureBox();
-			this.label16 = new System.Windows.Forms.Label();
-			this.pictureBox16 = new System.Windows.Forms.PictureBox();
-			this.label17 = new System.Windows.Forms.Label();
-			this.label18 = new System.Windows.Forms.Label();
-			this.gunaGradient2Panel16 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.gunaGradient2Panel17 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.pictureBox37 = new System.Windows.Forms.PictureBox();
-			this.label43 = new System.Windows.Forms.Label();
-			this.pictureBox38 = new System.Windows.Forms.PictureBox();
-			this.label44 = new System.Windows.Forms.Label();
-			this.pictureBox39 = new System.Windows.Forms.PictureBox();
-			this.label45 = new System.Windows.Forms.Label();
-			this.pictureBox40 = new System.Windows.Forms.PictureBox();
-			this.label46 = new System.Windows.Forms.Label();
-			this.pictureBox41 = new System.Windows.Forms.PictureBox();
-			this.label47 = new System.Windows.Forms.Label();
-			this.label48 = new System.Windows.Forms.Label();
-			this.gunaGradient2Panel18 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.gunaGradient2Panel19 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.pictureBox42 = new System.Windows.Forms.PictureBox();
-			this.label49 = new System.Windows.Forms.Label();
-			this.pictureBox43 = new System.Windows.Forms.PictureBox();
-			this.label50 = new System.Windows.Forms.Label();
-			this.pictureBox44 = new System.Windows.Forms.PictureBox();
-			this.label51 = new System.Windows.Forms.Label();
-			this.pictureBox45 = new System.Windows.Forms.PictureBox();
-			this.label52 = new System.Windows.Forms.Label();
-			this.pictureBox46 = new System.Windows.Forms.PictureBox();
-			this.label53 = new System.Windows.Forms.Label();
-			this.label54 = new System.Windows.Forms.Label();
+			this.flEditDay = new System.Windows.Forms.FlowLayoutPanel();
 			this.tabPage3 = new System.Windows.Forms.TabPage();
 			this.examLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
 			this.gunaGradient2Panel24 = new Guna.UI.WinForms.GunaGradient2Panel();
@@ -138,19 +86,12 @@
 			this.btnAddTicher = new Guna.UI2.WinForms.Guna2Button();
 			this.label1 = new System.Windows.Forms.Label();
 			this.tabPage5 = new System.Windows.Forms.TabPage();
-			this.guna2DataGridView3 = new Guna.UI2.WinForms.Guna2DataGridView();
-			this.idlessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.cathedraDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.fullNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.shortNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.lessonBindingSource = new System.Windows.Forms.BindingSource(this.components);
 			this.timeTableDataSet1 = new DataLessonsCours3.timeTableDataSet1();
 			this.gunaGradient2Panel3 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-			this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-			this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+			this.deleteLesson = new Guna.UI2.WinForms.Guna2Button();
+			this.updateLesson = new Guna.UI2.WinForms.Guna2Button();
+			this.addLesson = new Guna.UI2.WinForms.Guna2Button();
 			this.label2 = new System.Windows.Forms.Label();
 			this.tabPage6 = new System.Windows.Forms.TabPage();
 			this.guna2DataGridView4 = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -184,8 +125,56 @@
 			this.weekBindingSource = new System.Windows.Forms.BindingSource(this.components);
 			this.weekTableAdapter = new DataLessonsCours3.timeTableDataSet4TableAdapters.WeekTableAdapter();
 			this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+			this.teacherTableAdapter2 = new DataLessonsCours3.timeTableDataSetTableAdapters.TeacherTableAdapter();
+			this.timeTableDataSet5 = new DataLessonsCours3.timeTableDataSet5();
+			this.lessonBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+			this.lessonTableAdapter1 = new DataLessonsCours3.timeTableDataSet5TableAdapters.LessonTableAdapter();
+			this.dataGridViewLesson = new Guna.UI2.WinForms.Guna2DataGridView();
+			this.cathedraDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.fullNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.shortNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.idlessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.linkMudlDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.gunaGradient2Panel4 = new Guna.UI.WinForms.GunaGradient2Panel();
+			this.gunaGradient2Panel5 = new Guna.UI.WinForms.GunaGradient2Panel();
+			this.label5 = new System.Windows.Forms.Label();
+			this.label6 = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
+			this.label8 = new System.Windows.Forms.Label();
+			this.label9 = new System.Windows.Forms.Label();
+			this.link5 = new System.Windows.Forms.PictureBox();
+			this.link4 = new System.Windows.Forms.PictureBox();
+			this.link3 = new System.Windows.Forms.PictureBox();
+			this.link2 = new System.Windows.Forms.PictureBox();
+			this.link1 = new System.Windows.Forms.PictureBox();
+			this.nameDayLabel = new System.Windows.Forms.Label();
+			this.lbMonday1 = new System.Windows.Forms.Label();
+			this.lbMonday2 = new System.Windows.Forms.Label();
+			this.lbMonday3 = new System.Windows.Forms.Label();
+			this.lbMonday4 = new System.Windows.Forms.Label();
+			this.lbMonday5 = new System.Windows.Forms.Label();
+			this.gunaGradient2Panel6 = new Guna.UI.WinForms.GunaGradient2Panel();
+			this.cbCahedra = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.timeTableDataSet6 = new DataLessonsCours3.timeTableDataSet6();
+			this.lessonBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+			this.lessonTableAdapter2 = new DataLessonsCours3.timeTableDataSet6TableAdapters.LessonTableAdapter();
+			this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.timeTableDataSet7 = new DataLessonsCours3.timeTableDataSet7();
+			this.officeBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+			this.officeTableAdapter1 = new DataLessonsCours3.timeTableDataSet7TableAdapters.OfficeTableAdapter();
+			this.tbListTeacher = new Guna.UI2.WinForms.Guna2TextBox();
+			this.guna2CustomCheckBox1 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+			this.label10 = new System.Windows.Forms.Label();
+			this.addTeacher1 = new Guna.UI2.WinForms.Guna2Button();
+			this.label11 = new System.Windows.Forms.Label();
+			this.cbWeekEdit = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.label12 = new System.Windows.Forms.Label();
+			this.cbGroupEdit = new Guna.UI2.WinForms.Guna2ComboBox();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.navigationPanel.SuspendLayout();
+			this.gunaGradient2Panel1.SuspendLayout();
 			this.viewDaysTabPanel.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			this.gunaGradient2Panel21.SuspendLayout();
@@ -194,35 +183,7 @@
 			this.tabPage2.SuspendLayout();
 			this.gunaGradient2Panel20.SuspendLayout();
 			this.flowLayoutPanel3.SuspendLayout();
-			this.flowLayoutPanel2.SuspendLayout();
-			this.gunaGradient2Panel4.SuspendLayout();
-			this.gunaGradient2Panel5.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-			this.gunaGradient2Panel6.SuspendLayout();
-			this.gunaGradient2Panel7.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-			this.gunaGradient2Panel16.SuspendLayout();
-			this.gunaGradient2Panel17.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
-			this.gunaGradient2Panel18.SuspendLayout();
-			this.gunaGradient2Panel19.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
+			this.flEditDay.SuspendLayout();
 			this.tabPage3.SuspendLayout();
 			this.gunaGradient2Panel24.SuspendLayout();
 			this.tabPage4.SuspendLayout();
@@ -232,7 +193,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet)).BeginInit();
 			this.gunaGradient2Panel2.SuspendLayout();
 			this.tabPage5.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView3)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet1)).BeginInit();
 			this.gunaGradient2Panel3.SuspendLayout();
@@ -248,6 +208,21 @@
 			((System.ComponentModel.ISupportInitialize)(this.groupStudentBindingSource)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet4)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.weekBindingSource)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.dataGridViewLesson)).BeginInit();
+			this.gunaGradient2Panel4.SuspendLayout();
+			this.gunaGradient2Panel5.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.link5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.link4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.link3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.link2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.link1)).BeginInit();
+			this.gunaGradient2Panel6.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// pictureBox1
@@ -270,7 +245,7 @@
 			this.navigationPanel.Controls.Add(this.editShedulePage);
 			this.navigationPanel.Controls.Add(this.selectSpr);
 			this.navigationPanel.Controls.Add(this.LogIn);
-			this.navigationPanel.Location = new System.Drawing.Point(172, 14);
+			this.navigationPanel.Location = new System.Drawing.Point(233, 14);
 			this.navigationPanel.Margin = new System.Windows.Forms.Padding(4);
 			this.navigationPanel.Name = "navigationPanel";
 			this.navigationPanel.Size = new System.Drawing.Size(1471, 71);
@@ -384,13 +359,17 @@
 			this.gunaGradient2Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.gunaGradient2Panel1.BackColor = System.Drawing.Color.Transparent;
+			this.gunaGradient2Panel1.Controls.Add(this.label11);
+			this.gunaGradient2Panel1.Controls.Add(this.cbWeekEdit);
+			this.gunaGradient2Panel1.Controls.Add(this.label12);
+			this.gunaGradient2Panel1.Controls.Add(this.cbGroupEdit);
 			this.gunaGradient2Panel1.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(85)))), ((int)(((byte)(121)))));
 			this.gunaGradient2Panel1.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(85)))), ((int)(((byte)(121)))));
 			this.gunaGradient2Panel1.Location = new System.Drawing.Point(11, 10);
 			this.gunaGradient2Panel1.Margin = new System.Windows.Forms.Padding(4);
 			this.gunaGradient2Panel1.Name = "gunaGradient2Panel1";
 			this.gunaGradient2Panel1.Radius = 15;
-			this.gunaGradient2Panel1.Size = new System.Drawing.Size(1595, 73);
+			this.gunaGradient2Panel1.Size = new System.Drawing.Size(1656, 73);
 			this.gunaGradient2Panel1.TabIndex = 4;
 			// 
 			// viewDaysTabPanel
@@ -411,13 +390,13 @@
 			this.viewDaysTabPanel.InActiveHeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.viewDaysTabPanel.InActiveTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.viewDaysTabPanel.ItemSize = new System.Drawing.Size(240, 16);
-			this.viewDaysTabPanel.Location = new System.Drawing.Point(16, 93);
+			this.viewDaysTabPanel.Location = new System.Drawing.Point(16, 110);
 			this.viewDaysTabPanel.Margin = new System.Windows.Forms.Padding(4);
 			this.viewDaysTabPanel.Name = "viewDaysTabPanel";
 			this.viewDaysTabPanel.OnlyTopLine = true;
 			this.viewDaysTabPanel.PageColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.viewDaysTabPanel.SelectedIndex = 0;
-			this.viewDaysTabPanel.Size = new System.Drawing.Size(1627, 669);
+			this.viewDaysTabPanel.Size = new System.Drawing.Size(1688, 652);
 			this.viewDaysTabPanel.TabIndex = 6;
 			this.viewDaysTabPanel.SelectedIndexChanged += new System.EventHandler(this.viewDaysTabPanel_SelectedIndexChanged);
 			// 
@@ -430,7 +409,7 @@
 			this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
 			this.tabPage1.Name = "tabPage1";
 			this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-			this.tabPage1.Size = new System.Drawing.Size(1619, 645);
+			this.tabPage1.Size = new System.Drawing.Size(1680, 628);
 			this.tabPage1.TabIndex = 0;
 			this.tabPage1.Text = "tabPage1";
 			// 
@@ -449,7 +428,7 @@
 			this.gunaGradient2Panel21.Margin = new System.Windows.Forms.Padding(4);
 			this.gunaGradient2Panel21.Name = "gunaGradient2Panel21";
 			this.gunaGradient2Panel21.Radius = 15;
-			this.gunaGradient2Panel21.Size = new System.Drawing.Size(1595, 73);
+			this.gunaGradient2Panel21.Size = new System.Drawing.Size(1656, 73);
 			this.gunaGradient2Panel21.TabIndex = 5;
 			// 
 			// mainLayout
@@ -463,7 +442,7 @@
 			this.mainLayout.Margin = new System.Windows.Forms.Padding(4);
 			this.mainLayout.Name = "mainLayout";
 			this.mainLayout.Padding = new System.Windows.Forms.Padding(5);
-			this.mainLayout.Size = new System.Drawing.Size(1602, 552);
+			this.mainLayout.Size = new System.Drawing.Size(1663, 552);
 			this.mainLayout.TabIndex = 1;
 			// 
 			// guna2DataGridView2
@@ -529,13 +508,13 @@
 			// 
 			this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.tabPage2.Controls.Add(this.gunaGradient2Panel20);
-			this.tabPage2.Controls.Add(this.flowLayoutPanel2);
+			this.tabPage2.Controls.Add(this.flEditDay);
 			this.tabPage2.Controls.Add(this.gunaGradient2Panel1);
 			this.tabPage2.Location = new System.Drawing.Point(4, 20);
 			this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(11, 10, 11, 10);
-			this.tabPage2.Size = new System.Drawing.Size(1619, 645);
+			this.tabPage2.Size = new System.Drawing.Size(1680, 628);
 			this.tabPage2.TabIndex = 1;
 			this.tabPage2.Text = "tabPage2";
 			// 
@@ -545,31 +524,30 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.gunaGradient2Panel20.BackColor = System.Drawing.Color.Transparent;
 			this.gunaGradient2Panel20.Controls.Add(this.flowLayoutPanel3);
+			this.gunaGradient2Panel20.Controls.Add(this.gunaGradient2Panel6);
 			this.gunaGradient2Panel20.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
 			this.gunaGradient2Panel20.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel20.Location = new System.Drawing.Point(1168, 90);
+			this.gunaGradient2Panel20.Location = new System.Drawing.Point(1170, 90);
 			this.gunaGradient2Panel20.Margin = new System.Windows.Forms.Padding(4);
 			this.gunaGradient2Panel20.Name = "gunaGradient2Panel20";
 			this.gunaGradient2Panel20.Radius = 10;
-			this.gunaGradient2Panel20.Size = new System.Drawing.Size(433, 539);
+			this.gunaGradient2Panel20.Size = new System.Drawing.Size(492, 539);
 			this.gunaGradient2Panel20.TabIndex = 10;
 			// 
 			// flowLayoutPanel3
 			// 
-			this.flowLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
 			this.flowLayoutPanel3.Controls.Add(this.gunaButton1);
 			this.flowLayoutPanel3.Controls.Add(this.gunaButton2);
 			this.flowLayoutPanel3.Controls.Add(this.gunaButton3);
 			this.flowLayoutPanel3.Controls.Add(this.gunaButton4);
 			this.flowLayoutPanel3.Controls.Add(this.gunaButton5);
 			this.flowLayoutPanel3.Controls.Add(this.gunaButton6);
-			this.flowLayoutPanel3.Location = new System.Drawing.Point(4, 18);
+			this.flowLayoutPanel3.Location = new System.Drawing.Point(4, 11);
 			this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(4);
 			this.flowLayoutPanel3.Name = "flowLayoutPanel3";
 			this.flowLayoutPanel3.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
 			this.flowLayoutPanel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-			this.flowLayoutPanel3.Size = new System.Drawing.Size(425, 79);
+			this.flowLayoutPanel3.Size = new System.Drawing.Size(484, 79);
 			this.flowLayoutPanel3.TabIndex = 3;
 			// 
 			// gunaButton1
@@ -746,727 +724,18 @@
 			this.gunaButton6.TabIndex = 5;
 			this.gunaButton6.Text = "СБ";
 			// 
-			// flowLayoutPanel2
+			// flEditDay
 			// 
-			this.flowLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-			this.flowLayoutPanel2.AutoScroll = true;
-			this.flowLayoutPanel2.Controls.Add(this.gunaGradient2Panel4);
-			this.flowLayoutPanel2.Controls.Add(this.gunaGradient2Panel6);
-			this.flowLayoutPanel2.Controls.Add(this.gunaGradient2Panel16);
-			this.flowLayoutPanel2.Controls.Add(this.gunaGradient2Panel18);
-			this.flowLayoutPanel2.Location = new System.Drawing.Point(11, 90);
-			this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
-			this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-			this.flowLayoutPanel2.Size = new System.Drawing.Size(1291, 539);
-			this.flowLayoutPanel2.TabIndex = 0;
-			// 
-			// gunaGradient2Panel4
-			// 
-			this.gunaGradient2Panel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.gunaGradient2Panel4.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel4.Controls.Add(this.gunaGradient2Panel5);
-			this.gunaGradient2Panel4.Controls.Add(this.label12);
-			this.gunaGradient2Panel4.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaGradient2Panel4.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaGradient2Panel4.Location = new System.Drawing.Point(20, 18);
-			this.gunaGradient2Panel4.Margin = new System.Windows.Forms.Padding(20, 18, 20, 18);
-			this.gunaGradient2Panel4.Name = "gunaGradient2Panel4";
-			this.gunaGradient2Panel4.Radius = 10;
-			this.gunaGradient2Panel4.Size = new System.Drawing.Size(374, 194);
-			this.gunaGradient2Panel4.TabIndex = 7;
-			// 
-			// gunaGradient2Panel5
-			// 
-			this.gunaGradient2Panel5.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel5.Controls.Add(this.pictureBox7);
-			this.gunaGradient2Panel5.Controls.Add(this.label7);
-			this.gunaGradient2Panel5.Controls.Add(this.pictureBox8);
-			this.gunaGradient2Panel5.Controls.Add(this.label8);
-			this.gunaGradient2Panel5.Controls.Add(this.pictureBox9);
-			this.gunaGradient2Panel5.Controls.Add(this.label9);
-			this.gunaGradient2Panel5.Controls.Add(this.pictureBox10);
-			this.gunaGradient2Panel5.Controls.Add(this.label10);
-			this.gunaGradient2Panel5.Controls.Add(this.pictureBox11);
-			this.gunaGradient2Panel5.Controls.Add(this.label11);
-			this.gunaGradient2Panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.gunaGradient2Panel5.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel5.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel5.Location = new System.Drawing.Point(0, -604);
-			this.gunaGradient2Panel5.Margin = new System.Windows.Forms.Padding(4);
-			this.gunaGradient2Panel5.Name = "gunaGradient2Panel5";
-			this.gunaGradient2Panel5.Radius = 10;
-			this.gunaGradient2Panel5.Size = new System.Drawing.Size(374, 798);
-			this.gunaGradient2Panel5.TabIndex = 1;
-			// 
-			// pictureBox7
-			// 
-			this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-			this.pictureBox7.Location = new System.Drawing.Point(521, 203);
-			this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox7.Name = "pictureBox7";
-			this.pictureBox7.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox7.TabIndex = 9;
-			this.pictureBox7.TabStop = false;
-			// 
-			// label7
-			// 
-			this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label7.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label7.ForeColor = System.Drawing.Color.Black;
-			this.label7.Location = new System.Drawing.Point(13, 208);
-			this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(489, 33);
-			this.label7.TabIndex = 8;
-			this.label7.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox8
-			// 
-			this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-			this.pictureBox8.Location = new System.Drawing.Point(521, 155);
-			this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox8.Name = "pictureBox8";
-			this.pictureBox8.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox8.TabIndex = 7;
-			this.pictureBox8.TabStop = false;
-			// 
-			// label8
-			// 
-			this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label8.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label8.ForeColor = System.Drawing.Color.Black;
-			this.label8.Location = new System.Drawing.Point(13, 160);
-			this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(489, 33);
-			this.label8.TabIndex = 6;
-			this.label8.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox9
-			// 
-			this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-			this.pictureBox9.Location = new System.Drawing.Point(521, 106);
-			this.pictureBox9.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox9.Name = "pictureBox9";
-			this.pictureBox9.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox9.TabIndex = 5;
-			this.pictureBox9.TabStop = false;
-			// 
-			// label9
-			// 
-			this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label9.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label9.ForeColor = System.Drawing.Color.Black;
-			this.label9.Location = new System.Drawing.Point(13, 111);
-			this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(489, 33);
-			this.label9.TabIndex = 4;
-			this.label9.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox10
-			// 
-			this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-			this.pictureBox10.Location = new System.Drawing.Point(521, 58);
-			this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox10.Name = "pictureBox10";
-			this.pictureBox10.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox10.TabIndex = 3;
-			this.pictureBox10.TabStop = false;
-			// 
-			// label10
-			// 
-			this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label10.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label10.ForeColor = System.Drawing.Color.Black;
-			this.label10.Location = new System.Drawing.Point(13, 63);
-			this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(489, 33);
-			this.label10.TabIndex = 2;
-			this.label10.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox11
-			// 
-			this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-			this.pictureBox11.Location = new System.Drawing.Point(521, 9);
-			this.pictureBox11.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox11.Name = "pictureBox11";
-			this.pictureBox11.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox11.TabIndex = 1;
-			this.pictureBox11.TabStop = false;
-			// 
-			// label11
-			// 
-			this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label11.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label11.ForeColor = System.Drawing.Color.Black;
-			this.label11.Location = new System.Drawing.Point(13, 14);
-			this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(489, 33);
-			this.label11.TabIndex = 0;
-			this.label11.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// label12
-			// 
-			this.label12.AutoSize = true;
-			this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label12.ForeColor = System.Drawing.Color.White;
-			this.label12.Location = new System.Drawing.Point(191, 5);
-			this.label12.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
-			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(170, 29);
-			this.label12.TabIndex = 5;
-			this.label12.Text = "Понедельник";
-			this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// gunaGradient2Panel6
-			// 
-			this.gunaGradient2Panel6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.flEditDay.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.gunaGradient2Panel6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.gunaGradient2Panel6.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel6.Controls.Add(this.gunaGradient2Panel7);
-			this.gunaGradient2Panel6.Controls.Add(this.label18);
-			this.gunaGradient2Panel6.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaGradient2Panel6.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaGradient2Panel6.Location = new System.Drawing.Point(434, 18);
-			this.gunaGradient2Panel6.Margin = new System.Windows.Forms.Padding(20, 18, 20, 18);
-			this.gunaGradient2Panel6.Name = "gunaGradient2Panel6";
-			this.gunaGradient2Panel6.Radius = 10;
-			this.gunaGradient2Panel6.Size = new System.Drawing.Size(374, 194);
-			this.gunaGradient2Panel6.TabIndex = 8;
-			// 
-			// gunaGradient2Panel7
-			// 
-			this.gunaGradient2Panel7.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel7.Controls.Add(this.pictureBox12);
-			this.gunaGradient2Panel7.Controls.Add(this.label13);
-			this.gunaGradient2Panel7.Controls.Add(this.pictureBox13);
-			this.gunaGradient2Panel7.Controls.Add(this.label14);
-			this.gunaGradient2Panel7.Controls.Add(this.pictureBox14);
-			this.gunaGradient2Panel7.Controls.Add(this.label15);
-			this.gunaGradient2Panel7.Controls.Add(this.pictureBox15);
-			this.gunaGradient2Panel7.Controls.Add(this.label16);
-			this.gunaGradient2Panel7.Controls.Add(this.pictureBox16);
-			this.gunaGradient2Panel7.Controls.Add(this.label17);
-			this.gunaGradient2Panel7.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.gunaGradient2Panel7.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel7.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel7.Location = new System.Drawing.Point(0, -604);
-			this.gunaGradient2Panel7.Margin = new System.Windows.Forms.Padding(4);
-			this.gunaGradient2Panel7.Name = "gunaGradient2Panel7";
-			this.gunaGradient2Panel7.Radius = 10;
-			this.gunaGradient2Panel7.Size = new System.Drawing.Size(374, 798);
-			this.gunaGradient2Panel7.TabIndex = 1;
-			// 
-			// pictureBox12
-			// 
-			this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-			this.pictureBox12.Location = new System.Drawing.Point(521, 203);
-			this.pictureBox12.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox12.Name = "pictureBox12";
-			this.pictureBox12.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox12.TabIndex = 9;
-			this.pictureBox12.TabStop = false;
-			// 
-			// label13
-			// 
-			this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label13.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label13.ForeColor = System.Drawing.Color.Black;
-			this.label13.Location = new System.Drawing.Point(13, 208);
-			this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label13.Name = "label13";
-			this.label13.Size = new System.Drawing.Size(489, 33);
-			this.label13.TabIndex = 8;
-			this.label13.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox13
-			// 
-			this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-			this.pictureBox13.Location = new System.Drawing.Point(521, 155);
-			this.pictureBox13.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox13.Name = "pictureBox13";
-			this.pictureBox13.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox13.TabIndex = 7;
-			this.pictureBox13.TabStop = false;
-			// 
-			// label14
-			// 
-			this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label14.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label14.ForeColor = System.Drawing.Color.Black;
-			this.label14.Location = new System.Drawing.Point(13, 160);
-			this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(489, 33);
-			this.label14.TabIndex = 6;
-			this.label14.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox14
-			// 
-			this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-			this.pictureBox14.Location = new System.Drawing.Point(521, 106);
-			this.pictureBox14.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox14.Name = "pictureBox14";
-			this.pictureBox14.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox14.TabIndex = 5;
-			this.pictureBox14.TabStop = false;
-			// 
-			// label15
-			// 
-			this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label15.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label15.ForeColor = System.Drawing.Color.Black;
-			this.label15.Location = new System.Drawing.Point(13, 111);
-			this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(489, 33);
-			this.label15.TabIndex = 4;
-			this.label15.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox15
-			// 
-			this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-			this.pictureBox15.Location = new System.Drawing.Point(521, 58);
-			this.pictureBox15.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox15.Name = "pictureBox15";
-			this.pictureBox15.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox15.TabIndex = 3;
-			this.pictureBox15.TabStop = false;
-			// 
-			// label16
-			// 
-			this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label16.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label16.ForeColor = System.Drawing.Color.Black;
-			this.label16.Location = new System.Drawing.Point(13, 63);
-			this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label16.Name = "label16";
-			this.label16.Size = new System.Drawing.Size(489, 33);
-			this.label16.TabIndex = 2;
-			this.label16.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox16
-			// 
-			this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-			this.pictureBox16.Location = new System.Drawing.Point(521, 9);
-			this.pictureBox16.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox16.Name = "pictureBox16";
-			this.pictureBox16.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox16.TabIndex = 1;
-			this.pictureBox16.TabStop = false;
-			// 
-			// label17
-			// 
-			this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label17.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label17.ForeColor = System.Drawing.Color.Black;
-			this.label17.Location = new System.Drawing.Point(13, 14);
-			this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label17.Name = "label17";
-			this.label17.Size = new System.Drawing.Size(489, 33);
-			this.label17.TabIndex = 0;
-			this.label17.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// label18
-			// 
-			this.label18.AutoSize = true;
-			this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label18.ForeColor = System.Drawing.Color.White;
-			this.label18.Location = new System.Drawing.Point(191, 5);
-			this.label18.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
-			this.label18.Name = "label18";
-			this.label18.Size = new System.Drawing.Size(170, 29);
-			this.label18.TabIndex = 5;
-			this.label18.Text = "Понедельник";
-			this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// gunaGradient2Panel16
-			// 
-			this.gunaGradient2Panel16.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.gunaGradient2Panel16.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel16.Controls.Add(this.gunaGradient2Panel17);
-			this.gunaGradient2Panel16.Controls.Add(this.label48);
-			this.gunaGradient2Panel16.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaGradient2Panel16.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaGradient2Panel16.Location = new System.Drawing.Point(848, 18);
-			this.gunaGradient2Panel16.Margin = new System.Windows.Forms.Padding(20, 18, 20, 18);
-			this.gunaGradient2Panel16.Name = "gunaGradient2Panel16";
-			this.gunaGradient2Panel16.Radius = 10;
-			this.gunaGradient2Panel16.Size = new System.Drawing.Size(374, 194);
-			this.gunaGradient2Panel16.TabIndex = 8;
-			// 
-			// gunaGradient2Panel17
-			// 
-			this.gunaGradient2Panel17.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel17.Controls.Add(this.pictureBox37);
-			this.gunaGradient2Panel17.Controls.Add(this.label43);
-			this.gunaGradient2Panel17.Controls.Add(this.pictureBox38);
-			this.gunaGradient2Panel17.Controls.Add(this.label44);
-			this.gunaGradient2Panel17.Controls.Add(this.pictureBox39);
-			this.gunaGradient2Panel17.Controls.Add(this.label45);
-			this.gunaGradient2Panel17.Controls.Add(this.pictureBox40);
-			this.gunaGradient2Panel17.Controls.Add(this.label46);
-			this.gunaGradient2Panel17.Controls.Add(this.pictureBox41);
-			this.gunaGradient2Panel17.Controls.Add(this.label47);
-			this.gunaGradient2Panel17.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.gunaGradient2Panel17.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel17.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel17.Location = new System.Drawing.Point(0, -604);
-			this.gunaGradient2Panel17.Margin = new System.Windows.Forms.Padding(4);
-			this.gunaGradient2Panel17.Name = "gunaGradient2Panel17";
-			this.gunaGradient2Panel17.Radius = 10;
-			this.gunaGradient2Panel17.Size = new System.Drawing.Size(374, 798);
-			this.gunaGradient2Panel17.TabIndex = 1;
-			// 
-			// pictureBox37
-			// 
-			this.pictureBox37.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox37.Image")));
-			this.pictureBox37.Location = new System.Drawing.Point(521, 203);
-			this.pictureBox37.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox37.Name = "pictureBox37";
-			this.pictureBox37.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox37.TabIndex = 9;
-			this.pictureBox37.TabStop = false;
-			// 
-			// label43
-			// 
-			this.label43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label43.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label43.ForeColor = System.Drawing.Color.Black;
-			this.label43.Location = new System.Drawing.Point(13, 208);
-			this.label43.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label43.Name = "label43";
-			this.label43.Size = new System.Drawing.Size(489, 33);
-			this.label43.TabIndex = 8;
-			this.label43.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox38
-			// 
-			this.pictureBox38.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox38.Image")));
-			this.pictureBox38.Location = new System.Drawing.Point(521, 155);
-			this.pictureBox38.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox38.Name = "pictureBox38";
-			this.pictureBox38.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox38.TabIndex = 7;
-			this.pictureBox38.TabStop = false;
-			// 
-			// label44
-			// 
-			this.label44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label44.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label44.ForeColor = System.Drawing.Color.Black;
-			this.label44.Location = new System.Drawing.Point(13, 160);
-			this.label44.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label44.Name = "label44";
-			this.label44.Size = new System.Drawing.Size(489, 33);
-			this.label44.TabIndex = 6;
-			this.label44.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox39
-			// 
-			this.pictureBox39.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox39.Image")));
-			this.pictureBox39.Location = new System.Drawing.Point(521, 106);
-			this.pictureBox39.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox39.Name = "pictureBox39";
-			this.pictureBox39.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox39.TabIndex = 5;
-			this.pictureBox39.TabStop = false;
-			// 
-			// label45
-			// 
-			this.label45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label45.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label45.ForeColor = System.Drawing.Color.Black;
-			this.label45.Location = new System.Drawing.Point(13, 111);
-			this.label45.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label45.Name = "label45";
-			this.label45.Size = new System.Drawing.Size(489, 33);
-			this.label45.TabIndex = 4;
-			this.label45.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox40
-			// 
-			this.pictureBox40.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox40.Image")));
-			this.pictureBox40.Location = new System.Drawing.Point(521, 58);
-			this.pictureBox40.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox40.Name = "pictureBox40";
-			this.pictureBox40.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox40.TabIndex = 3;
-			this.pictureBox40.TabStop = false;
-			// 
-			// label46
-			// 
-			this.label46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label46.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label46.ForeColor = System.Drawing.Color.Black;
-			this.label46.Location = new System.Drawing.Point(13, 63);
-			this.label46.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label46.Name = "label46";
-			this.label46.Size = new System.Drawing.Size(489, 33);
-			this.label46.TabIndex = 2;
-			this.label46.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox41
-			// 
-			this.pictureBox41.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox41.Image")));
-			this.pictureBox41.Location = new System.Drawing.Point(521, 9);
-			this.pictureBox41.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox41.Name = "pictureBox41";
-			this.pictureBox41.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox41.TabIndex = 1;
-			this.pictureBox41.TabStop = false;
-			// 
-			// label47
-			// 
-			this.label47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label47.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label47.ForeColor = System.Drawing.Color.Black;
-			this.label47.Location = new System.Drawing.Point(13, 14);
-			this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label47.Name = "label47";
-			this.label47.Size = new System.Drawing.Size(489, 33);
-			this.label47.TabIndex = 0;
-			this.label47.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// label48
-			// 
-			this.label48.AutoSize = true;
-			this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label48.ForeColor = System.Drawing.Color.White;
-			this.label48.Location = new System.Drawing.Point(191, 5);
-			this.label48.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
-			this.label48.Name = "label48";
-			this.label48.Size = new System.Drawing.Size(170, 29);
-			this.label48.TabIndex = 5;
-			this.label48.Text = "Понедельник";
-			this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// gunaGradient2Panel18
-			// 
-			this.gunaGradient2Panel18.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.gunaGradient2Panel18.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel18.Controls.Add(this.gunaGradient2Panel19);
-			this.gunaGradient2Panel18.Controls.Add(this.label54);
-			this.gunaGradient2Panel18.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaGradient2Panel18.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaGradient2Panel18.Location = new System.Drawing.Point(20, 248);
-			this.gunaGradient2Panel18.Margin = new System.Windows.Forms.Padding(20, 18, 20, 18);
-			this.gunaGradient2Panel18.Name = "gunaGradient2Panel18";
-			this.gunaGradient2Panel18.Radius = 10;
-			this.gunaGradient2Panel18.Size = new System.Drawing.Size(374, 194);
-			this.gunaGradient2Panel18.TabIndex = 8;
-			// 
-			// gunaGradient2Panel19
-			// 
-			this.gunaGradient2Panel19.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel19.Controls.Add(this.pictureBox42);
-			this.gunaGradient2Panel19.Controls.Add(this.label49);
-			this.gunaGradient2Panel19.Controls.Add(this.pictureBox43);
-			this.gunaGradient2Panel19.Controls.Add(this.label50);
-			this.gunaGradient2Panel19.Controls.Add(this.pictureBox44);
-			this.gunaGradient2Panel19.Controls.Add(this.label51);
-			this.gunaGradient2Panel19.Controls.Add(this.pictureBox45);
-			this.gunaGradient2Panel19.Controls.Add(this.label52);
-			this.gunaGradient2Panel19.Controls.Add(this.pictureBox46);
-			this.gunaGradient2Panel19.Controls.Add(this.label53);
-			this.gunaGradient2Panel19.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.gunaGradient2Panel19.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel19.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel19.Location = new System.Drawing.Point(0, -604);
-			this.gunaGradient2Panel19.Margin = new System.Windows.Forms.Padding(4);
-			this.gunaGradient2Panel19.Name = "gunaGradient2Panel19";
-			this.gunaGradient2Panel19.Radius = 10;
-			this.gunaGradient2Panel19.Size = new System.Drawing.Size(374, 798);
-			this.gunaGradient2Panel19.TabIndex = 1;
-			// 
-			// pictureBox42
-			// 
-			this.pictureBox42.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox42.Image")));
-			this.pictureBox42.Location = new System.Drawing.Point(521, 203);
-			this.pictureBox42.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox42.Name = "pictureBox42";
-			this.pictureBox42.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox42.TabIndex = 9;
-			this.pictureBox42.TabStop = false;
-			// 
-			// label49
-			// 
-			this.label49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label49.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label49.ForeColor = System.Drawing.Color.Black;
-			this.label49.Location = new System.Drawing.Point(13, 208);
-			this.label49.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label49.Name = "label49";
-			this.label49.Size = new System.Drawing.Size(489, 33);
-			this.label49.TabIndex = 8;
-			this.label49.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox43
-			// 
-			this.pictureBox43.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox43.Image")));
-			this.pictureBox43.Location = new System.Drawing.Point(521, 155);
-			this.pictureBox43.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox43.Name = "pictureBox43";
-			this.pictureBox43.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox43.TabIndex = 7;
-			this.pictureBox43.TabStop = false;
-			// 
-			// label50
-			// 
-			this.label50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label50.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label50.ForeColor = System.Drawing.Color.Black;
-			this.label50.Location = new System.Drawing.Point(13, 160);
-			this.label50.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label50.Name = "label50";
-			this.label50.Size = new System.Drawing.Size(489, 33);
-			this.label50.TabIndex = 6;
-			this.label50.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox44
-			// 
-			this.pictureBox44.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox44.Image")));
-			this.pictureBox44.Location = new System.Drawing.Point(521, 106);
-			this.pictureBox44.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox44.Name = "pictureBox44";
-			this.pictureBox44.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox44.TabIndex = 5;
-			this.pictureBox44.TabStop = false;
-			// 
-			// label51
-			// 
-			this.label51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label51.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label51.ForeColor = System.Drawing.Color.Black;
-			this.label51.Location = new System.Drawing.Point(13, 111);
-			this.label51.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label51.Name = "label51";
-			this.label51.Size = new System.Drawing.Size(489, 33);
-			this.label51.TabIndex = 4;
-			this.label51.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox45
-			// 
-			this.pictureBox45.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox45.Image")));
-			this.pictureBox45.Location = new System.Drawing.Point(521, 58);
-			this.pictureBox45.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox45.Name = "pictureBox45";
-			this.pictureBox45.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox45.TabIndex = 3;
-			this.pictureBox45.TabStop = false;
-			// 
-			// label52
-			// 
-			this.label52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label52.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label52.ForeColor = System.Drawing.Color.Black;
-			this.label52.Location = new System.Drawing.Point(13, 63);
-			this.label52.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label52.Name = "label52";
-			this.label52.Size = new System.Drawing.Size(489, 33);
-			this.label52.TabIndex = 2;
-			this.label52.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// pictureBox46
-			// 
-			this.pictureBox46.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox46.Image")));
-			this.pictureBox46.Location = new System.Drawing.Point(521, 9);
-			this.pictureBox46.Margin = new System.Windows.Forms.Padding(4);
-			this.pictureBox46.Name = "pictureBox46";
-			this.pictureBox46.Size = new System.Drawing.Size(43, 39);
-			this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.pictureBox46.TabIndex = 1;
-			this.pictureBox46.TabStop = false;
-			// 
-			// label53
-			// 
-			this.label53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.label53.Cursor = System.Windows.Forms.Cursors.Default;
-			this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label53.ForeColor = System.Drawing.Color.Black;
-			this.label53.Location = new System.Drawing.Point(13, 14);
-			this.label53.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.label53.Name = "label53";
-			this.label53.Size = new System.Drawing.Size(489, 33);
-			this.label53.TabIndex = 0;
-			this.label53.Text = "1 УиАБД 343аГТ Богданорвская Д.Е";
-			this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// label54
-			// 
-			this.label54.AutoSize = true;
-			this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label54.ForeColor = System.Drawing.Color.White;
-			this.label54.Location = new System.Drawing.Point(191, 5);
-			this.label54.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
-			this.label54.Name = "label54";
-			this.label54.Size = new System.Drawing.Size(170, 29);
-			this.label54.TabIndex = 5;
-			this.label54.Text = "Понедельник";
-			this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.flEditDay.AutoScroll = true;
+			this.flEditDay.Controls.Add(this.gunaGradient2Panel4);
+			this.flEditDay.Location = new System.Drawing.Point(11, 90);
+			this.flEditDay.Margin = new System.Windows.Forms.Padding(4);
+			this.flEditDay.Name = "flEditDay";
+			this.flEditDay.Size = new System.Drawing.Size(1151, 539);
+			this.flEditDay.TabIndex = 0;
 			// 
 			// tabPage3
 			// 
@@ -1477,7 +746,7 @@
 			this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
 			this.tabPage3.Name = "tabPage3";
 			this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
-			this.tabPage3.Size = new System.Drawing.Size(1619, 645);
+			this.tabPage3.Size = new System.Drawing.Size(1619, 628);
 			this.tabPage3.TabIndex = 2;
 			this.tabPage3.Text = "tabPage3";
 			// 
@@ -1535,7 +804,7 @@
 			this.tabPage4.Location = new System.Drawing.Point(4, 20);
 			this.tabPage4.Name = "tabPage4";
 			this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage4.Size = new System.Drawing.Size(1619, 645);
+			this.tabPage4.Size = new System.Drawing.Size(1680, 628);
 			this.tabPage4.TabIndex = 3;
 			this.tabPage4.Text = "tabPage4";
 			// 
@@ -1580,14 +849,14 @@
 			dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
 			this.dataGridTeacher.DefaultCellStyle = dataGridViewCellStyle6;
 			this.dataGridTeacher.EnableHeadersVisualStyles = false;
-			this.dataGridTeacher.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.dataGridTeacher.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
 			this.dataGridTeacher.Location = new System.Drawing.Point(3, 95);
 			this.dataGridTeacher.Name = "dataGridTeacher";
 			this.dataGridTeacher.ReadOnly = true;
 			this.dataGridTeacher.RowHeadersWidth = 51;
 			this.dataGridTeacher.RowTemplate.Height = 24;
 			this.dataGridTeacher.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-			this.dataGridTeacher.Size = new System.Drawing.Size(1610, 544);
+			this.dataGridTeacher.Size = new System.Drawing.Size(1671, 527);
 			this.dataGridTeacher.TabIndex = 7;
 			this.dataGridTeacher.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
 			this.dataGridTeacher.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -1596,7 +865,7 @@
 			this.dataGridTeacher.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
 			this.dataGridTeacher.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
 			this.dataGridTeacher.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.dataGridTeacher.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.dataGridTeacher.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
 			this.dataGridTeacher.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(70)))), ((int)(((byte)(121)))));
 			this.dataGridTeacher.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
 			this.dataGridTeacher.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -1682,7 +951,7 @@
 			this.gunaGradient2Panel2.Margin = new System.Windows.Forms.Padding(4);
 			this.gunaGradient2Panel2.Name = "gunaGradient2Panel2";
 			this.gunaGradient2Panel2.Radius = 15;
-			this.gunaGradient2Panel2.Size = new System.Drawing.Size(1613, 81);
+			this.gunaGradient2Panel2.Size = new System.Drawing.Size(1674, 81);
 			this.gunaGradient2Panel2.TabIndex = 6;
 			// 
 			// DeleteTeacher
@@ -1750,134 +1019,14 @@
 			// tabPage5
 			// 
 			this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
-			this.tabPage5.Controls.Add(this.guna2DataGridView3);
+			this.tabPage5.Controls.Add(this.dataGridViewLesson);
 			this.tabPage5.Controls.Add(this.gunaGradient2Panel3);
 			this.tabPage5.Location = new System.Drawing.Point(4, 20);
 			this.tabPage5.Name = "tabPage5";
 			this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage5.Size = new System.Drawing.Size(1626, 645);
+			this.tabPage5.Size = new System.Drawing.Size(1680, 628);
 			this.tabPage5.TabIndex = 4;
 			this.tabPage5.Text = "tabPage5";
-			// 
-			// guna2DataGridView3
-			// 
-			this.guna2DataGridView3.AllowUserToAddRows = false;
-			this.guna2DataGridView3.AllowUserToDeleteRows = false;
-			dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-			this.guna2DataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
-			this.guna2DataGridView3.AutoGenerateColumns = false;
-			this.guna2DataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-			this.guna2DataGridView3.BackgroundColor = System.Drawing.Color.White;
-			this.guna2DataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.guna2DataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-			this.guna2DataGridView3.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-			dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-			dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.guna2DataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
-			this.guna2DataGridView3.ColumnHeadersHeight = 27;
-			this.guna2DataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idlessonDataGridViewTextBoxColumn,
-            this.cathedraDataGridViewTextBoxColumn1,
-            this.fullNameLessonDataGridViewTextBoxColumn,
-            this.shortNameLessonDataGridViewTextBoxColumn,
-            this.numberPracticeHoursSemesterDataGridViewTextBoxColumn,
-            this.numberLectureHoursSemesterDataGridViewTextBoxColumn});
-			this.guna2DataGridView3.DataSource = this.lessonBindingSource;
-			dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.guna2DataGridView3.DefaultCellStyle = dataGridViewCellStyle9;
-			this.guna2DataGridView3.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.guna2DataGridView3.EnableHeadersVisualStyles = false;
-			this.guna2DataGridView3.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			this.guna2DataGridView3.Location = new System.Drawing.Point(3, 95);
-			this.guna2DataGridView3.Name = "guna2DataGridView3";
-			this.guna2DataGridView3.ReadOnly = true;
-			this.guna2DataGridView3.RowHeadersVisible = false;
-			this.guna2DataGridView3.RowHeadersWidth = 51;
-			this.guna2DataGridView3.RowTemplate.Height = 24;
-			this.guna2DataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-			this.guna2DataGridView3.Size = new System.Drawing.Size(1620, 547);
-			this.guna2DataGridView3.TabIndex = 8;
-			this.guna2DataGridView3.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
-			this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-			this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.Font = null;
-			this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-			this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-			this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-			this.guna2DataGridView3.ThemeStyle.BackColor = System.Drawing.Color.White;
-			this.guna2DataGridView3.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			this.guna2DataGridView3.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-			this.guna2DataGridView3.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-			this.guna2DataGridView3.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			this.guna2DataGridView3.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-			this.guna2DataGridView3.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-			this.guna2DataGridView3.ThemeStyle.HeaderStyle.Height = 27;
-			this.guna2DataGridView3.ThemeStyle.ReadOnly = true;
-			this.guna2DataGridView3.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-			this.guna2DataGridView3.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-			this.guna2DataGridView3.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			this.guna2DataGridView3.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			this.guna2DataGridView3.ThemeStyle.RowsStyle.Height = 24;
-			this.guna2DataGridView3.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			this.guna2DataGridView3.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			// 
-			// idlessonDataGridViewTextBoxColumn
-			// 
-			this.idlessonDataGridViewTextBoxColumn.DataPropertyName = "id_lesson";
-			this.idlessonDataGridViewTextBoxColumn.HeaderText = "id_lesson";
-			this.idlessonDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.idlessonDataGridViewTextBoxColumn.Name = "idlessonDataGridViewTextBoxColumn";
-			this.idlessonDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// cathedraDataGridViewTextBoxColumn1
-			// 
-			this.cathedraDataGridViewTextBoxColumn1.DataPropertyName = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn1.HeaderText = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn1.MinimumWidth = 6;
-			this.cathedraDataGridViewTextBoxColumn1.Name = "cathedraDataGridViewTextBoxColumn1";
-			this.cathedraDataGridViewTextBoxColumn1.ReadOnly = true;
-			// 
-			// fullNameLessonDataGridViewTextBoxColumn
-			// 
-			this.fullNameLessonDataGridViewTextBoxColumn.DataPropertyName = "fullNameLesson";
-			this.fullNameLessonDataGridViewTextBoxColumn.HeaderText = "fullNameLesson";
-			this.fullNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.fullNameLessonDataGridViewTextBoxColumn.Name = "fullNameLessonDataGridViewTextBoxColumn";
-			this.fullNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// shortNameLessonDataGridViewTextBoxColumn
-			// 
-			this.shortNameLessonDataGridViewTextBoxColumn.DataPropertyName = "shortNameLesson";
-			this.shortNameLessonDataGridViewTextBoxColumn.HeaderText = "shortNameLesson";
-			this.shortNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.shortNameLessonDataGridViewTextBoxColumn.Name = "shortNameLessonDataGridViewTextBoxColumn";
-			this.shortNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// numberPracticeHoursSemesterDataGridViewTextBoxColumn
-			// 
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberPracticeHoursSemester";
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberPracticeHoursSemester";
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.Name = "numberPracticeHoursSemesterDataGridViewTextBoxColumn";
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// numberLectureHoursSemesterDataGridViewTextBoxColumn
-			// 
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberLectureHoursSemester";
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberLectureHoursSemester";
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.Name = "numberLectureHoursSemesterDataGridViewTextBoxColumn";
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
 			// 
 			// lessonBindingSource
 			// 
@@ -1894,9 +1043,9 @@
 			this.gunaGradient2Panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.gunaGradient2Panel3.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel3.Controls.Add(this.guna2Button3);
-			this.gunaGradient2Panel3.Controls.Add(this.guna2Button4);
-			this.gunaGradient2Panel3.Controls.Add(this.guna2Button5);
+			this.gunaGradient2Panel3.Controls.Add(this.deleteLesson);
+			this.gunaGradient2Panel3.Controls.Add(this.updateLesson);
+			this.gunaGradient2Panel3.Controls.Add(this.addLesson);
 			this.gunaGradient2Panel3.Controls.Add(this.label2);
 			this.gunaGradient2Panel3.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(85)))), ((int)(((byte)(121)))));
 			this.gunaGradient2Panel3.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(85)))), ((int)(((byte)(121)))));
@@ -1904,56 +1053,59 @@
 			this.gunaGradient2Panel3.Margin = new System.Windows.Forms.Padding(4);
 			this.gunaGradient2Panel3.Name = "gunaGradient2Panel3";
 			this.gunaGradient2Panel3.Radius = 15;
-			this.gunaGradient2Panel3.Size = new System.Drawing.Size(1612, 81);
+			this.gunaGradient2Panel3.Size = new System.Drawing.Size(1666, 81);
 			this.gunaGradient2Panel3.TabIndex = 7;
 			// 
-			// guna2Button3
+			// deleteLesson
 			// 
-			this.guna2Button3.BorderRadius = 5;
-			this.guna2Button3.CheckedState.Parent = this.guna2Button3;
-			this.guna2Button3.CustomImages.Parent = this.guna2Button3;
-			this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.guna2Button3.ForeColor = System.Drawing.Color.Black;
-			this.guna2Button3.HoverState.Parent = this.guna2Button3;
-			this.guna2Button3.Location = new System.Drawing.Point(476, 17);
-			this.guna2Button3.Name = "guna2Button3";
-			this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
-			this.guna2Button3.Size = new System.Drawing.Size(180, 45);
-			this.guna2Button3.TabIndex = 3;
-			this.guna2Button3.Text = "Удалить";
+			this.deleteLesson.BorderRadius = 5;
+			this.deleteLesson.CheckedState.Parent = this.deleteLesson;
+			this.deleteLesson.CustomImages.Parent = this.deleteLesson;
+			this.deleteLesson.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.deleteLesson.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.deleteLesson.ForeColor = System.Drawing.Color.Black;
+			this.deleteLesson.HoverState.Parent = this.deleteLesson;
+			this.deleteLesson.Location = new System.Drawing.Point(476, 17);
+			this.deleteLesson.Name = "deleteLesson";
+			this.deleteLesson.ShadowDecoration.Parent = this.deleteLesson;
+			this.deleteLesson.Size = new System.Drawing.Size(180, 45);
+			this.deleteLesson.TabIndex = 3;
+			this.deleteLesson.Text = "Удалить";
+			this.deleteLesson.Click += new System.EventHandler(this.deleteLesson_Click);
 			// 
-			// guna2Button4
+			// updateLesson
 			// 
-			this.guna2Button4.BorderRadius = 5;
-			this.guna2Button4.CheckedState.Parent = this.guna2Button4;
-			this.guna2Button4.CustomImages.Parent = this.guna2Button4;
-			this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.guna2Button4.ForeColor = System.Drawing.Color.Black;
-			this.guna2Button4.HoverState.Parent = this.guna2Button4;
-			this.guna2Button4.Location = new System.Drawing.Point(246, 17);
-			this.guna2Button4.Name = "guna2Button4";
-			this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-			this.guna2Button4.Size = new System.Drawing.Size(180, 45);
-			this.guna2Button4.TabIndex = 2;
-			this.guna2Button4.Text = "Изменить";
+			this.updateLesson.BorderRadius = 5;
+			this.updateLesson.CheckedState.Parent = this.updateLesson;
+			this.updateLesson.CustomImages.Parent = this.updateLesson;
+			this.updateLesson.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.updateLesson.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.updateLesson.ForeColor = System.Drawing.Color.Black;
+			this.updateLesson.HoverState.Parent = this.updateLesson;
+			this.updateLesson.Location = new System.Drawing.Point(246, 17);
+			this.updateLesson.Name = "updateLesson";
+			this.updateLesson.ShadowDecoration.Parent = this.updateLesson;
+			this.updateLesson.Size = new System.Drawing.Size(180, 45);
+			this.updateLesson.TabIndex = 2;
+			this.updateLesson.Text = "Изменить";
+			this.updateLesson.Click += new System.EventHandler(this.updateLesson_Click);
 			// 
-			// guna2Button5
+			// addLesson
 			// 
-			this.guna2Button5.BorderRadius = 5;
-			this.guna2Button5.CheckedState.Parent = this.guna2Button5;
-			this.guna2Button5.CustomImages.Parent = this.guna2Button5;
-			this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.guna2Button5.ForeColor = System.Drawing.Color.Black;
-			this.guna2Button5.HoverState.Parent = this.guna2Button5;
-			this.guna2Button5.Location = new System.Drawing.Point(25, 17);
-			this.guna2Button5.Name = "guna2Button5";
-			this.guna2Button5.ShadowDecoration.Parent = this.guna2Button5;
-			this.guna2Button5.Size = new System.Drawing.Size(180, 45);
-			this.guna2Button5.TabIndex = 1;
-			this.guna2Button5.Text = "Добавить";
+			this.addLesson.BorderRadius = 5;
+			this.addLesson.CheckedState.Parent = this.addLesson;
+			this.addLesson.CustomImages.Parent = this.addLesson;
+			this.addLesson.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.addLesson.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.addLesson.ForeColor = System.Drawing.Color.Black;
+			this.addLesson.HoverState.Parent = this.addLesson;
+			this.addLesson.Location = new System.Drawing.Point(25, 17);
+			this.addLesson.Name = "addLesson";
+			this.addLesson.ShadowDecoration.Parent = this.addLesson;
+			this.addLesson.Size = new System.Drawing.Size(180, 45);
+			this.addLesson.TabIndex = 1;
+			this.addLesson.Text = "Добавить";
+			this.addLesson.Click += new System.EventHandler(this.addLesson_Click);
 			// 
 			// label2
 			// 
@@ -1974,7 +1126,7 @@
 			this.tabPage6.Location = new System.Drawing.Point(4, 20);
 			this.tabPage6.Name = "tabPage6";
 			this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage6.Size = new System.Drawing.Size(1626, 645);
+			this.tabPage6.Size = new System.Drawing.Size(1619, 628);
 			this.tabPage6.TabIndex = 5;
 			this.tabPage6.Text = "tabPage6";
 			// 
@@ -1984,14 +1136,17 @@
 			this.guna2DataGridView4.AllowUserToDeleteRows = false;
 			dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
 			this.guna2DataGridView4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+			this.guna2DataGridView4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.guna2DataGridView4.AutoGenerateColumns = false;
 			this.guna2DataGridView4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-			this.guna2DataGridView4.BackgroundColor = System.Drawing.Color.White;
+			this.guna2DataGridView4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
 			this.guna2DataGridView4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.guna2DataGridView4.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
 			this.guna2DataGridView4.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
 			dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+			dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(70)))), ((int)(((byte)(121)))));
 			dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 10.5F);
 			dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
 			dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
@@ -2014,7 +1169,6 @@
 			dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
 			dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
 			this.guna2DataGridView4.DefaultCellStyle = dataGridViewCellStyle12;
-			this.guna2DataGridView4.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.guna2DataGridView4.EnableHeadersVisualStyles = false;
 			this.guna2DataGridView4.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
 			this.guna2DataGridView4.Location = new System.Drawing.Point(3, 95);
@@ -2024,7 +1178,7 @@
 			this.guna2DataGridView4.RowHeadersWidth = 51;
 			this.guna2DataGridView4.RowTemplate.Height = 24;
 			this.guna2DataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-			this.guna2DataGridView4.Size = new System.Drawing.Size(1620, 547);
+			this.guna2DataGridView4.Size = new System.Drawing.Size(2025, 667);
 			this.guna2DataGridView4.TabIndex = 8;
 			this.guna2DataGridView4.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
 			this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -2032,7 +1186,7 @@
 			this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
 			this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
 			this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-			this.guna2DataGridView4.ThemeStyle.BackColor = System.Drawing.Color.White;
+			this.guna2DataGridView4.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
 			this.guna2DataGridView4.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
 			this.guna2DataGridView4.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
 			this.guna2DataGridView4.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -2114,7 +1268,7 @@
 			this.gunaGradient2Panel8.Margin = new System.Windows.Forms.Padding(4);
 			this.gunaGradient2Panel8.Name = "gunaGradient2Panel8";
 			this.gunaGradient2Panel8.Radius = 15;
-			this.gunaGradient2Panel8.Size = new System.Drawing.Size(1612, 81);
+			this.gunaGradient2Panel8.Size = new System.Drawing.Size(1605, 81);
 			this.gunaGradient2Panel8.TabIndex = 7;
 			// 
 			// guna2Button6
@@ -2310,12 +1464,637 @@
 			this.notifyIcon1.Text = "notifyIcon1";
 			this.notifyIcon1.Visible = true;
 			// 
+			// teacherTableAdapter2
+			// 
+			this.teacherTableAdapter2.ClearBeforeFill = true;
+			// 
+			// timeTableDataSet5
+			// 
+			this.timeTableDataSet5.DataSetName = "timeTableDataSet5";
+			this.timeTableDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// lessonBindingSource1
+			// 
+			this.lessonBindingSource1.DataMember = "Lesson";
+			this.lessonBindingSource1.DataSource = this.timeTableDataSet5;
+			// 
+			// lessonTableAdapter1
+			// 
+			this.lessonTableAdapter1.ClearBeforeFill = true;
+			// 
+			// dataGridViewLesson
+			// 
+			this.dataGridViewLesson.AllowUserToAddRows = false;
+			this.dataGridViewLesson.AllowUserToDeleteRows = false;
+			dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+			this.dataGridViewLesson.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+			this.dataGridViewLesson.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.dataGridViewLesson.AutoGenerateColumns = false;
+			this.dataGridViewLesson.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+			this.dataGridViewLesson.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
+			this.dataGridViewLesson.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.dataGridViewLesson.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+			this.dataGridViewLesson.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+			dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(70)))), ((int)(((byte)(121)))));
+			dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+			dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.dataGridViewLesson.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+			this.dataGridViewLesson.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dataGridViewLesson.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.cathedraDataGridViewTextBoxColumn1,
+            this.fullNameLessonDataGridViewTextBoxColumn,
+            this.shortNameLessonDataGridViewTextBoxColumn,
+            this.numberPracticeHoursSemesterDataGridViewTextBoxColumn,
+            this.numberLectureHoursSemesterDataGridViewTextBoxColumn,
+            this.idlessonDataGridViewTextBoxColumn,
+            this.linkMudlDataGridViewTextBoxColumn});
+			this.dataGridViewLesson.DataSource = this.lessonBindingSource1;
+			dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.dataGridViewLesson.DefaultCellStyle = dataGridViewCellStyle9;
+			this.dataGridViewLesson.EnableHeadersVisualStyles = false;
+			this.dataGridViewLesson.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			this.dataGridViewLesson.Location = new System.Drawing.Point(7, 95);
+			this.dataGridViewLesson.Name = "dataGridViewLesson";
+			this.dataGridViewLesson.ReadOnly = true;
+			this.dataGridViewLesson.RowHeadersVisible = false;
+			this.dataGridViewLesson.RowHeadersWidth = 51;
+			this.dataGridViewLesson.RowTemplate.Height = 24;
+			this.dataGridViewLesson.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+			this.dataGridViewLesson.Size = new System.Drawing.Size(1666, 527);
+			this.dataGridViewLesson.TabIndex = 8;
+			this.dataGridViewLesson.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
+			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.Font = null;
+			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+			this.dataGridViewLesson.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
+			this.dataGridViewLesson.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			this.dataGridViewLesson.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+			this.dataGridViewLesson.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+			this.dataGridViewLesson.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			this.dataGridViewLesson.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+			this.dataGridViewLesson.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dataGridViewLesson.ThemeStyle.HeaderStyle.Height = 27;
+			this.dataGridViewLesson.ThemeStyle.ReadOnly = true;
+			this.dataGridViewLesson.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+			this.dataGridViewLesson.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+			this.dataGridViewLesson.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			this.dataGridViewLesson.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			this.dataGridViewLesson.ThemeStyle.RowsStyle.Height = 24;
+			this.dataGridViewLesson.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			this.dataGridViewLesson.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			// 
+			// cathedraDataGridViewTextBoxColumn1
+			// 
+			this.cathedraDataGridViewTextBoxColumn1.DataPropertyName = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn1.HeaderText = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn1.MinimumWidth = 6;
+			this.cathedraDataGridViewTextBoxColumn1.Name = "cathedraDataGridViewTextBoxColumn1";
+			this.cathedraDataGridViewTextBoxColumn1.ReadOnly = true;
+			// 
+			// fullNameLessonDataGridViewTextBoxColumn
+			// 
+			this.fullNameLessonDataGridViewTextBoxColumn.DataPropertyName = "fullNameLesson";
+			this.fullNameLessonDataGridViewTextBoxColumn.HeaderText = "fullNameLesson";
+			this.fullNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.fullNameLessonDataGridViewTextBoxColumn.Name = "fullNameLessonDataGridViewTextBoxColumn";
+			this.fullNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// shortNameLessonDataGridViewTextBoxColumn
+			// 
+			this.shortNameLessonDataGridViewTextBoxColumn.DataPropertyName = "shortNameLesson";
+			this.shortNameLessonDataGridViewTextBoxColumn.HeaderText = "shortNameLesson";
+			this.shortNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.shortNameLessonDataGridViewTextBoxColumn.Name = "shortNameLessonDataGridViewTextBoxColumn";
+			this.shortNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// numberPracticeHoursSemesterDataGridViewTextBoxColumn
+			// 
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberPracticeHoursSemester";
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberPracticeHoursSemester";
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.Name = "numberPracticeHoursSemesterDataGridViewTextBoxColumn";
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// numberLectureHoursSemesterDataGridViewTextBoxColumn
+			// 
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberLectureHoursSemester";
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberLectureHoursSemester";
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.Name = "numberLectureHoursSemesterDataGridViewTextBoxColumn";
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// idlessonDataGridViewTextBoxColumn
+			// 
+			this.idlessonDataGridViewTextBoxColumn.DataPropertyName = "id_lesson";
+			this.idlessonDataGridViewTextBoxColumn.HeaderText = "id_lesson";
+			this.idlessonDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.idlessonDataGridViewTextBoxColumn.Name = "idlessonDataGridViewTextBoxColumn";
+			this.idlessonDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// linkMudlDataGridViewTextBoxColumn
+			// 
+			this.linkMudlDataGridViewTextBoxColumn.DataPropertyName = "linkMudl";
+			this.linkMudlDataGridViewTextBoxColumn.HeaderText = "linkMudl";
+			this.linkMudlDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.linkMudlDataGridViewTextBoxColumn.Name = "linkMudlDataGridViewTextBoxColumn";
+			this.linkMudlDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// gunaGradient2Panel4
+			// 
+			this.gunaGradient2Panel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.gunaGradient2Panel4.BackColor = System.Drawing.Color.Transparent;
+			this.gunaGradient2Panel4.Controls.Add(this.gunaGradient2Panel5);
+			this.gunaGradient2Panel4.Controls.Add(this.nameDayLabel);
+			this.gunaGradient2Panel4.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
+			this.gunaGradient2Panel4.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
+			this.gunaGradient2Panel4.Location = new System.Drawing.Point(20, 18);
+			this.gunaGradient2Panel4.Margin = new System.Windows.Forms.Padding(20, 18, 20, 18);
+			this.gunaGradient2Panel4.Name = "gunaGradient2Panel4";
+			this.gunaGradient2Panel4.Radius = 10;
+			this.gunaGradient2Panel4.Size = new System.Drawing.Size(584, 303);
+			this.gunaGradient2Panel4.TabIndex = 9;
+			// 
+			// gunaGradient2Panel5
+			// 
+			this.gunaGradient2Panel5.BackColor = System.Drawing.Color.Transparent;
+			this.gunaGradient2Panel5.Controls.Add(this.lbMonday5);
+			this.gunaGradient2Panel5.Controls.Add(this.lbMonday4);
+			this.gunaGradient2Panel5.Controls.Add(this.lbMonday3);
+			this.gunaGradient2Panel5.Controls.Add(this.lbMonday2);
+			this.gunaGradient2Panel5.Controls.Add(this.lbMonday1);
+			this.gunaGradient2Panel5.Controls.Add(this.label5);
+			this.gunaGradient2Panel5.Controls.Add(this.label6);
+			this.gunaGradient2Panel5.Controls.Add(this.label7);
+			this.gunaGradient2Panel5.Controls.Add(this.label8);
+			this.gunaGradient2Panel5.Controls.Add(this.label9);
+			this.gunaGradient2Panel5.Controls.Add(this.link5);
+			this.gunaGradient2Panel5.Controls.Add(this.link4);
+			this.gunaGradient2Panel5.Controls.Add(this.link3);
+			this.gunaGradient2Panel5.Controls.Add(this.link2);
+			this.gunaGradient2Panel5.Controls.Add(this.link1);
+			this.gunaGradient2Panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.gunaGradient2Panel5.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
+			this.gunaGradient2Panel5.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
+			this.gunaGradient2Panel5.Location = new System.Drawing.Point(0, 42);
+			this.gunaGradient2Panel5.Margin = new System.Windows.Forms.Padding(4);
+			this.gunaGradient2Panel5.Name = "gunaGradient2Panel5";
+			this.gunaGradient2Panel5.Radius = 10;
+			this.gunaGradient2Panel5.Size = new System.Drawing.Size(584, 261);
+			this.gunaGradient2Panel5.TabIndex = 1;
+			// 
+			// label5
+			// 
+			this.label5.AutoSize = true;
+			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label5.ForeColor = System.Drawing.Color.White;
+			this.label5.Location = new System.Drawing.Point(9, 212);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(27, 29);
+			this.label5.TabIndex = 15;
+			this.label5.Text = "5";
+			// 
+			// label6
+			// 
+			this.label6.AutoSize = true;
+			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label6.ForeColor = System.Drawing.Color.White;
+			this.label6.Location = new System.Drawing.Point(9, 162);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(27, 29);
+			this.label6.TabIndex = 14;
+			this.label6.Text = "4";
+			// 
+			// label7
+			// 
+			this.label7.AutoSize = true;
+			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label7.ForeColor = System.Drawing.Color.White;
+			this.label7.Location = new System.Drawing.Point(9, 111);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(27, 29);
+			this.label7.TabIndex = 13;
+			this.label7.Text = "3";
+			// 
+			// label8
+			// 
+			this.label8.AutoSize = true;
+			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label8.ForeColor = System.Drawing.Color.White;
+			this.label8.Location = new System.Drawing.Point(9, 63);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(27, 29);
+			this.label8.TabIndex = 12;
+			this.label8.Text = "2";
+			// 
+			// label9
+			// 
+			this.label9.AutoSize = true;
+			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label9.ForeColor = System.Drawing.Color.White;
+			this.label9.Location = new System.Drawing.Point(9, 14);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(27, 29);
+			this.label9.TabIndex = 11;
+			this.label9.Text = "1";
+			// 
+			// link5
+			// 
+			this.link5.Image = ((System.Drawing.Image)(resources.GetObject("link5.Image")));
+			this.link5.Location = new System.Drawing.Point(521, 207);
+			this.link5.Margin = new System.Windows.Forms.Padding(4);
+			this.link5.Name = "link5";
+			this.link5.Size = new System.Drawing.Size(43, 39);
+			this.link5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.link5.TabIndex = 9;
+			this.link5.TabStop = false;
+			// 
+			// link4
+			// 
+			this.link4.Image = ((System.Drawing.Image)(resources.GetObject("link4.Image")));
+			this.link4.Location = new System.Drawing.Point(521, 156);
+			this.link4.Margin = new System.Windows.Forms.Padding(4);
+			this.link4.Name = "link4";
+			this.link4.Size = new System.Drawing.Size(43, 39);
+			this.link4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.link4.TabIndex = 7;
+			this.link4.TabStop = false;
+			// 
+			// link3
+			// 
+			this.link3.Image = ((System.Drawing.Image)(resources.GetObject("link3.Image")));
+			this.link3.Location = new System.Drawing.Point(521, 106);
+			this.link3.Margin = new System.Windows.Forms.Padding(4);
+			this.link3.Name = "link3";
+			this.link3.Size = new System.Drawing.Size(43, 39);
+			this.link3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.link3.TabIndex = 5;
+			this.link3.TabStop = false;
+			// 
+			// link2
+			// 
+			this.link2.Image = ((System.Drawing.Image)(resources.GetObject("link2.Image")));
+			this.link2.Location = new System.Drawing.Point(521, 58);
+			this.link2.Margin = new System.Windows.Forms.Padding(4);
+			this.link2.Name = "link2";
+			this.link2.Size = new System.Drawing.Size(43, 39);
+			this.link2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.link2.TabIndex = 3;
+			this.link2.TabStop = false;
+			// 
+			// link1
+			// 
+			this.link1.Image = ((System.Drawing.Image)(resources.GetObject("link1.Image")));
+			this.link1.Location = new System.Drawing.Point(521, 9);
+			this.link1.Margin = new System.Windows.Forms.Padding(4);
+			this.link1.Name = "link1";
+			this.link1.Size = new System.Drawing.Size(43, 39);
+			this.link1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.link1.TabIndex = 1;
+			this.link1.TabStop = false;
+			// 
+			// nameDayLabel
+			// 
+			this.nameDayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.nameDayLabel.ForeColor = System.Drawing.Color.White;
+			this.nameDayLabel.Location = new System.Drawing.Point(0, 5);
+			this.nameDayLabel.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
+			this.nameDayLabel.Name = "nameDayLabel";
+			this.nameDayLabel.Size = new System.Drawing.Size(564, 31);
+			this.nameDayLabel.TabIndex = 5;
+			this.nameDayLabel.Text = "Понедельник";
+			this.nameDayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lbMonday1
+			// 
+			this.lbMonday1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lbMonday1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbMonday1.ForeColor = System.Drawing.Color.Black;
+			this.lbMonday1.Location = new System.Drawing.Point(42, 12);
+			this.lbMonday1.Name = "lbMonday1";
+			this.lbMonday1.Size = new System.Drawing.Size(461, 36);
+			this.lbMonday1.TabIndex = 6;
+			this.lbMonday1.Text = "ТРПО Дарья Евгеньевна";
+			this.lbMonday1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// lbMonday2
+			// 
+			this.lbMonday2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lbMonday2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbMonday2.ForeColor = System.Drawing.Color.Black;
+			this.lbMonday2.Location = new System.Drawing.Point(42, 63);
+			this.lbMonday2.Name = "lbMonday2";
+			this.lbMonday2.Size = new System.Drawing.Size(461, 36);
+			this.lbMonday2.TabIndex = 16;
+			this.lbMonday2.Text = "ТРПО Дарья Евгеньевна";
+			this.lbMonday2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// lbMonday3
+			// 
+			this.lbMonday3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lbMonday3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbMonday3.ForeColor = System.Drawing.Color.Black;
+			this.lbMonday3.Location = new System.Drawing.Point(42, 111);
+			this.lbMonday3.Name = "lbMonday3";
+			this.lbMonday3.Size = new System.Drawing.Size(461, 36);
+			this.lbMonday3.TabIndex = 17;
+			this.lbMonday3.Text = "ТРПО Дарья Евгеньевна";
+			this.lbMonday3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// lbMonday4
+			// 
+			this.lbMonday4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lbMonday4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbMonday4.ForeColor = System.Drawing.Color.Black;
+			this.lbMonday4.Location = new System.Drawing.Point(42, 158);
+			this.lbMonday4.Name = "lbMonday4";
+			this.lbMonday4.Size = new System.Drawing.Size(461, 36);
+			this.lbMonday4.TabIndex = 18;
+			this.lbMonday4.Text = "ТРПО Дарья Евгеньевна";
+			this.lbMonday4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// lbMonday5
+			// 
+			this.lbMonday5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lbMonday5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbMonday5.ForeColor = System.Drawing.Color.Black;
+			this.lbMonday5.Location = new System.Drawing.Point(42, 205);
+			this.lbMonday5.Name = "lbMonday5";
+			this.lbMonday5.Size = new System.Drawing.Size(461, 36);
+			this.lbMonday5.TabIndex = 19;
+			this.lbMonday5.Text = "ТРПО Дарья Евгеньевна";
+			this.lbMonday5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// gunaGradient2Panel6
+			// 
+			this.gunaGradient2Panel6.BackColor = System.Drawing.Color.Transparent;
+			this.gunaGradient2Panel6.Controls.Add(this.addTeacher1);
+			this.gunaGradient2Panel6.Controls.Add(this.label10);
+			this.gunaGradient2Panel6.Controls.Add(this.guna2CustomCheckBox1);
+			this.gunaGradient2Panel6.Controls.Add(this.tbListTeacher);
+			this.gunaGradient2Panel6.Controls.Add(this.guna2ComboBox1);
+			this.gunaGradient2Panel6.Controls.Add(this.cbCahedra);
+			this.gunaGradient2Panel6.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.gunaGradient2Panel6.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.gunaGradient2Panel6.Location = new System.Drawing.Point(15, 98);
+			this.gunaGradient2Panel6.Margin = new System.Windows.Forms.Padding(4);
+			this.gunaGradient2Panel6.Name = "gunaGradient2Panel6";
+			this.gunaGradient2Panel6.Radius = 10;
+			this.gunaGradient2Panel6.Size = new System.Drawing.Size(462, 136);
+			this.gunaGradient2Panel6.TabIndex = 20;
+			// 
+			// cbCahedra
+			// 
+			this.cbCahedra.Animated = true;
+			this.cbCahedra.BackColor = System.Drawing.Color.Transparent;
+			this.cbCahedra.DataSource = this.lessonBindingSource2;
+			this.cbCahedra.DisplayMember = "shortNameLesson";
+			this.cbCahedra.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbCahedra.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbCahedra.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbCahedra.FocusedColor = System.Drawing.Color.Empty;
+			this.cbCahedra.FocusedState.Parent = this.cbCahedra;
+			this.cbCahedra.Font = new System.Drawing.Font("Segoe UI", 10F);
+			this.cbCahedra.ForeColor = System.Drawing.Color.Black;
+			this.cbCahedra.FormattingEnabled = true;
+			this.cbCahedra.HoverState.Parent = this.cbCahedra;
+			this.cbCahedra.ItemHeight = 30;
+			this.cbCahedra.ItemsAppearance.Parent = this.cbCahedra;
+			this.cbCahedra.Location = new System.Drawing.Point(10, 11);
+			this.cbCahedra.MaxLength = 150;
+			this.cbCahedra.Name = "cbCahedra";
+			this.cbCahedra.ShadowDecoration.Parent = this.cbCahedra;
+			this.cbCahedra.Size = new System.Drawing.Size(435, 36);
+			this.cbCahedra.TabIndex = 11;
+			this.cbCahedra.ValueMember = "id_cathedra";
+			// 
+			// timeTableDataSet6
+			// 
+			this.timeTableDataSet6.DataSetName = "timeTableDataSet6";
+			this.timeTableDataSet6.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// lessonBindingSource2
+			// 
+			this.lessonBindingSource2.DataMember = "Lesson";
+			this.lessonBindingSource2.DataSource = this.timeTableDataSet6;
+			// 
+			// lessonTableAdapter2
+			// 
+			this.lessonTableAdapter2.ClearBeforeFill = true;
+			// 
+			// guna2ComboBox1
+			// 
+			this.guna2ComboBox1.Animated = true;
+			this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+			this.guna2ComboBox1.DataSource = this.officeBindingSource1;
+			this.guna2ComboBox1.DisplayMember = "id_office";
+			this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.guna2ComboBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.guna2ComboBox1.FocusedColor = System.Drawing.Color.Empty;
+			this.guna2ComboBox1.FocusedState.Parent = this.guna2ComboBox1;
+			this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+			this.guna2ComboBox1.ForeColor = System.Drawing.Color.Black;
+			this.guna2ComboBox1.FormattingEnabled = true;
+			this.guna2ComboBox1.HoverState.Parent = this.guna2ComboBox1;
+			this.guna2ComboBox1.ItemHeight = 30;
+			this.guna2ComboBox1.ItemsAppearance.Parent = this.guna2ComboBox1;
+			this.guna2ComboBox1.Location = new System.Drawing.Point(10, 71);
+			this.guna2ComboBox1.MaxLength = 150;
+			this.guna2ComboBox1.Name = "guna2ComboBox1";
+			this.guna2ComboBox1.ShadowDecoration.Parent = this.guna2ComboBox1;
+			this.guna2ComboBox1.Size = new System.Drawing.Size(118, 36);
+			this.guna2ComboBox1.TabIndex = 12;
+			this.guna2ComboBox1.ValueMember = "id_cathedra";
+			// 
+			// timeTableDataSet7
+			// 
+			this.timeTableDataSet7.DataSetName = "timeTableDataSet7";
+			this.timeTableDataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// officeBindingSource1
+			// 
+			this.officeBindingSource1.DataMember = "Office";
+			this.officeBindingSource1.DataSource = this.timeTableDataSet7;
+			// 
+			// officeTableAdapter1
+			// 
+			this.officeTableAdapter1.ClearBeforeFill = true;
+			// 
+			// tbListTeacher
+			// 
+			this.tbListTeacher.Animated = true;
+			this.tbListTeacher.BackColor = System.Drawing.Color.Transparent;
+			this.tbListTeacher.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.tbListTeacher.BorderRadius = 5;
+			this.tbListTeacher.BorderThickness = 2;
+			this.tbListTeacher.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.tbListTeacher.DefaultText = "";
+			this.tbListTeacher.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+			this.tbListTeacher.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+			this.tbListTeacher.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+			this.tbListTeacher.DisabledState.Parent = this.tbListTeacher;
+			this.tbListTeacher.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+			this.tbListTeacher.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.tbListTeacher.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.tbListTeacher.FocusedState.Parent = this.tbListTeacher;
+			this.tbListTeacher.Font = new System.Drawing.Font("Segoe UI", 7F);
+			this.tbListTeacher.ForeColor = System.Drawing.Color.Black;
+			this.tbListTeacher.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.tbListTeacher.HoverState.Parent = this.tbListTeacher;
+			this.tbListTeacher.Location = new System.Drawing.Point(135, 68);
+			this.tbListTeacher.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbListTeacher.MaxLength = 50;
+			this.tbListTeacher.Name = "tbListTeacher";
+			this.tbListTeacher.PasswordChar = '\0';
+			this.tbListTeacher.PlaceholderText = "";
+			this.tbListTeacher.SelectedText = "";
+			this.tbListTeacher.ShadowDecoration.Parent = this.tbListTeacher;
+			this.tbListTeacher.Size = new System.Drawing.Size(144, 41);
+			this.tbListTeacher.TabIndex = 13;
+			// 
+			// guna2CustomCheckBox1
+			// 
+			this.guna2CustomCheckBox1.Animated = true;
+			this.guna2CustomCheckBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.guna2CustomCheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.guna2CustomCheckBox1.CheckedState.BorderRadius = 2;
+			this.guna2CustomCheckBox1.CheckedState.BorderThickness = 3;
+			this.guna2CustomCheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.guna2CustomCheckBox1.CheckedState.Parent = this.guna2CustomCheckBox1;
+			this.guna2CustomCheckBox1.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.guna2CustomCheckBox1.Location = new System.Drawing.Point(343, 73);
+			this.guna2CustomCheckBox1.Name = "guna2CustomCheckBox1";
+			this.guna2CustomCheckBox1.ShadowDecoration.Parent = this.guna2CustomCheckBox1;
+			this.guna2CustomCheckBox1.Size = new System.Drawing.Size(28, 29);
+			this.guna2CustomCheckBox1.TabIndex = 15;
+			this.guna2CustomCheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.guna2CustomCheckBox1.UncheckedState.BorderRadius = 2;
+			this.guna2CustomCheckBox1.UncheckedState.BorderThickness = 0;
+			this.guna2CustomCheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.guna2CustomCheckBox1.UncheckedState.Parent = this.guna2CustomCheckBox1;
+			// 
+			// label10
+			// 
+			this.label10.AutoSize = true;
+			this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label10.ForeColor = System.Drawing.Color.White;
+			this.label10.Location = new System.Drawing.Point(374, 74);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(88, 25);
+			this.label10.TabIndex = 20;
+			this.label10.Text = "Лекция";
+			// 
+			// addTeacher1
+			// 
+			this.addTeacher1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.addTeacher1.BorderRadius = 5;
+			this.addTeacher1.BorderThickness = 2;
+			this.addTeacher1.CheckedState.Parent = this.addTeacher1;
+			this.addTeacher1.CustomImages.Parent = this.addTeacher1;
+			this.addTeacher1.FillColor = System.Drawing.Color.Transparent;
+			this.addTeacher1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.addTeacher1.ForeColor = System.Drawing.Color.White;
+			this.addTeacher1.HoverState.Parent = this.addTeacher1;
+			this.addTeacher1.Location = new System.Drawing.Point(286, 68);
+			this.addTeacher1.Name = "addTeacher1";
+			this.addTeacher1.ShadowDecoration.Parent = this.addTeacher1;
+			this.addTeacher1.Size = new System.Drawing.Size(49, 41);
+			this.addTeacher1.TabIndex = 21;
+			this.addTeacher1.Text = "+";
+			this.addTeacher1.Click += new System.EventHandler(this.addTeacher1_Click);
+			// 
+			// label11
+			// 
+			this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label11.ForeColor = System.Drawing.Color.White;
+			this.label11.Location = new System.Drawing.Point(358, 21);
+			this.label11.Name = "label11";
+			this.label11.Size = new System.Drawing.Size(104, 29);
+			this.label11.TabIndex = 7;
+			this.label11.Text = "Неделя:";
+			// 
+			// cbWeekEdit
+			// 
+			this.cbWeekEdit.BackColor = System.Drawing.Color.Transparent;
+			this.cbWeekEdit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(238)))), ((int)(((byte)(200)))));
+			this.cbWeekEdit.BorderRadius = 5;
+			this.cbWeekEdit.DataSource = this.weekBindingSource;
+			this.cbWeekEdit.DisplayMember = "nameWeek";
+			this.cbWeekEdit.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbWeekEdit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbWeekEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbWeekEdit.FocusedColor = System.Drawing.Color.Empty;
+			this.cbWeekEdit.FocusedState.Parent = this.cbWeekEdit;
+			this.cbWeekEdit.Font = new System.Drawing.Font("Segoe UI", 10F);
+			this.cbWeekEdit.ForeColor = System.Drawing.Color.Black;
+			this.cbWeekEdit.FormattingEnabled = true;
+			this.cbWeekEdit.HoverState.Parent = this.cbWeekEdit;
+			this.cbWeekEdit.ItemHeight = 30;
+			this.cbWeekEdit.ItemsAppearance.Parent = this.cbWeekEdit;
+			this.cbWeekEdit.Location = new System.Drawing.Point(466, 20);
+			this.cbWeekEdit.Name = "cbWeekEdit";
+			this.cbWeekEdit.ShadowDecoration.Parent = this.cbWeekEdit;
+			this.cbWeekEdit.Size = new System.Drawing.Size(140, 36);
+			this.cbWeekEdit.TabIndex = 6;
+			this.cbWeekEdit.ValueMember = "id_week";
+			this.cbWeekEdit.SelectedIndexChanged += new System.EventHandler(this.cbWeekEdit_SelectedIndexChanged);
+			// 
+			// label12
+			// 
+			this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label12.ForeColor = System.Drawing.Color.White;
+			this.label12.Location = new System.Drawing.Point(16, 21);
+			this.label12.Name = "label12";
+			this.label12.Size = new System.Drawing.Size(104, 29);
+			this.label12.TabIndex = 5;
+			this.label12.Text = "Группа:";
+			// 
+			// cbGroupEdit
+			// 
+			this.cbGroupEdit.BackColor = System.Drawing.Color.Transparent;
+			this.cbGroupEdit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(238)))), ((int)(((byte)(200)))));
+			this.cbGroupEdit.BorderRadius = 5;
+			this.cbGroupEdit.DataSource = this.groupStudentBindingSource;
+			this.cbGroupEdit.DisplayMember = "shortNameGroup";
+			this.cbGroupEdit.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbGroupEdit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbGroupEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbGroupEdit.FocusedColor = System.Drawing.Color.Empty;
+			this.cbGroupEdit.FocusedState.Parent = this.cbGroupEdit;
+			this.cbGroupEdit.Font = new System.Drawing.Font("Segoe UI", 10F);
+			this.cbGroupEdit.ForeColor = System.Drawing.Color.Black;
+			this.cbGroupEdit.FormattingEnabled = true;
+			this.cbGroupEdit.HoverState.Parent = this.cbGroupEdit;
+			this.cbGroupEdit.ItemHeight = 30;
+			this.cbGroupEdit.ItemsAppearance.Parent = this.cbGroupEdit;
+			this.cbGroupEdit.Location = new System.Drawing.Point(124, 20);
+			this.cbGroupEdit.Name = "cbGroupEdit";
+			this.cbGroupEdit.ShadowDecoration.Parent = this.cbGroupEdit;
+			this.cbGroupEdit.Size = new System.Drawing.Size(210, 36);
+			this.cbGroupEdit.TabIndex = 4;
+			this.cbGroupEdit.ValueMember = "idGroup";
+			this.cbGroupEdit.SelectedIndexChanged += new System.EventHandler(this.cbGroupEdit_SelectedIndexChanged);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
-			this.ClientSize = new System.Drawing.Size(1656, 776);
+			this.ClientSize = new System.Drawing.Size(1717, 776);
 			this.Controls.Add(this.navigationPanel);
 			this.Controls.Add(this.viewDaysTabPanel);
 			this.Controls.Add(this.pictureBox1);
@@ -2327,6 +2106,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.navigationPanel.ResumeLayout(false);
 			this.navigationPanel.PerformLayout();
+			this.gunaGradient2Panel1.ResumeLayout(false);
 			this.viewDaysTabPanel.ResumeLayout(false);
 			this.tabPage1.ResumeLayout(false);
 			this.gunaGradient2Panel21.ResumeLayout(false);
@@ -2335,39 +2115,7 @@
 			this.tabPage2.ResumeLayout(false);
 			this.gunaGradient2Panel20.ResumeLayout(false);
 			this.flowLayoutPanel3.ResumeLayout(false);
-			this.flowLayoutPanel2.ResumeLayout(false);
-			this.gunaGradient2Panel4.ResumeLayout(false);
-			this.gunaGradient2Panel4.PerformLayout();
-			this.gunaGradient2Panel5.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-			this.gunaGradient2Panel6.ResumeLayout(false);
-			this.gunaGradient2Panel6.PerformLayout();
-			this.gunaGradient2Panel7.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-			this.gunaGradient2Panel16.ResumeLayout(false);
-			this.gunaGradient2Panel16.PerformLayout();
-			this.gunaGradient2Panel17.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
-			this.gunaGradient2Panel18.ResumeLayout(false);
-			this.gunaGradient2Panel18.PerformLayout();
-			this.gunaGradient2Panel19.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
+			this.flEditDay.ResumeLayout(false);
 			this.tabPage3.ResumeLayout(false);
 			this.gunaGradient2Panel24.ResumeLayout(false);
 			this.tabPage4.ResumeLayout(false);
@@ -2378,7 +2126,6 @@
 			this.gunaGradient2Panel2.ResumeLayout(false);
 			this.gunaGradient2Panel2.PerformLayout();
 			this.tabPage5.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView3)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet1)).EndInit();
 			this.gunaGradient2Panel3.ResumeLayout(false);
@@ -2396,6 +2143,23 @@
 			((System.ComponentModel.ISupportInitialize)(this.groupStudentBindingSource)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet4)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.weekBindingSource)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.dataGridViewLesson)).EndInit();
+			this.gunaGradient2Panel4.ResumeLayout(false);
+			this.gunaGradient2Panel5.ResumeLayout(false);
+			this.gunaGradient2Panel5.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.link5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.link4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.link3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.link2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.link1)).EndInit();
+			this.gunaGradient2Panel6.ResumeLayout(false);
+			this.gunaGradient2Panel6.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -2415,59 +2179,7 @@
 		private System.Windows.Forms.TabPage tabPage1;
 		private System.Windows.Forms.TabPage tabPage2;
 		private System.Windows.Forms.FlowLayoutPanel mainLayout;
-		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel4;
-		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel5;
-		private System.Windows.Forms.PictureBox pictureBox7;
-		private System.Windows.Forms.Label label7;
-		private System.Windows.Forms.PictureBox pictureBox8;
-		private System.Windows.Forms.Label label8;
-		private System.Windows.Forms.PictureBox pictureBox9;
-		private System.Windows.Forms.Label label9;
-		private System.Windows.Forms.PictureBox pictureBox10;
-		private System.Windows.Forms.Label label10;
-		private System.Windows.Forms.PictureBox pictureBox11;
-		private System.Windows.Forms.Label label11;
-		private System.Windows.Forms.Label label12;
-		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel6;
-		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel7;
-		private System.Windows.Forms.PictureBox pictureBox12;
-		private System.Windows.Forms.Label label13;
-		private System.Windows.Forms.PictureBox pictureBox13;
-		private System.Windows.Forms.Label label14;
-		private System.Windows.Forms.PictureBox pictureBox14;
-		private System.Windows.Forms.Label label15;
-		private System.Windows.Forms.PictureBox pictureBox15;
-		private System.Windows.Forms.Label label16;
-		private System.Windows.Forms.PictureBox pictureBox16;
-		private System.Windows.Forms.Label label17;
-		private System.Windows.Forms.Label label18;
-		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel16;
-		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel17;
-		private System.Windows.Forms.PictureBox pictureBox37;
-		private System.Windows.Forms.Label label43;
-		private System.Windows.Forms.PictureBox pictureBox38;
-		private System.Windows.Forms.Label label44;
-		private System.Windows.Forms.PictureBox pictureBox39;
-		private System.Windows.Forms.Label label45;
-		private System.Windows.Forms.PictureBox pictureBox40;
-		private System.Windows.Forms.Label label46;
-		private System.Windows.Forms.PictureBox pictureBox41;
-		private System.Windows.Forms.Label label47;
-		private System.Windows.Forms.Label label48;
-		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel18;
-		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel19;
-		private System.Windows.Forms.PictureBox pictureBox42;
-		private System.Windows.Forms.Label label49;
-		private System.Windows.Forms.PictureBox pictureBox43;
-		private System.Windows.Forms.Label label50;
-		private System.Windows.Forms.PictureBox pictureBox44;
-		private System.Windows.Forms.Label label51;
-		private System.Windows.Forms.PictureBox pictureBox45;
-		private System.Windows.Forms.Label label52;
-		private System.Windows.Forms.PictureBox pictureBox46;
-		private System.Windows.Forms.Label label53;
-		private System.Windows.Forms.Label label54;
+		private System.Windows.Forms.FlowLayoutPanel flEditDay;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel20;
 		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
 		private Guna.UI.WinForms.GunaButton gunaButton1;
@@ -2503,9 +2215,9 @@
 		private System.Windows.Forms.BindingSource teacherBindingSource1;
 		private System.Windows.Forms.BindingSource timeTableDataSetBindingSource;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel3;
-		private Guna.UI2.WinForms.Guna2Button guna2Button3;
-		private Guna.UI2.WinForms.Guna2Button guna2Button4;
-		private Guna.UI2.WinForms.Guna2Button guna2Button5;
+		private Guna.UI2.WinForms.Guna2Button deleteLesson;
+		private Guna.UI2.WinForms.Guna2Button updateLesson;
+		private Guna.UI2.WinForms.Guna2Button addLesson;
 		private System.Windows.Forms.Label label2;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel8;
 		private Guna.UI2.WinForms.Guna2Button guna2Button6;
@@ -2515,16 +2227,9 @@
 		private timeTableTeacher timeTableTeacher;
 		private System.Windows.Forms.BindingSource teacherBindingSource2;
 		private timeTableTeacherTableAdapters.TeacherTableAdapter teacherTableAdapter1;
-		private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView3;
 		private timeTableDataSet1 timeTableDataSet1;
 		private System.Windows.Forms.BindingSource lessonBindingSource;
 		private timeTableDataSet1TableAdapters.LessonTableAdapter lessonTableAdapter;
-		private System.Windows.Forms.DataGridViewTextBoxColumn idlessonDataGridViewTextBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn cathedraDataGridViewTextBoxColumn1;
-		private System.Windows.Forms.DataGridViewTextBoxColumn fullNameLessonDataGridViewTextBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn shortNameLessonDataGridViewTextBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn numberPracticeHoursSemesterDataGridViewTextBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn numberLectureHoursSemesterDataGridViewTextBoxColumn;
 		private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView4;
 		private timeTableDataSet2 timeTableDataSet2;
 		private System.Windows.Forms.BindingSource officeBindingSource;
@@ -2545,6 +2250,53 @@
 		private System.Windows.Forms.BindingSource weekBindingSource;
 		private timeTableDataSet4TableAdapters.WeekTableAdapter weekTableAdapter;
 		private System.Windows.Forms.NotifyIcon notifyIcon1;
+		private timeTableDataSetTableAdapters.TeacherTableAdapter teacherTableAdapter2;
+		private timeTableDataSet5 timeTableDataSet5;
+		private System.Windows.Forms.BindingSource lessonBindingSource1;
+		private timeTableDataSet5TableAdapters.LessonTableAdapter lessonTableAdapter1;
+		private Guna.UI2.WinForms.Guna2DataGridView dataGridViewLesson;
+		private System.Windows.Forms.DataGridViewTextBoxColumn cathedraDataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn fullNameLessonDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn shortNameLessonDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn numberPracticeHoursSemesterDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn numberLectureHoursSemesterDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn idlessonDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn linkMudlDataGridViewTextBoxColumn;
+		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel4;
+		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel5;
+		private System.Windows.Forms.Label lbMonday5;
+		private System.Windows.Forms.Label lbMonday4;
+		private System.Windows.Forms.Label lbMonday3;
+		private System.Windows.Forms.Label lbMonday2;
+		private System.Windows.Forms.Label lbMonday1;
+		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.Label label6;
+		private System.Windows.Forms.Label label7;
+		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.PictureBox link5;
+		private System.Windows.Forms.PictureBox link4;
+		private System.Windows.Forms.PictureBox link3;
+		private System.Windows.Forms.PictureBox link2;
+		private System.Windows.Forms.PictureBox link1;
+		private System.Windows.Forms.Label nameDayLabel;
+		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel6;
+		private Guna.UI2.WinForms.Guna2ComboBox cbCahedra;
+		private timeTableDataSet6 timeTableDataSet6;
+		private System.Windows.Forms.BindingSource lessonBindingSource2;
+		private timeTableDataSet6TableAdapters.LessonTableAdapter lessonTableAdapter2;
+		private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+		private timeTableDataSet7 timeTableDataSet7;
+		private System.Windows.Forms.BindingSource officeBindingSource1;
+		private timeTableDataSet7TableAdapters.OfficeTableAdapter officeTableAdapter1;
+		private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox1;
+		private Guna.UI2.WinForms.Guna2TextBox tbListTeacher;
+		private System.Windows.Forms.Label label10;
+		private Guna.UI2.WinForms.Guna2Button addTeacher1;
+		private System.Windows.Forms.Label label11;
+		private Guna.UI2.WinForms.Guna2ComboBox cbWeekEdit;
+		private System.Windows.Forms.Label label12;
+		private Guna.UI2.WinForms.Guna2ComboBox cbGroupEdit;
 	}
 }
 

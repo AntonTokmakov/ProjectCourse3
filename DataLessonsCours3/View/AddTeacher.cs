@@ -26,7 +26,7 @@ namespace DataLessonsCours3.View
 
 		bool create = true;
 		int id;
-		public AddTeacher(int id, int cbCahedra, string tbOtchestvo, string tbFirstName, string tbName)
+		public AddTeacher(int id, int cbCahedra, string tbName, string tbFirstName, string tbOtchestvo)
 		{
 			InitializeComponent();
 			this.cathedraTableAdapter.Fill(this.timeTableDataSet3.Cathedra);
@@ -48,8 +48,6 @@ namespace DataLessonsCours3.View
 
 		private void save_Click(object sender, EventArgs e)
 		{
-
-			//lbTitle.Text = cbCahedra.SelectedValue.ToString();
 			if (!(tbName.Text.Equals("") & tbFirstName.Text.Equals("") & tbOtchestvo.Text.Equals("")))
 			{
 				switch (create)

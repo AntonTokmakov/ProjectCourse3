@@ -14,14 +14,27 @@ using DataLessonsCours3.Class;
 using Guna.UI2.WinForms;
 using System.Data.SqlClient;
 using System.Xml.Linq;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
 
 namespace DataLessonsCours3
 {
 	public partial class Form1 : Form
 	{
+
+		DayLesson monday;
+		DayLesson tuesday;
+		DayLesson wednesday;
+		DayLesson thursday;
+		DayLesson friday;
+		DayLesson saturday;
+		DayLesson[] daysLesson;
+
+
 		public Form1()
 		{
 			InitializeComponent();
+			daysLesson = new DayLesson[] { monday, tuesday, wednesday, thursday , friday , saturday };
+			
 		}
 
 		private void mainPage_Click(object sender, EventArgs e)
@@ -38,7 +51,7 @@ namespace DataLessonsCours3
 		{
 			switch (viewDaysTabPanel.SelectedIndex)
 			{
-				case 0:
+				case 0:	// appointment panel
 					mainLayout.Controls.Clear();
 					for (int i = 1; i < 5; i++)
 					{
@@ -50,19 +63,22 @@ namespace DataLessonsCours3
 						CardDayLessons cardDay = new CardDayLessons(reader);
 						mainLayout.Controls.Add(cardDay);
 						db.closeConnection();
-
-
-						/*CardDayLessons cardDay = new CardDayLessons("Понедельник", "УиАБД", "ТРПО", "ИСРПО", "ПД", "Мат мод",		//добавлять данные из БД
-						"https://do.sibsiu.ru/day/course/view.php?id=19370", "", "","","");
-						mainLayout.Controls.Add(cardDay);*/
 					}
-
 					break;
 
-				case 1:
+				case 1:	// edit panel
+					flEditDay.Controls.Clear();
+					for (int i = 0; i < 5; i++)
+					{
+						foreach (var day in daysLesson)
+						{
+							EditDayCard editDayCard = new EditDayCard(day.selectDB());
+							flEditDay.Controls.Add(editDayCard);
+						}
+					}
 					break;
 
-				case 2:
+				case 2:  // exam panel
 					examLayoutPanel.Controls.Clear();
 					for (int i = 0; i < 5; i++)
 					{
@@ -72,7 +88,7 @@ namespace DataLessonsCours3
 					}
 					break;
 
-				case 3:
+				case 3:	// teacher panel
 					break;
 
 				default:
@@ -96,6 +112,45 @@ namespace DataLessonsCours3
 			viewDaysTabPanel.SelectTab(1);
 		}
 
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet7.Office". При необходимости она может быть перемещена или удалена.
+			this.officeTableAdapter1.Fill(this.timeTableDataSet7.Office);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet6.Lesson". При необходимости она может быть перемещена или удалена.
+			this.lessonTableAdapter2.Fill(this.timeTableDataSet6.Lesson);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet5.Lesson". При необходимости она может быть перемещена или удалена.
+			this.lessonTableAdapter1.Fill(this.timeTableDataSet5.Lesson);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet4.Week". При необходимости она может быть перемещена или удалена.
+			this.weekTableAdapter.Fill(this.timeTableDataSet4.Week);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "groupStudIdShortName.GroupStudent". При необходимости она может быть перемещена или удалена.
+			this.groupStudentTableAdapter.Fill(this.groupStudIdShortName.GroupStudent);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet2.Office".
+			this.officeTableAdapter.Fill(this.timeTableDataSet2.Office);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet1.Lesson".
+			this.lessonTableAdapter.Fill(this.timeTableDataSet1.Lesson);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableTeacher.Teacher".
+			this.teacherTableAdapter1.Fill(this.timeTableTeacher.Teacher);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet.Teacher".
+			this.teacherTableAdapter.Fill(this.timeTableDataSet.Teacher);
+
+			cbGroupEdit_SelectedIndexChanged(sender, e);
+
+		}
+
+		private void fillByToolStripButton_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				this.teacherTableAdapter.FillBy(this.timeTableDataSet.Teacher);
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+
+		}
+
 		private void selectSpr_SelectedIndexChanged(object sender, EventArgs e)
 		{
 			switch (selectSpr.SelectedIndex)
@@ -115,40 +170,8 @@ namespace DataLessonsCours3
 			}
 		}
 
-		private void Form1_Load(object sender, EventArgs e)
-		{
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet4.Week". При необходимости она может быть перемещена или удалена.
-			this.weekTableAdapter.Fill(this.timeTableDataSet4.Week);
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "groupStudIdShortName.GroupStudent". При необходимости она может быть перемещена или удалена.
-			this.groupStudentTableAdapter.Fill(this.groupStudIdShortName.GroupStudent);
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet2.Office".
-			this.officeTableAdapter.Fill(this.timeTableDataSet2.Office);
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet1.Lesson".
-			this.lessonTableAdapter.Fill(this.timeTableDataSet1.Lesson);
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableTeacher.Teacher".
-			this.teacherTableAdapter1.Fill(this.timeTableTeacher.Teacher);
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet.Teacher".
-			this.teacherTableAdapter.Fill(this.timeTableDataSet.Teacher);
+		#region Panel Teacher
 
-		}
-
-		private void fillByToolStripButton_Click(object sender, EventArgs e)
-		{
-			try
-			{
-				this.teacherTableAdapter.FillBy(this.timeTableDataSet.Teacher);
-			}
-			catch (Exception ex)
-			{
-				MessageBox.Show(ex.Message);
-			}
-
-		}
-
-
-
-		// Panel Teacher
-		#region
 		private void btnAddTicher_Click(object sender, EventArgs e)
 		{
 			new AddTeacher().ShowDialog();
@@ -181,7 +204,6 @@ namespace DataLessonsCours3
 			{
 				int eventRow = dataGridTeacher.SelectedCells[0].RowIndex;
 				int idTeacher = Convert.ToInt32(dataGridTeacher.Rows[eventRow].Cells[0].Value.ToString().Trim());
-				MessageBoxButtons button = MessageBoxButtons.YesNo;
 				DialogResult result1 = MessageBox.Show("Удалить пользователя из информационной системы?", "Удаление пользователя", MessageBoxButtons.YesNoCancel);
 				if (result1 == DialogResult.Yes)
 				{
@@ -213,6 +235,117 @@ namespace DataLessonsCours3
 
 			this.teacherTableAdapter.Fill(this.timeTableDataSet.Teacher);
 		}
+
+		#endregion
+
+		#region Panel Lesson
+
+		private void addLesson_Click(object sender, EventArgs e)
+		{
+			new AddLesson().ShowDialog();
+			this.lessonTableAdapter1.Fill(this.timeTableDataSet5.Lesson);
+		}
+
+		private void updateLesson_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				int eventRow = dataGridViewLesson.SelectedCells[0].RowIndex;
+				int idLesson = Convert.ToInt32(dataGridViewLesson.Rows[eventRow].Cells[5].Value.ToString().Trim());
+				int idCathedra = Convert.ToInt32(dataGridViewLesson.Rows[eventRow].Cells[0].Value.ToString().Trim());
+				string fullName = dataGridViewLesson.Rows[eventRow].Cells[1].Value.ToString().Trim();
+				string shortName = dataGridViewLesson.Rows[eventRow].Cells[2].Value.ToString().Trim();
+				string link = dataGridViewLesson.Rows[eventRow].Cells[6].Value.ToString().Trim();
+				int practic = Convert.ToInt32(dataGridViewLesson.Rows[eventRow].Cells[3].Value);
+				int lecture = Convert.ToInt32(dataGridViewLesson.Rows[eventRow].Cells[4].Value);
+				new AddLesson(idLesson, idCathedra, fullName, shortName, practic, lecture, link).ShowDialog();
+			}
+			catch (Exception)
+			{
+				MessageBox.Show("Выбирите ячейку для просмотра информации", "Система");
+			}
+			this.lessonTableAdapter1.Fill(this.timeTableDataSet5.Lesson);
+		}
+
+		private void deleteLesson_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				int eventRow = dataGridViewLesson.SelectedCells[0].RowIndex;
+				int idLesson = Convert.ToInt32(dataGridViewLesson.Rows[eventRow].Cells[5].Value.ToString().Trim());
+				DialogResult result1 = MessageBox.Show("Удалить дисциплину из информационной системы?", "Удаление дисциплины", MessageBoxButtons.YesNoCancel);
+				if (result1 == DialogResult.Yes)
+				{
+					DB db = new DB();
+					string query = "DELETE FROM Lesson WHERE id_lesson = @id";
+					using (SqlCommand command = new SqlCommand(query, db.getConnection()))
+					{
+						command.Parameters.AddWithValue("@id", idLesson);
+						db.getConnection().Open();
+						int result = command.ExecuteNonQuery();
+
+						if (result == 1)
+						{
+							notifyIcon1.Icon = SystemIcons.Hand;
+							notifyIcon1.BalloonTipTitle = "Удаление дисциплины";
+							notifyIcon1.BalloonTipText = "Дисциплина удалена из системы";
+							notifyIcon1.BalloonTipIcon = ToolTipIcon.Info;
+							notifyIcon1.Visible = true;
+							notifyIcon1.ShowBalloonTip(80000);
+						}
+						db.getConnection().Close();
+					}
+				}
+			}
+			catch (Exception)
+			{
+				MessageBox.Show("Выбирите ячейку для просмотра информации", "Система");
+			}
+			this.lessonTableAdapter1.Fill(this.timeTableDataSet5.Lesson);
+		}
+
+		#endregion
+
+		#region Panel EditCard
+
+		private void addTeacher1_Click(object sender, EventArgs e)
+		{
+			EdirAddTeacher editAdd = new EdirAddTeacher();
+			editAdd.ShowDialog();
+			string[][] rows = editAdd.checkTeacher; 
+			if (!(rows == null))
+			{
+				for (int i = 0; i < rows.Length; i++)
+				{
+
+				}	// надо это записать в БД, а с неё уже в класс
+				// приходит массив преподов
+			}
+		}
+
+		private void cbGroupEdit_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			int group = Convert.ToInt32(cbGroupEdit.SelectedValue.ToString());
+			int week = Convert.ToInt32(cbWeekEdit.SelectedValue.ToString());
+			for (int i = 0; i < daysLesson.Length; i++)
+			{
+				daysLesson[i] = new DayLesson(group, i, week);
+				daysLesson[i].selectDB();
+			}
+		}
+
+		private void cbWeekEdit_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			int group = Convert.ToInt32(cbGroupEdit.SelectedValue.ToString());
+			int week = Convert.ToInt32(cbWeekEdit.SelectedValue.ToString());
+			for (int i = 0; i < daysLesson.Length; i++)
+			{
+				daysLesson[i] = new DayLesson(group, i, week);
+				daysLesson[i].selectDB();
+			}
+		}
+
+
 
 		#endregion
 
