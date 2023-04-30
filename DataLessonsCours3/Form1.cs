@@ -29,6 +29,8 @@ namespace DataLessonsCours3
 		DayLesson saturday;
 		DayLesson[] daysLesson;
 
+		(int, string, string, int) user;
+
 
 		public Form1()
 		{
@@ -68,13 +70,17 @@ namespace DataLessonsCours3
 
 				case 1:	// edit panel
 					flEditDay.Controls.Clear();
-					for (int i = 0; i < 5; i++)
+
+					for (int i = 0; i < daysLesson.Length; i++)
 					{
-						foreach (var day in daysLesson)
-						{
-							EditDayCard editDayCard = new EditDayCard(day.selectDB());
-							flEditDay.Controls.Add(editDayCard);
-						}
+						string[][][] dayL = daysLesson[i].selectDB();			// возращается null
+						EditDayCard editDayCard = new EditDayCard(dayL, i);
+						flEditDay.Controls.Add(editDayCard);
+
+					}
+
+					foreach (var day in daysLesson)
+					{
 					}
 					break;
 
@@ -329,19 +335,27 @@ namespace DataLessonsCours3
 			int week = Convert.ToInt32(cbWeekEdit.SelectedValue.ToString());
 			for (int i = 0; i < daysLesson.Length; i++)
 			{
-				daysLesson[i] = new DayLesson(group, i, week);
+				daysLesson[i] = new DayLesson(group, i + 1, week);
 				daysLesson[i].selectDB();
 			}
 		}
 
-		private void cbWeekEdit_SelectedIndexChanged(object sender, EventArgs e)
+		private void cbWeekEdit_SelectedIndexChanged(object sender, EventArgs e)  //обернуть бы в try, так как ошибками сыпет при закрытии
 		{
-			int group = Convert.ToInt32(cbGroupEdit.SelectedValue.ToString());
-			int week = Convert.ToInt32(cbWeekEdit.SelectedValue.ToString());
-			for (int i = 0; i < daysLesson.Length; i++)
+			try
 			{
-				daysLesson[i] = new DayLesson(group, i, week);
-				daysLesson[i].selectDB();
+				int group = Convert.ToInt32(cbGroupEdit.SelectedValue.ToString());
+				int week = Convert.ToInt32(cbWeekEdit.SelectedValue.ToString());
+				for (int i = 0; i < daysLesson.Length; i++)
+				{
+					daysLesson[i] = new DayLesson(group, i + 1, week);
+					daysLesson[i].selectDB();
+				}
+			}
+			catch (Exception)
+			{
+
+				
 			}
 		}
 
@@ -349,5 +363,25 @@ namespace DataLessonsCours3
 
 		#endregion
 
+		private void LogIn_Click(object sender, EventArgs e)
+		{
+			if (LogIn.Text.Equals("Выйти"))
+			{
+				user.Item1 = 0;
+				user.Item2 = "";
+				user.Item3 = "";
+				user.Item4 = 0;
+
+				LogIn.Text = "Войти";
+			}
+			else
+			{
+				Auntification auntification = new Auntification();
+				auntification.ShowDialog();
+				user = auntification.GetIdUser;
+				if (user.Item1 != null) LogIn.Text = "Выйти";
+			}
+
+		}
 	}
 }

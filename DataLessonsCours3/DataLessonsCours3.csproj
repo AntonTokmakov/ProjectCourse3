@@ -130,6 +130,12 @@
     <Compile Include="View\AddTeacher.Designer.cs">
       <DependentUpon>AddTeacher.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Auntification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Auntification.Designer.cs">
+      <DependentUpon>Auntification.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\CardDayLessons.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -171,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\AddTeacher.resx">
       <DependentUpon>AddTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Auntification.resx">
+      <DependentUpon>Auntification.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\CardDayLessons.resx">
       <DependentUpon>CardDayLessons.cs</DependentUpon>

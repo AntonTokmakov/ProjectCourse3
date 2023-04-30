@@ -36,12 +36,12 @@
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.navigationPanel = new System.Windows.Forms.FlowLayoutPanel();
 			this.mainPage = new System.Windows.Forms.Label();
@@ -51,9 +51,21 @@
 			this.selectSpr = new Guna.UI2.WinForms.Guna2ComboBox();
 			this.LogIn = new Guna.UI2.WinForms.Guna2Button();
 			this.gunaGradient2Panel1 = new Guna.UI.WinForms.GunaGradient2Panel();
+			this.label11 = new System.Windows.Forms.Label();
+			this.cbWeekEdit = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.weekBindingSource = new System.Windows.Forms.BindingSource(this.components);
+			this.timeTableDataSet4 = new DataLessonsCours3.timeTableDataSet4();
+			this.label12 = new System.Windows.Forms.Label();
+			this.cbGroupEdit = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.groupStudentBindingSource = new System.Windows.Forms.BindingSource(this.components);
+			this.groupStudIdShortName = new DataLessonsCours3.GroupStudIdShortName();
 			this.viewDaysTabPanel = new XanderUI.XUIFlatTab();
 			this.tabPage1 = new System.Windows.Forms.TabPage();
 			this.gunaGradient2Panel21 = new Guna.UI.WinForms.GunaGradient2Panel();
+			this.label4 = new System.Windows.Forms.Label();
+			this.cbWeek = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.lbGroup = new System.Windows.Forms.Label();
+			this.cbGroupStudent = new Guna.UI2.WinForms.Guna2ComboBox();
 			this.mainLayout = new System.Windows.Forms.FlowLayoutPanel();
 			this.guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
 			this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -65,7 +77,36 @@
 			this.gunaButton4 = new Guna.UI.WinForms.GunaButton();
 			this.gunaButton5 = new Guna.UI.WinForms.GunaButton();
 			this.gunaButton6 = new Guna.UI.WinForms.GunaButton();
+			this.gunaGradient2Panel6 = new Guna.UI.WinForms.GunaGradient2Panel();
+			this.addTeacher1 = new Guna.UI2.WinForms.Guna2Button();
+			this.label10 = new System.Windows.Forms.Label();
+			this.guna2CustomCheckBox1 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+			this.tbListTeacher = new Guna.UI2.WinForms.Guna2TextBox();
+			this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.officeBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+			this.timeTableDataSet7 = new DataLessonsCours3.timeTableDataSet7();
+			this.cbCahedra = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.lessonBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+			this.timeTableDataSet6 = new DataLessonsCours3.timeTableDataSet6();
 			this.flEditDay = new System.Windows.Forms.FlowLayoutPanel();
+			this.gunaGradient2Panel4 = new Guna.UI.WinForms.GunaGradient2Panel();
+			this.gunaGradient2Panel5 = new Guna.UI.WinForms.GunaGradient2Panel();
+			this.lbMonday5 = new System.Windows.Forms.Label();
+			this.lbMonday4 = new System.Windows.Forms.Label();
+			this.lbMonday3 = new System.Windows.Forms.Label();
+			this.lbMonday2 = new System.Windows.Forms.Label();
+			this.lbMonday1 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
+			this.label6 = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
+			this.label8 = new System.Windows.Forms.Label();
+			this.label9 = new System.Windows.Forms.Label();
+			this.link5 = new System.Windows.Forms.PictureBox();
+			this.link4 = new System.Windows.Forms.PictureBox();
+			this.link3 = new System.Windows.Forms.PictureBox();
+			this.link2 = new System.Windows.Forms.PictureBox();
+			this.link1 = new System.Windows.Forms.PictureBox();
+			this.nameDayLabel = new System.Windows.Forms.Label();
 			this.tabPage3 = new System.Windows.Forms.TabPage();
 			this.examLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
 			this.gunaGradient2Panel24 = new Guna.UI.WinForms.GunaGradient2Panel();
@@ -86,8 +127,16 @@
 			this.btnAddTicher = new Guna.UI2.WinForms.Guna2Button();
 			this.label1 = new System.Windows.Forms.Label();
 			this.tabPage5 = new System.Windows.Forms.TabPage();
-			this.lessonBindingSource = new System.Windows.Forms.BindingSource(this.components);
-			this.timeTableDataSet1 = new DataLessonsCours3.timeTableDataSet1();
+			this.dataGridViewLesson = new Guna.UI2.WinForms.Guna2DataGridView();
+			this.cathedraDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.fullNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.shortNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.idlessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.linkMudlDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.lessonBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+			this.timeTableDataSet5 = new DataLessonsCours3.timeTableDataSet5();
 			this.gunaGradient2Panel3 = new Guna.UI.WinForms.GunaGradient2Panel();
 			this.deleteLesson = new Guna.UI2.WinForms.Guna2Button();
 			this.updateLesson = new Guna.UI2.WinForms.Guna2Button();
@@ -107,6 +156,8 @@
 			this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
 			this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
 			this.label3 = new System.Windows.Forms.Label();
+			this.lessonBindingSource = new System.Windows.Forms.BindingSource(this.components);
+			this.timeTableDataSet1 = new DataLessonsCours3.timeTableDataSet1();
 			this.teacherBindingSource = new System.Windows.Forms.BindingSource(this.components);
 			this.teacherTableAdapter = new DataLessonsCours3.timeTableDataSetTableAdapters.TeacherTableAdapter();
 			this.timeTableTeacher = new DataLessonsCours3.timeTableTeacher();
@@ -114,67 +165,20 @@
 			this.teacherTableAdapter1 = new DataLessonsCours3.timeTableTeacherTableAdapters.TeacherTableAdapter();
 			this.lessonTableAdapter = new DataLessonsCours3.timeTableDataSet1TableAdapters.LessonTableAdapter();
 			this.officeTableAdapter = new DataLessonsCours3.timeTableDataSet2TableAdapters.OfficeTableAdapter();
-			this.cbGroupStudent = new Guna.UI2.WinForms.Guna2ComboBox();
-			this.groupStudIdShortName = new DataLessonsCours3.GroupStudIdShortName();
-			this.groupStudentBindingSource = new System.Windows.Forms.BindingSource(this.components);
 			this.groupStudentTableAdapter = new DataLessonsCours3.GroupStudIdShortNameTableAdapters.GroupStudentTableAdapter();
-			this.lbGroup = new System.Windows.Forms.Label();
-			this.label4 = new System.Windows.Forms.Label();
-			this.cbWeek = new Guna.UI2.WinForms.Guna2ComboBox();
-			this.timeTableDataSet4 = new DataLessonsCours3.timeTableDataSet4();
-			this.weekBindingSource = new System.Windows.Forms.BindingSource(this.components);
 			this.weekTableAdapter = new DataLessonsCours3.timeTableDataSet4TableAdapters.WeekTableAdapter();
 			this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
 			this.teacherTableAdapter2 = new DataLessonsCours3.timeTableDataSetTableAdapters.TeacherTableAdapter();
-			this.timeTableDataSet5 = new DataLessonsCours3.timeTableDataSet5();
-			this.lessonBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
 			this.lessonTableAdapter1 = new DataLessonsCours3.timeTableDataSet5TableAdapters.LessonTableAdapter();
-			this.dataGridViewLesson = new Guna.UI2.WinForms.Guna2DataGridView();
-			this.cathedraDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.fullNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.shortNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.idlessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.linkMudlDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.gunaGradient2Panel4 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.gunaGradient2Panel5 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.label5 = new System.Windows.Forms.Label();
-			this.label6 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
-			this.label8 = new System.Windows.Forms.Label();
-			this.label9 = new System.Windows.Forms.Label();
-			this.link5 = new System.Windows.Forms.PictureBox();
-			this.link4 = new System.Windows.Forms.PictureBox();
-			this.link3 = new System.Windows.Forms.PictureBox();
-			this.link2 = new System.Windows.Forms.PictureBox();
-			this.link1 = new System.Windows.Forms.PictureBox();
-			this.nameDayLabel = new System.Windows.Forms.Label();
-			this.lbMonday1 = new System.Windows.Forms.Label();
-			this.lbMonday2 = new System.Windows.Forms.Label();
-			this.lbMonday3 = new System.Windows.Forms.Label();
-			this.lbMonday4 = new System.Windows.Forms.Label();
-			this.lbMonday5 = new System.Windows.Forms.Label();
-			this.gunaGradient2Panel6 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.cbCahedra = new Guna.UI2.WinForms.Guna2ComboBox();
-			this.timeTableDataSet6 = new DataLessonsCours3.timeTableDataSet6();
-			this.lessonBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
 			this.lessonTableAdapter2 = new DataLessonsCours3.timeTableDataSet6TableAdapters.LessonTableAdapter();
-			this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-			this.timeTableDataSet7 = new DataLessonsCours3.timeTableDataSet7();
-			this.officeBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
 			this.officeTableAdapter1 = new DataLessonsCours3.timeTableDataSet7TableAdapters.OfficeTableAdapter();
-			this.tbListTeacher = new Guna.UI2.WinForms.Guna2TextBox();
-			this.guna2CustomCheckBox1 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-			this.label10 = new System.Windows.Forms.Label();
-			this.addTeacher1 = new Guna.UI2.WinForms.Guna2Button();
-			this.label11 = new System.Windows.Forms.Label();
-			this.cbWeekEdit = new Guna.UI2.WinForms.Guna2ComboBox();
-			this.label12 = new System.Windows.Forms.Label();
-			this.cbGroupEdit = new Guna.UI2.WinForms.Guna2ComboBox();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.navigationPanel.SuspendLayout();
 			this.gunaGradient2Panel1.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.weekBindingSource)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.groupStudentBindingSource)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.groupStudIdShortName)).BeginInit();
 			this.viewDaysTabPanel.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			this.gunaGradient2Panel21.SuspendLayout();
@@ -183,7 +187,19 @@
 			this.tabPage2.SuspendLayout();
 			this.gunaGradient2Panel20.SuspendLayout();
 			this.flowLayoutPanel3.SuspendLayout();
+			this.gunaGradient2Panel6.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet6)).BeginInit();
 			this.flEditDay.SuspendLayout();
+			this.gunaGradient2Panel4.SuspendLayout();
+			this.gunaGradient2Panel5.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.link5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.link4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.link3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.link2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.link1)).BeginInit();
 			this.tabPage3.SuspendLayout();
 			this.gunaGradient2Panel24.SuspendLayout();
 			this.tabPage4.SuspendLayout();
@@ -193,36 +209,20 @@
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet)).BeginInit();
 			this.gunaGradient2Panel2.SuspendLayout();
 			this.tabPage5.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.dataGridViewLesson)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet5)).BeginInit();
 			this.gunaGradient2Panel3.SuspendLayout();
 			this.tabPage6.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView4)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet2)).BeginInit();
 			this.gunaGradient2Panel8.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.teacherBindingSource)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableTeacher)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.teacherBindingSource2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.groupStudIdShortName)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.groupStudentBindingSource)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.weekBindingSource)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.dataGridViewLesson)).BeginInit();
-			this.gunaGradient2Panel4.SuspendLayout();
-			this.gunaGradient2Panel5.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.link5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.link4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.link3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.link2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.link1)).BeginInit();
-			this.gunaGradient2Panel6.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet6)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet7)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// pictureBox1
@@ -353,6 +353,7 @@
 			this.LogIn.Size = new System.Drawing.Size(213, 55);
 			this.LogIn.TabIndex = 2;
 			this.LogIn.Text = "Войти";
+			this.LogIn.Click += new System.EventHandler(this.LogIn_Click);
 			// 
 			// gunaGradient2Panel1
 			// 
@@ -371,6 +372,98 @@
 			this.gunaGradient2Panel1.Radius = 15;
 			this.gunaGradient2Panel1.Size = new System.Drawing.Size(1656, 73);
 			this.gunaGradient2Panel1.TabIndex = 4;
+			// 
+			// label11
+			// 
+			this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label11.ForeColor = System.Drawing.Color.White;
+			this.label11.Location = new System.Drawing.Point(358, 21);
+			this.label11.Name = "label11";
+			this.label11.Size = new System.Drawing.Size(104, 29);
+			this.label11.TabIndex = 7;
+			this.label11.Text = "Неделя:";
+			// 
+			// cbWeekEdit
+			// 
+			this.cbWeekEdit.BackColor = System.Drawing.Color.Transparent;
+			this.cbWeekEdit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(238)))), ((int)(((byte)(200)))));
+			this.cbWeekEdit.BorderRadius = 5;
+			this.cbWeekEdit.DataSource = this.weekBindingSource;
+			this.cbWeekEdit.DisplayMember = "nameWeek";
+			this.cbWeekEdit.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbWeekEdit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbWeekEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbWeekEdit.FocusedColor = System.Drawing.Color.Empty;
+			this.cbWeekEdit.FocusedState.Parent = this.cbWeekEdit;
+			this.cbWeekEdit.Font = new System.Drawing.Font("Segoe UI", 10F);
+			this.cbWeekEdit.ForeColor = System.Drawing.Color.Black;
+			this.cbWeekEdit.FormattingEnabled = true;
+			this.cbWeekEdit.HoverState.Parent = this.cbWeekEdit;
+			this.cbWeekEdit.ItemHeight = 30;
+			this.cbWeekEdit.ItemsAppearance.Parent = this.cbWeekEdit;
+			this.cbWeekEdit.Location = new System.Drawing.Point(466, 20);
+			this.cbWeekEdit.Name = "cbWeekEdit";
+			this.cbWeekEdit.ShadowDecoration.Parent = this.cbWeekEdit;
+			this.cbWeekEdit.Size = new System.Drawing.Size(140, 36);
+			this.cbWeekEdit.TabIndex = 6;
+			this.cbWeekEdit.ValueMember = "id_week";
+			this.cbWeekEdit.SelectedIndexChanged += new System.EventHandler(this.cbWeekEdit_SelectedIndexChanged);
+			// 
+			// weekBindingSource
+			// 
+			this.weekBindingSource.DataMember = "Week";
+			this.weekBindingSource.DataSource = this.timeTableDataSet4;
+			// 
+			// timeTableDataSet4
+			// 
+			this.timeTableDataSet4.DataSetName = "timeTableDataSet4";
+			this.timeTableDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// label12
+			// 
+			this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label12.ForeColor = System.Drawing.Color.White;
+			this.label12.Location = new System.Drawing.Point(16, 21);
+			this.label12.Name = "label12";
+			this.label12.Size = new System.Drawing.Size(104, 29);
+			this.label12.TabIndex = 5;
+			this.label12.Text = "Группа:";
+			// 
+			// cbGroupEdit
+			// 
+			this.cbGroupEdit.BackColor = System.Drawing.Color.Transparent;
+			this.cbGroupEdit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(238)))), ((int)(((byte)(200)))));
+			this.cbGroupEdit.BorderRadius = 5;
+			this.cbGroupEdit.DataSource = this.groupStudentBindingSource;
+			this.cbGroupEdit.DisplayMember = "shortNameGroup";
+			this.cbGroupEdit.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbGroupEdit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbGroupEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbGroupEdit.FocusedColor = System.Drawing.Color.Empty;
+			this.cbGroupEdit.FocusedState.Parent = this.cbGroupEdit;
+			this.cbGroupEdit.Font = new System.Drawing.Font("Segoe UI", 10F);
+			this.cbGroupEdit.ForeColor = System.Drawing.Color.Black;
+			this.cbGroupEdit.FormattingEnabled = true;
+			this.cbGroupEdit.HoverState.Parent = this.cbGroupEdit;
+			this.cbGroupEdit.ItemHeight = 30;
+			this.cbGroupEdit.ItemsAppearance.Parent = this.cbGroupEdit;
+			this.cbGroupEdit.Location = new System.Drawing.Point(124, 20);
+			this.cbGroupEdit.Name = "cbGroupEdit";
+			this.cbGroupEdit.ShadowDecoration.Parent = this.cbGroupEdit;
+			this.cbGroupEdit.Size = new System.Drawing.Size(210, 36);
+			this.cbGroupEdit.TabIndex = 4;
+			this.cbGroupEdit.ValueMember = "idGroup";
+			this.cbGroupEdit.SelectedIndexChanged += new System.EventHandler(this.cbGroupEdit_SelectedIndexChanged);
+			// 
+			// groupStudentBindingSource
+			// 
+			this.groupStudentBindingSource.DataMember = "GroupStudent";
+			this.groupStudentBindingSource.DataSource = this.groupStudIdShortName;
+			// 
+			// groupStudIdShortName
+			// 
+			this.groupStudIdShortName.DataSetName = "GroupStudIdShortName";
+			this.groupStudIdShortName.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
 			// 
 			// viewDaysTabPanel
 			// 
@@ -430,6 +523,76 @@
 			this.gunaGradient2Panel21.Radius = 15;
 			this.gunaGradient2Panel21.Size = new System.Drawing.Size(1656, 73);
 			this.gunaGradient2Panel21.TabIndex = 5;
+			// 
+			// label4
+			// 
+			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label4.ForeColor = System.Drawing.Color.White;
+			this.label4.Location = new System.Drawing.Point(465, 18);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(104, 29);
+			this.label4.TabIndex = 3;
+			this.label4.Text = "Неделя:";
+			// 
+			// cbWeek
+			// 
+			this.cbWeek.BackColor = System.Drawing.Color.Transparent;
+			this.cbWeek.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(238)))), ((int)(((byte)(200)))));
+			this.cbWeek.BorderRadius = 5;
+			this.cbWeek.DataSource = this.weekBindingSource;
+			this.cbWeek.DisplayMember = "nameWeek";
+			this.cbWeek.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbWeek.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbWeek.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbWeek.FocusedColor = System.Drawing.Color.Empty;
+			this.cbWeek.FocusedState.Parent = this.cbWeek;
+			this.cbWeek.Font = new System.Drawing.Font("Segoe UI", 10F);
+			this.cbWeek.ForeColor = System.Drawing.Color.Black;
+			this.cbWeek.FormattingEnabled = true;
+			this.cbWeek.HoverState.Parent = this.cbWeek;
+			this.cbWeek.ItemHeight = 30;
+			this.cbWeek.ItemsAppearance.Parent = this.cbWeek;
+			this.cbWeek.Location = new System.Drawing.Point(573, 17);
+			this.cbWeek.Name = "cbWeek";
+			this.cbWeek.ShadowDecoration.Parent = this.cbWeek;
+			this.cbWeek.Size = new System.Drawing.Size(140, 36);
+			this.cbWeek.TabIndex = 2;
+			this.cbWeek.ValueMember = "id_week";
+			// 
+			// lbGroup
+			// 
+			this.lbGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbGroup.ForeColor = System.Drawing.Color.White;
+			this.lbGroup.Location = new System.Drawing.Point(123, 18);
+			this.lbGroup.Name = "lbGroup";
+			this.lbGroup.Size = new System.Drawing.Size(104, 29);
+			this.lbGroup.TabIndex = 1;
+			this.lbGroup.Text = "Группа:";
+			// 
+			// cbGroupStudent
+			// 
+			this.cbGroupStudent.BackColor = System.Drawing.Color.Transparent;
+			this.cbGroupStudent.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(238)))), ((int)(((byte)(200)))));
+			this.cbGroupStudent.BorderRadius = 5;
+			this.cbGroupStudent.DataSource = this.groupStudentBindingSource;
+			this.cbGroupStudent.DisplayMember = "shortNameGroup";
+			this.cbGroupStudent.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbGroupStudent.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbGroupStudent.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbGroupStudent.FocusedColor = System.Drawing.Color.Empty;
+			this.cbGroupStudent.FocusedState.Parent = this.cbGroupStudent;
+			this.cbGroupStudent.Font = new System.Drawing.Font("Segoe UI", 10F);
+			this.cbGroupStudent.ForeColor = System.Drawing.Color.Black;
+			this.cbGroupStudent.FormattingEnabled = true;
+			this.cbGroupStudent.HoverState.Parent = this.cbGroupStudent;
+			this.cbGroupStudent.ItemHeight = 30;
+			this.cbGroupStudent.ItemsAppearance.Parent = this.cbGroupStudent;
+			this.cbGroupStudent.Location = new System.Drawing.Point(231, 17);
+			this.cbGroupStudent.Name = "cbGroupStudent";
+			this.cbGroupStudent.ShadowDecoration.Parent = this.cbGroupStudent;
+			this.cbGroupStudent.Size = new System.Drawing.Size(210, 36);
+			this.cbGroupStudent.TabIndex = 0;
+			this.cbGroupStudent.ValueMember = "idGroup";
 			// 
 			// mainLayout
 			// 
@@ -724,6 +887,177 @@
 			this.gunaButton6.TabIndex = 5;
 			this.gunaButton6.Text = "СБ";
 			// 
+			// gunaGradient2Panel6
+			// 
+			this.gunaGradient2Panel6.BackColor = System.Drawing.Color.Transparent;
+			this.gunaGradient2Panel6.Controls.Add(this.addTeacher1);
+			this.gunaGradient2Panel6.Controls.Add(this.label10);
+			this.gunaGradient2Panel6.Controls.Add(this.guna2CustomCheckBox1);
+			this.gunaGradient2Panel6.Controls.Add(this.tbListTeacher);
+			this.gunaGradient2Panel6.Controls.Add(this.guna2ComboBox1);
+			this.gunaGradient2Panel6.Controls.Add(this.cbCahedra);
+			this.gunaGradient2Panel6.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.gunaGradient2Panel6.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.gunaGradient2Panel6.Location = new System.Drawing.Point(15, 98);
+			this.gunaGradient2Panel6.Margin = new System.Windows.Forms.Padding(4);
+			this.gunaGradient2Panel6.Name = "gunaGradient2Panel6";
+			this.gunaGradient2Panel6.Radius = 10;
+			this.gunaGradient2Panel6.Size = new System.Drawing.Size(462, 136);
+			this.gunaGradient2Panel6.TabIndex = 20;
+			// 
+			// addTeacher1
+			// 
+			this.addTeacher1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.addTeacher1.BorderRadius = 5;
+			this.addTeacher1.BorderThickness = 2;
+			this.addTeacher1.CheckedState.Parent = this.addTeacher1;
+			this.addTeacher1.CustomImages.Parent = this.addTeacher1;
+			this.addTeacher1.FillColor = System.Drawing.Color.Transparent;
+			this.addTeacher1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.addTeacher1.ForeColor = System.Drawing.Color.White;
+			this.addTeacher1.HoverState.Parent = this.addTeacher1;
+			this.addTeacher1.Location = new System.Drawing.Point(286, 68);
+			this.addTeacher1.Name = "addTeacher1";
+			this.addTeacher1.ShadowDecoration.Parent = this.addTeacher1;
+			this.addTeacher1.Size = new System.Drawing.Size(49, 41);
+			this.addTeacher1.TabIndex = 21;
+			this.addTeacher1.Text = "+";
+			this.addTeacher1.Click += new System.EventHandler(this.addTeacher1_Click);
+			// 
+			// label10
+			// 
+			this.label10.AutoSize = true;
+			this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label10.ForeColor = System.Drawing.Color.White;
+			this.label10.Location = new System.Drawing.Point(374, 74);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(88, 25);
+			this.label10.TabIndex = 20;
+			this.label10.Text = "Лекция";
+			// 
+			// guna2CustomCheckBox1
+			// 
+			this.guna2CustomCheckBox1.Animated = true;
+			this.guna2CustomCheckBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.guna2CustomCheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.guna2CustomCheckBox1.CheckedState.BorderRadius = 2;
+			this.guna2CustomCheckBox1.CheckedState.BorderThickness = 3;
+			this.guna2CustomCheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.guna2CustomCheckBox1.CheckedState.Parent = this.guna2CustomCheckBox1;
+			this.guna2CustomCheckBox1.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.guna2CustomCheckBox1.Location = new System.Drawing.Point(343, 73);
+			this.guna2CustomCheckBox1.Name = "guna2CustomCheckBox1";
+			this.guna2CustomCheckBox1.ShadowDecoration.Parent = this.guna2CustomCheckBox1;
+			this.guna2CustomCheckBox1.Size = new System.Drawing.Size(28, 29);
+			this.guna2CustomCheckBox1.TabIndex = 15;
+			this.guna2CustomCheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.guna2CustomCheckBox1.UncheckedState.BorderRadius = 2;
+			this.guna2CustomCheckBox1.UncheckedState.BorderThickness = 0;
+			this.guna2CustomCheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.guna2CustomCheckBox1.UncheckedState.Parent = this.guna2CustomCheckBox1;
+			// 
+			// tbListTeacher
+			// 
+			this.tbListTeacher.Animated = true;
+			this.tbListTeacher.BackColor = System.Drawing.Color.Transparent;
+			this.tbListTeacher.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.tbListTeacher.BorderRadius = 5;
+			this.tbListTeacher.BorderThickness = 2;
+			this.tbListTeacher.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.tbListTeacher.DefaultText = "";
+			this.tbListTeacher.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+			this.tbListTeacher.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+			this.tbListTeacher.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+			this.tbListTeacher.DisabledState.Parent = this.tbListTeacher;
+			this.tbListTeacher.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+			this.tbListTeacher.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.tbListTeacher.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.tbListTeacher.FocusedState.Parent = this.tbListTeacher;
+			this.tbListTeacher.Font = new System.Drawing.Font("Segoe UI", 7F);
+			this.tbListTeacher.ForeColor = System.Drawing.Color.Black;
+			this.tbListTeacher.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.tbListTeacher.HoverState.Parent = this.tbListTeacher;
+			this.tbListTeacher.Location = new System.Drawing.Point(135, 68);
+			this.tbListTeacher.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbListTeacher.MaxLength = 50;
+			this.tbListTeacher.Name = "tbListTeacher";
+			this.tbListTeacher.PasswordChar = '\0';
+			this.tbListTeacher.PlaceholderText = "";
+			this.tbListTeacher.SelectedText = "";
+			this.tbListTeacher.ShadowDecoration.Parent = this.tbListTeacher;
+			this.tbListTeacher.Size = new System.Drawing.Size(144, 41);
+			this.tbListTeacher.TabIndex = 13;
+			// 
+			// guna2ComboBox1
+			// 
+			this.guna2ComboBox1.Animated = true;
+			this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+			this.guna2ComboBox1.DataSource = this.officeBindingSource1;
+			this.guna2ComboBox1.DisplayMember = "id_office";
+			this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.guna2ComboBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.guna2ComboBox1.FocusedColor = System.Drawing.Color.Empty;
+			this.guna2ComboBox1.FocusedState.Parent = this.guna2ComboBox1;
+			this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+			this.guna2ComboBox1.ForeColor = System.Drawing.Color.Black;
+			this.guna2ComboBox1.FormattingEnabled = true;
+			this.guna2ComboBox1.HoverState.Parent = this.guna2ComboBox1;
+			this.guna2ComboBox1.ItemHeight = 30;
+			this.guna2ComboBox1.ItemsAppearance.Parent = this.guna2ComboBox1;
+			this.guna2ComboBox1.Location = new System.Drawing.Point(10, 71);
+			this.guna2ComboBox1.MaxLength = 150;
+			this.guna2ComboBox1.Name = "guna2ComboBox1";
+			this.guna2ComboBox1.ShadowDecoration.Parent = this.guna2ComboBox1;
+			this.guna2ComboBox1.Size = new System.Drawing.Size(118, 36);
+			this.guna2ComboBox1.TabIndex = 12;
+			this.guna2ComboBox1.ValueMember = "id_cathedra";
+			// 
+			// officeBindingSource1
+			// 
+			this.officeBindingSource1.DataMember = "Office";
+			this.officeBindingSource1.DataSource = this.timeTableDataSet7;
+			// 
+			// timeTableDataSet7
+			// 
+			this.timeTableDataSet7.DataSetName = "timeTableDataSet7";
+			this.timeTableDataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// cbCahedra
+			// 
+			this.cbCahedra.Animated = true;
+			this.cbCahedra.BackColor = System.Drawing.Color.Transparent;
+			this.cbCahedra.DataSource = this.lessonBindingSource2;
+			this.cbCahedra.DisplayMember = "shortNameLesson";
+			this.cbCahedra.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbCahedra.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbCahedra.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbCahedra.FocusedColor = System.Drawing.Color.Empty;
+			this.cbCahedra.FocusedState.Parent = this.cbCahedra;
+			this.cbCahedra.Font = new System.Drawing.Font("Segoe UI", 10F);
+			this.cbCahedra.ForeColor = System.Drawing.Color.Black;
+			this.cbCahedra.FormattingEnabled = true;
+			this.cbCahedra.HoverState.Parent = this.cbCahedra;
+			this.cbCahedra.ItemHeight = 30;
+			this.cbCahedra.ItemsAppearance.Parent = this.cbCahedra;
+			this.cbCahedra.Location = new System.Drawing.Point(10, 11);
+			this.cbCahedra.MaxLength = 150;
+			this.cbCahedra.Name = "cbCahedra";
+			this.cbCahedra.ShadowDecoration.Parent = this.cbCahedra;
+			this.cbCahedra.Size = new System.Drawing.Size(435, 36);
+			this.cbCahedra.TabIndex = 11;
+			this.cbCahedra.ValueMember = "id_cathedra";
+			// 
+			// lessonBindingSource2
+			// 
+			this.lessonBindingSource2.DataMember = "Lesson";
+			this.lessonBindingSource2.DataSource = this.timeTableDataSet6;
+			// 
+			// timeTableDataSet6
+			// 
+			this.timeTableDataSet6.DataSetName = "timeTableDataSet6";
+			this.timeTableDataSet6.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
 			// flEditDay
 			// 
 			this.flEditDay.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -737,6 +1071,231 @@
 			this.flEditDay.Size = new System.Drawing.Size(1151, 539);
 			this.flEditDay.TabIndex = 0;
 			// 
+			// gunaGradient2Panel4
+			// 
+			this.gunaGradient2Panel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.gunaGradient2Panel4.BackColor = System.Drawing.Color.Transparent;
+			this.gunaGradient2Panel4.Controls.Add(this.gunaGradient2Panel5);
+			this.gunaGradient2Panel4.Controls.Add(this.nameDayLabel);
+			this.gunaGradient2Panel4.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
+			this.gunaGradient2Panel4.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
+			this.gunaGradient2Panel4.Location = new System.Drawing.Point(20, 18);
+			this.gunaGradient2Panel4.Margin = new System.Windows.Forms.Padding(20, 18, 20, 18);
+			this.gunaGradient2Panel4.Name = "gunaGradient2Panel4";
+			this.gunaGradient2Panel4.Radius = 10;
+			this.gunaGradient2Panel4.Size = new System.Drawing.Size(584, 303);
+			this.gunaGradient2Panel4.TabIndex = 9;
+			// 
+			// gunaGradient2Panel5
+			// 
+			this.gunaGradient2Panel5.BackColor = System.Drawing.Color.Transparent;
+			this.gunaGradient2Panel5.Controls.Add(this.lbMonday5);
+			this.gunaGradient2Panel5.Controls.Add(this.lbMonday4);
+			this.gunaGradient2Panel5.Controls.Add(this.lbMonday3);
+			this.gunaGradient2Panel5.Controls.Add(this.lbMonday2);
+			this.gunaGradient2Panel5.Controls.Add(this.lbMonday1);
+			this.gunaGradient2Panel5.Controls.Add(this.label5);
+			this.gunaGradient2Panel5.Controls.Add(this.label6);
+			this.gunaGradient2Panel5.Controls.Add(this.label7);
+			this.gunaGradient2Panel5.Controls.Add(this.label8);
+			this.gunaGradient2Panel5.Controls.Add(this.label9);
+			this.gunaGradient2Panel5.Controls.Add(this.link5);
+			this.gunaGradient2Panel5.Controls.Add(this.link4);
+			this.gunaGradient2Panel5.Controls.Add(this.link3);
+			this.gunaGradient2Panel5.Controls.Add(this.link2);
+			this.gunaGradient2Panel5.Controls.Add(this.link1);
+			this.gunaGradient2Panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.gunaGradient2Panel5.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
+			this.gunaGradient2Panel5.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
+			this.gunaGradient2Panel5.Location = new System.Drawing.Point(0, 42);
+			this.gunaGradient2Panel5.Margin = new System.Windows.Forms.Padding(4);
+			this.gunaGradient2Panel5.Name = "gunaGradient2Panel5";
+			this.gunaGradient2Panel5.Radius = 10;
+			this.gunaGradient2Panel5.Size = new System.Drawing.Size(584, 261);
+			this.gunaGradient2Panel5.TabIndex = 1;
+			// 
+			// lbMonday5
+			// 
+			this.lbMonday5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lbMonday5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbMonday5.ForeColor = System.Drawing.Color.Black;
+			this.lbMonday5.Location = new System.Drawing.Point(42, 205);
+			this.lbMonday5.Name = "lbMonday5";
+			this.lbMonday5.Size = new System.Drawing.Size(461, 36);
+			this.lbMonday5.TabIndex = 19;
+			this.lbMonday5.Text = "ТРПО Дарья Евгеньевна";
+			this.lbMonday5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// lbMonday4
+			// 
+			this.lbMonday4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lbMonday4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbMonday4.ForeColor = System.Drawing.Color.Black;
+			this.lbMonday4.Location = new System.Drawing.Point(42, 158);
+			this.lbMonday4.Name = "lbMonday4";
+			this.lbMonday4.Size = new System.Drawing.Size(461, 36);
+			this.lbMonday4.TabIndex = 18;
+			this.lbMonday4.Text = "ТРПО Дарья Евгеньевна";
+			this.lbMonday4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// lbMonday3
+			// 
+			this.lbMonday3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lbMonday3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbMonday3.ForeColor = System.Drawing.Color.Black;
+			this.lbMonday3.Location = new System.Drawing.Point(42, 111);
+			this.lbMonday3.Name = "lbMonday3";
+			this.lbMonday3.Size = new System.Drawing.Size(461, 36);
+			this.lbMonday3.TabIndex = 17;
+			this.lbMonday3.Text = "ТРПО Дарья Евгеньевна";
+			this.lbMonday3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// lbMonday2
+			// 
+			this.lbMonday2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lbMonday2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbMonday2.ForeColor = System.Drawing.Color.Black;
+			this.lbMonday2.Location = new System.Drawing.Point(42, 63);
+			this.lbMonday2.Name = "lbMonday2";
+			this.lbMonday2.Size = new System.Drawing.Size(461, 36);
+			this.lbMonday2.TabIndex = 16;
+			this.lbMonday2.Text = "ТРПО Дарья Евгеньевна";
+			this.lbMonday2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// lbMonday1
+			// 
+			this.lbMonday1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lbMonday1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.lbMonday1.ForeColor = System.Drawing.Color.Black;
+			this.lbMonday1.Location = new System.Drawing.Point(42, 12);
+			this.lbMonday1.Name = "lbMonday1";
+			this.lbMonday1.Size = new System.Drawing.Size(461, 36);
+			this.lbMonday1.TabIndex = 6;
+			this.lbMonday1.Text = "ТРПО Дарья Евгеньевна";
+			this.lbMonday1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// label5
+			// 
+			this.label5.AutoSize = true;
+			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label5.ForeColor = System.Drawing.Color.White;
+			this.label5.Location = new System.Drawing.Point(9, 212);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(27, 29);
+			this.label5.TabIndex = 15;
+			this.label5.Text = "5";
+			// 
+			// label6
+			// 
+			this.label6.AutoSize = true;
+			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label6.ForeColor = System.Drawing.Color.White;
+			this.label6.Location = new System.Drawing.Point(9, 162);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(27, 29);
+			this.label6.TabIndex = 14;
+			this.label6.Text = "4";
+			// 
+			// label7
+			// 
+			this.label7.AutoSize = true;
+			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label7.ForeColor = System.Drawing.Color.White;
+			this.label7.Location = new System.Drawing.Point(9, 111);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(27, 29);
+			this.label7.TabIndex = 13;
+			this.label7.Text = "3";
+			// 
+			// label8
+			// 
+			this.label8.AutoSize = true;
+			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label8.ForeColor = System.Drawing.Color.White;
+			this.label8.Location = new System.Drawing.Point(9, 63);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(27, 29);
+			this.label8.TabIndex = 12;
+			this.label8.Text = "2";
+			// 
+			// label9
+			// 
+			this.label9.AutoSize = true;
+			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label9.ForeColor = System.Drawing.Color.White;
+			this.label9.Location = new System.Drawing.Point(9, 14);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(27, 29);
+			this.label9.TabIndex = 11;
+			this.label9.Text = "1";
+			// 
+			// link5
+			// 
+			this.link5.Image = ((System.Drawing.Image)(resources.GetObject("link5.Image")));
+			this.link5.Location = new System.Drawing.Point(521, 207);
+			this.link5.Margin = new System.Windows.Forms.Padding(4);
+			this.link5.Name = "link5";
+			this.link5.Size = new System.Drawing.Size(43, 39);
+			this.link5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.link5.TabIndex = 9;
+			this.link5.TabStop = false;
+			// 
+			// link4
+			// 
+			this.link4.Image = ((System.Drawing.Image)(resources.GetObject("link4.Image")));
+			this.link4.Location = new System.Drawing.Point(521, 156);
+			this.link4.Margin = new System.Windows.Forms.Padding(4);
+			this.link4.Name = "link4";
+			this.link4.Size = new System.Drawing.Size(43, 39);
+			this.link4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.link4.TabIndex = 7;
+			this.link4.TabStop = false;
+			// 
+			// link3
+			// 
+			this.link3.Image = ((System.Drawing.Image)(resources.GetObject("link3.Image")));
+			this.link3.Location = new System.Drawing.Point(521, 106);
+			this.link3.Margin = new System.Windows.Forms.Padding(4);
+			this.link3.Name = "link3";
+			this.link3.Size = new System.Drawing.Size(43, 39);
+			this.link3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.link3.TabIndex = 5;
+			this.link3.TabStop = false;
+			// 
+			// link2
+			// 
+			this.link2.Image = ((System.Drawing.Image)(resources.GetObject("link2.Image")));
+			this.link2.Location = new System.Drawing.Point(521, 58);
+			this.link2.Margin = new System.Windows.Forms.Padding(4);
+			this.link2.Name = "link2";
+			this.link2.Size = new System.Drawing.Size(43, 39);
+			this.link2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.link2.TabIndex = 3;
+			this.link2.TabStop = false;
+			// 
+			// link1
+			// 
+			this.link1.Image = ((System.Drawing.Image)(resources.GetObject("link1.Image")));
+			this.link1.Location = new System.Drawing.Point(521, 9);
+			this.link1.Margin = new System.Windows.Forms.Padding(4);
+			this.link1.Name = "link1";
+			this.link1.Size = new System.Drawing.Size(43, 39);
+			this.link1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.link1.TabIndex = 1;
+			this.link1.TabStop = false;
+			// 
+			// nameDayLabel
+			// 
+			this.nameDayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.nameDayLabel.ForeColor = System.Drawing.Color.White;
+			this.nameDayLabel.Location = new System.Drawing.Point(0, 5);
+			this.nameDayLabel.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
+			this.nameDayLabel.Name = "nameDayLabel";
+			this.nameDayLabel.Size = new System.Drawing.Size(293, 31);
+			this.nameDayLabel.TabIndex = 5;
+			this.nameDayLabel.Text = "Понедельник";
+			this.nameDayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
 			// tabPage3
 			// 
 			this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
@@ -746,7 +1305,7 @@
 			this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
 			this.tabPage3.Name = "tabPage3";
 			this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
-			this.tabPage3.Size = new System.Drawing.Size(1619, 628);
+			this.tabPage3.Size = new System.Drawing.Size(1680, 628);
 			this.tabPage3.TabIndex = 2;
 			this.tabPage3.Text = "tabPage3";
 			// 
@@ -853,6 +1412,7 @@
 			this.dataGridTeacher.Location = new System.Drawing.Point(3, 95);
 			this.dataGridTeacher.Name = "dataGridTeacher";
 			this.dataGridTeacher.ReadOnly = true;
+			this.dataGridTeacher.RowHeadersVisible = false;
 			this.dataGridTeacher.RowHeadersWidth = 51;
 			this.dataGridTeacher.RowTemplate.Height = 24;
 			this.dataGridTeacher.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -1028,15 +1588,146 @@
 			this.tabPage5.TabIndex = 4;
 			this.tabPage5.Text = "tabPage5";
 			// 
-			// lessonBindingSource
+			// dataGridViewLesson
 			// 
-			this.lessonBindingSource.DataMember = "Lesson";
-			this.lessonBindingSource.DataSource = this.timeTableDataSet1;
+			this.dataGridViewLesson.AllowUserToAddRows = false;
+			this.dataGridViewLesson.AllowUserToDeleteRows = false;
+			dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+			this.dataGridViewLesson.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+			this.dataGridViewLesson.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.dataGridViewLesson.AutoGenerateColumns = false;
+			this.dataGridViewLesson.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+			this.dataGridViewLesson.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
+			this.dataGridViewLesson.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.dataGridViewLesson.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+			this.dataGridViewLesson.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+			dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+			dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+			dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.dataGridViewLesson.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+			this.dataGridViewLesson.ColumnHeadersHeight = 27;
+			this.dataGridViewLesson.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.cathedraDataGridViewTextBoxColumn1,
+            this.fullNameLessonDataGridViewTextBoxColumn,
+            this.shortNameLessonDataGridViewTextBoxColumn,
+            this.numberPracticeHoursSemesterDataGridViewTextBoxColumn,
+            this.numberLectureHoursSemesterDataGridViewTextBoxColumn,
+            this.idlessonDataGridViewTextBoxColumn,
+            this.linkMudlDataGridViewTextBoxColumn});
+			this.dataGridViewLesson.DataSource = this.lessonBindingSource1;
+			dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.dataGridViewLesson.DefaultCellStyle = dataGridViewCellStyle9;
+			this.dataGridViewLesson.EnableHeadersVisualStyles = false;
+			this.dataGridViewLesson.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			this.dataGridViewLesson.Location = new System.Drawing.Point(7, 95);
+			this.dataGridViewLesson.Name = "dataGridViewLesson";
+			this.dataGridViewLesson.ReadOnly = true;
+			this.dataGridViewLesson.RowHeadersVisible = false;
+			this.dataGridViewLesson.RowHeadersWidth = 51;
+			this.dataGridViewLesson.RowTemplate.Height = 24;
+			this.dataGridViewLesson.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+			this.dataGridViewLesson.Size = new System.Drawing.Size(1666, 527);
+			this.dataGridViewLesson.TabIndex = 8;
+			this.dataGridViewLesson.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
+			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.Font = null;
+			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+			this.dataGridViewLesson.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
+			this.dataGridViewLesson.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			this.dataGridViewLesson.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+			this.dataGridViewLesson.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+			this.dataGridViewLesson.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			this.dataGridViewLesson.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+			this.dataGridViewLesson.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+			this.dataGridViewLesson.ThemeStyle.HeaderStyle.Height = 27;
+			this.dataGridViewLesson.ThemeStyle.ReadOnly = true;
+			this.dataGridViewLesson.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+			this.dataGridViewLesson.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+			this.dataGridViewLesson.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			this.dataGridViewLesson.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			this.dataGridViewLesson.ThemeStyle.RowsStyle.Height = 24;
+			this.dataGridViewLesson.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			this.dataGridViewLesson.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
 			// 
-			// timeTableDataSet1
+			// cathedraDataGridViewTextBoxColumn1
 			// 
-			this.timeTableDataSet1.DataSetName = "timeTableDataSet1";
-			this.timeTableDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			this.cathedraDataGridViewTextBoxColumn1.DataPropertyName = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn1.HeaderText = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn1.MinimumWidth = 6;
+			this.cathedraDataGridViewTextBoxColumn1.Name = "cathedraDataGridViewTextBoxColumn1";
+			this.cathedraDataGridViewTextBoxColumn1.ReadOnly = true;
+			// 
+			// fullNameLessonDataGridViewTextBoxColumn
+			// 
+			this.fullNameLessonDataGridViewTextBoxColumn.DataPropertyName = "fullNameLesson";
+			this.fullNameLessonDataGridViewTextBoxColumn.HeaderText = "fullNameLesson";
+			this.fullNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.fullNameLessonDataGridViewTextBoxColumn.Name = "fullNameLessonDataGridViewTextBoxColumn";
+			this.fullNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// shortNameLessonDataGridViewTextBoxColumn
+			// 
+			this.shortNameLessonDataGridViewTextBoxColumn.DataPropertyName = "shortNameLesson";
+			this.shortNameLessonDataGridViewTextBoxColumn.HeaderText = "shortNameLesson";
+			this.shortNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.shortNameLessonDataGridViewTextBoxColumn.Name = "shortNameLessonDataGridViewTextBoxColumn";
+			this.shortNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// numberPracticeHoursSemesterDataGridViewTextBoxColumn
+			// 
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberPracticeHoursSemester";
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberPracticeHoursSemester";
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.Name = "numberPracticeHoursSemesterDataGridViewTextBoxColumn";
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// numberLectureHoursSemesterDataGridViewTextBoxColumn
+			// 
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberLectureHoursSemester";
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberLectureHoursSemester";
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.Name = "numberLectureHoursSemesterDataGridViewTextBoxColumn";
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// idlessonDataGridViewTextBoxColumn
+			// 
+			this.idlessonDataGridViewTextBoxColumn.DataPropertyName = "id_lesson";
+			this.idlessonDataGridViewTextBoxColumn.HeaderText = "id_lesson";
+			this.idlessonDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.idlessonDataGridViewTextBoxColumn.Name = "idlessonDataGridViewTextBoxColumn";
+			this.idlessonDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// linkMudlDataGridViewTextBoxColumn
+			// 
+			this.linkMudlDataGridViewTextBoxColumn.DataPropertyName = "linkMudl";
+			this.linkMudlDataGridViewTextBoxColumn.HeaderText = "linkMudl";
+			this.linkMudlDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.linkMudlDataGridViewTextBoxColumn.Name = "linkMudlDataGridViewTextBoxColumn";
+			this.linkMudlDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// lessonBindingSource1
+			// 
+			this.lessonBindingSource1.DataMember = "Lesson";
+			this.lessonBindingSource1.DataSource = this.timeTableDataSet5;
+			// 
+			// timeTableDataSet5
+			// 
+			this.timeTableDataSet5.DataSetName = "timeTableDataSet5";
+			this.timeTableDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
 			// 
 			// gunaGradient2Panel3
 			// 
@@ -1126,7 +1817,7 @@
 			this.tabPage6.Location = new System.Drawing.Point(4, 20);
 			this.tabPage6.Name = "tabPage6";
 			this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage6.Size = new System.Drawing.Size(1619, 628);
+			this.tabPage6.Size = new System.Drawing.Size(1680, 628);
 			this.tabPage6.TabIndex = 5;
 			this.tabPage6.Text = "tabPage6";
 			// 
@@ -1146,7 +1837,7 @@
 			this.guna2DataGridView4.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
 			this.guna2DataGridView4.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
 			dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(70)))), ((int)(((byte)(121)))));
+			dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
 			dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 10.5F);
 			dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
 			dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
@@ -1330,6 +2021,16 @@
 			this.label3.TabIndex = 0;
 			this.label3.Text = "Справочник кабинеты";
 			// 
+			// lessonBindingSource
+			// 
+			this.lessonBindingSource.DataMember = "Lesson";
+			this.lessonBindingSource.DataSource = this.timeTableDataSet1;
+			// 
+			// timeTableDataSet1
+			// 
+			this.timeTableDataSet1.DataSetName = "timeTableDataSet1";
+			this.timeTableDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
 			// teacherBindingSource
 			// 
 			this.teacherBindingSource.DataMember = "Teacher";
@@ -1361,99 +2062,9 @@
 			// 
 			this.officeTableAdapter.ClearBeforeFill = true;
 			// 
-			// cbGroupStudent
-			// 
-			this.cbGroupStudent.BackColor = System.Drawing.Color.Transparent;
-			this.cbGroupStudent.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(238)))), ((int)(((byte)(200)))));
-			this.cbGroupStudent.BorderRadius = 5;
-			this.cbGroupStudent.DataSource = this.groupStudentBindingSource;
-			this.cbGroupStudent.DisplayMember = "shortNameGroup";
-			this.cbGroupStudent.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.cbGroupStudent.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cbGroupStudent.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.cbGroupStudent.FocusedColor = System.Drawing.Color.Empty;
-			this.cbGroupStudent.FocusedState.Parent = this.cbGroupStudent;
-			this.cbGroupStudent.Font = new System.Drawing.Font("Segoe UI", 10F);
-			this.cbGroupStudent.ForeColor = System.Drawing.Color.Black;
-			this.cbGroupStudent.FormattingEnabled = true;
-			this.cbGroupStudent.HoverState.Parent = this.cbGroupStudent;
-			this.cbGroupStudent.ItemHeight = 30;
-			this.cbGroupStudent.ItemsAppearance.Parent = this.cbGroupStudent;
-			this.cbGroupStudent.Location = new System.Drawing.Point(231, 17);
-			this.cbGroupStudent.Name = "cbGroupStudent";
-			this.cbGroupStudent.ShadowDecoration.Parent = this.cbGroupStudent;
-			this.cbGroupStudent.Size = new System.Drawing.Size(210, 36);
-			this.cbGroupStudent.TabIndex = 0;
-			this.cbGroupStudent.ValueMember = "idGroup";
-			// 
-			// groupStudIdShortName
-			// 
-			this.groupStudIdShortName.DataSetName = "GroupStudIdShortName";
-			this.groupStudIdShortName.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-			// 
-			// groupStudentBindingSource
-			// 
-			this.groupStudentBindingSource.DataMember = "GroupStudent";
-			this.groupStudentBindingSource.DataSource = this.groupStudIdShortName;
-			// 
 			// groupStudentTableAdapter
 			// 
 			this.groupStudentTableAdapter.ClearBeforeFill = true;
-			// 
-			// lbGroup
-			// 
-			this.lbGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbGroup.ForeColor = System.Drawing.Color.White;
-			this.lbGroup.Location = new System.Drawing.Point(123, 18);
-			this.lbGroup.Name = "lbGroup";
-			this.lbGroup.Size = new System.Drawing.Size(104, 29);
-			this.lbGroup.TabIndex = 1;
-			this.lbGroup.Text = "Группа:";
-			// 
-			// label4
-			// 
-			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label4.ForeColor = System.Drawing.Color.White;
-			this.label4.Location = new System.Drawing.Point(465, 18);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(104, 29);
-			this.label4.TabIndex = 3;
-			this.label4.Text = "Неделя:";
-			// 
-			// cbWeek
-			// 
-			this.cbWeek.BackColor = System.Drawing.Color.Transparent;
-			this.cbWeek.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(238)))), ((int)(((byte)(200)))));
-			this.cbWeek.BorderRadius = 5;
-			this.cbWeek.DataSource = this.weekBindingSource;
-			this.cbWeek.DisplayMember = "nameWeek";
-			this.cbWeek.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.cbWeek.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cbWeek.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.cbWeek.FocusedColor = System.Drawing.Color.Empty;
-			this.cbWeek.FocusedState.Parent = this.cbWeek;
-			this.cbWeek.Font = new System.Drawing.Font("Segoe UI", 10F);
-			this.cbWeek.ForeColor = System.Drawing.Color.Black;
-			this.cbWeek.FormattingEnabled = true;
-			this.cbWeek.HoverState.Parent = this.cbWeek;
-			this.cbWeek.ItemHeight = 30;
-			this.cbWeek.ItemsAppearance.Parent = this.cbWeek;
-			this.cbWeek.Location = new System.Drawing.Point(573, 17);
-			this.cbWeek.Name = "cbWeek";
-			this.cbWeek.ShadowDecoration.Parent = this.cbWeek;
-			this.cbWeek.Size = new System.Drawing.Size(140, 36);
-			this.cbWeek.TabIndex = 2;
-			this.cbWeek.ValueMember = "id_week";
-			// 
-			// timeTableDataSet4
-			// 
-			this.timeTableDataSet4.DataSetName = "timeTableDataSet4";
-			this.timeTableDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-			// 
-			// weekBindingSource
-			// 
-			this.weekBindingSource.DataMember = "Week";
-			this.weekBindingSource.DataSource = this.timeTableDataSet4;
 			// 
 			// weekTableAdapter
 			// 
@@ -1468,626 +2079,17 @@
 			// 
 			this.teacherTableAdapter2.ClearBeforeFill = true;
 			// 
-			// timeTableDataSet5
-			// 
-			this.timeTableDataSet5.DataSetName = "timeTableDataSet5";
-			this.timeTableDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-			// 
-			// lessonBindingSource1
-			// 
-			this.lessonBindingSource1.DataMember = "Lesson";
-			this.lessonBindingSource1.DataSource = this.timeTableDataSet5;
-			// 
 			// lessonTableAdapter1
 			// 
 			this.lessonTableAdapter1.ClearBeforeFill = true;
-			// 
-			// dataGridViewLesson
-			// 
-			this.dataGridViewLesson.AllowUserToAddRows = false;
-			this.dataGridViewLesson.AllowUserToDeleteRows = false;
-			dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-			this.dataGridViewLesson.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
-			this.dataGridViewLesson.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.dataGridViewLesson.AutoGenerateColumns = false;
-			this.dataGridViewLesson.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-			this.dataGridViewLesson.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.dataGridViewLesson.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.dataGridViewLesson.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-			this.dataGridViewLesson.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-			dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(70)))), ((int)(((byte)(121)))));
-			dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.dataGridViewLesson.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
-			this.dataGridViewLesson.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dataGridViewLesson.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.cathedraDataGridViewTextBoxColumn1,
-            this.fullNameLessonDataGridViewTextBoxColumn,
-            this.shortNameLessonDataGridViewTextBoxColumn,
-            this.numberPracticeHoursSemesterDataGridViewTextBoxColumn,
-            this.numberLectureHoursSemesterDataGridViewTextBoxColumn,
-            this.idlessonDataGridViewTextBoxColumn,
-            this.linkMudlDataGridViewTextBoxColumn});
-			this.dataGridViewLesson.DataSource = this.lessonBindingSource1;
-			dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.dataGridViewLesson.DefaultCellStyle = dataGridViewCellStyle9;
-			this.dataGridViewLesson.EnableHeadersVisualStyles = false;
-			this.dataGridViewLesson.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			this.dataGridViewLesson.Location = new System.Drawing.Point(7, 95);
-			this.dataGridViewLesson.Name = "dataGridViewLesson";
-			this.dataGridViewLesson.ReadOnly = true;
-			this.dataGridViewLesson.RowHeadersVisible = false;
-			this.dataGridViewLesson.RowHeadersWidth = 51;
-			this.dataGridViewLesson.RowTemplate.Height = 24;
-			this.dataGridViewLesson.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-			this.dataGridViewLesson.Size = new System.Drawing.Size(1666, 527);
-			this.dataGridViewLesson.TabIndex = 8;
-			this.dataGridViewLesson.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
-			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.Font = null;
-			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-			this.dataGridViewLesson.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-			this.dataGridViewLesson.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.dataGridViewLesson.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			this.dataGridViewLesson.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-			this.dataGridViewLesson.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-			this.dataGridViewLesson.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			this.dataGridViewLesson.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-			this.dataGridViewLesson.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dataGridViewLesson.ThemeStyle.HeaderStyle.Height = 27;
-			this.dataGridViewLesson.ThemeStyle.ReadOnly = true;
-			this.dataGridViewLesson.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-			this.dataGridViewLesson.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-			this.dataGridViewLesson.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			this.dataGridViewLesson.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			this.dataGridViewLesson.ThemeStyle.RowsStyle.Height = 24;
-			this.dataGridViewLesson.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			this.dataGridViewLesson.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			// 
-			// cathedraDataGridViewTextBoxColumn1
-			// 
-			this.cathedraDataGridViewTextBoxColumn1.DataPropertyName = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn1.HeaderText = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn1.MinimumWidth = 6;
-			this.cathedraDataGridViewTextBoxColumn1.Name = "cathedraDataGridViewTextBoxColumn1";
-			this.cathedraDataGridViewTextBoxColumn1.ReadOnly = true;
-			// 
-			// fullNameLessonDataGridViewTextBoxColumn
-			// 
-			this.fullNameLessonDataGridViewTextBoxColumn.DataPropertyName = "fullNameLesson";
-			this.fullNameLessonDataGridViewTextBoxColumn.HeaderText = "fullNameLesson";
-			this.fullNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.fullNameLessonDataGridViewTextBoxColumn.Name = "fullNameLessonDataGridViewTextBoxColumn";
-			this.fullNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// shortNameLessonDataGridViewTextBoxColumn
-			// 
-			this.shortNameLessonDataGridViewTextBoxColumn.DataPropertyName = "shortNameLesson";
-			this.shortNameLessonDataGridViewTextBoxColumn.HeaderText = "shortNameLesson";
-			this.shortNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.shortNameLessonDataGridViewTextBoxColumn.Name = "shortNameLessonDataGridViewTextBoxColumn";
-			this.shortNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// numberPracticeHoursSemesterDataGridViewTextBoxColumn
-			// 
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberPracticeHoursSemester";
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberPracticeHoursSemester";
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.Name = "numberPracticeHoursSemesterDataGridViewTextBoxColumn";
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// numberLectureHoursSemesterDataGridViewTextBoxColumn
-			// 
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberLectureHoursSemester";
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberLectureHoursSemester";
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.Name = "numberLectureHoursSemesterDataGridViewTextBoxColumn";
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// idlessonDataGridViewTextBoxColumn
-			// 
-			this.idlessonDataGridViewTextBoxColumn.DataPropertyName = "id_lesson";
-			this.idlessonDataGridViewTextBoxColumn.HeaderText = "id_lesson";
-			this.idlessonDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.idlessonDataGridViewTextBoxColumn.Name = "idlessonDataGridViewTextBoxColumn";
-			this.idlessonDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// linkMudlDataGridViewTextBoxColumn
-			// 
-			this.linkMudlDataGridViewTextBoxColumn.DataPropertyName = "linkMudl";
-			this.linkMudlDataGridViewTextBoxColumn.HeaderText = "linkMudl";
-			this.linkMudlDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.linkMudlDataGridViewTextBoxColumn.Name = "linkMudlDataGridViewTextBoxColumn";
-			this.linkMudlDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// gunaGradient2Panel4
-			// 
-			this.gunaGradient2Panel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.gunaGradient2Panel4.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel4.Controls.Add(this.gunaGradient2Panel5);
-			this.gunaGradient2Panel4.Controls.Add(this.nameDayLabel);
-			this.gunaGradient2Panel4.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaGradient2Panel4.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaGradient2Panel4.Location = new System.Drawing.Point(20, 18);
-			this.gunaGradient2Panel4.Margin = new System.Windows.Forms.Padding(20, 18, 20, 18);
-			this.gunaGradient2Panel4.Name = "gunaGradient2Panel4";
-			this.gunaGradient2Panel4.Radius = 10;
-			this.gunaGradient2Panel4.Size = new System.Drawing.Size(584, 303);
-			this.gunaGradient2Panel4.TabIndex = 9;
-			// 
-			// gunaGradient2Panel5
-			// 
-			this.gunaGradient2Panel5.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel5.Controls.Add(this.lbMonday5);
-			this.gunaGradient2Panel5.Controls.Add(this.lbMonday4);
-			this.gunaGradient2Panel5.Controls.Add(this.lbMonday3);
-			this.gunaGradient2Panel5.Controls.Add(this.lbMonday2);
-			this.gunaGradient2Panel5.Controls.Add(this.lbMonday1);
-			this.gunaGradient2Panel5.Controls.Add(this.label5);
-			this.gunaGradient2Panel5.Controls.Add(this.label6);
-			this.gunaGradient2Panel5.Controls.Add(this.label7);
-			this.gunaGradient2Panel5.Controls.Add(this.label8);
-			this.gunaGradient2Panel5.Controls.Add(this.label9);
-			this.gunaGradient2Panel5.Controls.Add(this.link5);
-			this.gunaGradient2Panel5.Controls.Add(this.link4);
-			this.gunaGradient2Panel5.Controls.Add(this.link3);
-			this.gunaGradient2Panel5.Controls.Add(this.link2);
-			this.gunaGradient2Panel5.Controls.Add(this.link1);
-			this.gunaGradient2Panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.gunaGradient2Panel5.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel5.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel5.Location = new System.Drawing.Point(0, 42);
-			this.gunaGradient2Panel5.Margin = new System.Windows.Forms.Padding(4);
-			this.gunaGradient2Panel5.Name = "gunaGradient2Panel5";
-			this.gunaGradient2Panel5.Radius = 10;
-			this.gunaGradient2Panel5.Size = new System.Drawing.Size(584, 261);
-			this.gunaGradient2Panel5.TabIndex = 1;
-			// 
-			// label5
-			// 
-			this.label5.AutoSize = true;
-			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label5.ForeColor = System.Drawing.Color.White;
-			this.label5.Location = new System.Drawing.Point(9, 212);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(27, 29);
-			this.label5.TabIndex = 15;
-			this.label5.Text = "5";
-			// 
-			// label6
-			// 
-			this.label6.AutoSize = true;
-			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label6.ForeColor = System.Drawing.Color.White;
-			this.label6.Location = new System.Drawing.Point(9, 162);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(27, 29);
-			this.label6.TabIndex = 14;
-			this.label6.Text = "4";
-			// 
-			// label7
-			// 
-			this.label7.AutoSize = true;
-			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label7.ForeColor = System.Drawing.Color.White;
-			this.label7.Location = new System.Drawing.Point(9, 111);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(27, 29);
-			this.label7.TabIndex = 13;
-			this.label7.Text = "3";
-			// 
-			// label8
-			// 
-			this.label8.AutoSize = true;
-			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label8.ForeColor = System.Drawing.Color.White;
-			this.label8.Location = new System.Drawing.Point(9, 63);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(27, 29);
-			this.label8.TabIndex = 12;
-			this.label8.Text = "2";
-			// 
-			// label9
-			// 
-			this.label9.AutoSize = true;
-			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label9.ForeColor = System.Drawing.Color.White;
-			this.label9.Location = new System.Drawing.Point(9, 14);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(27, 29);
-			this.label9.TabIndex = 11;
-			this.label9.Text = "1";
-			// 
-			// link5
-			// 
-			this.link5.Image = ((System.Drawing.Image)(resources.GetObject("link5.Image")));
-			this.link5.Location = new System.Drawing.Point(521, 207);
-			this.link5.Margin = new System.Windows.Forms.Padding(4);
-			this.link5.Name = "link5";
-			this.link5.Size = new System.Drawing.Size(43, 39);
-			this.link5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.link5.TabIndex = 9;
-			this.link5.TabStop = false;
-			// 
-			// link4
-			// 
-			this.link4.Image = ((System.Drawing.Image)(resources.GetObject("link4.Image")));
-			this.link4.Location = new System.Drawing.Point(521, 156);
-			this.link4.Margin = new System.Windows.Forms.Padding(4);
-			this.link4.Name = "link4";
-			this.link4.Size = new System.Drawing.Size(43, 39);
-			this.link4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.link4.TabIndex = 7;
-			this.link4.TabStop = false;
-			// 
-			// link3
-			// 
-			this.link3.Image = ((System.Drawing.Image)(resources.GetObject("link3.Image")));
-			this.link3.Location = new System.Drawing.Point(521, 106);
-			this.link3.Margin = new System.Windows.Forms.Padding(4);
-			this.link3.Name = "link3";
-			this.link3.Size = new System.Drawing.Size(43, 39);
-			this.link3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.link3.TabIndex = 5;
-			this.link3.TabStop = false;
-			// 
-			// link2
-			// 
-			this.link2.Image = ((System.Drawing.Image)(resources.GetObject("link2.Image")));
-			this.link2.Location = new System.Drawing.Point(521, 58);
-			this.link2.Margin = new System.Windows.Forms.Padding(4);
-			this.link2.Name = "link2";
-			this.link2.Size = new System.Drawing.Size(43, 39);
-			this.link2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.link2.TabIndex = 3;
-			this.link2.TabStop = false;
-			// 
-			// link1
-			// 
-			this.link1.Image = ((System.Drawing.Image)(resources.GetObject("link1.Image")));
-			this.link1.Location = new System.Drawing.Point(521, 9);
-			this.link1.Margin = new System.Windows.Forms.Padding(4);
-			this.link1.Name = "link1";
-			this.link1.Size = new System.Drawing.Size(43, 39);
-			this.link1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.link1.TabIndex = 1;
-			this.link1.TabStop = false;
-			// 
-			// nameDayLabel
-			// 
-			this.nameDayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.nameDayLabel.ForeColor = System.Drawing.Color.White;
-			this.nameDayLabel.Location = new System.Drawing.Point(0, 5);
-			this.nameDayLabel.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
-			this.nameDayLabel.Name = "nameDayLabel";
-			this.nameDayLabel.Size = new System.Drawing.Size(564, 31);
-			this.nameDayLabel.TabIndex = 5;
-			this.nameDayLabel.Text = "Понедельник";
-			this.nameDayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// lbMonday1
-			// 
-			this.lbMonday1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.lbMonday1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbMonday1.ForeColor = System.Drawing.Color.Black;
-			this.lbMonday1.Location = new System.Drawing.Point(42, 12);
-			this.lbMonday1.Name = "lbMonday1";
-			this.lbMonday1.Size = new System.Drawing.Size(461, 36);
-			this.lbMonday1.TabIndex = 6;
-			this.lbMonday1.Text = "ТРПО Дарья Евгеньевна";
-			this.lbMonday1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// lbMonday2
-			// 
-			this.lbMonday2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.lbMonday2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbMonday2.ForeColor = System.Drawing.Color.Black;
-			this.lbMonday2.Location = new System.Drawing.Point(42, 63);
-			this.lbMonday2.Name = "lbMonday2";
-			this.lbMonday2.Size = new System.Drawing.Size(461, 36);
-			this.lbMonday2.TabIndex = 16;
-			this.lbMonday2.Text = "ТРПО Дарья Евгеньевна";
-			this.lbMonday2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// lbMonday3
-			// 
-			this.lbMonday3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.lbMonday3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbMonday3.ForeColor = System.Drawing.Color.Black;
-			this.lbMonday3.Location = new System.Drawing.Point(42, 111);
-			this.lbMonday3.Name = "lbMonday3";
-			this.lbMonday3.Size = new System.Drawing.Size(461, 36);
-			this.lbMonday3.TabIndex = 17;
-			this.lbMonday3.Text = "ТРПО Дарья Евгеньевна";
-			this.lbMonday3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// lbMonday4
-			// 
-			this.lbMonday4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.lbMonday4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbMonday4.ForeColor = System.Drawing.Color.Black;
-			this.lbMonday4.Location = new System.Drawing.Point(42, 158);
-			this.lbMonday4.Name = "lbMonday4";
-			this.lbMonday4.Size = new System.Drawing.Size(461, 36);
-			this.lbMonday4.TabIndex = 18;
-			this.lbMonday4.Text = "ТРПО Дарья Евгеньевна";
-			this.lbMonday4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// lbMonday5
-			// 
-			this.lbMonday5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.lbMonday5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbMonday5.ForeColor = System.Drawing.Color.Black;
-			this.lbMonday5.Location = new System.Drawing.Point(42, 205);
-			this.lbMonday5.Name = "lbMonday5";
-			this.lbMonday5.Size = new System.Drawing.Size(461, 36);
-			this.lbMonday5.TabIndex = 19;
-			this.lbMonday5.Text = "ТРПО Дарья Евгеньевна";
-			this.lbMonday5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// gunaGradient2Panel6
-			// 
-			this.gunaGradient2Panel6.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel6.Controls.Add(this.addTeacher1);
-			this.gunaGradient2Panel6.Controls.Add(this.label10);
-			this.gunaGradient2Panel6.Controls.Add(this.guna2CustomCheckBox1);
-			this.gunaGradient2Panel6.Controls.Add(this.tbListTeacher);
-			this.gunaGradient2Panel6.Controls.Add(this.guna2ComboBox1);
-			this.gunaGradient2Panel6.Controls.Add(this.cbCahedra);
-			this.gunaGradient2Panel6.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
-			this.gunaGradient2Panel6.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
-			this.gunaGradient2Panel6.Location = new System.Drawing.Point(15, 98);
-			this.gunaGradient2Panel6.Margin = new System.Windows.Forms.Padding(4);
-			this.gunaGradient2Panel6.Name = "gunaGradient2Panel6";
-			this.gunaGradient2Panel6.Radius = 10;
-			this.gunaGradient2Panel6.Size = new System.Drawing.Size(462, 136);
-			this.gunaGradient2Panel6.TabIndex = 20;
-			// 
-			// cbCahedra
-			// 
-			this.cbCahedra.Animated = true;
-			this.cbCahedra.BackColor = System.Drawing.Color.Transparent;
-			this.cbCahedra.DataSource = this.lessonBindingSource2;
-			this.cbCahedra.DisplayMember = "shortNameLesson";
-			this.cbCahedra.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.cbCahedra.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cbCahedra.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.cbCahedra.FocusedColor = System.Drawing.Color.Empty;
-			this.cbCahedra.FocusedState.Parent = this.cbCahedra;
-			this.cbCahedra.Font = new System.Drawing.Font("Segoe UI", 10F);
-			this.cbCahedra.ForeColor = System.Drawing.Color.Black;
-			this.cbCahedra.FormattingEnabled = true;
-			this.cbCahedra.HoverState.Parent = this.cbCahedra;
-			this.cbCahedra.ItemHeight = 30;
-			this.cbCahedra.ItemsAppearance.Parent = this.cbCahedra;
-			this.cbCahedra.Location = new System.Drawing.Point(10, 11);
-			this.cbCahedra.MaxLength = 150;
-			this.cbCahedra.Name = "cbCahedra";
-			this.cbCahedra.ShadowDecoration.Parent = this.cbCahedra;
-			this.cbCahedra.Size = new System.Drawing.Size(435, 36);
-			this.cbCahedra.TabIndex = 11;
-			this.cbCahedra.ValueMember = "id_cathedra";
-			// 
-			// timeTableDataSet6
-			// 
-			this.timeTableDataSet6.DataSetName = "timeTableDataSet6";
-			this.timeTableDataSet6.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-			// 
-			// lessonBindingSource2
-			// 
-			this.lessonBindingSource2.DataMember = "Lesson";
-			this.lessonBindingSource2.DataSource = this.timeTableDataSet6;
 			// 
 			// lessonTableAdapter2
 			// 
 			this.lessonTableAdapter2.ClearBeforeFill = true;
 			// 
-			// guna2ComboBox1
-			// 
-			this.guna2ComboBox1.Animated = true;
-			this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-			this.guna2ComboBox1.DataSource = this.officeBindingSource1;
-			this.guna2ComboBox1.DisplayMember = "id_office";
-			this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.guna2ComboBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.guna2ComboBox1.FocusedColor = System.Drawing.Color.Empty;
-			this.guna2ComboBox1.FocusedState.Parent = this.guna2ComboBox1;
-			this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-			this.guna2ComboBox1.ForeColor = System.Drawing.Color.Black;
-			this.guna2ComboBox1.FormattingEnabled = true;
-			this.guna2ComboBox1.HoverState.Parent = this.guna2ComboBox1;
-			this.guna2ComboBox1.ItemHeight = 30;
-			this.guna2ComboBox1.ItemsAppearance.Parent = this.guna2ComboBox1;
-			this.guna2ComboBox1.Location = new System.Drawing.Point(10, 71);
-			this.guna2ComboBox1.MaxLength = 150;
-			this.guna2ComboBox1.Name = "guna2ComboBox1";
-			this.guna2ComboBox1.ShadowDecoration.Parent = this.guna2ComboBox1;
-			this.guna2ComboBox1.Size = new System.Drawing.Size(118, 36);
-			this.guna2ComboBox1.TabIndex = 12;
-			this.guna2ComboBox1.ValueMember = "id_cathedra";
-			// 
-			// timeTableDataSet7
-			// 
-			this.timeTableDataSet7.DataSetName = "timeTableDataSet7";
-			this.timeTableDataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-			// 
-			// officeBindingSource1
-			// 
-			this.officeBindingSource1.DataMember = "Office";
-			this.officeBindingSource1.DataSource = this.timeTableDataSet7;
-			// 
 			// officeTableAdapter1
 			// 
 			this.officeTableAdapter1.ClearBeforeFill = true;
-			// 
-			// tbListTeacher
-			// 
-			this.tbListTeacher.Animated = true;
-			this.tbListTeacher.BackColor = System.Drawing.Color.Transparent;
-			this.tbListTeacher.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.tbListTeacher.BorderRadius = 5;
-			this.tbListTeacher.BorderThickness = 2;
-			this.tbListTeacher.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.tbListTeacher.DefaultText = "";
-			this.tbListTeacher.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-			this.tbListTeacher.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-			this.tbListTeacher.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-			this.tbListTeacher.DisabledState.Parent = this.tbListTeacher;
-			this.tbListTeacher.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-			this.tbListTeacher.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
-			this.tbListTeacher.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-			this.tbListTeacher.FocusedState.Parent = this.tbListTeacher;
-			this.tbListTeacher.Font = new System.Drawing.Font("Segoe UI", 7F);
-			this.tbListTeacher.ForeColor = System.Drawing.Color.Black;
-			this.tbListTeacher.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-			this.tbListTeacher.HoverState.Parent = this.tbListTeacher;
-			this.tbListTeacher.Location = new System.Drawing.Point(135, 68);
-			this.tbListTeacher.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-			this.tbListTeacher.MaxLength = 50;
-			this.tbListTeacher.Name = "tbListTeacher";
-			this.tbListTeacher.PasswordChar = '\0';
-			this.tbListTeacher.PlaceholderText = "";
-			this.tbListTeacher.SelectedText = "";
-			this.tbListTeacher.ShadowDecoration.Parent = this.tbListTeacher;
-			this.tbListTeacher.Size = new System.Drawing.Size(144, 41);
-			this.tbListTeacher.TabIndex = 13;
-			// 
-			// guna2CustomCheckBox1
-			// 
-			this.guna2CustomCheckBox1.Animated = true;
-			this.guna2CustomCheckBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
-			this.guna2CustomCheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.guna2CustomCheckBox1.CheckedState.BorderRadius = 2;
-			this.guna2CustomCheckBox1.CheckedState.BorderThickness = 3;
-			this.guna2CustomCheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
-			this.guna2CustomCheckBox1.CheckedState.Parent = this.guna2CustomCheckBox1;
-			this.guna2CustomCheckBox1.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.guna2CustomCheckBox1.Location = new System.Drawing.Point(343, 73);
-			this.guna2CustomCheckBox1.Name = "guna2CustomCheckBox1";
-			this.guna2CustomCheckBox1.ShadowDecoration.Parent = this.guna2CustomCheckBox1;
-			this.guna2CustomCheckBox1.Size = new System.Drawing.Size(28, 29);
-			this.guna2CustomCheckBox1.TabIndex = 15;
-			this.guna2CustomCheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-			this.guna2CustomCheckBox1.UncheckedState.BorderRadius = 2;
-			this.guna2CustomCheckBox1.UncheckedState.BorderThickness = 0;
-			this.guna2CustomCheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-			this.guna2CustomCheckBox1.UncheckedState.Parent = this.guna2CustomCheckBox1;
-			// 
-			// label10
-			// 
-			this.label10.AutoSize = true;
-			this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label10.ForeColor = System.Drawing.Color.White;
-			this.label10.Location = new System.Drawing.Point(374, 74);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(88, 25);
-			this.label10.TabIndex = 20;
-			this.label10.Text = "Лекция";
-			// 
-			// addTeacher1
-			// 
-			this.addTeacher1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.addTeacher1.BorderRadius = 5;
-			this.addTeacher1.BorderThickness = 2;
-			this.addTeacher1.CheckedState.Parent = this.addTeacher1;
-			this.addTeacher1.CustomImages.Parent = this.addTeacher1;
-			this.addTeacher1.FillColor = System.Drawing.Color.Transparent;
-			this.addTeacher1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.addTeacher1.ForeColor = System.Drawing.Color.White;
-			this.addTeacher1.HoverState.Parent = this.addTeacher1;
-			this.addTeacher1.Location = new System.Drawing.Point(286, 68);
-			this.addTeacher1.Name = "addTeacher1";
-			this.addTeacher1.ShadowDecoration.Parent = this.addTeacher1;
-			this.addTeacher1.Size = new System.Drawing.Size(49, 41);
-			this.addTeacher1.TabIndex = 21;
-			this.addTeacher1.Text = "+";
-			this.addTeacher1.Click += new System.EventHandler(this.addTeacher1_Click);
-			// 
-			// label11
-			// 
-			this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label11.ForeColor = System.Drawing.Color.White;
-			this.label11.Location = new System.Drawing.Point(358, 21);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(104, 29);
-			this.label11.TabIndex = 7;
-			this.label11.Text = "Неделя:";
-			// 
-			// cbWeekEdit
-			// 
-			this.cbWeekEdit.BackColor = System.Drawing.Color.Transparent;
-			this.cbWeekEdit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(238)))), ((int)(((byte)(200)))));
-			this.cbWeekEdit.BorderRadius = 5;
-			this.cbWeekEdit.DataSource = this.weekBindingSource;
-			this.cbWeekEdit.DisplayMember = "nameWeek";
-			this.cbWeekEdit.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.cbWeekEdit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cbWeekEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.cbWeekEdit.FocusedColor = System.Drawing.Color.Empty;
-			this.cbWeekEdit.FocusedState.Parent = this.cbWeekEdit;
-			this.cbWeekEdit.Font = new System.Drawing.Font("Segoe UI", 10F);
-			this.cbWeekEdit.ForeColor = System.Drawing.Color.Black;
-			this.cbWeekEdit.FormattingEnabled = true;
-			this.cbWeekEdit.HoverState.Parent = this.cbWeekEdit;
-			this.cbWeekEdit.ItemHeight = 30;
-			this.cbWeekEdit.ItemsAppearance.Parent = this.cbWeekEdit;
-			this.cbWeekEdit.Location = new System.Drawing.Point(466, 20);
-			this.cbWeekEdit.Name = "cbWeekEdit";
-			this.cbWeekEdit.ShadowDecoration.Parent = this.cbWeekEdit;
-			this.cbWeekEdit.Size = new System.Drawing.Size(140, 36);
-			this.cbWeekEdit.TabIndex = 6;
-			this.cbWeekEdit.ValueMember = "id_week";
-			this.cbWeekEdit.SelectedIndexChanged += new System.EventHandler(this.cbWeekEdit_SelectedIndexChanged);
-			// 
-			// label12
-			// 
-			this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label12.ForeColor = System.Drawing.Color.White;
-			this.label12.Location = new System.Drawing.Point(16, 21);
-			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(104, 29);
-			this.label12.TabIndex = 5;
-			this.label12.Text = "Группа:";
-			// 
-			// cbGroupEdit
-			// 
-			this.cbGroupEdit.BackColor = System.Drawing.Color.Transparent;
-			this.cbGroupEdit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(238)))), ((int)(((byte)(200)))));
-			this.cbGroupEdit.BorderRadius = 5;
-			this.cbGroupEdit.DataSource = this.groupStudentBindingSource;
-			this.cbGroupEdit.DisplayMember = "shortNameGroup";
-			this.cbGroupEdit.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.cbGroupEdit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cbGroupEdit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.cbGroupEdit.FocusedColor = System.Drawing.Color.Empty;
-			this.cbGroupEdit.FocusedState.Parent = this.cbGroupEdit;
-			this.cbGroupEdit.Font = new System.Drawing.Font("Segoe UI", 10F);
-			this.cbGroupEdit.ForeColor = System.Drawing.Color.Black;
-			this.cbGroupEdit.FormattingEnabled = true;
-			this.cbGroupEdit.HoverState.Parent = this.cbGroupEdit;
-			this.cbGroupEdit.ItemHeight = 30;
-			this.cbGroupEdit.ItemsAppearance.Parent = this.cbGroupEdit;
-			this.cbGroupEdit.Location = new System.Drawing.Point(124, 20);
-			this.cbGroupEdit.Name = "cbGroupEdit";
-			this.cbGroupEdit.ShadowDecoration.Parent = this.cbGroupEdit;
-			this.cbGroupEdit.Size = new System.Drawing.Size(210, 36);
-			this.cbGroupEdit.TabIndex = 4;
-			this.cbGroupEdit.ValueMember = "idGroup";
-			this.cbGroupEdit.SelectedIndexChanged += new System.EventHandler(this.cbGroupEdit_SelectedIndexChanged);
 			// 
 			// Form1
 			// 
@@ -2107,6 +2109,10 @@
 			this.navigationPanel.ResumeLayout(false);
 			this.navigationPanel.PerformLayout();
 			this.gunaGradient2Panel1.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.weekBindingSource)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.groupStudentBindingSource)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.groupStudIdShortName)).EndInit();
 			this.viewDaysTabPanel.ResumeLayout(false);
 			this.tabPage1.ResumeLayout(false);
 			this.gunaGradient2Panel21.ResumeLayout(false);
@@ -2115,7 +2121,21 @@
 			this.tabPage2.ResumeLayout(false);
 			this.gunaGradient2Panel20.ResumeLayout(false);
 			this.flowLayoutPanel3.ResumeLayout(false);
+			this.gunaGradient2Panel6.ResumeLayout(false);
+			this.gunaGradient2Panel6.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet6)).EndInit();
 			this.flEditDay.ResumeLayout(false);
+			this.gunaGradient2Panel4.ResumeLayout(false);
+			this.gunaGradient2Panel5.ResumeLayout(false);
+			this.gunaGradient2Panel5.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.link5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.link4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.link3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.link2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.link1)).EndInit();
 			this.tabPage3.ResumeLayout(false);
 			this.gunaGradient2Panel24.ResumeLayout(false);
 			this.tabPage4.ResumeLayout(false);
@@ -2126,8 +2146,9 @@
 			this.gunaGradient2Panel2.ResumeLayout(false);
 			this.gunaGradient2Panel2.PerformLayout();
 			this.tabPage5.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.dataGridViewLesson)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet5)).EndInit();
 			this.gunaGradient2Panel3.ResumeLayout(false);
 			this.gunaGradient2Panel3.PerformLayout();
 			this.tabPage6.ResumeLayout(false);
@@ -2136,30 +2157,11 @@
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet2)).EndInit();
 			this.gunaGradient2Panel8.ResumeLayout(false);
 			this.gunaGradient2Panel8.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.teacherBindingSource)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableTeacher)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.teacherBindingSource2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.groupStudIdShortName)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.groupStudentBindingSource)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.weekBindingSource)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.dataGridViewLesson)).EndInit();
-			this.gunaGradient2Panel4.ResumeLayout(false);
-			this.gunaGradient2Panel5.ResumeLayout(false);
-			this.gunaGradient2Panel5.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.link5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.link4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.link3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.link2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.link1)).EndInit();
-			this.gunaGradient2Panel6.ResumeLayout(false);
-			this.gunaGradient2Panel6.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet6)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet7)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
