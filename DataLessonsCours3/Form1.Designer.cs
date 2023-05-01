@@ -365,8 +365,7 @@
             "Выбрать",
             "Преподаватели",
             "Дисциплины",
-            "Кабинеты",
-            "Пользователи"});
+            "Кабинеты"});
 			this.selectSpr.ItemsAppearance.Parent = this.selectSpr;
 			this.selectSpr.Location = new System.Drawing.Point(868, 10);
 			this.selectSpr.Margin = new System.Windows.Forms.Padding(10);
@@ -520,7 +519,7 @@
 			this.viewDaysTabPanel.Controls.Add(this.tabPage4);
 			this.viewDaysTabPanel.Controls.Add(this.tabPage5);
 			this.viewDaysTabPanel.Controls.Add(this.tabPage6);
-			this.viewDaysTabPanel.HeaderBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
+			this.viewDaysTabPanel.HeaderBackgroundColor = System.Drawing.Color.White;
 			this.viewDaysTabPanel.InActiveHeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.viewDaysTabPanel.InActiveTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.viewDaysTabPanel.ItemSize = new System.Drawing.Size(240, 16);
@@ -2229,14 +2228,14 @@
 			this.guna2DataGridView4.DefaultCellStyle = dataGridViewCellStyle12;
 			this.guna2DataGridView4.EnableHeadersVisualStyles = false;
 			this.guna2DataGridView4.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			this.guna2DataGridView4.Location = new System.Drawing.Point(3, 95);
+			this.guna2DataGridView4.Location = new System.Drawing.Point(7, 95);
 			this.guna2DataGridView4.Name = "guna2DataGridView4";
 			this.guna2DataGridView4.ReadOnly = true;
 			this.guna2DataGridView4.RowHeadersVisible = false;
 			this.guna2DataGridView4.RowHeadersWidth = 51;
 			this.guna2DataGridView4.RowTemplate.Height = 24;
 			this.guna2DataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-			this.guna2DataGridView4.Size = new System.Drawing.Size(2025, 667);
+			this.guna2DataGridView4.Size = new System.Drawing.Size(1667, 667);
 			this.guna2DataGridView4.TabIndex = 8;
 			this.guna2DataGridView4.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
 			this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -2326,7 +2325,7 @@
 			this.gunaGradient2Panel8.Margin = new System.Windows.Forms.Padding(4);
 			this.gunaGradient2Panel8.Name = "gunaGradient2Panel8";
 			this.gunaGradient2Panel8.Radius = 15;
-			this.gunaGradient2Panel8.Size = new System.Drawing.Size(1605, 81);
+			this.gunaGradient2Panel8.Size = new System.Drawing.Size(1666, 81);
 			this.gunaGradient2Panel8.TabIndex = 7;
 			// 
 			// guna2Button6
