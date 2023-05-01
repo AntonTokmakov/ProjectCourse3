@@ -33,25 +33,25 @@
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.dataGridViewTeacher = new Guna.UI2.WinForms.Guna2DataGridView();
-			this.timeTableDataSet3 = new DataLessonsCours3.timeTableDataSet3();
-			this.timeTableDataSet3BindingSource = new System.Windows.Forms.BindingSource(this.components);
-			this.timeTableDataSet = new DataLessonsCours3.timeTableDataSet();
-			this.teacherBindingSource = new System.Windows.Forms.BindingSource(this.components);
-			this.teacherTableAdapter = new DataLessonsCours3.timeTableDataSetTableAdapters.TeacherTableAdapter();
 			this.idteacherDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.cathedraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.firstNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.otchestvoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.Check = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+			this.teacherBindingSource = new System.Windows.Forms.BindingSource(this.components);
+			this.timeTableDataSet = new DataLessonsCours3.timeTableDataSet();
+			this.timeTableDataSet3 = new DataLessonsCours3.timeTableDataSet3();
+			this.timeTableDataSet3BindingSource = new System.Windows.Forms.BindingSource(this.components);
+			this.teacherTableAdapter = new DataLessonsCours3.timeTableDataSetTableAdapters.TeacherTableAdapter();
 			this.label1 = new System.Windows.Forms.Label();
 			this.save = new Guna.UI2.WinForms.Guna2Button();
 			this.exit = new Guna.UI2.WinForms.Guna2Button();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridViewTeacher)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.teacherBindingSource)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet3)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet3BindingSource)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.teacherBindingSource)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// dataGridViewTeacher
@@ -74,7 +74,7 @@
 			dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
 			dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
 			this.dataGridViewTeacher.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-			this.dataGridViewTeacher.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dataGridViewTeacher.ColumnHeadersHeight = 27;
 			this.dataGridViewTeacher.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idteacherDataGridViewTextBoxColumn,
             this.cathedraDataGridViewTextBoxColumn,
@@ -94,7 +94,7 @@
 			this.dataGridViewTeacher.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.dataGridViewTeacher.EnableHeadersVisualStyles = false;
 			this.dataGridViewTeacher.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			this.dataGridViewTeacher.Location = new System.Drawing.Point(0, 129);
+			this.dataGridViewTeacher.Location = new System.Drawing.Point(0, 137);
 			this.dataGridViewTeacher.Name = "dataGridViewTeacher";
 			this.dataGridViewTeacher.RowHeadersVisible = false;
 			this.dataGridViewTeacher.RowHeadersWidth = 51;
@@ -114,7 +114,7 @@
 			this.dataGridViewTeacher.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
 			this.dataGridViewTeacher.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
 			this.dataGridViewTeacher.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-			this.dataGridViewTeacher.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dataGridViewTeacher.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
 			this.dataGridViewTeacher.ThemeStyle.HeaderStyle.Height = 27;
 			this.dataGridViewTeacher.ThemeStyle.ReadOnly = false;
 			this.dataGridViewTeacher.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
@@ -124,30 +124,6 @@
 			this.dataGridViewTeacher.ThemeStyle.RowsStyle.Height = 24;
 			this.dataGridViewTeacher.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
 			this.dataGridViewTeacher.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			// 
-			// timeTableDataSet3
-			// 
-			this.timeTableDataSet3.DataSetName = "timeTableDataSet3";
-			this.timeTableDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-			// 
-			// timeTableDataSet3BindingSource
-			// 
-			this.timeTableDataSet3BindingSource.DataSource = this.timeTableDataSet3;
-			this.timeTableDataSet3BindingSource.Position = 0;
-			// 
-			// timeTableDataSet
-			// 
-			this.timeTableDataSet.DataSetName = "timeTableDataSet";
-			this.timeTableDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-			// 
-			// teacherBindingSource
-			// 
-			this.teacherBindingSource.DataMember = "Teacher";
-			this.teacherBindingSource.DataSource = this.timeTableDataSet;
-			// 
-			// teacherTableAdapter
-			// 
-			this.teacherTableAdapter.ClearBeforeFill = true;
 			// 
 			// idteacherDataGridViewTextBoxColumn
 			// 
@@ -191,6 +167,30 @@
 			this.Check.HeaderText = "Выбор";
 			this.Check.MinimumWidth = 6;
 			this.Check.Name = "Check";
+			// 
+			// teacherBindingSource
+			// 
+			this.teacherBindingSource.DataMember = "Teacher";
+			this.teacherBindingSource.DataSource = this.timeTableDataSet;
+			// 
+			// timeTableDataSet
+			// 
+			this.timeTableDataSet.DataSetName = "timeTableDataSet";
+			this.timeTableDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// timeTableDataSet3
+			// 
+			this.timeTableDataSet3.DataSetName = "timeTableDataSet3";
+			this.timeTableDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// timeTableDataSet3BindingSource
+			// 
+			this.timeTableDataSet3BindingSource.DataSource = this.timeTableDataSet3;
+			this.timeTableDataSet3BindingSource.Position = 0;
+			// 
+			// teacherTableAdapter
+			// 
+			this.teacherTableAdapter.ClearBeforeFill = true;
 			// 
 			// label1
 			// 
@@ -239,25 +239,29 @@
 			this.exit.Size = new System.Drawing.Size(180, 45);
 			this.exit.TabIndex = 14;
 			this.exit.Text = "Отмена";
+			this.exit.Click += new System.EventHandler(this.exit_Click);
 			// 
 			// EdirAddTeacher
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
-			this.ClientSize = new System.Drawing.Size(522, 485);
+			this.ClientSize = new System.Drawing.Size(522, 493);
 			this.Controls.Add(this.exit);
 			this.Controls.Add(this.save);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.dataGridViewTeacher);
+			this.MaximumSize = new System.Drawing.Size(540, 540);
+			this.MinimumSize = new System.Drawing.Size(540, 540);
 			this.Name = "EdirAddTeacher";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "EdirAddTeacher";
 			this.Load += new System.EventHandler(this.EdirAddTeacher_Load);
 			((System.ComponentModel.ISupportInitialize)(this.dataGridViewTeacher)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.teacherBindingSource)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet3)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet3BindingSource)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.teacherBindingSource)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

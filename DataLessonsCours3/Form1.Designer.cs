@@ -70,43 +70,64 @@
 			this.guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
 			this.tabPage2 = new System.Windows.Forms.TabPage();
 			this.gunaGradient2Panel20 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-			this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
-			this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
-			this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
-			this.gunaButton4 = new Guna.UI.WinForms.GunaButton();
-			this.gunaButton5 = new Guna.UI.WinForms.GunaButton();
-			this.gunaButton6 = new Guna.UI.WinForms.GunaButton();
+			this.titleWeekDay = new System.Windows.Forms.Label();
+			this.saveEditDay = new Guna.UI2.WinForms.Guna2Button();
+			this.gunaGradient2Panel11 = new Guna.UI.WinForms.GunaGradient2Panel();
+			this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+			this.label16 = new System.Windows.Forms.Label();
+			this.lecture5 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+			this.tbListTeacher5 = new Guna.UI2.WinForms.Guna2TextBox();
+			this.cbEditOffice5 = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.officeBindingSource5 = new System.Windows.Forms.BindingSource(this.components);
+			this.timeTableDataSet14 = new DataLessonsCours3.timeTableDataSet14();
+			this.cbEditLesson5 = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.lessonBindingSource6 = new System.Windows.Forms.BindingSource(this.components);
+			this.timeTableDataSet10 = new DataLessonsCours3.timeTableDataSet10();
+			this.gunaGradient2Panel10 = new Guna.UI.WinForms.GunaGradient2Panel();
+			this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+			this.label15 = new System.Windows.Forms.Label();
+			this.lecture4 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+			this.tbListTeacher4 = new Guna.UI2.WinForms.Guna2TextBox();
+			this.cbEditOffice4 = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.officeBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
+			this.timeTableDataSet13 = new DataLessonsCours3.timeTableDataSet13();
+			this.cbEditLesson4 = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.lessonBindingSource5 = new System.Windows.Forms.BindingSource(this.components);
+			this.timeTableDataSet9 = new DataLessonsCours3.timeTableDataSet9();
+			this.gunaGradient2Panel9 = new Guna.UI.WinForms.GunaGradient2Panel();
+			this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+			this.label14 = new System.Windows.Forms.Label();
+			this.lecture3 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+			this.tbListTeacher3 = new Guna.UI2.WinForms.Guna2TextBox();
+			this.cbEditOffice3 = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.officeBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+			this.timeTableDataSet12 = new DataLessonsCours3.timeTableDataSet12();
+			this.cbEditLesson3 = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.lessonBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
+			this.timeTableDataSet8 = new DataLessonsCours3.timeTableDataSet8();
+			this.gunaGradient2Panel7 = new Guna.UI.WinForms.GunaGradient2Panel();
+			this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+			this.label13 = new System.Windows.Forms.Label();
+			this.lecture2 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+			this.tbListTeacher2 = new Guna.UI2.WinForms.Guna2TextBox();
+			this.cbEditOffice2 = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.officeBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+			this.timeTableDataSet11 = new DataLessonsCours3.timeTableDataSet11();
+			this.cbEditLesson2 = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.lessonBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+			this.dataSetLessonEdit2 = new DataLessonsCours3.DataSetLessonEdit2();
 			this.gunaGradient2Panel6 = new Guna.UI.WinForms.GunaGradient2Panel();
 			this.addTeacher1 = new Guna.UI2.WinForms.Guna2Button();
 			this.label10 = new System.Windows.Forms.Label();
-			this.guna2CustomCheckBox1 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-			this.tbListTeacher = new Guna.UI2.WinForms.Guna2TextBox();
-			this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.lecture1 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+			this.tbListTeacher1 = new Guna.UI2.WinForms.Guna2TextBox();
+			this.cbEditOffice1 = new Guna.UI2.WinForms.Guna2ComboBox();
 			this.officeBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
 			this.timeTableDataSet7 = new DataLessonsCours3.timeTableDataSet7();
-			this.cbCahedra = new Guna.UI2.WinForms.Guna2ComboBox();
+			this.cbEditLesson1 = new Guna.UI2.WinForms.Guna2ComboBox();
 			this.lessonBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
 			this.timeTableDataSet6 = new DataLessonsCours3.timeTableDataSet6();
 			this.flEditDay = new System.Windows.Forms.FlowLayoutPanel();
-			this.gunaGradient2Panel4 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.gunaGradient2Panel5 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.lbMonday5 = new System.Windows.Forms.Label();
-			this.lbMonday4 = new System.Windows.Forms.Label();
-			this.lbMonday3 = new System.Windows.Forms.Label();
-			this.lbMonday2 = new System.Windows.Forms.Label();
-			this.lbMonday1 = new System.Windows.Forms.Label();
-			this.label5 = new System.Windows.Forms.Label();
-			this.label6 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
-			this.label8 = new System.Windows.Forms.Label();
-			this.label9 = new System.Windows.Forms.Label();
-			this.link5 = new System.Windows.Forms.PictureBox();
-			this.link4 = new System.Windows.Forms.PictureBox();
-			this.link3 = new System.Windows.Forms.PictureBox();
-			this.link2 = new System.Windows.Forms.PictureBox();
-			this.link1 = new System.Windows.Forms.PictureBox();
-			this.nameDayLabel = new System.Windows.Forms.Label();
 			this.tabPage3 = new System.Windows.Forms.TabPage();
 			this.examLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
 			this.gunaGradient2Panel24 = new Guna.UI.WinForms.GunaGradient2Panel();
@@ -172,6 +193,14 @@
 			this.lessonTableAdapter1 = new DataLessonsCours3.timeTableDataSet5TableAdapters.LessonTableAdapter();
 			this.lessonTableAdapter2 = new DataLessonsCours3.timeTableDataSet6TableAdapters.LessonTableAdapter();
 			this.officeTableAdapter1 = new DataLessonsCours3.timeTableDataSet7TableAdapters.OfficeTableAdapter();
+			this.lessonTableAdapter3 = new DataLessonsCours3.DataSetLessonEdit2TableAdapters.LessonTableAdapter();
+			this.lessonTableAdapter4 = new DataLessonsCours3.timeTableDataSet8TableAdapters.LessonTableAdapter();
+			this.lessonTableAdapter5 = new DataLessonsCours3.timeTableDataSet9TableAdapters.LessonTableAdapter();
+			this.lessonTableAdapter6 = new DataLessonsCours3.timeTableDataSet10TableAdapters.LessonTableAdapter();
+			this.officeTableAdapter2 = new DataLessonsCours3.timeTableDataSet11TableAdapters.OfficeTableAdapter();
+			this.officeTableAdapter3 = new DataLessonsCours3.timeTableDataSet12TableAdapters.OfficeTableAdapter();
+			this.officeTableAdapter4 = new DataLessonsCours3.timeTableDataSet13TableAdapters.OfficeTableAdapter();
+			this.officeTableAdapter5 = new DataLessonsCours3.timeTableDataSet14TableAdapters.OfficeTableAdapter();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.navigationPanel.SuspendLayout();
 			this.gunaGradient2Panel1.SuspendLayout();
@@ -186,20 +215,31 @@
 			((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
 			this.tabPage2.SuspendLayout();
 			this.gunaGradient2Panel20.SuspendLayout();
-			this.flowLayoutPanel3.SuspendLayout();
+			this.gunaGradient2Panel11.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet14)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet10)).BeginInit();
+			this.gunaGradient2Panel10.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet13)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet9)).BeginInit();
+			this.gunaGradient2Panel9.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet12)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet8)).BeginInit();
+			this.gunaGradient2Panel7.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet11)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.dataSetLessonEdit2)).BeginInit();
 			this.gunaGradient2Panel6.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet7)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet6)).BeginInit();
-			this.flEditDay.SuspendLayout();
-			this.gunaGradient2Panel4.SuspendLayout();
-			this.gunaGradient2Panel5.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.link5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.link4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.link3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.link2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.link1)).BeginInit();
 			this.tabPage3.SuspendLayout();
 			this.gunaGradient2Panel24.SuspendLayout();
 			this.tabPage4.SuspendLayout();
@@ -325,7 +365,8 @@
             "Выбрать",
             "Преподаватели",
             "Дисциплины",
-            "Кабинеты"});
+            "Кабинеты",
+            "Пользователи"});
 			this.selectSpr.ItemsAppearance.Parent = this.selectSpr;
 			this.selectSpr.Location = new System.Drawing.Point(868, 10);
 			this.selectSpr.Margin = new System.Windows.Forms.Padding(10);
@@ -370,7 +411,7 @@
 			this.gunaGradient2Panel1.Margin = new System.Windows.Forms.Padding(4);
 			this.gunaGradient2Panel1.Name = "gunaGradient2Panel1";
 			this.gunaGradient2Panel1.Radius = 15;
-			this.gunaGradient2Panel1.Size = new System.Drawing.Size(1656, 73);
+			this.gunaGradient2Panel1.Size = new System.Drawing.Size(1086, 73);
 			this.gunaGradient2Panel1.TabIndex = 4;
 			// 
 			// label11
@@ -401,7 +442,7 @@
 			this.cbWeekEdit.HoverState.Parent = this.cbWeekEdit;
 			this.cbWeekEdit.ItemHeight = 30;
 			this.cbWeekEdit.ItemsAppearance.Parent = this.cbWeekEdit;
-			this.cbWeekEdit.Location = new System.Drawing.Point(466, 20);
+			this.cbWeekEdit.Location = new System.Drawing.Point(466, 17);
 			this.cbWeekEdit.Name = "cbWeekEdit";
 			this.cbWeekEdit.ShadowDecoration.Parent = this.cbWeekEdit;
 			this.cbWeekEdit.Size = new System.Drawing.Size(140, 36);
@@ -447,7 +488,7 @@
 			this.cbGroupEdit.HoverState.Parent = this.cbGroupEdit;
 			this.cbGroupEdit.ItemHeight = 30;
 			this.cbGroupEdit.ItemsAppearance.Parent = this.cbGroupEdit;
-			this.cbGroupEdit.Location = new System.Drawing.Point(124, 20);
+			this.cbGroupEdit.Location = new System.Drawing.Point(124, 17);
 			this.cbGroupEdit.Name = "cbGroupEdit";
 			this.cbGroupEdit.ShadowDecoration.Parent = this.cbGroupEdit;
 			this.cbGroupEdit.Size = new System.Drawing.Size(210, 36);
@@ -479,17 +520,17 @@
 			this.viewDaysTabPanel.Controls.Add(this.tabPage4);
 			this.viewDaysTabPanel.Controls.Add(this.tabPage5);
 			this.viewDaysTabPanel.Controls.Add(this.tabPage6);
-			this.viewDaysTabPanel.HeaderBackgroundColor = System.Drawing.Color.White;
+			this.viewDaysTabPanel.HeaderBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.viewDaysTabPanel.InActiveHeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.viewDaysTabPanel.InActiveTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.viewDaysTabPanel.ItemSize = new System.Drawing.Size(240, 16);
-			this.viewDaysTabPanel.Location = new System.Drawing.Point(16, 110);
+			this.viewDaysTabPanel.Location = new System.Drawing.Point(16, 75);
 			this.viewDaysTabPanel.Margin = new System.Windows.Forms.Padding(4);
 			this.viewDaysTabPanel.Name = "viewDaysTabPanel";
 			this.viewDaysTabPanel.OnlyTopLine = true;
 			this.viewDaysTabPanel.PageColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.viewDaysTabPanel.SelectedIndex = 0;
-			this.viewDaysTabPanel.Size = new System.Drawing.Size(1688, 652);
+			this.viewDaysTabPanel.Size = new System.Drawing.Size(1688, 884);
 			this.viewDaysTabPanel.TabIndex = 6;
 			this.viewDaysTabPanel.SelectedIndexChanged += new System.EventHandler(this.viewDaysTabPanel_SelectedIndexChanged);
 			// 
@@ -502,7 +543,7 @@
 			this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
 			this.tabPage1.Name = "tabPage1";
 			this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-			this.tabPage1.Size = new System.Drawing.Size(1680, 628);
+			this.tabPage1.Size = new System.Drawing.Size(1680, 860);
 			this.tabPage1.TabIndex = 0;
 			this.tabPage1.Text = "tabPage1";
 			// 
@@ -677,7 +718,7 @@
 			this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(11, 10, 11, 10);
-			this.tabPage2.Size = new System.Drawing.Size(1680, 628);
+			this.tabPage2.Size = new System.Drawing.Size(1680, 860);
 			this.tabPage2.TabIndex = 1;
 			this.tabPage2.Text = "tabPage2";
 			// 
@@ -686,223 +727,770 @@
 			this.gunaGradient2Panel20.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.gunaGradient2Panel20.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel20.Controls.Add(this.flowLayoutPanel3);
+			this.gunaGradient2Panel20.Controls.Add(this.titleWeekDay);
+			this.gunaGradient2Panel20.Controls.Add(this.saveEditDay);
+			this.gunaGradient2Panel20.Controls.Add(this.gunaGradient2Panel11);
+			this.gunaGradient2Panel20.Controls.Add(this.gunaGradient2Panel10);
+			this.gunaGradient2Panel20.Controls.Add(this.gunaGradient2Panel9);
+			this.gunaGradient2Panel20.Controls.Add(this.gunaGradient2Panel7);
 			this.gunaGradient2Panel20.Controls.Add(this.gunaGradient2Panel6);
 			this.gunaGradient2Panel20.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
 			this.gunaGradient2Panel20.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel20.Location = new System.Drawing.Point(1170, 90);
+			this.gunaGradient2Panel20.Location = new System.Drawing.Point(1105, 14);
 			this.gunaGradient2Panel20.Margin = new System.Windows.Forms.Padding(4);
 			this.gunaGradient2Panel20.Name = "gunaGradient2Panel20";
 			this.gunaGradient2Panel20.Radius = 10;
-			this.gunaGradient2Panel20.Size = new System.Drawing.Size(492, 539);
+			this.gunaGradient2Panel20.Size = new System.Drawing.Size(557, 847);
 			this.gunaGradient2Panel20.TabIndex = 10;
 			// 
-			// flowLayoutPanel3
+			// titleWeekDay
 			// 
-			this.flowLayoutPanel3.Controls.Add(this.gunaButton1);
-			this.flowLayoutPanel3.Controls.Add(this.gunaButton2);
-			this.flowLayoutPanel3.Controls.Add(this.gunaButton3);
-			this.flowLayoutPanel3.Controls.Add(this.gunaButton4);
-			this.flowLayoutPanel3.Controls.Add(this.gunaButton5);
-			this.flowLayoutPanel3.Controls.Add(this.gunaButton6);
-			this.flowLayoutPanel3.Location = new System.Drawing.Point(4, 11);
-			this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(4);
-			this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-			this.flowLayoutPanel3.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
-			this.flowLayoutPanel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-			this.flowLayoutPanel3.Size = new System.Drawing.Size(484, 79);
-			this.flowLayoutPanel3.TabIndex = 3;
+			this.titleWeekDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.titleWeekDay.ForeColor = System.Drawing.Color.White;
+			this.titleWeekDay.Location = new System.Drawing.Point(15, 8);
+			this.titleWeekDay.Name = "titleWeekDay";
+			this.titleWeekDay.Size = new System.Drawing.Size(527, 33);
+			this.titleWeekDay.TabIndex = 8;
+			this.titleWeekDay.Text = "День недели";
+			this.titleWeekDay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// gunaButton1
+			// saveEditDay
 			// 
-			this.gunaButton1.Animated = true;
-			this.gunaButton1.AnimationHoverSpeed = 0.07F;
-			this.gunaButton1.AnimationSpeed = 0.03F;
-			this.gunaButton1.BackColor = System.Drawing.Color.Transparent;
-			this.gunaButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-			this.gunaButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.gunaButton1.BorderSize = 2;
-			this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-			this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
-			this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-			this.gunaButton1.ForeColor = System.Drawing.Color.White;
-			this.gunaButton1.Image = null;
-			this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-			this.gunaButton1.Location = new System.Drawing.Point(11, 10);
-			this.gunaButton1.Margin = new System.Windows.Forms.Padding(4);
-			this.gunaButton1.Name = "gunaButton1";
-			this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-			this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-			this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
-			this.gunaButton1.OnHoverImage = null;
-			this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
-			this.gunaButton1.Radius = 5;
-			this.gunaButton1.Size = new System.Drawing.Size(60, 55);
-			this.gunaButton1.TabIndex = 0;
-			this.gunaButton1.Text = "ПН";
+			this.saveEditDay.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.saveEditDay.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.saveEditDay.BorderRadius = 5;
+			this.saveEditDay.BorderThickness = 3;
+			this.saveEditDay.CheckedState.Parent = this.saveEditDay;
+			this.saveEditDay.CustomImages.Parent = this.saveEditDay;
+			this.saveEditDay.FillColor = System.Drawing.Color.Transparent;
+			this.saveEditDay.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.saveEditDay.ForeColor = System.Drawing.Color.White;
+			this.saveEditDay.HoverState.Parent = this.saveEditDay;
+			this.saveEditDay.Location = new System.Drawing.Point(15, 778);
+			this.saveEditDay.Name = "saveEditDay";
+			this.saveEditDay.ShadowDecoration.Parent = this.saveEditDay;
+			this.saveEditDay.Size = new System.Drawing.Size(527, 61);
+			this.saveEditDay.TabIndex = 13;
+			this.saveEditDay.Text = "Сохранить";
+			this.saveEditDay.Click += new System.EventHandler(this.saveEditDay_Click);
 			// 
-			// gunaButton2
+			// gunaGradient2Panel11
 			// 
-			this.gunaButton2.Animated = true;
-			this.gunaButton2.AnimationHoverSpeed = 0.07F;
-			this.gunaButton2.AnimationSpeed = 0.03F;
-			this.gunaButton2.BackColor = System.Drawing.Color.Transparent;
-			this.gunaButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-			this.gunaButton2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.gunaButton2.BorderSize = 2;
-			this.gunaButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-			this.gunaButton2.FocusedColor = System.Drawing.Color.Empty;
-			this.gunaButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-			this.gunaButton2.ForeColor = System.Drawing.Color.White;
-			this.gunaButton2.Image = null;
-			this.gunaButton2.ImageSize = new System.Drawing.Size(20, 20);
-			this.gunaButton2.Location = new System.Drawing.Point(79, 10);
-			this.gunaButton2.Margin = new System.Windows.Forms.Padding(4);
-			this.gunaButton2.Name = "gunaButton2";
-			this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-			this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
-			this.gunaButton2.OnHoverForeColor = System.Drawing.Color.White;
-			this.gunaButton2.OnHoverImage = null;
-			this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
-			this.gunaButton2.Radius = 5;
-			this.gunaButton2.Size = new System.Drawing.Size(60, 55);
-			this.gunaButton2.TabIndex = 1;
-			this.gunaButton2.Text = "ВТ";
+			this.gunaGradient2Panel11.BackColor = System.Drawing.Color.Transparent;
+			this.gunaGradient2Panel11.Controls.Add(this.guna2Button4);
+			this.gunaGradient2Panel11.Controls.Add(this.label16);
+			this.gunaGradient2Panel11.Controls.Add(this.lecture5);
+			this.gunaGradient2Panel11.Controls.Add(this.tbListTeacher5);
+			this.gunaGradient2Panel11.Controls.Add(this.cbEditOffice5);
+			this.gunaGradient2Panel11.Controls.Add(this.cbEditLesson5);
+			this.gunaGradient2Panel11.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.gunaGradient2Panel11.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.gunaGradient2Panel11.Location = new System.Drawing.Point(15, 633);
+			this.gunaGradient2Panel11.Margin = new System.Windows.Forms.Padding(4);
+			this.gunaGradient2Panel11.Name = "gunaGradient2Panel11";
+			this.gunaGradient2Panel11.Radius = 10;
+			this.gunaGradient2Panel11.Size = new System.Drawing.Size(527, 138);
+			this.gunaGradient2Panel11.TabIndex = 23;
 			// 
-			// gunaButton3
+			// guna2Button4
 			// 
-			this.gunaButton3.Animated = true;
-			this.gunaButton3.AnimationHoverSpeed = 0.07F;
-			this.gunaButton3.AnimationSpeed = 0.03F;
-			this.gunaButton3.BackColor = System.Drawing.Color.Transparent;
-			this.gunaButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-			this.gunaButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaButton3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.gunaButton3.BorderSize = 2;
-			this.gunaButton3.DialogResult = System.Windows.Forms.DialogResult.None;
-			this.gunaButton3.FocusedColor = System.Drawing.Color.Empty;
-			this.gunaButton3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-			this.gunaButton3.ForeColor = System.Drawing.Color.White;
-			this.gunaButton3.Image = null;
-			this.gunaButton3.ImageSize = new System.Drawing.Size(20, 20);
-			this.gunaButton3.Location = new System.Drawing.Point(147, 10);
-			this.gunaButton3.Margin = new System.Windows.Forms.Padding(4);
-			this.gunaButton3.Name = "gunaButton3";
-			this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-			this.gunaButton3.OnHoverBorderColor = System.Drawing.Color.Black;
-			this.gunaButton3.OnHoverForeColor = System.Drawing.Color.White;
-			this.gunaButton3.OnHoverImage = null;
-			this.gunaButton3.OnPressedColor = System.Drawing.Color.Black;
-			this.gunaButton3.Radius = 5;
-			this.gunaButton3.Size = new System.Drawing.Size(60, 55);
-			this.gunaButton3.TabIndex = 2;
-			this.gunaButton3.Text = "СР";
+			this.guna2Button4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.guna2Button4.BorderRadius = 5;
+			this.guna2Button4.BorderThickness = 2;
+			this.guna2Button4.CheckedState.Parent = this.guna2Button4;
+			this.guna2Button4.CustomImages.Parent = this.guna2Button4;
+			this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
+			this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button4.ForeColor = System.Drawing.Color.White;
+			this.guna2Button4.HoverState.Parent = this.guna2Button4;
+			this.guna2Button4.Location = new System.Drawing.Point(322, 76);
+			this.guna2Button4.Name = "guna2Button4";
+			this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
+			this.guna2Button4.Size = new System.Drawing.Size(49, 41);
+			this.guna2Button4.TabIndex = 21;
+			this.guna2Button4.Text = "+";
 			// 
-			// gunaButton4
+			// label16
 			// 
-			this.gunaButton4.Animated = true;
-			this.gunaButton4.AnimationHoverSpeed = 0.07F;
-			this.gunaButton4.AnimationSpeed = 0.03F;
-			this.gunaButton4.BackColor = System.Drawing.Color.Transparent;
-			this.gunaButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-			this.gunaButton4.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaButton4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.gunaButton4.BorderSize = 2;
-			this.gunaButton4.DialogResult = System.Windows.Forms.DialogResult.None;
-			this.gunaButton4.FocusedColor = System.Drawing.Color.Empty;
-			this.gunaButton4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-			this.gunaButton4.ForeColor = System.Drawing.Color.White;
-			this.gunaButton4.Image = null;
-			this.gunaButton4.ImageSize = new System.Drawing.Size(20, 20);
-			this.gunaButton4.Location = new System.Drawing.Point(215, 10);
-			this.gunaButton4.Margin = new System.Windows.Forms.Padding(4);
-			this.gunaButton4.Name = "gunaButton4";
-			this.gunaButton4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-			this.gunaButton4.OnHoverBorderColor = System.Drawing.Color.Black;
-			this.gunaButton4.OnHoverForeColor = System.Drawing.Color.White;
-			this.gunaButton4.OnHoverImage = null;
-			this.gunaButton4.OnPressedColor = System.Drawing.Color.Black;
-			this.gunaButton4.Radius = 5;
-			this.gunaButton4.Size = new System.Drawing.Size(60, 55);
-			this.gunaButton4.TabIndex = 3;
-			this.gunaButton4.Text = "ЧТ";
+			this.label16.AutoSize = true;
+			this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label16.ForeColor = System.Drawing.Color.White;
+			this.label16.Location = new System.Drawing.Point(423, 82);
+			this.label16.Name = "label16";
+			this.label16.Size = new System.Drawing.Size(88, 25);
+			this.label16.TabIndex = 20;
+			this.label16.Text = "Лекция";
 			// 
-			// gunaButton5
+			// lecture5
 			// 
-			this.gunaButton5.Animated = true;
-			this.gunaButton5.AnimationHoverSpeed = 0.07F;
-			this.gunaButton5.AnimationSpeed = 0.03F;
-			this.gunaButton5.BackColor = System.Drawing.Color.Transparent;
-			this.gunaButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-			this.gunaButton5.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaButton5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.gunaButton5.BorderSize = 2;
-			this.gunaButton5.DialogResult = System.Windows.Forms.DialogResult.None;
-			this.gunaButton5.FocusedColor = System.Drawing.Color.Empty;
-			this.gunaButton5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-			this.gunaButton5.ForeColor = System.Drawing.Color.White;
-			this.gunaButton5.Image = null;
-			this.gunaButton5.ImageSize = new System.Drawing.Size(20, 20);
-			this.gunaButton5.Location = new System.Drawing.Point(283, 10);
-			this.gunaButton5.Margin = new System.Windows.Forms.Padding(4);
-			this.gunaButton5.Name = "gunaButton5";
-			this.gunaButton5.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-			this.gunaButton5.OnHoverBorderColor = System.Drawing.Color.Black;
-			this.gunaButton5.OnHoverForeColor = System.Drawing.Color.White;
-			this.gunaButton5.OnHoverImage = null;
-			this.gunaButton5.OnPressedColor = System.Drawing.Color.Black;
-			this.gunaButton5.Radius = 5;
-			this.gunaButton5.Size = new System.Drawing.Size(60, 55);
-			this.gunaButton5.TabIndex = 4;
-			this.gunaButton5.Text = "ПТ";
+			this.lecture5.Animated = true;
+			this.lecture5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.lecture5.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lecture5.CheckedState.BorderRadius = 2;
+			this.lecture5.CheckedState.BorderThickness = 3;
+			this.lecture5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.lecture5.CheckedState.Parent = this.lecture5;
+			this.lecture5.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lecture5.Location = new System.Drawing.Point(392, 81);
+			this.lecture5.Name = "lecture5";
+			this.lecture5.ShadowDecoration.Parent = this.lecture5;
+			this.lecture5.Size = new System.Drawing.Size(28, 29);
+			this.lecture5.TabIndex = 15;
+			this.lecture5.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.lecture5.UncheckedState.BorderRadius = 2;
+			this.lecture5.UncheckedState.BorderThickness = 0;
+			this.lecture5.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.lecture5.UncheckedState.Parent = this.lecture5;
 			// 
-			// gunaButton6
+			// tbListTeacher5
 			// 
-			this.gunaButton6.Animated = true;
-			this.gunaButton6.AnimationHoverSpeed = 0.07F;
-			this.gunaButton6.AnimationSpeed = 0.03F;
-			this.gunaButton6.BackColor = System.Drawing.Color.Transparent;
-			this.gunaButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-			this.gunaButton6.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaButton6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.gunaButton6.BorderSize = 2;
-			this.gunaButton6.DialogResult = System.Windows.Forms.DialogResult.None;
-			this.gunaButton6.FocusedColor = System.Drawing.Color.Empty;
-			this.gunaButton6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-			this.gunaButton6.ForeColor = System.Drawing.Color.White;
-			this.gunaButton6.Image = null;
-			this.gunaButton6.ImageSize = new System.Drawing.Size(20, 20);
-			this.gunaButton6.Location = new System.Drawing.Point(351, 10);
-			this.gunaButton6.Margin = new System.Windows.Forms.Padding(4);
-			this.gunaButton6.Name = "gunaButton6";
-			this.gunaButton6.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-			this.gunaButton6.OnHoverBorderColor = System.Drawing.Color.Black;
-			this.gunaButton6.OnHoverForeColor = System.Drawing.Color.White;
-			this.gunaButton6.OnHoverImage = null;
-			this.gunaButton6.OnPressedColor = System.Drawing.Color.Black;
-			this.gunaButton6.Radius = 5;
-			this.gunaButton6.Size = new System.Drawing.Size(60, 55);
-			this.gunaButton6.TabIndex = 5;
-			this.gunaButton6.Text = "СБ";
+			this.tbListTeacher5.Animated = true;
+			this.tbListTeacher5.AutoScroll = true;
+			this.tbListTeacher5.BackColor = System.Drawing.Color.Transparent;
+			this.tbListTeacher5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.tbListTeacher5.BorderRadius = 5;
+			this.tbListTeacher5.BorderThickness = 2;
+			this.tbListTeacher5.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.tbListTeacher5.DefaultText = "";
+			this.tbListTeacher5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+			this.tbListTeacher5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+			this.tbListTeacher5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+			this.tbListTeacher5.DisabledState.Parent = this.tbListTeacher5;
+			this.tbListTeacher5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+			this.tbListTeacher5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.tbListTeacher5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.tbListTeacher5.FocusedState.Parent = this.tbListTeacher5;
+			this.tbListTeacher5.Font = new System.Drawing.Font("Segoe UI", 7F);
+			this.tbListTeacher5.ForeColor = System.Drawing.Color.White;
+			this.tbListTeacher5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.tbListTeacher5.HoverState.Parent = this.tbListTeacher5;
+			this.tbListTeacher5.Location = new System.Drawing.Point(171, 76);
+			this.tbListTeacher5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbListTeacher5.MaxLength = 50;
+			this.tbListTeacher5.Multiline = true;
+			this.tbListTeacher5.Name = "tbListTeacher5";
+			this.tbListTeacher5.PasswordChar = '\0';
+			this.tbListTeacher5.PlaceholderText = "";
+			this.tbListTeacher5.ReadOnly = true;
+			this.tbListTeacher5.SelectedText = "";
+			this.tbListTeacher5.ShadowDecoration.Parent = this.tbListTeacher5;
+			this.tbListTeacher5.Size = new System.Drawing.Size(144, 58);
+			this.tbListTeacher5.TabIndex = 13;
+			// 
+			// cbEditOffice5
+			// 
+			this.cbEditOffice5.Animated = true;
+			this.cbEditOffice5.BackColor = System.Drawing.Color.Transparent;
+			this.cbEditOffice5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditOffice5.DataSource = this.officeBindingSource5;
+			this.cbEditOffice5.DisplayMember = "id_office";
+			this.cbEditOffice5.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbEditOffice5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbEditOffice5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditOffice5.FocusedColor = System.Drawing.Color.Empty;
+			this.cbEditOffice5.FocusedState.Parent = this.cbEditOffice5;
+			this.cbEditOffice5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.cbEditOffice5.ForeColor = System.Drawing.Color.Black;
+			this.cbEditOffice5.FormattingEnabled = true;
+			this.cbEditOffice5.HoverState.Parent = this.cbEditOffice5;
+			this.cbEditOffice5.ItemHeight = 30;
+			this.cbEditOffice5.ItemsAppearance.Parent = this.cbEditOffice5;
+			this.cbEditOffice5.Location = new System.Drawing.Point(10, 79);
+			this.cbEditOffice5.MaxLength = 150;
+			this.cbEditOffice5.Name = "cbEditOffice5";
+			this.cbEditOffice5.ShadowDecoration.Parent = this.cbEditOffice5;
+			this.cbEditOffice5.Size = new System.Drawing.Size(139, 36);
+			this.cbEditOffice5.TabIndex = 12;
+			this.cbEditOffice5.ValueMember = "id_cathedra";
+			// 
+			// officeBindingSource5
+			// 
+			this.officeBindingSource5.DataMember = "Office";
+			this.officeBindingSource5.DataSource = this.timeTableDataSet14;
+			// 
+			// timeTableDataSet14
+			// 
+			this.timeTableDataSet14.DataSetName = "timeTableDataSet14";
+			this.timeTableDataSet14.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// cbEditLesson5
+			// 
+			this.cbEditLesson5.Animated = true;
+			this.cbEditLesson5.BackColor = System.Drawing.Color.Transparent;
+			this.cbEditLesson5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditLesson5.DataSource = this.lessonBindingSource6;
+			this.cbEditLesson5.DisplayMember = "shortNameLesson";
+			this.cbEditLesson5.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbEditLesson5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbEditLesson5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditLesson5.FocusedColor = System.Drawing.Color.Empty;
+			this.cbEditLesson5.FocusedState.Parent = this.cbEditLesson5;
+			this.cbEditLesson5.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.cbEditLesson5.ForeColor = System.Drawing.Color.Black;
+			this.cbEditLesson5.FormattingEnabled = true;
+			this.cbEditLesson5.HoverState.Parent = this.cbEditLesson5;
+			this.cbEditLesson5.ItemHeight = 30;
+			this.cbEditLesson5.ItemsAppearance.Parent = this.cbEditLesson5;
+			this.cbEditLesson5.Location = new System.Drawing.Point(10, 19);
+			this.cbEditLesson5.MaxLength = 150;
+			this.cbEditLesson5.Name = "cbEditLesson5";
+			this.cbEditLesson5.ShadowDecoration.Parent = this.cbEditLesson5;
+			this.cbEditLesson5.Size = new System.Drawing.Size(502, 36);
+			this.cbEditLesson5.TabIndex = 11;
+			this.cbEditLesson5.ValueMember = "id_cathedra";
+			// 
+			// lessonBindingSource6
+			// 
+			this.lessonBindingSource6.DataMember = "Lesson";
+			this.lessonBindingSource6.DataSource = this.timeTableDataSet10;
+			// 
+			// timeTableDataSet10
+			// 
+			this.timeTableDataSet10.DataSetName = "timeTableDataSet10";
+			this.timeTableDataSet10.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// gunaGradient2Panel10
+			// 
+			this.gunaGradient2Panel10.BackColor = System.Drawing.Color.Transparent;
+			this.gunaGradient2Panel10.Controls.Add(this.guna2Button3);
+			this.gunaGradient2Panel10.Controls.Add(this.label15);
+			this.gunaGradient2Panel10.Controls.Add(this.lecture4);
+			this.gunaGradient2Panel10.Controls.Add(this.tbListTeacher4);
+			this.gunaGradient2Panel10.Controls.Add(this.cbEditOffice4);
+			this.gunaGradient2Panel10.Controls.Add(this.cbEditLesson4);
+			this.gunaGradient2Panel10.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.gunaGradient2Panel10.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.gunaGradient2Panel10.Location = new System.Drawing.Point(15, 487);
+			this.gunaGradient2Panel10.Margin = new System.Windows.Forms.Padding(4);
+			this.gunaGradient2Panel10.Name = "gunaGradient2Panel10";
+			this.gunaGradient2Panel10.Radius = 10;
+			this.gunaGradient2Panel10.Size = new System.Drawing.Size(527, 138);
+			this.gunaGradient2Panel10.TabIndex = 22;
+			// 
+			// guna2Button3
+			// 
+			this.guna2Button3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.guna2Button3.BorderRadius = 5;
+			this.guna2Button3.BorderThickness = 2;
+			this.guna2Button3.CheckedState.Parent = this.guna2Button3;
+			this.guna2Button3.CustomImages.Parent = this.guna2Button3;
+			this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
+			this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button3.ForeColor = System.Drawing.Color.White;
+			this.guna2Button3.HoverState.Parent = this.guna2Button3;
+			this.guna2Button3.Location = new System.Drawing.Point(322, 76);
+			this.guna2Button3.Name = "guna2Button3";
+			this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
+			this.guna2Button3.Size = new System.Drawing.Size(49, 41);
+			this.guna2Button3.TabIndex = 21;
+			this.guna2Button3.Text = "+";
+			// 
+			// label15
+			// 
+			this.label15.AutoSize = true;
+			this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label15.ForeColor = System.Drawing.Color.White;
+			this.label15.Location = new System.Drawing.Point(423, 82);
+			this.label15.Name = "label15";
+			this.label15.Size = new System.Drawing.Size(88, 25);
+			this.label15.TabIndex = 20;
+			this.label15.Text = "Лекция";
+			// 
+			// lecture4
+			// 
+			this.lecture4.Animated = true;
+			this.lecture4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.lecture4.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lecture4.CheckedState.BorderRadius = 2;
+			this.lecture4.CheckedState.BorderThickness = 3;
+			this.lecture4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.lecture4.CheckedState.Parent = this.lecture4;
+			this.lecture4.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lecture4.Location = new System.Drawing.Point(392, 81);
+			this.lecture4.Name = "lecture4";
+			this.lecture4.ShadowDecoration.Parent = this.lecture4;
+			this.lecture4.Size = new System.Drawing.Size(28, 29);
+			this.lecture4.TabIndex = 15;
+			this.lecture4.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.lecture4.UncheckedState.BorderRadius = 2;
+			this.lecture4.UncheckedState.BorderThickness = 0;
+			this.lecture4.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.lecture4.UncheckedState.Parent = this.lecture4;
+			// 
+			// tbListTeacher4
+			// 
+			this.tbListTeacher4.Animated = true;
+			this.tbListTeacher4.AutoScroll = true;
+			this.tbListTeacher4.BackColor = System.Drawing.Color.Transparent;
+			this.tbListTeacher4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.tbListTeacher4.BorderRadius = 5;
+			this.tbListTeacher4.BorderThickness = 2;
+			this.tbListTeacher4.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.tbListTeacher4.DefaultText = "";
+			this.tbListTeacher4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+			this.tbListTeacher4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+			this.tbListTeacher4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+			this.tbListTeacher4.DisabledState.Parent = this.tbListTeacher4;
+			this.tbListTeacher4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+			this.tbListTeacher4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.tbListTeacher4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.tbListTeacher4.FocusedState.Parent = this.tbListTeacher4;
+			this.tbListTeacher4.Font = new System.Drawing.Font("Segoe UI", 7F);
+			this.tbListTeacher4.ForeColor = System.Drawing.Color.White;
+			this.tbListTeacher4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.tbListTeacher4.HoverState.Parent = this.tbListTeacher4;
+			this.tbListTeacher4.Location = new System.Drawing.Point(171, 76);
+			this.tbListTeacher4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbListTeacher4.MaxLength = 50;
+			this.tbListTeacher4.Multiline = true;
+			this.tbListTeacher4.Name = "tbListTeacher4";
+			this.tbListTeacher4.PasswordChar = '\0';
+			this.tbListTeacher4.PlaceholderText = "";
+			this.tbListTeacher4.ReadOnly = true;
+			this.tbListTeacher4.SelectedText = "";
+			this.tbListTeacher4.ShadowDecoration.Parent = this.tbListTeacher4;
+			this.tbListTeacher4.Size = new System.Drawing.Size(144, 58);
+			this.tbListTeacher4.TabIndex = 13;
+			// 
+			// cbEditOffice4
+			// 
+			this.cbEditOffice4.Animated = true;
+			this.cbEditOffice4.BackColor = System.Drawing.Color.Transparent;
+			this.cbEditOffice4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditOffice4.DataSource = this.officeBindingSource4;
+			this.cbEditOffice4.DisplayMember = "id_office";
+			this.cbEditOffice4.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbEditOffice4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbEditOffice4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditOffice4.FocusedColor = System.Drawing.Color.Empty;
+			this.cbEditOffice4.FocusedState.Parent = this.cbEditOffice4;
+			this.cbEditOffice4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.cbEditOffice4.ForeColor = System.Drawing.Color.Black;
+			this.cbEditOffice4.FormattingEnabled = true;
+			this.cbEditOffice4.HoverState.Parent = this.cbEditOffice4;
+			this.cbEditOffice4.ItemHeight = 30;
+			this.cbEditOffice4.ItemsAppearance.Parent = this.cbEditOffice4;
+			this.cbEditOffice4.Location = new System.Drawing.Point(10, 79);
+			this.cbEditOffice4.MaxLength = 150;
+			this.cbEditOffice4.Name = "cbEditOffice4";
+			this.cbEditOffice4.ShadowDecoration.Parent = this.cbEditOffice4;
+			this.cbEditOffice4.Size = new System.Drawing.Size(139, 36);
+			this.cbEditOffice4.TabIndex = 12;
+			this.cbEditOffice4.ValueMember = "id_cathedra";
+			// 
+			// officeBindingSource4
+			// 
+			this.officeBindingSource4.DataMember = "Office";
+			this.officeBindingSource4.DataSource = this.timeTableDataSet13;
+			// 
+			// timeTableDataSet13
+			// 
+			this.timeTableDataSet13.DataSetName = "timeTableDataSet13";
+			this.timeTableDataSet13.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// cbEditLesson4
+			// 
+			this.cbEditLesson4.Animated = true;
+			this.cbEditLesson4.BackColor = System.Drawing.Color.Transparent;
+			this.cbEditLesson4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditLesson4.DataSource = this.lessonBindingSource5;
+			this.cbEditLesson4.DisplayMember = "shortNameLesson";
+			this.cbEditLesson4.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbEditLesson4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbEditLesson4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditLesson4.FocusedColor = System.Drawing.Color.Empty;
+			this.cbEditLesson4.FocusedState.Parent = this.cbEditLesson4;
+			this.cbEditLesson4.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.cbEditLesson4.ForeColor = System.Drawing.Color.Black;
+			this.cbEditLesson4.FormattingEnabled = true;
+			this.cbEditLesson4.HoverState.Parent = this.cbEditLesson4;
+			this.cbEditLesson4.ItemHeight = 30;
+			this.cbEditLesson4.ItemsAppearance.Parent = this.cbEditLesson4;
+			this.cbEditLesson4.Location = new System.Drawing.Point(10, 19);
+			this.cbEditLesson4.MaxLength = 150;
+			this.cbEditLesson4.Name = "cbEditLesson4";
+			this.cbEditLesson4.ShadowDecoration.Parent = this.cbEditLesson4;
+			this.cbEditLesson4.Size = new System.Drawing.Size(502, 36);
+			this.cbEditLesson4.TabIndex = 11;
+			this.cbEditLesson4.ValueMember = "id_cathedra";
+			// 
+			// lessonBindingSource5
+			// 
+			this.lessonBindingSource5.DataMember = "Lesson";
+			this.lessonBindingSource5.DataSource = this.timeTableDataSet9;
+			// 
+			// timeTableDataSet9
+			// 
+			this.timeTableDataSet9.DataSetName = "timeTableDataSet9";
+			this.timeTableDataSet9.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// gunaGradient2Panel9
+			// 
+			this.gunaGradient2Panel9.BackColor = System.Drawing.Color.Transparent;
+			this.gunaGradient2Panel9.Controls.Add(this.guna2Button2);
+			this.gunaGradient2Panel9.Controls.Add(this.label14);
+			this.gunaGradient2Panel9.Controls.Add(this.lecture3);
+			this.gunaGradient2Panel9.Controls.Add(this.tbListTeacher3);
+			this.gunaGradient2Panel9.Controls.Add(this.cbEditOffice3);
+			this.gunaGradient2Panel9.Controls.Add(this.cbEditLesson3);
+			this.gunaGradient2Panel9.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.gunaGradient2Panel9.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.gunaGradient2Panel9.Location = new System.Drawing.Point(15, 342);
+			this.gunaGradient2Panel9.Margin = new System.Windows.Forms.Padding(4);
+			this.gunaGradient2Panel9.Name = "gunaGradient2Panel9";
+			this.gunaGradient2Panel9.Radius = 10;
+			this.gunaGradient2Panel9.Size = new System.Drawing.Size(527, 138);
+			this.gunaGradient2Panel9.TabIndex = 22;
+			// 
+			// guna2Button2
+			// 
+			this.guna2Button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.guna2Button2.BorderRadius = 5;
+			this.guna2Button2.BorderThickness = 2;
+			this.guna2Button2.CheckedState.Parent = this.guna2Button2;
+			this.guna2Button2.CustomImages.Parent = this.guna2Button2;
+			this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
+			this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button2.ForeColor = System.Drawing.Color.White;
+			this.guna2Button2.HoverState.Parent = this.guna2Button2;
+			this.guna2Button2.Location = new System.Drawing.Point(322, 76);
+			this.guna2Button2.Name = "guna2Button2";
+			this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
+			this.guna2Button2.Size = new System.Drawing.Size(49, 41);
+			this.guna2Button2.TabIndex = 21;
+			this.guna2Button2.Text = "+";
+			// 
+			// label14
+			// 
+			this.label14.AutoSize = true;
+			this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label14.ForeColor = System.Drawing.Color.White;
+			this.label14.Location = new System.Drawing.Point(423, 82);
+			this.label14.Name = "label14";
+			this.label14.Size = new System.Drawing.Size(88, 25);
+			this.label14.TabIndex = 20;
+			this.label14.Text = "Лекция";
+			// 
+			// lecture3
+			// 
+			this.lecture3.Animated = true;
+			this.lecture3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.lecture3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lecture3.CheckedState.BorderRadius = 2;
+			this.lecture3.CheckedState.BorderThickness = 3;
+			this.lecture3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.lecture3.CheckedState.Parent = this.lecture3;
+			this.lecture3.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lecture3.Location = new System.Drawing.Point(392, 81);
+			this.lecture3.Name = "lecture3";
+			this.lecture3.ShadowDecoration.Parent = this.lecture3;
+			this.lecture3.Size = new System.Drawing.Size(28, 29);
+			this.lecture3.TabIndex = 15;
+			this.lecture3.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.lecture3.UncheckedState.BorderRadius = 2;
+			this.lecture3.UncheckedState.BorderThickness = 0;
+			this.lecture3.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.lecture3.UncheckedState.Parent = this.lecture3;
+			// 
+			// tbListTeacher3
+			// 
+			this.tbListTeacher3.Animated = true;
+			this.tbListTeacher3.AutoScroll = true;
+			this.tbListTeacher3.BackColor = System.Drawing.Color.Transparent;
+			this.tbListTeacher3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.tbListTeacher3.BorderRadius = 5;
+			this.tbListTeacher3.BorderThickness = 2;
+			this.tbListTeacher3.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.tbListTeacher3.DefaultText = "";
+			this.tbListTeacher3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+			this.tbListTeacher3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+			this.tbListTeacher3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+			this.tbListTeacher3.DisabledState.Parent = this.tbListTeacher3;
+			this.tbListTeacher3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+			this.tbListTeacher3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.tbListTeacher3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.tbListTeacher3.FocusedState.Parent = this.tbListTeacher3;
+			this.tbListTeacher3.Font = new System.Drawing.Font("Segoe UI", 7F);
+			this.tbListTeacher3.ForeColor = System.Drawing.Color.White;
+			this.tbListTeacher3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.tbListTeacher3.HoverState.Parent = this.tbListTeacher3;
+			this.tbListTeacher3.Location = new System.Drawing.Point(171, 76);
+			this.tbListTeacher3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbListTeacher3.MaxLength = 50;
+			this.tbListTeacher3.Multiline = true;
+			this.tbListTeacher3.Name = "tbListTeacher3";
+			this.tbListTeacher3.PasswordChar = '\0';
+			this.tbListTeacher3.PlaceholderText = "";
+			this.tbListTeacher3.ReadOnly = true;
+			this.tbListTeacher3.SelectedText = "";
+			this.tbListTeacher3.ShadowDecoration.Parent = this.tbListTeacher3;
+			this.tbListTeacher3.Size = new System.Drawing.Size(144, 58);
+			this.tbListTeacher3.TabIndex = 13;
+			// 
+			// cbEditOffice3
+			// 
+			this.cbEditOffice3.Animated = true;
+			this.cbEditOffice3.BackColor = System.Drawing.Color.Transparent;
+			this.cbEditOffice3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditOffice3.DataSource = this.officeBindingSource3;
+			this.cbEditOffice3.DisplayMember = "id_office";
+			this.cbEditOffice3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbEditOffice3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbEditOffice3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditOffice3.FocusedColor = System.Drawing.Color.Empty;
+			this.cbEditOffice3.FocusedState.Parent = this.cbEditOffice3;
+			this.cbEditOffice3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.cbEditOffice3.ForeColor = System.Drawing.Color.Black;
+			this.cbEditOffice3.FormattingEnabled = true;
+			this.cbEditOffice3.HoverState.Parent = this.cbEditOffice3;
+			this.cbEditOffice3.ItemHeight = 30;
+			this.cbEditOffice3.ItemsAppearance.Parent = this.cbEditOffice3;
+			this.cbEditOffice3.Location = new System.Drawing.Point(10, 79);
+			this.cbEditOffice3.MaxLength = 150;
+			this.cbEditOffice3.Name = "cbEditOffice3";
+			this.cbEditOffice3.ShadowDecoration.Parent = this.cbEditOffice3;
+			this.cbEditOffice3.Size = new System.Drawing.Size(139, 36);
+			this.cbEditOffice3.TabIndex = 12;
+			this.cbEditOffice3.ValueMember = "id_cathedra";
+			// 
+			// officeBindingSource3
+			// 
+			this.officeBindingSource3.DataMember = "Office";
+			this.officeBindingSource3.DataSource = this.timeTableDataSet12;
+			// 
+			// timeTableDataSet12
+			// 
+			this.timeTableDataSet12.DataSetName = "timeTableDataSet12";
+			this.timeTableDataSet12.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// cbEditLesson3
+			// 
+			this.cbEditLesson3.Animated = true;
+			this.cbEditLesson3.BackColor = System.Drawing.Color.Transparent;
+			this.cbEditLesson3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditLesson3.DataSource = this.lessonBindingSource4;
+			this.cbEditLesson3.DisplayMember = "shortNameLesson";
+			this.cbEditLesson3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbEditLesson3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbEditLesson3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditLesson3.FocusedColor = System.Drawing.Color.Empty;
+			this.cbEditLesson3.FocusedState.Parent = this.cbEditLesson3;
+			this.cbEditLesson3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.cbEditLesson3.ForeColor = System.Drawing.Color.Black;
+			this.cbEditLesson3.FormattingEnabled = true;
+			this.cbEditLesson3.HoverState.Parent = this.cbEditLesson3;
+			this.cbEditLesson3.ItemHeight = 30;
+			this.cbEditLesson3.ItemsAppearance.Parent = this.cbEditLesson3;
+			this.cbEditLesson3.Location = new System.Drawing.Point(10, 19);
+			this.cbEditLesson3.MaxLength = 150;
+			this.cbEditLesson3.Name = "cbEditLesson3";
+			this.cbEditLesson3.ShadowDecoration.Parent = this.cbEditLesson3;
+			this.cbEditLesson3.Size = new System.Drawing.Size(502, 36);
+			this.cbEditLesson3.TabIndex = 11;
+			this.cbEditLesson3.ValueMember = "id_cathedra";
+			// 
+			// lessonBindingSource4
+			// 
+			this.lessonBindingSource4.DataMember = "Lesson";
+			this.lessonBindingSource4.DataSource = this.timeTableDataSet8;
+			// 
+			// timeTableDataSet8
+			// 
+			this.timeTableDataSet8.DataSetName = "timeTableDataSet8";
+			this.timeTableDataSet8.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// gunaGradient2Panel7
+			// 
+			this.gunaGradient2Panel7.BackColor = System.Drawing.Color.Transparent;
+			this.gunaGradient2Panel7.Controls.Add(this.guna2Button1);
+			this.gunaGradient2Panel7.Controls.Add(this.label13);
+			this.gunaGradient2Panel7.Controls.Add(this.lecture2);
+			this.gunaGradient2Panel7.Controls.Add(this.tbListTeacher2);
+			this.gunaGradient2Panel7.Controls.Add(this.cbEditOffice2);
+			this.gunaGradient2Panel7.Controls.Add(this.cbEditLesson2);
+			this.gunaGradient2Panel7.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.gunaGradient2Panel7.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.gunaGradient2Panel7.Location = new System.Drawing.Point(15, 197);
+			this.gunaGradient2Panel7.Margin = new System.Windows.Forms.Padding(4);
+			this.gunaGradient2Panel7.Name = "gunaGradient2Panel7";
+			this.gunaGradient2Panel7.Radius = 10;
+			this.gunaGradient2Panel7.Size = new System.Drawing.Size(527, 138);
+			this.gunaGradient2Panel7.TabIndex = 22;
+			// 
+			// guna2Button1
+			// 
+			this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.guna2Button1.BorderRadius = 5;
+			this.guna2Button1.BorderThickness = 2;
+			this.guna2Button1.CheckedState.Parent = this.guna2Button1;
+			this.guna2Button1.CustomImages.Parent = this.guna2Button1;
+			this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
+			this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.guna2Button1.ForeColor = System.Drawing.Color.White;
+			this.guna2Button1.HoverState.Parent = this.guna2Button1;
+			this.guna2Button1.Location = new System.Drawing.Point(322, 76);
+			this.guna2Button1.Name = "guna2Button1";
+			this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
+			this.guna2Button1.Size = new System.Drawing.Size(49, 41);
+			this.guna2Button1.TabIndex = 21;
+			this.guna2Button1.Text = "+";
+			// 
+			// label13
+			// 
+			this.label13.AutoSize = true;
+			this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label13.ForeColor = System.Drawing.Color.White;
+			this.label13.Location = new System.Drawing.Point(423, 82);
+			this.label13.Name = "label13";
+			this.label13.Size = new System.Drawing.Size(88, 25);
+			this.label13.TabIndex = 20;
+			this.label13.Text = "Лекция";
+			// 
+			// lecture2
+			// 
+			this.lecture2.Animated = true;
+			this.lecture2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.lecture2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lecture2.CheckedState.BorderRadius = 2;
+			this.lecture2.CheckedState.BorderThickness = 3;
+			this.lecture2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.lecture2.CheckedState.Parent = this.lecture2;
+			this.lecture2.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lecture2.Location = new System.Drawing.Point(392, 81);
+			this.lecture2.Name = "lecture2";
+			this.lecture2.ShadowDecoration.Parent = this.lecture2;
+			this.lecture2.Size = new System.Drawing.Size(28, 29);
+			this.lecture2.TabIndex = 15;
+			this.lecture2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.lecture2.UncheckedState.BorderRadius = 2;
+			this.lecture2.UncheckedState.BorderThickness = 0;
+			this.lecture2.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.lecture2.UncheckedState.Parent = this.lecture2;
+			// 
+			// tbListTeacher2
+			// 
+			this.tbListTeacher2.Animated = true;
+			this.tbListTeacher2.AutoScroll = true;
+			this.tbListTeacher2.BackColor = System.Drawing.Color.Transparent;
+			this.tbListTeacher2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.tbListTeacher2.BorderRadius = 5;
+			this.tbListTeacher2.BorderThickness = 2;
+			this.tbListTeacher2.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.tbListTeacher2.DefaultText = "";
+			this.tbListTeacher2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+			this.tbListTeacher2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+			this.tbListTeacher2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+			this.tbListTeacher2.DisabledState.Parent = this.tbListTeacher2;
+			this.tbListTeacher2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+			this.tbListTeacher2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.tbListTeacher2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.tbListTeacher2.FocusedState.Parent = this.tbListTeacher2;
+			this.tbListTeacher2.Font = new System.Drawing.Font("Segoe UI", 7F);
+			this.tbListTeacher2.ForeColor = System.Drawing.Color.White;
+			this.tbListTeacher2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.tbListTeacher2.HoverState.Parent = this.tbListTeacher2;
+			this.tbListTeacher2.Location = new System.Drawing.Point(171, 76);
+			this.tbListTeacher2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbListTeacher2.MaxLength = 50;
+			this.tbListTeacher2.Multiline = true;
+			this.tbListTeacher2.Name = "tbListTeacher2";
+			this.tbListTeacher2.PasswordChar = '\0';
+			this.tbListTeacher2.PlaceholderText = "";
+			this.tbListTeacher2.ReadOnly = true;
+			this.tbListTeacher2.SelectedText = "";
+			this.tbListTeacher2.ShadowDecoration.Parent = this.tbListTeacher2;
+			this.tbListTeacher2.Size = new System.Drawing.Size(144, 58);
+			this.tbListTeacher2.TabIndex = 13;
+			// 
+			// cbEditOffice2
+			// 
+			this.cbEditOffice2.Animated = true;
+			this.cbEditOffice2.BackColor = System.Drawing.Color.Transparent;
+			this.cbEditOffice2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditOffice2.DataSource = this.officeBindingSource2;
+			this.cbEditOffice2.DisplayMember = "id_office";
+			this.cbEditOffice2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbEditOffice2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbEditOffice2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditOffice2.FocusedColor = System.Drawing.Color.Empty;
+			this.cbEditOffice2.FocusedState.Parent = this.cbEditOffice2;
+			this.cbEditOffice2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.cbEditOffice2.ForeColor = System.Drawing.Color.Black;
+			this.cbEditOffice2.FormattingEnabled = true;
+			this.cbEditOffice2.HoverState.Parent = this.cbEditOffice2;
+			this.cbEditOffice2.ItemHeight = 30;
+			this.cbEditOffice2.ItemsAppearance.Parent = this.cbEditOffice2;
+			this.cbEditOffice2.Location = new System.Drawing.Point(10, 79);
+			this.cbEditOffice2.MaxLength = 150;
+			this.cbEditOffice2.Name = "cbEditOffice2";
+			this.cbEditOffice2.ShadowDecoration.Parent = this.cbEditOffice2;
+			this.cbEditOffice2.Size = new System.Drawing.Size(139, 36);
+			this.cbEditOffice2.TabIndex = 12;
+			this.cbEditOffice2.ValueMember = "id_cathedra";
+			// 
+			// officeBindingSource2
+			// 
+			this.officeBindingSource2.DataMember = "Office";
+			this.officeBindingSource2.DataSource = this.timeTableDataSet11;
+			// 
+			// timeTableDataSet11
+			// 
+			this.timeTableDataSet11.DataSetName = "timeTableDataSet11";
+			this.timeTableDataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+			// 
+			// cbEditLesson2
+			// 
+			this.cbEditLesson2.Animated = true;
+			this.cbEditLesson2.BackColor = System.Drawing.Color.Transparent;
+			this.cbEditLesson2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditLesson2.DataSource = this.lessonBindingSource3;
+			this.cbEditLesson2.DisplayMember = "shortNameLesson";
+			this.cbEditLesson2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbEditLesson2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbEditLesson2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditLesson2.FocusedColor = System.Drawing.Color.Empty;
+			this.cbEditLesson2.FocusedState.Parent = this.cbEditLesson2;
+			this.cbEditLesson2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.cbEditLesson2.ForeColor = System.Drawing.Color.Black;
+			this.cbEditLesson2.FormattingEnabled = true;
+			this.cbEditLesson2.HoverState.Parent = this.cbEditLesson2;
+			this.cbEditLesson2.ItemHeight = 30;
+			this.cbEditLesson2.ItemsAppearance.Parent = this.cbEditLesson2;
+			this.cbEditLesson2.Location = new System.Drawing.Point(10, 19);
+			this.cbEditLesson2.MaxLength = 150;
+			this.cbEditLesson2.Name = "cbEditLesson2";
+			this.cbEditLesson2.ShadowDecoration.Parent = this.cbEditLesson2;
+			this.cbEditLesson2.Size = new System.Drawing.Size(502, 36);
+			this.cbEditLesson2.TabIndex = 11;
+			this.cbEditLesson2.ValueMember = "id_cathedra";
+			// 
+			// lessonBindingSource3
+			// 
+			this.lessonBindingSource3.DataMember = "Lesson";
+			this.lessonBindingSource3.DataSource = this.dataSetLessonEdit2;
+			// 
+			// dataSetLessonEdit2
+			// 
+			this.dataSetLessonEdit2.DataSetName = "DataSetLessonEdit2";
+			this.dataSetLessonEdit2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
 			// 
 			// gunaGradient2Panel6
 			// 
 			this.gunaGradient2Panel6.BackColor = System.Drawing.Color.Transparent;
 			this.gunaGradient2Panel6.Controls.Add(this.addTeacher1);
 			this.gunaGradient2Panel6.Controls.Add(this.label10);
-			this.gunaGradient2Panel6.Controls.Add(this.guna2CustomCheckBox1);
-			this.gunaGradient2Panel6.Controls.Add(this.tbListTeacher);
-			this.gunaGradient2Panel6.Controls.Add(this.guna2ComboBox1);
-			this.gunaGradient2Panel6.Controls.Add(this.cbCahedra);
+			this.gunaGradient2Panel6.Controls.Add(this.lecture1);
+			this.gunaGradient2Panel6.Controls.Add(this.tbListTeacher1);
+			this.gunaGradient2Panel6.Controls.Add(this.cbEditOffice1);
+			this.gunaGradient2Panel6.Controls.Add(this.cbEditLesson1);
 			this.gunaGradient2Panel6.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
 			this.gunaGradient2Panel6.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
-			this.gunaGradient2Panel6.Location = new System.Drawing.Point(15, 98);
+			this.gunaGradient2Panel6.Location = new System.Drawing.Point(15, 52);
 			this.gunaGradient2Panel6.Margin = new System.Windows.Forms.Padding(4);
 			this.gunaGradient2Panel6.Name = "gunaGradient2Panel6";
 			this.gunaGradient2Panel6.Radius = 10;
-			this.gunaGradient2Panel6.Size = new System.Drawing.Size(462, 136);
+			this.gunaGradient2Panel6.Size = new System.Drawing.Size(527, 138);
 			this.gunaGradient2Panel6.TabIndex = 20;
 			// 
 			// addTeacher1
@@ -916,7 +1504,7 @@
 			this.addTeacher1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.addTeacher1.ForeColor = System.Drawing.Color.White;
 			this.addTeacher1.HoverState.Parent = this.addTeacher1;
-			this.addTeacher1.Location = new System.Drawing.Point(286, 68);
+			this.addTeacher1.Location = new System.Drawing.Point(322, 76);
 			this.addTeacher1.Name = "addTeacher1";
 			this.addTeacher1.ShadowDecoration.Parent = this.addTeacher1;
 			this.addTeacher1.Size = new System.Drawing.Size(49, 41);
@@ -929,89 +1517,93 @@
 			this.label10.AutoSize = true;
 			this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.label10.ForeColor = System.Drawing.Color.White;
-			this.label10.Location = new System.Drawing.Point(374, 74);
+			this.label10.Location = new System.Drawing.Point(423, 82);
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(88, 25);
 			this.label10.TabIndex = 20;
 			this.label10.Text = "Лекция";
 			// 
-			// guna2CustomCheckBox1
+			// lecture1
 			// 
-			this.guna2CustomCheckBox1.Animated = true;
-			this.guna2CustomCheckBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
-			this.guna2CustomCheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.guna2CustomCheckBox1.CheckedState.BorderRadius = 2;
-			this.guna2CustomCheckBox1.CheckedState.BorderThickness = 3;
-			this.guna2CustomCheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
-			this.guna2CustomCheckBox1.CheckedState.Parent = this.guna2CustomCheckBox1;
-			this.guna2CustomCheckBox1.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.guna2CustomCheckBox1.Location = new System.Drawing.Point(343, 73);
-			this.guna2CustomCheckBox1.Name = "guna2CustomCheckBox1";
-			this.guna2CustomCheckBox1.ShadowDecoration.Parent = this.guna2CustomCheckBox1;
-			this.guna2CustomCheckBox1.Size = new System.Drawing.Size(28, 29);
-			this.guna2CustomCheckBox1.TabIndex = 15;
-			this.guna2CustomCheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-			this.guna2CustomCheckBox1.UncheckedState.BorderRadius = 2;
-			this.guna2CustomCheckBox1.UncheckedState.BorderThickness = 0;
-			this.guna2CustomCheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-			this.guna2CustomCheckBox1.UncheckedState.Parent = this.guna2CustomCheckBox1;
+			this.lecture1.Animated = true;
+			this.lecture1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.lecture1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lecture1.CheckedState.BorderRadius = 2;
+			this.lecture1.CheckedState.BorderThickness = 3;
+			this.lecture1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.lecture1.CheckedState.Parent = this.lecture1;
+			this.lecture1.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.lecture1.Location = new System.Drawing.Point(392, 81);
+			this.lecture1.Name = "lecture1";
+			this.lecture1.ShadowDecoration.Parent = this.lecture1;
+			this.lecture1.Size = new System.Drawing.Size(28, 29);
+			this.lecture1.TabIndex = 15;
+			this.lecture1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.lecture1.UncheckedState.BorderRadius = 2;
+			this.lecture1.UncheckedState.BorderThickness = 0;
+			this.lecture1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.lecture1.UncheckedState.Parent = this.lecture1;
 			// 
-			// tbListTeacher
+			// tbListTeacher1
 			// 
-			this.tbListTeacher.Animated = true;
-			this.tbListTeacher.BackColor = System.Drawing.Color.Transparent;
-			this.tbListTeacher.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.tbListTeacher.BorderRadius = 5;
-			this.tbListTeacher.BorderThickness = 2;
-			this.tbListTeacher.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.tbListTeacher.DefaultText = "";
-			this.tbListTeacher.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-			this.tbListTeacher.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-			this.tbListTeacher.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-			this.tbListTeacher.DisabledState.Parent = this.tbListTeacher;
-			this.tbListTeacher.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-			this.tbListTeacher.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
-			this.tbListTeacher.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-			this.tbListTeacher.FocusedState.Parent = this.tbListTeacher;
-			this.tbListTeacher.Font = new System.Drawing.Font("Segoe UI", 7F);
-			this.tbListTeacher.ForeColor = System.Drawing.Color.Black;
-			this.tbListTeacher.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-			this.tbListTeacher.HoverState.Parent = this.tbListTeacher;
-			this.tbListTeacher.Location = new System.Drawing.Point(135, 68);
-			this.tbListTeacher.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-			this.tbListTeacher.MaxLength = 50;
-			this.tbListTeacher.Name = "tbListTeacher";
-			this.tbListTeacher.PasswordChar = '\0';
-			this.tbListTeacher.PlaceholderText = "";
-			this.tbListTeacher.SelectedText = "";
-			this.tbListTeacher.ShadowDecoration.Parent = this.tbListTeacher;
-			this.tbListTeacher.Size = new System.Drawing.Size(144, 41);
-			this.tbListTeacher.TabIndex = 13;
+			this.tbListTeacher1.Animated = true;
+			this.tbListTeacher1.AutoScroll = true;
+			this.tbListTeacher1.BackColor = System.Drawing.Color.Transparent;
+			this.tbListTeacher1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.tbListTeacher1.BorderRadius = 5;
+			this.tbListTeacher1.BorderThickness = 2;
+			this.tbListTeacher1.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.tbListTeacher1.DefaultText = "";
+			this.tbListTeacher1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+			this.tbListTeacher1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+			this.tbListTeacher1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+			this.tbListTeacher1.DisabledState.Parent = this.tbListTeacher1;
+			this.tbListTeacher1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+			this.tbListTeacher1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
+			this.tbListTeacher1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.tbListTeacher1.FocusedState.Parent = this.tbListTeacher1;
+			this.tbListTeacher1.Font = new System.Drawing.Font("Segoe UI", 7F);
+			this.tbListTeacher1.ForeColor = System.Drawing.Color.White;
+			this.tbListTeacher1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.tbListTeacher1.HoverState.Parent = this.tbListTeacher1;
+			this.tbListTeacher1.Location = new System.Drawing.Point(171, 76);
+			this.tbListTeacher1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbListTeacher1.MaxLength = 50;
+			this.tbListTeacher1.Multiline = true;
+			this.tbListTeacher1.Name = "tbListTeacher1";
+			this.tbListTeacher1.PasswordChar = '\0';
+			this.tbListTeacher1.PlaceholderText = "";
+			this.tbListTeacher1.ReadOnly = true;
+			this.tbListTeacher1.SelectedText = "";
+			this.tbListTeacher1.ShadowDecoration.Parent = this.tbListTeacher1;
+			this.tbListTeacher1.Size = new System.Drawing.Size(144, 58);
+			this.tbListTeacher1.TabIndex = 13;
 			// 
-			// guna2ComboBox1
+			// cbEditOffice1
 			// 
-			this.guna2ComboBox1.Animated = true;
-			this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-			this.guna2ComboBox1.DataSource = this.officeBindingSource1;
-			this.guna2ComboBox1.DisplayMember = "id_office";
-			this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.guna2ComboBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.guna2ComboBox1.FocusedColor = System.Drawing.Color.Empty;
-			this.guna2ComboBox1.FocusedState.Parent = this.guna2ComboBox1;
-			this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-			this.guna2ComboBox1.ForeColor = System.Drawing.Color.Black;
-			this.guna2ComboBox1.FormattingEnabled = true;
-			this.guna2ComboBox1.HoverState.Parent = this.guna2ComboBox1;
-			this.guna2ComboBox1.ItemHeight = 30;
-			this.guna2ComboBox1.ItemsAppearance.Parent = this.guna2ComboBox1;
-			this.guna2ComboBox1.Location = new System.Drawing.Point(10, 71);
-			this.guna2ComboBox1.MaxLength = 150;
-			this.guna2ComboBox1.Name = "guna2ComboBox1";
-			this.guna2ComboBox1.ShadowDecoration.Parent = this.guna2ComboBox1;
-			this.guna2ComboBox1.Size = new System.Drawing.Size(118, 36);
-			this.guna2ComboBox1.TabIndex = 12;
-			this.guna2ComboBox1.ValueMember = "id_cathedra";
+			this.cbEditOffice1.Animated = true;
+			this.cbEditOffice1.BackColor = System.Drawing.Color.Transparent;
+			this.cbEditOffice1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditOffice1.DataSource = this.officeBindingSource1;
+			this.cbEditOffice1.DisplayMember = "id_office";
+			this.cbEditOffice1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbEditOffice1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbEditOffice1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditOffice1.FocusedColor = System.Drawing.Color.Empty;
+			this.cbEditOffice1.FocusedState.Parent = this.cbEditOffice1;
+			this.cbEditOffice1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.cbEditOffice1.ForeColor = System.Drawing.Color.Black;
+			this.cbEditOffice1.FormattingEnabled = true;
+			this.cbEditOffice1.HoverState.Parent = this.cbEditOffice1;
+			this.cbEditOffice1.ItemHeight = 30;
+			this.cbEditOffice1.ItemsAppearance.Parent = this.cbEditOffice1;
+			this.cbEditOffice1.Location = new System.Drawing.Point(10, 79);
+			this.cbEditOffice1.MaxLength = 150;
+			this.cbEditOffice1.Name = "cbEditOffice1";
+			this.cbEditOffice1.ShadowDecoration.Parent = this.cbEditOffice1;
+			this.cbEditOffice1.Size = new System.Drawing.Size(139, 36);
+			this.cbEditOffice1.TabIndex = 12;
+			this.cbEditOffice1.ValueMember = "id_cathedra";
 			// 
 			// officeBindingSource1
 			// 
@@ -1023,30 +1615,31 @@
 			this.timeTableDataSet7.DataSetName = "timeTableDataSet7";
 			this.timeTableDataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
 			// 
-			// cbCahedra
+			// cbEditLesson1
 			// 
-			this.cbCahedra.Animated = true;
-			this.cbCahedra.BackColor = System.Drawing.Color.Transparent;
-			this.cbCahedra.DataSource = this.lessonBindingSource2;
-			this.cbCahedra.DisplayMember = "shortNameLesson";
-			this.cbCahedra.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.cbCahedra.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cbCahedra.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.cbCahedra.FocusedColor = System.Drawing.Color.Empty;
-			this.cbCahedra.FocusedState.Parent = this.cbCahedra;
-			this.cbCahedra.Font = new System.Drawing.Font("Segoe UI", 10F);
-			this.cbCahedra.ForeColor = System.Drawing.Color.Black;
-			this.cbCahedra.FormattingEnabled = true;
-			this.cbCahedra.HoverState.Parent = this.cbCahedra;
-			this.cbCahedra.ItemHeight = 30;
-			this.cbCahedra.ItemsAppearance.Parent = this.cbCahedra;
-			this.cbCahedra.Location = new System.Drawing.Point(10, 11);
-			this.cbCahedra.MaxLength = 150;
-			this.cbCahedra.Name = "cbCahedra";
-			this.cbCahedra.ShadowDecoration.Parent = this.cbCahedra;
-			this.cbCahedra.Size = new System.Drawing.Size(435, 36);
-			this.cbCahedra.TabIndex = 11;
-			this.cbCahedra.ValueMember = "id_cathedra";
+			this.cbEditLesson1.Animated = true;
+			this.cbEditLesson1.BackColor = System.Drawing.Color.Transparent;
+			this.cbEditLesson1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditLesson1.DataSource = this.lessonBindingSource2;
+			this.cbEditLesson1.DisplayMember = "shortNameLesson";
+			this.cbEditLesson1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cbEditLesson1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cbEditLesson1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.cbEditLesson1.FocusedColor = System.Drawing.Color.Empty;
+			this.cbEditLesson1.FocusedState.Parent = this.cbEditLesson1;
+			this.cbEditLesson1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.cbEditLesson1.ForeColor = System.Drawing.Color.Black;
+			this.cbEditLesson1.FormattingEnabled = true;
+			this.cbEditLesson1.HoverState.Parent = this.cbEditLesson1;
+			this.cbEditLesson1.ItemHeight = 30;
+			this.cbEditLesson1.ItemsAppearance.Parent = this.cbEditLesson1;
+			this.cbEditLesson1.Location = new System.Drawing.Point(10, 19);
+			this.cbEditLesson1.MaxLength = 150;
+			this.cbEditLesson1.Name = "cbEditLesson1";
+			this.cbEditLesson1.ShadowDecoration.Parent = this.cbEditLesson1;
+			this.cbEditLesson1.Size = new System.Drawing.Size(502, 36);
+			this.cbEditLesson1.TabIndex = 11;
+			this.cbEditLesson1.ValueMember = "id_cathedra";
 			// 
 			// lessonBindingSource2
 			// 
@@ -1064,237 +1657,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.flEditDay.AutoScroll = true;
-			this.flEditDay.Controls.Add(this.gunaGradient2Panel4);
 			this.flEditDay.Location = new System.Drawing.Point(11, 90);
 			this.flEditDay.Margin = new System.Windows.Forms.Padding(4);
 			this.flEditDay.Name = "flEditDay";
-			this.flEditDay.Size = new System.Drawing.Size(1151, 539);
+			this.flEditDay.Size = new System.Drawing.Size(1086, 771);
 			this.flEditDay.TabIndex = 0;
-			// 
-			// gunaGradient2Panel4
-			// 
-			this.gunaGradient2Panel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.gunaGradient2Panel4.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel4.Controls.Add(this.gunaGradient2Panel5);
-			this.gunaGradient2Panel4.Controls.Add(this.nameDayLabel);
-			this.gunaGradient2Panel4.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaGradient2Panel4.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(84)))), ((int)(((byte)(117)))));
-			this.gunaGradient2Panel4.Location = new System.Drawing.Point(20, 18);
-			this.gunaGradient2Panel4.Margin = new System.Windows.Forms.Padding(20, 18, 20, 18);
-			this.gunaGradient2Panel4.Name = "gunaGradient2Panel4";
-			this.gunaGradient2Panel4.Radius = 10;
-			this.gunaGradient2Panel4.Size = new System.Drawing.Size(584, 303);
-			this.gunaGradient2Panel4.TabIndex = 9;
-			// 
-			// gunaGradient2Panel5
-			// 
-			this.gunaGradient2Panel5.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel5.Controls.Add(this.lbMonday5);
-			this.gunaGradient2Panel5.Controls.Add(this.lbMonday4);
-			this.gunaGradient2Panel5.Controls.Add(this.lbMonday3);
-			this.gunaGradient2Panel5.Controls.Add(this.lbMonday2);
-			this.gunaGradient2Panel5.Controls.Add(this.lbMonday1);
-			this.gunaGradient2Panel5.Controls.Add(this.label5);
-			this.gunaGradient2Panel5.Controls.Add(this.label6);
-			this.gunaGradient2Panel5.Controls.Add(this.label7);
-			this.gunaGradient2Panel5.Controls.Add(this.label8);
-			this.gunaGradient2Panel5.Controls.Add(this.label9);
-			this.gunaGradient2Panel5.Controls.Add(this.link5);
-			this.gunaGradient2Panel5.Controls.Add(this.link4);
-			this.gunaGradient2Panel5.Controls.Add(this.link3);
-			this.gunaGradient2Panel5.Controls.Add(this.link2);
-			this.gunaGradient2Panel5.Controls.Add(this.link1);
-			this.gunaGradient2Panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.gunaGradient2Panel5.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel5.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel5.Location = new System.Drawing.Point(0, 42);
-			this.gunaGradient2Panel5.Margin = new System.Windows.Forms.Padding(4);
-			this.gunaGradient2Panel5.Name = "gunaGradient2Panel5";
-			this.gunaGradient2Panel5.Radius = 10;
-			this.gunaGradient2Panel5.Size = new System.Drawing.Size(584, 261);
-			this.gunaGradient2Panel5.TabIndex = 1;
-			// 
-			// lbMonday5
-			// 
-			this.lbMonday5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.lbMonday5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbMonday5.ForeColor = System.Drawing.Color.Black;
-			this.lbMonday5.Location = new System.Drawing.Point(42, 205);
-			this.lbMonday5.Name = "lbMonday5";
-			this.lbMonday5.Size = new System.Drawing.Size(461, 36);
-			this.lbMonday5.TabIndex = 19;
-			this.lbMonday5.Text = "ТРПО Дарья Евгеньевна";
-			this.lbMonday5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// lbMonday4
-			// 
-			this.lbMonday4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.lbMonday4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbMonday4.ForeColor = System.Drawing.Color.Black;
-			this.lbMonday4.Location = new System.Drawing.Point(42, 158);
-			this.lbMonday4.Name = "lbMonday4";
-			this.lbMonday4.Size = new System.Drawing.Size(461, 36);
-			this.lbMonday4.TabIndex = 18;
-			this.lbMonday4.Text = "ТРПО Дарья Евгеньевна";
-			this.lbMonday4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// lbMonday3
-			// 
-			this.lbMonday3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.lbMonday3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbMonday3.ForeColor = System.Drawing.Color.Black;
-			this.lbMonday3.Location = new System.Drawing.Point(42, 111);
-			this.lbMonday3.Name = "lbMonday3";
-			this.lbMonday3.Size = new System.Drawing.Size(461, 36);
-			this.lbMonday3.TabIndex = 17;
-			this.lbMonday3.Text = "ТРПО Дарья Евгеньевна";
-			this.lbMonday3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// lbMonday2
-			// 
-			this.lbMonday2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.lbMonday2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbMonday2.ForeColor = System.Drawing.Color.Black;
-			this.lbMonday2.Location = new System.Drawing.Point(42, 63);
-			this.lbMonday2.Name = "lbMonday2";
-			this.lbMonday2.Size = new System.Drawing.Size(461, 36);
-			this.lbMonday2.TabIndex = 16;
-			this.lbMonday2.Text = "ТРПО Дарья Евгеньевна";
-			this.lbMonday2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// lbMonday1
-			// 
-			this.lbMonday1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.lbMonday1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.lbMonday1.ForeColor = System.Drawing.Color.Black;
-			this.lbMonday1.Location = new System.Drawing.Point(42, 12);
-			this.lbMonday1.Name = "lbMonday1";
-			this.lbMonday1.Size = new System.Drawing.Size(461, 36);
-			this.lbMonday1.TabIndex = 6;
-			this.lbMonday1.Text = "ТРПО Дарья Евгеньевна";
-			this.lbMonday1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// label5
-			// 
-			this.label5.AutoSize = true;
-			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label5.ForeColor = System.Drawing.Color.White;
-			this.label5.Location = new System.Drawing.Point(9, 212);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(27, 29);
-			this.label5.TabIndex = 15;
-			this.label5.Text = "5";
-			// 
-			// label6
-			// 
-			this.label6.AutoSize = true;
-			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label6.ForeColor = System.Drawing.Color.White;
-			this.label6.Location = new System.Drawing.Point(9, 162);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(27, 29);
-			this.label6.TabIndex = 14;
-			this.label6.Text = "4";
-			// 
-			// label7
-			// 
-			this.label7.AutoSize = true;
-			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label7.ForeColor = System.Drawing.Color.White;
-			this.label7.Location = new System.Drawing.Point(9, 111);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(27, 29);
-			this.label7.TabIndex = 13;
-			this.label7.Text = "3";
-			// 
-			// label8
-			// 
-			this.label8.AutoSize = true;
-			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label8.ForeColor = System.Drawing.Color.White;
-			this.label8.Location = new System.Drawing.Point(9, 63);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(27, 29);
-			this.label8.TabIndex = 12;
-			this.label8.Text = "2";
-			// 
-			// label9
-			// 
-			this.label9.AutoSize = true;
-			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label9.ForeColor = System.Drawing.Color.White;
-			this.label9.Location = new System.Drawing.Point(9, 14);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(27, 29);
-			this.label9.TabIndex = 11;
-			this.label9.Text = "1";
-			// 
-			// link5
-			// 
-			this.link5.Image = ((System.Drawing.Image)(resources.GetObject("link5.Image")));
-			this.link5.Location = new System.Drawing.Point(521, 207);
-			this.link5.Margin = new System.Windows.Forms.Padding(4);
-			this.link5.Name = "link5";
-			this.link5.Size = new System.Drawing.Size(43, 39);
-			this.link5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.link5.TabIndex = 9;
-			this.link5.TabStop = false;
-			// 
-			// link4
-			// 
-			this.link4.Image = ((System.Drawing.Image)(resources.GetObject("link4.Image")));
-			this.link4.Location = new System.Drawing.Point(521, 156);
-			this.link4.Margin = new System.Windows.Forms.Padding(4);
-			this.link4.Name = "link4";
-			this.link4.Size = new System.Drawing.Size(43, 39);
-			this.link4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.link4.TabIndex = 7;
-			this.link4.TabStop = false;
-			// 
-			// link3
-			// 
-			this.link3.Image = ((System.Drawing.Image)(resources.GetObject("link3.Image")));
-			this.link3.Location = new System.Drawing.Point(521, 106);
-			this.link3.Margin = new System.Windows.Forms.Padding(4);
-			this.link3.Name = "link3";
-			this.link3.Size = new System.Drawing.Size(43, 39);
-			this.link3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.link3.TabIndex = 5;
-			this.link3.TabStop = false;
-			// 
-			// link2
-			// 
-			this.link2.Image = ((System.Drawing.Image)(resources.GetObject("link2.Image")));
-			this.link2.Location = new System.Drawing.Point(521, 58);
-			this.link2.Margin = new System.Windows.Forms.Padding(4);
-			this.link2.Name = "link2";
-			this.link2.Size = new System.Drawing.Size(43, 39);
-			this.link2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.link2.TabIndex = 3;
-			this.link2.TabStop = false;
-			// 
-			// link1
-			// 
-			this.link1.Image = ((System.Drawing.Image)(resources.GetObject("link1.Image")));
-			this.link1.Location = new System.Drawing.Point(521, 9);
-			this.link1.Margin = new System.Windows.Forms.Padding(4);
-			this.link1.Name = "link1";
-			this.link1.Size = new System.Drawing.Size(43, 39);
-			this.link1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-			this.link1.TabIndex = 1;
-			this.link1.TabStop = false;
-			// 
-			// nameDayLabel
-			// 
-			this.nameDayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.nameDayLabel.ForeColor = System.Drawing.Color.White;
-			this.nameDayLabel.Location = new System.Drawing.Point(0, 5);
-			this.nameDayLabel.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
-			this.nameDayLabel.Name = "nameDayLabel";
-			this.nameDayLabel.Size = new System.Drawing.Size(293, 31);
-			this.nameDayLabel.TabIndex = 5;
-			this.nameDayLabel.Text = "Понедельник";
-			this.nameDayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// tabPage3
 			// 
@@ -1305,7 +1672,7 @@
 			this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
 			this.tabPage3.Name = "tabPage3";
 			this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
-			this.tabPage3.Size = new System.Drawing.Size(1680, 628);
+			this.tabPage3.Size = new System.Drawing.Size(1680, 860);
 			this.tabPage3.TabIndex = 2;
 			this.tabPage3.Text = "tabPage3";
 			// 
@@ -1363,7 +1730,7 @@
 			this.tabPage4.Location = new System.Drawing.Point(4, 20);
 			this.tabPage4.Name = "tabPage4";
 			this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage4.Size = new System.Drawing.Size(1680, 628);
+			this.tabPage4.Size = new System.Drawing.Size(1680, 860);
 			this.tabPage4.TabIndex = 3;
 			this.tabPage4.Text = "tabPage4";
 			// 
@@ -1584,7 +1951,7 @@
 			this.tabPage5.Location = new System.Drawing.Point(4, 20);
 			this.tabPage5.Name = "tabPage5";
 			this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage5.Size = new System.Drawing.Size(1680, 628);
+			this.tabPage5.Size = new System.Drawing.Size(1680, 860);
 			this.tabPage5.TabIndex = 4;
 			this.tabPage5.Text = "tabPage5";
 			// 
@@ -1817,7 +2184,7 @@
 			this.tabPage6.Location = new System.Drawing.Point(4, 20);
 			this.tabPage6.Name = "tabPage6";
 			this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage6.Size = new System.Drawing.Size(1680, 628);
+			this.tabPage6.Size = new System.Drawing.Size(1680, 860);
 			this.tabPage6.TabIndex = 5;
 			this.tabPage6.Text = "tabPage6";
 			// 
@@ -2091,15 +2458,47 @@
 			// 
 			this.officeTableAdapter1.ClearBeforeFill = true;
 			// 
+			// lessonTableAdapter3
+			// 
+			this.lessonTableAdapter3.ClearBeforeFill = true;
+			// 
+			// lessonTableAdapter4
+			// 
+			this.lessonTableAdapter4.ClearBeforeFill = true;
+			// 
+			// lessonTableAdapter5
+			// 
+			this.lessonTableAdapter5.ClearBeforeFill = true;
+			// 
+			// lessonTableAdapter6
+			// 
+			this.lessonTableAdapter6.ClearBeforeFill = true;
+			// 
+			// officeTableAdapter2
+			// 
+			this.officeTableAdapter2.ClearBeforeFill = true;
+			// 
+			// officeTableAdapter3
+			// 
+			this.officeTableAdapter3.ClearBeforeFill = true;
+			// 
+			// officeTableAdapter4
+			// 
+			this.officeTableAdapter4.ClearBeforeFill = true;
+			// 
+			// officeTableAdapter5
+			// 
+			this.officeTableAdapter5.ClearBeforeFill = true;
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
-			this.ClientSize = new System.Drawing.Size(1717, 776);
+			this.ClientSize = new System.Drawing.Size(1717, 973);
+			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.navigationPanel);
 			this.Controls.Add(this.viewDaysTabPanel);
-			this.Controls.Add(this.pictureBox1);
 			this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.MinimumSize = new System.Drawing.Size(1533, 726);
 			this.Name = "Form1";
@@ -2120,22 +2519,36 @@
 			((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).EndInit();
 			this.tabPage2.ResumeLayout(false);
 			this.gunaGradient2Panel20.ResumeLayout(false);
-			this.flowLayoutPanel3.ResumeLayout(false);
+			this.gunaGradient2Panel11.ResumeLayout(false);
+			this.gunaGradient2Panel11.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet14)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet10)).EndInit();
+			this.gunaGradient2Panel10.ResumeLayout(false);
+			this.gunaGradient2Panel10.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet13)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet9)).EndInit();
+			this.gunaGradient2Panel9.ResumeLayout(false);
+			this.gunaGradient2Panel9.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet12)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet8)).EndInit();
+			this.gunaGradient2Panel7.ResumeLayout(false);
+			this.gunaGradient2Panel7.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet11)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.dataSetLessonEdit2)).EndInit();
 			this.gunaGradient2Panel6.ResumeLayout(false);
 			this.gunaGradient2Panel6.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.officeBindingSource1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet7)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource2)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.timeTableDataSet6)).EndInit();
-			this.flEditDay.ResumeLayout(false);
-			this.gunaGradient2Panel4.ResumeLayout(false);
-			this.gunaGradient2Panel5.ResumeLayout(false);
-			this.gunaGradient2Panel5.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.link5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.link4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.link3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.link2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.link1)).EndInit();
 			this.tabPage3.ResumeLayout(false);
 			this.gunaGradient2Panel24.ResumeLayout(false);
 			this.tabPage4.ResumeLayout(false);
@@ -2183,13 +2596,6 @@
 		private System.Windows.Forms.FlowLayoutPanel mainLayout;
 		private System.Windows.Forms.FlowLayoutPanel flEditDay;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel20;
-		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-		private Guna.UI.WinForms.GunaButton gunaButton1;
-		private Guna.UI.WinForms.GunaButton gunaButton2;
-		private Guna.UI.WinForms.GunaButton gunaButton3;
-		private Guna.UI.WinForms.GunaButton gunaButton4;
-		private Guna.UI.WinForms.GunaButton gunaButton5;
-		private Guna.UI.WinForms.GunaButton gunaButton6;
 		private System.Windows.Forms.TabPage tabPage3;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel21;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel24;
@@ -2264,41 +2670,77 @@
 		private System.Windows.Forms.DataGridViewTextBoxColumn numberLectureHoursSemesterDataGridViewTextBoxColumn;
 		private System.Windows.Forms.DataGridViewTextBoxColumn idlessonDataGridViewTextBoxColumn;
 		private System.Windows.Forms.DataGridViewTextBoxColumn linkMudlDataGridViewTextBoxColumn;
-		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel4;
-		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel5;
-		private System.Windows.Forms.Label lbMonday5;
-		private System.Windows.Forms.Label lbMonday4;
-		private System.Windows.Forms.Label lbMonday3;
-		private System.Windows.Forms.Label lbMonday2;
-		private System.Windows.Forms.Label lbMonday1;
-		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.Label label7;
-		private System.Windows.Forms.Label label8;
-		private System.Windows.Forms.Label label9;
-		private System.Windows.Forms.PictureBox link5;
-		private System.Windows.Forms.PictureBox link4;
-		private System.Windows.Forms.PictureBox link3;
-		private System.Windows.Forms.PictureBox link2;
-		private System.Windows.Forms.PictureBox link1;
-		private System.Windows.Forms.Label nameDayLabel;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel6;
-		private Guna.UI2.WinForms.Guna2ComboBox cbCahedra;
+		private Guna.UI2.WinForms.Guna2ComboBox cbEditLesson1;
 		private timeTableDataSet6 timeTableDataSet6;
 		private System.Windows.Forms.BindingSource lessonBindingSource2;
 		private timeTableDataSet6TableAdapters.LessonTableAdapter lessonTableAdapter2;
-		private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+		private Guna.UI2.WinForms.Guna2ComboBox cbEditOffice1;
 		private timeTableDataSet7 timeTableDataSet7;
 		private System.Windows.Forms.BindingSource officeBindingSource1;
 		private timeTableDataSet7TableAdapters.OfficeTableAdapter officeTableAdapter1;
-		private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox1;
-		private Guna.UI2.WinForms.Guna2TextBox tbListTeacher;
+		private Guna.UI2.WinForms.Guna2CustomCheckBox lecture1;
+		private Guna.UI2.WinForms.Guna2TextBox tbListTeacher1;
 		private System.Windows.Forms.Label label10;
 		private Guna.UI2.WinForms.Guna2Button addTeacher1;
 		private System.Windows.Forms.Label label11;
 		private Guna.UI2.WinForms.Guna2ComboBox cbWeekEdit;
 		private System.Windows.Forms.Label label12;
 		private Guna.UI2.WinForms.Guna2ComboBox cbGroupEdit;
+		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel11;
+		private Guna.UI2.WinForms.Guna2Button guna2Button4;
+		private System.Windows.Forms.Label label16;
+		private Guna.UI2.WinForms.Guna2CustomCheckBox lecture5;
+		private Guna.UI2.WinForms.Guna2TextBox tbListTeacher5;
+		private Guna.UI2.WinForms.Guna2ComboBox cbEditOffice5;
+		private Guna.UI2.WinForms.Guna2ComboBox cbEditLesson5;
+		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel10;
+		private Guna.UI2.WinForms.Guna2Button guna2Button3;
+		private System.Windows.Forms.Label label15;
+		private Guna.UI2.WinForms.Guna2CustomCheckBox lecture4;
+		private Guna.UI2.WinForms.Guna2TextBox tbListTeacher4;
+		private Guna.UI2.WinForms.Guna2ComboBox cbEditOffice4;
+		private Guna.UI2.WinForms.Guna2ComboBox cbEditLesson4;
+		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel9;
+		private Guna.UI2.WinForms.Guna2Button guna2Button2;
+		private System.Windows.Forms.Label label14;
+		private Guna.UI2.WinForms.Guna2CustomCheckBox lecture3;
+		private Guna.UI2.WinForms.Guna2TextBox tbListTeacher3;
+		private Guna.UI2.WinForms.Guna2ComboBox cbEditOffice3;
+		private Guna.UI2.WinForms.Guna2ComboBox cbEditLesson3;
+		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel7;
+		private Guna.UI2.WinForms.Guna2Button guna2Button1;
+		private System.Windows.Forms.Label label13;
+		private Guna.UI2.WinForms.Guna2CustomCheckBox lecture2;
+		private Guna.UI2.WinForms.Guna2TextBox tbListTeacher2;
+		private Guna.UI2.WinForms.Guna2ComboBox cbEditOffice2;
+		private Guna.UI2.WinForms.Guna2ComboBox cbEditLesson2;
+		private Guna.UI2.WinForms.Guna2Button saveEditDay;
+		private DataSetLessonEdit2 dataSetLessonEdit2;
+		private System.Windows.Forms.BindingSource lessonBindingSource3;
+		private DataSetLessonEdit2TableAdapters.LessonTableAdapter lessonTableAdapter3;
+		private timeTableDataSet8 timeTableDataSet8;
+		private System.Windows.Forms.BindingSource lessonBindingSource4;
+		private timeTableDataSet8TableAdapters.LessonTableAdapter lessonTableAdapter4;
+		private timeTableDataSet9 timeTableDataSet9;
+		private System.Windows.Forms.BindingSource lessonBindingSource5;
+		private timeTableDataSet9TableAdapters.LessonTableAdapter lessonTableAdapter5;
+		private timeTableDataSet10 timeTableDataSet10;
+		private System.Windows.Forms.BindingSource lessonBindingSource6;
+		private timeTableDataSet10TableAdapters.LessonTableAdapter lessonTableAdapter6;
+		private timeTableDataSet11 timeTableDataSet11;
+		private System.Windows.Forms.BindingSource officeBindingSource2;
+		private timeTableDataSet11TableAdapters.OfficeTableAdapter officeTableAdapter2;
+		private timeTableDataSet12 timeTableDataSet12;
+		private System.Windows.Forms.BindingSource officeBindingSource3;
+		private timeTableDataSet12TableAdapters.OfficeTableAdapter officeTableAdapter3;
+		private timeTableDataSet13 timeTableDataSet13;
+		private System.Windows.Forms.BindingSource officeBindingSource4;
+		private timeTableDataSet13TableAdapters.OfficeTableAdapter officeTableAdapter4;
+		private timeTableDataSet14 timeTableDataSet14;
+		private System.Windows.Forms.BindingSource officeBindingSource5;
+		private timeTableDataSet14TableAdapters.OfficeTableAdapter officeTableAdapter5;
+		private System.Windows.Forms.Label titleWeekDay;
 	}
 }
 

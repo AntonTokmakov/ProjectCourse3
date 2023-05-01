@@ -32,6 +32,7 @@ namespace DataLessonsCours3.View
 				panel2.Location = new Point(12, 300);
 				panel2.Visible = true;
 				btnSave.Text = "Регистрация";
+				lbRegistration.Text = "Вход";
 				check = false;
 			} else
 			{
@@ -39,6 +40,7 @@ namespace DataLessonsCours3.View
 				panel2.Location = new Point(12, 490);
 				panel2.Visible = false;
 				btnSave.Text = "Вход";
+				lbRegistration.Text = "Регистрация";
 				check = true;
 			}
 		}

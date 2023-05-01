@@ -12,16 +12,17 @@ namespace DataLessonsCours3.View
 {
 	public partial class EditDayCard : UserControl
 	{
+		int getWeekDay;
 		public EditDayCard(string[][][] day, int weekDay)
 		{
 			InitializeComponent();
 			string[] weekDayName = new string[] { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота" };
 			nameDayLabel.Text = weekDayName[weekDay];
-			Label[] lessons = new Label[] { firstLessonLabel , secondLessonLabel, thirdLessonLabel , fourLessonLabel , firstLessonLabel };
+			getWeekDay = weekDay;
+			string[] links = new string[5];
+			Label[] lessons = new Label[] { firstLessonLabel, secondLessonLabel, thirdLessonLabel, fourLessonLabel, fiveLessonLabel };
 			if (day != null)
 			{
-				int numberLesson = 1;
-				int teacher = 0;
 				string text = "";
 				try
 				{
@@ -31,77 +32,90 @@ namespace DataLessonsCours3.View
 						{
 							for (int j = 0; j + 1 < day[i].Length; j++)
 							{
-								//for (int k = 0; k < day[i][j].Length; k++)			//вот эта штука скорей всего и не нужна, так как day[][][] это уже элементы массива
-								//{
 								if (!(day[i][j] == null)) 
 								{
+									if (day[i][j][4].Equals("2")) lessons[i].ForeColor = Color.FromArgb(177, 4, 4);
+
 									if (j == 0)
-										text = day[i][j][3] + " " + day[i][j][5] + " " + day[i][j][9] + " " + day[i][j][8];
-									else text += " " + day[i][j][9] + " " + day[i][j][8];
+									{
+										text = day[i][j][3] + " " + day[i][j][5] + " " + day[i][j][9];
+										links[i] = day[i][j][11];
+									}
+									else
+									{
+										text += " " + day[i][j][9];
+										break;
+									}
 								}
-								//}
-								
 							}
 							lessons[i].Text = text;
 							text = "";
-							/*if (day[i][teacher][4].Equals(numberLesson.ToString()))
-							{
-								lessons[numberLesson-1].Text = day[i][0][3] + " " + day[i][0][5] + " " + day[i][0][9] + " " + day[i][0][8];
-								numberLesson++;
-							} else 
-							{
-								lessons[numberLesson-2].Text += " " + day[i][9] + " " + day[i][8];
-							}*/
 						}
 					}
-
-					/*firstLessonLabel.Text = day[0][3] + " " + day[0][5] + " " + day[0][9] + " " + day[0][8];
-					secondLessonLabel.Text = day[1][3] + " " + day[1][5] + " " + day[1][9] + " " + day[1][8];
-					thirdLessonLabel.Text = day[2][3] + " " + day[2][5] + " " + day[2][9] + " " + day[2][8];
-					fourLessonLabel.Text= day[3][3] + " " + day[3][5] + " " + day[3][9] + " " + day[3][8];
-					firstLessonLabel.Text = day[4][3] + " " + day[4][5] + " " + day[4][9] + " " + day[4][8];
-					nameDayLabel.Text = day[1][6];*/
 				}
-				catch (Exception)
-				{
+				catch (Exception) { }
 
-				}
+				string moodle = "https://do.sibsiu.ru/day/course/";
+
+				this.link1.Click += new EventHandler((e, t) => {
+					System.Diagnostics.Process.Start(moodle + links[0]);
+				});
+				this.link2.Click += new EventHandler((e, t) => {
+					System.Diagnostics.Process.Start(moodle + links[1]);
+				});
+				this.link3.Click += new EventHandler((e, t) => {
+					System.Diagnostics.Process.Start(moodle + links[2]);
+				});
+				this.link4.Click += new EventHandler((e, t) => {
+					System.Diagnostics.Process.Start(moodle + links[3]);
+				});
+				this.link5.Click += new EventHandler((e, t) => {
+					System.Diagnostics.Process.Start(moodle + links[4]);
+				});
+
 			}
 		}
 
 		private void nameDayLabel_DoubleClick(object sender, EventArgs e)
 		{
-
+			getForm();
 		}
 
 		private void firstLessonLabel_DoubleClick(object sender, EventArgs e)
 		{
-
+			getForm();
 		}
 
 		private void secondLessonLabel_DoubleClick(object sender, EventArgs e)
 		{
-
+			getForm();
 		}
 
 		private void thirdLessonLabel_DoubleClick(object sender, EventArgs e)
 		{
-
+			getForm();
 		}
 
 		private void fourLessonLabel_DoubleClick(object sender, EventArgs e)
 		{
-
+			getForm();
 		}
 
 		private void fiveLessonLabel_DoubleClick(object sender, EventArgs e)
 		{
-
+			getForm();
 		}
 
 		private void gunaGradient2Panel5_DoubleClick(object sender, EventArgs e)
 		{
-
+			getForm();
 		}
+		private void getForm()
+		{
+			Form1 form1 = Application.OpenForms.OfType<Form1>().FirstOrDefault();
+			form1.clickViewEditDay(getWeekDay);
+			//form1.MethodName(getWeekDay);
+		}
+
 	}
 }

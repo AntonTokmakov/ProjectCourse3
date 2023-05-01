@@ -20,3 +20,4 @@ C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\obj\Debug\DataLe
 C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.EditDayCard.resources
 C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.EdirAddTeacher.resources
 C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.Auntification.resources
+C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.MessageForm.resources

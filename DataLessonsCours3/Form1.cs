@@ -29,12 +29,69 @@ namespace DataLessonsCours3
 		DayLesson saturday;
 		DayLesson[] daysLesson;
 
-		(int, string, string, int) user;
+		Guna2ComboBox[] cbLesson;
+		Guna2ComboBox[] cbOffice;
+		Guna2TextBox[] tbTeacher;
+		Guna2CustomCheckBox[] cbLecture;
 
+		(int, string, string, int) user;
+		string[][][] day;
+		int nowWeekDay;
+
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet14.Office". При необходимости она может быть перемещена или удалена.
+			this.officeTableAdapter5.Fill(this.timeTableDataSet14.Office);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet13.Office". При необходимости она может быть перемещена или удалена.
+			this.officeTableAdapter4.Fill(this.timeTableDataSet13.Office);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet12.Office". При необходимости она может быть перемещена или удалена.
+			this.officeTableAdapter3.Fill(this.timeTableDataSet12.Office);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet11.Office". При необходимости она может быть перемещена или удалена.
+			this.officeTableAdapter2.Fill(this.timeTableDataSet11.Office);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet10.Lesson". При необходимости она может быть перемещена или удалена.
+			this.lessonTableAdapter6.Fill(this.timeTableDataSet10.Lesson);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet9.Lesson". При необходимости она может быть перемещена или удалена.
+			this.lessonTableAdapter5.Fill(this.timeTableDataSet9.Lesson);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet8.Lesson". При необходимости она может быть перемещена или удалена.
+			this.lessonTableAdapter4.Fill(this.timeTableDataSet8.Lesson);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "dataSetLessonEdit2.Lesson". При необходимости она может быть перемещена или удалена.
+			this.lessonTableAdapter3.Fill(this.dataSetLessonEdit2.Lesson);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet7.Office". При необходимости она может быть перемещена или удалена.
+			this.officeTableAdapter1.Fill(this.timeTableDataSet7.Office);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet6.Lesson". При необходимости она может быть перемещена или удалена.
+			this.lessonTableAdapter2.Fill(this.timeTableDataSet6.Lesson);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet5.Lesson". При необходимости она может быть перемещена или удалена.
+			this.lessonTableAdapter1.Fill(this.timeTableDataSet5.Lesson);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet4.Week". При необходимости она может быть перемещена или удалена.
+			this.weekTableAdapter.Fill(this.timeTableDataSet4.Week);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "groupStudIdShortName.GroupStudent". При необходимости она может быть перемещена или удалена.
+			this.groupStudentTableAdapter.Fill(this.groupStudIdShortName.GroupStudent);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet2.Office".
+			this.officeTableAdapter.Fill(this.timeTableDataSet2.Office);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet1.Lesson".
+			this.lessonTableAdapter.Fill(this.timeTableDataSet1.Lesson);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableTeacher.Teacher".
+			this.teacherTableAdapter1.Fill(this.timeTableTeacher.Teacher);
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet.Teacher".
+			this.teacherTableAdapter.Fill(this.timeTableDataSet.Teacher);
+
+			cbGroupEdit_SelectedIndexChanged(sender, e);
+			viewDaysTabPanel_SelectedIndexChanged(sender, e);
+
+		}
 
 		public Form1()
 		{
 			InitializeComponent();
+			/////////////////////////////////////////////////////////////////////////////////
+			//user.Item4 = 2;                                                                             ////////////// УДАЛИТЬ
+			////////////////////////////////////////////////////////////////////////////////
+
+			cbLesson = new Guna2ComboBox[] { cbEditLesson1, cbEditLesson2, cbEditLesson3, cbEditLesson4, cbEditLesson5 };
+			cbOffice = new Guna2ComboBox[] { cbEditOffice1, cbEditOffice2, cbEditOffice3, cbEditOffice4, cbEditOffice5 };
+			tbTeacher = new Guna2TextBox[] { tbListTeacher1, tbListTeacher2, tbListTeacher3, tbListTeacher4, tbListTeacher5 };
+			cbLecture = new Guna2CustomCheckBox[] { lecture1, lecture2, lecture3, lecture4, lecture5 };
 			daysLesson = new DayLesson[] { monday, tuesday, wednesday, thursday , friday , saturday };
 			
 		}
@@ -53,45 +110,55 @@ namespace DataLessonsCours3
 		{
 			switch (viewDaysTabPanel.SelectedIndex)
 			{
-				case 0:	// appointment panel
+				case 0: // appointment panel
 					mainLayout.Controls.Clear();
-					for (int i = 1; i < 5; i++)
+					try
 					{
-						DB db = new DB();
-						db.openConnection();
-						string quest = $"SELECT AppointmentLesson.numberLesson, Lesson.fullNameLesson, \r\nLesson.shortNameLesson, \r\nTypeLesson.type_lesson, \r\nOffice.id_office, \r\nweekDay.weekDay,\r\nGroupStudent.shortNameGroup,\r\nTeacher.name,\r\nTeacher.firstName, \r\nTeacher.otchestvo\r\n\r\nFROM \r\nLesson, Week, NumberLesson, \r\nTypeLesson, WeekDay, \r\nOffice, \r\nTeacher,\r\nGroupStudent,\r\nAppointmentLesson\r\nJOIN Group_AppointmentLessons ON (AppointmentLesson.id = Group_AppointmentLessons.id_appointment_lesson)\r\nJOIN Teacher_AppointmentLesson ON (AppointmentLesson.id = Teacher_AppointmentLesson.id_appointmentLesson)\r\n\r\nWHERE\r\nAppointmentLesson.lesson = Lesson.id_lesson AND\r\nAppointmentLesson.week = Week.id_week AND\r\nAppointmentLesson.numberLesson = NumberLesson.id_number_lesson AND\r\nAppointmentLesson.typeLesson = TypeLesson.type_lesson AND\r\nAppointmentLesson.office = Office.id_office AND\r\nAppointmentLesson.weekDay = WeekDay.id_weekDay AND\r\nGroup_AppointmentLessons.group_student = GroupStudent.idGroup AND\r\nTeacher_AppointmentLesson.id_teacher = Teacher.id_teacher AND\r\nGroupStudent.idGroup = {cbGroupStudent.SelectedValue.ToString()} AND\r\nWeekDay.id_weekDay = {i} AND\r\nWeek.id_week = {cbWeek.SelectedValue.ToString()}";
-						SqlCommand command = new SqlCommand(quest, db.getConnection());
-						SqlDataReader reader = command.ExecuteReader();
-						CardDayLessons cardDay = new CardDayLessons(reader);
-						mainLayout.Controls.Add(cardDay);
-						db.closeConnection();
+						for (int i = 0; i < daysLesson.Length; i++)
+						{
+							string[][][] dayL = daysLesson[i].selectDB();
+							CardDayLessons DayCard = new CardDayLessons(dayL, i);
+							mainLayout.Controls.Add(DayCard);
+						}
 					}
+					catch (Exception) { }
 					break;
 
 				case 1:	// edit panel
-					flEditDay.Controls.Clear();
-
-					for (int i = 0; i < daysLesson.Length; i++)
+					if (user.Item4 == 2)
 					{
-						string[][][] dayL = daysLesson[i].selectDB();			// возращается null
-						EditDayCard editDayCard = new EditDayCard(dayL, i);
-						flEditDay.Controls.Add(editDayCard);
-
+						flEditDay.Controls.Clear();
+						try
+						{
+							for (int i = 0; i < daysLesson.Length; i++)
+							{
+								string[][][] dayL = daysLesson[i].selectDB();
+								EditDayCard editDayCard = new EditDayCard(dayL, i);
+								flEditDay.Controls.Add(editDayCard);
+							}
+						}
+						catch (Exception) {	}
 					}
-
-					foreach (var day in daysLesson)
+					else
+						new MessageForm("У вас не достаточно прав", "Система").ShowDialog();
+					/*foreach (var day in daysLesson)
 					{
-					}
+					}*/
 					break;
-
+					
 				case 2:  // exam panel
-					examLayoutPanel.Controls.Clear();
-					for (int i = 0; i < 5; i++)
+					if (user.Item4 == 2)
 					{
-						CardExam cardExam = new CardExam();
+						examLayoutPanel.Controls.Clear();
+						for (int i = 0; i < 5; i++)
+						{
+							CardExam cardExam = new CardExam();
 
-						examLayoutPanel.Controls.Add(cardExam);
+							examLayoutPanel.Controls.Add(cardExam);
+						}
 					}
+					else
+						new MessageForm("У вас не достаточно прав", "Система").ShowDialog();
 					break;
 
 				case 3:	// teacher panel
@@ -115,36 +182,13 @@ namespace DataLessonsCours3
 
 		private void editShedulePage_Click(object sender, EventArgs e)
 		{
-			viewDaysTabPanel.SelectTab(1);
+			if (user.Item4 == 2)
+				viewDaysTabPanel.SelectTab(1);
+			else
+				new MessageForm("У вас не достаточно прав", "Система").ShowDialog();
 		}
 
-
-		private void Form1_Load(object sender, EventArgs e)
-		{
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet7.Office". При необходимости она может быть перемещена или удалена.
-			this.officeTableAdapter1.Fill(this.timeTableDataSet7.Office);
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet6.Lesson". При необходимости она может быть перемещена или удалена.
-			this.lessonTableAdapter2.Fill(this.timeTableDataSet6.Lesson);
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet5.Lesson". При необходимости она может быть перемещена или удалена.
-			this.lessonTableAdapter1.Fill(this.timeTableDataSet5.Lesson);
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet4.Week". При необходимости она может быть перемещена или удалена.
-			this.weekTableAdapter.Fill(this.timeTableDataSet4.Week);
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "groupStudIdShortName.GroupStudent". При необходимости она может быть перемещена или удалена.
-			this.groupStudentTableAdapter.Fill(this.groupStudIdShortName.GroupStudent);
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet2.Office".
-			this.officeTableAdapter.Fill(this.timeTableDataSet2.Office);
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet1.Lesson".
-			this.lessonTableAdapter.Fill(this.timeTableDataSet1.Lesson);
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableTeacher.Teacher".
-			this.teacherTableAdapter1.Fill(this.timeTableTeacher.Teacher);
-			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet.Teacher".
-			this.teacherTableAdapter.Fill(this.timeTableDataSet.Teacher);
-
-			cbGroupEdit_SelectedIndexChanged(sender, e);
-
-		}
-
-		private void fillByToolStripButton_Click(object sender, EventArgs e)
+			private void fillByToolStripButton_Click(object sender, EventArgs e)
 		{
 			try
 			{
@@ -162,13 +206,44 @@ namespace DataLessonsCours3
 			switch (selectSpr.SelectedIndex)
 			{
 				case 1:
-					viewDaysTabPanel.SelectTab(3);
+					if (user.Item4 >= 2)
+					{
+						viewDaysTabPanel.SelectTab(3);
+					}
+					else
+					{
+						new MessageForm("У вас не достаточно прав","Система").ShowDialog();
+					}
 					break;
 				case 2:
-					viewDaysTabPanel.SelectTab(4);
+					if (user.Item4 >= 2)
+					{
+						viewDaysTabPanel.SelectTab(4);
+					}
+					else
+					{
+						new MessageForm("У вас не достаточно прав", "Система").ShowDialog();
+					}
 					break;
 				case 3:
-					viewDaysTabPanel.SelectTab(5);
+					if (user.Item4 >= 2)
+					{
+						viewDaysTabPanel.SelectTab(5);
+					}
+					else
+					{
+						new MessageForm("У вас не достаточно прав", "Система").ShowDialog();
+					}
+					break;
+				case 4:
+					if (user.Item4 >= 3)
+					{
+						viewDaysTabPanel.SelectTab(6);
+					}
+					else
+					{
+						new MessageForm("У вас не достаточно прав", "Система").ShowDialog();
+					}
 					break;
 				default:
 					viewDaysTabPanel.SelectedIndex = 0;
@@ -324,23 +399,12 @@ namespace DataLessonsCours3
 				for (int i = 0; i < rows.Length; i++)
 				{
 
-				}	// надо это записать в БД, а с неё уже в класс
-				// приходит массив преподов
+				}	// надо это записать в отдельный массив преподов, а с неё уже в класс
+				// если изменения применить, то в БД
 			}
 		}
 
 		private void cbGroupEdit_SelectedIndexChanged(object sender, EventArgs e)
-		{
-			int group = Convert.ToInt32(cbGroupEdit.SelectedValue.ToString());
-			int week = Convert.ToInt32(cbWeekEdit.SelectedValue.ToString());
-			for (int i = 0; i < daysLesson.Length; i++)
-			{
-				daysLesson[i] = new DayLesson(group, i + 1, week);
-				daysLesson[i].selectDB();
-			}
-		}
-
-		private void cbWeekEdit_SelectedIndexChanged(object sender, EventArgs e)  //обернуть бы в try, так как ошибками сыпет при закрытии
 		{
 			try
 			{
@@ -351,15 +415,182 @@ namespace DataLessonsCours3
 					daysLesson[i] = new DayLesson(group, i + 1, week);
 					daysLesson[i].selectDB();
 				}
+				viewDaysTabPanel_SelectedIndexChanged(sender, e);
 			}
 			catch (Exception)
 			{
 
-				
 			}
 		}
 
+		private void cbWeekEdit_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			try
+			{
+				int group = Convert.ToInt32(cbGroupEdit.SelectedValue.ToString());
+				int week = Convert.ToInt32(cbWeekEdit.SelectedValue.ToString());
+				for (int i = 0; i < daysLesson.Length; i++)
+				{
+					daysLesson[i] = new DayLesson(group, i + 1, week);
+					daysLesson[i].selectDB();
+				}
+				viewDaysTabPanel_SelectedIndexChanged(sender, e);
+			}
+			catch (Exception)
+			{
+								
+			}
+		}
 
+		public void clickViewEditDay(int dayWeek)
+		{
+			day = daysLesson[dayWeek].selectDB();
+			string[] weekDayName = new string[] { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота" };
+			titleWeekDay.Text = weekDayName[dayWeek];
+			nowWeekDay = dayWeek;
+
+			for (int i = 0; i < cbLesson.Length; i++)
+			{
+				cbLesson[i].SelectedIndex = 0;
+				cbOffice[i].SelectedIndex = 0;
+				cbLecture[i].Checked = false;
+			}
+
+			if (day != null)
+			{
+				string text = "";
+				try
+				{
+					for (int i = 0; i < cbLesson.Length; i++)
+					{
+						if (!(day[i] == null))
+						{
+							for (int j = 0; j + 1 < day[i].Length; j++)
+							{
+								if (!(day[i][j] == null))
+								{
+									if (j == 0)
+									{
+										cbLesson[i].SelectedIndex = Convert.ToInt32(day[i][j][12])-1 ;
+										int indexOffice = cbOffice[i].FindString(day[i][j][13]);
+										cbOffice[i].SelectedIndex = indexOffice;
+										bool checkLecture = day[i][j][4].ToString().Equals("2") ? true : false;
+										cbLecture[i].Checked = checkLecture;
+										text = day[i][j][9] + " " + day[i][j][8] + "\n ";
+									}
+									else
+									{
+										text += day[i][j][9] + " " + day[i][j][8] + "\n ";
+
+									}
+								}
+							}
+							tbTeacher[i].Text = text;
+							text = "";
+						}
+					}
+				}
+				catch (Exception) { }
+
+			}
+		}
+
+		private void saveEditDay_Click(object sender, EventArgs e)
+		{
+			var result = MessageBox.Show("Вы хотите заменить данные дня?", "Составление расписание", MessageBoxButtons.YesNoCancel);
+			if (result == DialogResult.No || result == DialogResult.Cancel)
+			{
+				return;
+			}
+			/*cbLesson
+			cbOffice
+			tbTeacher
+			cbLecture
+			daysLesson*/
+
+			string[][] editLessons = new string[5][];
+			int count = 4;
+			int weekDay;
+			for (int i = 0; i < editLessons.Length; i++)
+			{
+				string a = cbLesson[i].SelectedIndex.ToString();
+				string b = cbOffice[i].Text;
+				string id = day[i][0] == null ? "" : Convert.ToInt32(day[i][0][0]).ToString();
+				editLessons[i] = new string[count];
+				editLessons[i][0] = id;
+				if (!(a.Equals("0") && b.Equals(" ") /*&& tbTeacher[i] что бы обязательно были преподаватели*/))            // а если что то одно заполнено?????
+				{
+					editLessons[i][1] = a;
+					editLessons[i][2] = b;
+					editLessons[i][3] = Convert.ToInt32(cbLecture[i].Checked).ToString();
+				}
+			}
+
+			for (int i = 0; i < editLessons.Length; i++)
+			{
+
+				if (!(editLessons[i][0].Equals("") && editLessons[i][1] == null))
+				{
+					DB db = new DB();
+					db.openConnection();
+					string query = "MERGE INTO AppointmentLesson AS target " +
+				   "USING (SELECT @id AS id, @office AS office, @lesson AS lesson, @week AS week, @weekDay AS weekDay, @numberLesson AS numberLesson, @typeLesson AS typeLesson) AS source " +
+				   "ON target.id = source.id " +
+				   "WHEN MATCHED THEN " +
+				   "    UPDATE SET office = source.office, lesson = source.lesson, week = source.week, weekDay = source.weekDay, numberLesson = source.numberLesson, typeLesson = source.typeLesson " +
+				   "WHEN NOT MATCHED THEN " +
+				   "    INSERT (office, lesson, week, weekDay, numberLesson, typeLesson) VALUES (source.office, source.lesson, source.week, source.weekDay, source.numberLesson, source.typeLesson);";
+					SqlCommand command = new SqlCommand(query, db.getConnection());
+					command.Parameters.AddWithValue("@id", Convert.ToInt32(editLessons[i][0]));
+					command.Parameters.AddWithValue("@office", editLessons[i][2]);
+					command.Parameters.AddWithValue("@lesson", Convert.ToInt32(editLessons[i][1]) + 1);
+					command.Parameters.AddWithValue("@week", cbWeekEdit.SelectedIndex + 1);
+					command.Parameters.AddWithValue("@weekDay", nowWeekDay + 1);
+					command.Parameters.AddWithValue("@numberLesson", i + 1);
+					command.Parameters.AddWithValue("@typeLesson", Convert.ToInt32(editLessons[i][3]) + 1);   //?? тогда лекция это 2
+					SqlDataReader reader = command.ExecuteReader();
+					db.closeConnection();
+
+				}
+
+			}
+
+			/*if (day != null)
+			{
+				string text = "";
+				try
+				{
+					for (int i = 0; i < cbLesson.Length; i++)
+					{
+						if (!(day[i] == null))
+						{
+							for (int j = 0; j + 1 < day[i].Length; j++)
+							{
+								if (!(day[i][j] == null))
+								{
+									if (j == 0)
+									{
+										cbLesson[i].SelectedIndex = Convert.ToInt32(day[i][j][12]) - 1;
+										int indexOffice = cbOffice[i].FindString(day[i][j][13]);
+										cbOffice[i].SelectedIndex = indexOffice;
+										bool checkLecture = day[i][j][4].ToString().Equals("1") ? true : false;
+										cbLecture[i].Checked = checkLecture;
+										text = day[i][j][9] + " " + day[i][j][8] + "\n ";
+									}
+									else
+									{
+										text += day[i][j][9] + " " + day[i][j][8] + "\n ";
+									}
+								}
+							}
+							tbTeacher[i].Text = text;
+							text = "";
+						}
+					}
+				}
+				catch (Exception) { }
+			}*/
+		}
 
 		#endregion
 
@@ -383,5 +614,6 @@ namespace DataLessonsCours3
 			}
 
 		}
+
 	}
 }
