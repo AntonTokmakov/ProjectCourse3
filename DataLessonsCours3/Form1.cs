@@ -15,6 +15,10 @@ using Guna.UI2.WinForms;
 using System.Data.SqlClient;
 using System.Xml.Linq;
 using System.Runtime.Remoting.Metadata.W3cXsd2001;
+using System.Drawing.Printing;
+using static System.Net.Mime.MediaTypeNames;
+using Microsoft.SqlServer.Server;
+using static System.ComponentModel.Design.ObjectSelectorEditor;
 
 namespace DataLessonsCours3
 {
@@ -36,8 +40,10 @@ namespace DataLessonsCours3
 
 		(int, string, string, int) user;
 		string[][][] day;
+		string[][][] nowDayTeacher = new string[6][][];
+		string[] weekDayName;
+		
 		int nowWeekDay;
-
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
@@ -85,7 +91,7 @@ namespace DataLessonsCours3
 		{
 			InitializeComponent();
 			/////////////////////////////////////////////////////////////////////////////////
-			//user.Item4 = 2;                                                                             ////////////// УДАЛИТЬ
+			user.Item4 = 2;                                                                             ////////////// УДАЛИТЬ
 			////////////////////////////////////////////////////////////////////////////////
 
 			cbLesson = new Guna2ComboBox[] { cbEditLesson1, cbEditLesson2, cbEditLesson3, cbEditLesson4, cbEditLesson5 };
@@ -93,7 +99,8 @@ namespace DataLessonsCours3
 			tbTeacher = new Guna2TextBox[] { tbListTeacher1, tbListTeacher2, tbListTeacher3, tbListTeacher4, tbListTeacher5 };
 			cbLecture = new Guna2CustomCheckBox[] { lecture1, lecture2, lecture3, lecture4, lecture5 };
 			daysLesson = new DayLesson[] { monday, tuesday, wednesday, thursday , friday , saturday };
-			
+			weekDayName = new string[] { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота" };
+
 		}
 
 		private void mainPage_Click(object sender, EventArgs e)
@@ -188,7 +195,7 @@ namespace DataLessonsCours3
 				new MessageForm("У вас не достаточно прав", "Система").ShowDialog();
 		}
 
-			private void fillByToolStripButton_Click(object sender, EventArgs e)
+		private void fillByToolStripButton_Click(object sender, EventArgs e)
 		{
 			try
 			{
@@ -391,16 +398,43 @@ namespace DataLessonsCours3
 
 		private void addTeacher1_Click(object sender, EventArgs e)
 		{
+			changeTeacher(0);
+		}
+
+		private void addTeacher2_Click(object sender, EventArgs e)
+		{
+			changeTeacher(1);
+		}
+
+		private void addTeacher3_Click(object sender, EventArgs e)
+		{
+			changeTeacher(2);
+		}
+
+		private void addTeacher4_Click(object sender, EventArgs e)
+		{
+			changeTeacher(3);
+		}
+
+		private void addTeacher5_Click(object sender, EventArgs e)
+		{
+			changeTeacher(4);
+		}
+
+		private void changeTeacher(int numberLesson)
+		{
 			EdirAddTeacher editAdd = new EdirAddTeacher();
 			editAdd.ShowDialog();
-			string[][] rows = editAdd.checkTeacher; 
+
+			string[][] rows = editAdd.checkTeacher;
 			if (!(rows == null))
 			{
+				tbTeacher[numberLesson].Text = "";
+				nowDayTeacher[numberLesson] = rows;  // номер пары где поменяли препода
 				for (int i = 0; i < rows.Length; i++)
 				{
-
-				}	// надо это записать в отдельный массив преподов, а с неё уже в класс
-				// если изменения применить, то в БД
+					tbTeacher[numberLesson].Text += rows[i][2] + " " + rows[i][1] + "\n";
+				}
 			}
 		}
 
@@ -445,7 +479,6 @@ namespace DataLessonsCours3
 		public void clickViewEditDay(int dayWeek)
 		{
 			day = daysLesson[dayWeek].selectDB();
-			string[] weekDayName = new string[] { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота" };
 			titleWeekDay.Text = weekDayName[dayWeek];
 			nowWeekDay = dayWeek;
 
@@ -460,15 +493,20 @@ namespace DataLessonsCours3
 			{
 				string text = "";
 				try
-				{
-					for (int i = 0; i < cbLesson.Length; i++)
+				{ 
+					for (int i = 0; i < cbLesson.Length; i++)		// номер пары
 					{
+						nowDayTeacher[i] = new string[4][];
 						if (!(day[i] == null))
 						{
 							for (int j = 0; j + 1 < day[i].Length; j++)
 							{
+								nowDayTeacher[i][j] = new string[3];
 								if (!(day[i][j] == null))
 								{
+									nowDayTeacher[i][j][0] = day[i][j][14];
+									nowDayTeacher[i][j][1] = day[i][j][9];
+									nowDayTeacher[i][j][2] = day[i][j][8];
 									if (j == 0)
 									{
 										cbLesson[i].SelectedIndex = Convert.ToInt32(day[i][j][12])-1 ;
@@ -491,7 +529,6 @@ namespace DataLessonsCours3
 					}
 				}
 				catch (Exception) { }
-
 			}
 		}
 
@@ -502,23 +539,18 @@ namespace DataLessonsCours3
 			{
 				return;
 			}
-			/*cbLesson
-			cbOffice
-			tbTeacher
-			cbLecture
-			daysLesson*/
 
 			string[][] editLessons = new string[5][];
 			int count = 4;
 			int weekDay;
-			for (int i = 0; i < editLessons.Length; i++)
+			for (int i = 0; i < editLessons.Length; i++)		// номер пары
 			{
 				string a = cbLesson[i].SelectedIndex.ToString();
 				string b = cbOffice[i].Text;
 				string id = day[i][0] == null ? "" : Convert.ToInt32(day[i][0][0]).ToString();
 				editLessons[i] = new string[count];
 				editLessons[i][0] = id;
-				if (!(a.Equals("0") && b.Equals(" ") /*&& tbTeacher[i] что бы обязательно были преподаватели*/))            // а если что то одно заполнено?????
+				if (!(a.Equals("0") || b.Equals(" ") /*|| */))															//////////////////////////////    user.Item1
 				{
 					editLessons[i][1] = a;
 					editLessons[i][2] = b;
@@ -526,12 +558,224 @@ namespace DataLessonsCours3
 				}
 			}
 
+			nowDayTeacher = nowDayTeacher.Where(x => x != null).Select(x => x.Where(y => y != null).ToArray()).ToArray();
+			int[] countTeacher = new int[6];
+
+			for (int i = 0; i < nowDayTeacher.Length; i++)
+			{
+				for (int j = 0; j < nowDayTeacher[i].Length; j++)
+				{
+					if (!(nowDayTeacher[i][j][0] == null))
+					{
+						countTeacher[i] += 1;
+					}
+				}
+			}
+
+
 			for (int i = 0; i < editLessons.Length; i++)
 			{
 
 				if (!(editLessons[i][0].Equals("") && editLessons[i][1] == null))
 				{
+					string addTeacher = "";
+					switch (countTeacher[i])
+					{
+						case 0:
+							MessageBox.Show("Заполните преподавателей", "Система");
+							return;
+						case 1:
+							if (!(nowDayTeacher[i][0][0] == null))
+							{
+								addTeacher = "(" + nowDayTeacher[i][0][0] +")";
+							}
+							break; 
+						case 2:
+							addTeacher += "(";
+							for (int j = 0; j < nowDayTeacher[i].Length; j++)
+							{
+								if (!(nowDayTeacher[i][j][0] == null))
+								{
+									addTeacher += nowDayTeacher[i][j][0] + ", ";
+								}
+							}
+							addTeacher = addTeacher.Substring(0, addTeacher.Length - 2);
+							addTeacher += ")";
+							break;
+						case 3:
+							addTeacher += "(";
+							for (int j = 0; j < nowDayTeacher[i].Length; j++)
+							{
+								if (!(nowDayTeacher[i][j][0] == null))
+								{
+									addTeacher += nowDayTeacher[i][j][0] + ", ";
+								}
+							}
+							addTeacher.Substring(0, addTeacher.Length - 1);
+							addTeacher += ")";
+							break;
+						case 4:
+							addTeacher += "(";
+							for (int j = 0; j < nowDayTeacher[i].Length; j++)
+							{
+								if (!(nowDayTeacher[i][j][0] == null))
+								{
+									addTeacher += nowDayTeacher[i][j][0] + ", ";
+								}
+							}
+							addTeacher.Substring(0, addTeacher.Length - 1);
+							addTeacher += ")";
+							break;
+						default:
+							break;
+					}
+
 					DB db = new DB();
+					db.openConnection();
+
+
+					string query = $"DECLARE @ids TABLE(id int);" +
+					" DECLARE @id int;" +
+					" IF EXISTS(SELECT * FROM AppointmentLesson WHERE office = @office AND week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson)" +
+					" BEGIN" +
+						" SELECT 'Кабинет занят' AS Warning;" +
+					" END" +
+					" ELSE" +
+					" BEGIN" +
+						" INSERT INTO @ids(id)" +
+						" SELECT id FROM AppointmentLesson WHERE week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson AND  id <> @idLes; " +
+									" IF NOT EXISTS(SELECT * FROM Teacher_AppointmentLesson WHERE id_appointmentLesson IN(SELECT id FROM @ids) AND id_teacher IN" + addTeacher + ")" +
+						" BEGIN" +
+							" IF NOT EXISTS(SELECT * FROM AppointmentLesson WHERE id = @idLes)" +
+							" BEGIN" +
+								" INSERT INTO AppointmentLesson(office, lesson, week, weekDay, numberLesson, typeLesson)" +
+								" VALUES(@office, @lesson, @week, @weekDay, @numberLesson, @typeLesson); " +
+									" SET @id = SCOPE_IDENTITY(); " +
+									" INSERT INTO Teacher_AppointmentLesson(id_appointmentLesson, id_teacher)" +
+								" SELECT @id, id_teacher FROM Teacher WHERE id_teacher IN" + addTeacher + "; " +
+									" INSERT INTO Group_AppointmentLessons(group_student, id_appointment_lesson)" +
+								" VALUES(@group, @id)" +
+							" END" +
+							" ELSE" +
+							" BEGIN" +
+								" UPDATE AppointmentLesson" +
+								" SET office = @office, lesson = @lesson, week = @week, weekDay = @weekDay, numberLesson = @numberLesson, typeLesson = @typeLesson" +
+								" WHERE id = @idLes; " +
+									" DELETE FROM Teacher_AppointmentLesson WHERE id_appointmentLesson = @idLes" +
+								" DELETE FROM Group_AppointmentLessons WHERE id_appointment_lesson = @idLes" +
+								" INSERT INTO Teacher_AppointmentLesson(id_appointmentLesson, id_teacher)" +
+								" SELECT @idLes, id_teacher FROM Teacher WHERE id_teacher IN" + addTeacher + "; " +
+							" INSERT INTO Group_AppointmentLessons(group_student, id_appointment_lesson)" +
+								" VALUES(@group, @idLes)" +
+							" END" +
+						" END" +
+						" ELSE" +
+						" BEGIN" +
+							" DELETE FROM AppointmentLesson WHERE id = @id; " +
+							" SELECT 'Преподаватель занят' AS Warning; " +
+							" END" +
+						" END";
+
+					/*string query = $"DECLARE @ids TABLE (id int);"
+                    + " DECLARE @id int;"
+					+ " IF EXISTS (SELECT * FROM AppointmentLesson WHERE office = @office AND week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson)"
+					+ " BEGIN    SELECT 'Кабинет занят' AS Warning;"
+					+ " END ELSE BEGIN INSERT INTO AppointmentLesson (office, lesson, week, weekDay, numberLesson, typeLesson)"
+					+ " VALUES (@office, @lesson, @week, @weekDay, @numberLesson, @typeLesson);"
+					+ " SET @id = SCOPE_IDENTITY();"
+					+ " INSERT INTO @ids (id)"
+					+ " SELECT id FROM AppointmentLesson WHERE week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson;"
+					+ " IF NOT EXISTS (SELECT * FROM Teacher_AppointmentLesson WHERE id_appointmentLesson IN (SELECT id FROM @ids) AND id_teacher IN" + addTeacher + ")"
+					+ " BEGIN"
+					+ " INSERT INTO Teacher_AppointmentLesson (id_appointmentLesson, id_teacher)"
+					+ " SELECT @id, id_teacher FROM Teacher WHERE id_teacher IN" + addTeacher + ";"
+					+ " INSERT INTO Group_AppointmentLessons (group_student, id_appointment_lesson)"
+					+ " VALUES (1, @id)" 
+					+ " END"
+					+ " ELSE"
+					+ " BEGIN"
+					+ " DELETE FROM AppointmentLesson WHERE id = @id;"
+					+ " SELECT 'Преподаватель занят' AS Warning; END END";*/
+
+					/*string query = $"DECLARE @ids TABLE (id int);" +
+					$"DECLARE @id int;" +
+					$"IF EXISTS (SELECT * FROM AppointmentLesson WHERE office = @office AND week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson)" +
+					$"BEGIN SELECT 'Кабинет занят' AS Warning;" +
+					$"END ELSE BEGIN INSERT INTO AppointmentLesson (office, lesson, week, weekDay, numberLesson, typeLesson)" +
+					$"VALUES (@office, @lesson, @week, @weekDay, @numberLesson, @typeLesson);" +
+					$"SET @id = SCOPE_IDENTITY();" +
+					$"INSERT INTO @ids (id)" +
+					$"SELECT id FROM AppointmentLesson WHERE week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson;" +
+					$"IF NOT EXISTS (SELECT * FROM Teacher_AppointmentLesson WHERE id_appointmentLesson IN (SELECT id FROM @ids) AND id_teacher IN" + addTeacher + ")" +
+					$"BEGIN" +
+					$"INSERT INTO Teacher_AppointmentLesson (id_appointmentLesson, id_teacher)" +
+					$"SELECT @id, id_teacher FROM Teacher WHERE id_teacher IN" + addTeacher + ";" +
+					$"INSERT INTO Group_AppointmentLessons (group_student, id_appointment_lesson)" +
+					$"VALUES (1, @id);" +
+					$"END ELSE BEGIN" +
+					$"DELETE FROM AppointmentLesson WHERE id = @id;" +
+					$"SELECT 'Преподаватель занят' AS Warning;" +
+					$"END";*/
+					/*string query = $"DECLARE @ids TABLE (id int);" +
+				   $" DECLARE @id int;" +
+				   $" IF EXISTS (SELECT * FROM AppointmentLesson WHERE office = @office AND week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson)" +
+				   $" BEGIN INSERT INTO AppointmentLesson (office, lesson, week, weekDay, numberLesson, typeLesson)" +
+				   $" VALUES (@office, @lesson, @week, @weekDay, @numberLesson, @typeLesson);" +
+				   $" SET @id = SCOPE_IDENTITY();" +
+				   $" INSERT INTO @ids (id)" +
+				   $" SELECT id FROM AppointmentLesson WHERE week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson;" +
+				   $" IF NOT EXISTS (SELECT * FROM Teacher_AppointmentLesson WHERE id_appointmentLesson IN (SELECT id FROM @ids) AND id_teacher IN" + addTeacher + ")" +
+				   $" BEGIN" +
+				   $" INSERT INTO Teacher_AppointmentLesson (id_appointmentLesson, id_teacher)" +
+				   $" SELECT @id, id_teacher FROM Teacher WHERE id_teacher IN" + addTeacher + ";" +
+				   $" INSERT INTO Group_AppointmentLessons (group_student, id_appointment_lesson)" +
+				   $" VALUES (1, @id)" +
+				   $" END " +
+				   $" ELSE BEGIN" +
+				   $" DELETE FROM AppointmentLesson WHERE id = @id;" +
+				   $" SELECT 'Преподаватель занят' AS Warning;" +
+				   $" END";*/
+					/*string query = "DECLARE @ids TABLE (id int); " +
+				   "DECLARE @id int; " +
+				   "IF EXISTS (SELECT * FROM AppointmentLesson WHERE office = '502' AND week = 1 AND weekDay = 3 AND numberLesson = 1) " +
+				   "BEGIN SELECT 'Кабинет занят' AS Warning; " +
+				   "END ELSE BEGIN INSERT INTO AppointmentLesson (office, lesson, week, weekDay, numberLesson, typeLesson) " +
+				   "VALUES ('502', 3, 1, 2, 1, 1); " +
+				   "SET @id = SCOPE_IDENTITY(); " +
+				   "INSERT INTO @ids (id) " +
+				   "SELECT id FROM AppointmentLesson WHERE week = 1 AND weekDay = 2 AND numberLesson = 1; " +
+				   "IF NOT EXISTS (SELECT * FROM Teacher_AppointmentLesson WHERE id_appointmentLesson IN (SELECT id FROM @ids) AND id_teacher IN (4, 8)) " +
+				   "BEGIN INSERT INTO Teacher_AppointmentLesson (id_appointmentLesson, id_teacher) " +
+				   "SELECT @id, id_teacher FROM Teacher WHERE id_teacher IN (4, 8); " +
+				   "INSERT INTO Group_AppointmentLessons (group_student, id_appointment_lesson) " +
+				   "VALUES (1, @id) " +
+				   "END ELSE BEGIN " +
+				   "DELETE FROM AppointmentLesson WHERE id = @id; " +
+				   "SELECT 'Преподаватель занят' AS Warning; " +
+				   "END END";*/
+
+
+					SqlCommand command = new SqlCommand(query, db.getConnection());
+					int id = editLessons[i][0].Equals("") ? 2000 : Convert.ToInt32(editLessons[i][0]);
+					command.Parameters.AddWithValue("@idLes", id);
+					command.Parameters.AddWithValue("@office", editLessons[i][2]);
+					command.Parameters.AddWithValue("@lesson", Convert.ToInt32(editLessons[i][1]) + 1);
+					command.Parameters.AddWithValue("@week", cbWeekEdit.SelectedIndex + 1);
+					command.Parameters.AddWithValue("@weekDay", nowWeekDay + 1);
+					command.Parameters.AddWithValue("@numberLesson", i + 1);
+					command.Parameters.AddWithValue("@typeLesson", Convert.ToInt32(editLessons[i][3]) + 1);
+					command.Parameters.AddWithValue("@group", (int)cbGroupEdit.SelectedValue);
+					SqlDataReader reader = command.ExecuteReader();
+					if (reader.Read())
+					{
+						//MessageBox.Show(reader.GetString(0), "Система");
+						new MessageForm(reader.GetString(0), "Система").ShowDialog();
+					}
+					reader.Close();
+					db.closeConnection(); 
+
+
+					/*DB db = new DB();
 					db.openConnection();
 					string query = "MERGE INTO AppointmentLesson AS target " +
 				   "USING (SELECT @id AS id, @office AS office, @lesson AS lesson, @week AS week, @weekDay AS weekDay, @numberLesson AS numberLesson, @typeLesson AS typeLesson) AS source " +
@@ -541,15 +785,16 @@ namespace DataLessonsCours3
 				   "WHEN NOT MATCHED THEN " +
 				   "    INSERT (office, lesson, week, weekDay, numberLesson, typeLesson) VALUES (source.office, source.lesson, source.week, source.weekDay, source.numberLesson, source.typeLesson);";
 					SqlCommand command = new SqlCommand(query, db.getConnection());
-					command.Parameters.AddWithValue("@id", Convert.ToInt32(editLessons[i][0]));
+					int id = editLessons[i][0].Equals("") ? 2000 : Convert.ToInt32(editLessons[i][0]);
+					command.Parameters.AddWithValue("@id", id);
 					command.Parameters.AddWithValue("@office", editLessons[i][2]);
 					command.Parameters.AddWithValue("@lesson", Convert.ToInt32(editLessons[i][1]) + 1);
 					command.Parameters.AddWithValue("@week", cbWeekEdit.SelectedIndex + 1);
 					command.Parameters.AddWithValue("@weekDay", nowWeekDay + 1);
 					command.Parameters.AddWithValue("@numberLesson", i + 1);
-					command.Parameters.AddWithValue("@typeLesson", Convert.ToInt32(editLessons[i][3]) + 1);   //?? тогда лекция это 2
+					command.Parameters.AddWithValue("@typeLesson", Convert.ToInt32(editLessons[i][3]) + 1);
 					SqlDataReader reader = command.ExecuteReader();
-					db.closeConnection();
+					db.closeConnection();*/
 
 				}
 
@@ -610,10 +855,74 @@ namespace DataLessonsCours3
 				Auntification auntification = new Auntification();
 				auntification.ShowDialog();
 				user = auntification.GetIdUser;
-				if (user.Item1 != null) LogIn.Text = "Выйти";
+				if (user.Item1 != 0) LogIn.Text = "Выйти";
 			}
 
 		}
 
+		private string printText;
+
+		private void btnPrint_Click(object sender, EventArgs e)
+		{
+			if (!(user.Item4 >= 2)) { new MessageForm("Зарегистрируйтесь в системе, что бы использовать функцию Печать", "Система").ShowDialog(); return; }
+
+			string[][][] printDay = new string[5][][];
+			printText += "\n" + "Группа: " + cbGroupStudent.Text.Trim() + " Неделя: " + cbWeek.Text + "\n";
+			for (int t = 0; t < daysLesson.Length; t++)
+			{
+				printDay = daysLesson[t].selectDB();
+				printText += "\n" + weekDayName[t] + "\n";
+				if (printDay != null)
+				{
+					try
+					{
+						for (int i = 0; i < printDay.Length; i++)
+						{
+							if (!(printDay[i] == null))
+							{
+								for (int j = 0; j + 1 < printDay[i].Length; j++)
+								{
+									if (!(printDay[i][j] == null))
+									{
+										if (j == 0)
+										{
+											printText += (i + 1) + ". " + printDay[i][j][2] + " (" + printDay[i][j][3] + ") \n" +
+												"- " + printDay[i][j][9] + " " + printDay[i][j][10] + "\n";
+										}
+										else
+										{
+											printText += "- " + printDay[i][j][9] + " " + printDay[i][j][10] + "\n ";
+											break;
+										}
+									} else if (j == 0)
+									{
+										printText += (i + 1) + ". " + "__________________________\n";
+
+									}
+								}
+							}
+						}
+					}
+					catch (Exception) { }
+				}
+			}
+
+			PrintDocument printDocument = new PrintDocument();
+
+			printDocument.PrintPage += PrintPageHandler;
+
+			PrintDialog printDialog = new PrintDialog();
+
+			printDialog.Document = printDocument;
+
+			if (printDialog.ShowDialog() == DialogResult.OK)
+				printDialog.Document.Print();
+			printText = "";
+		}
+
+		void PrintPageHandler(object sender, PrintPageEventArgs e)
+		{
+			e.Graphics.DrawString(printText, new Font("Arial", 11), Brushes.Black, 7, 7);
+		}
 	}
 }

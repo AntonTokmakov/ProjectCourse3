@@ -62,6 +62,7 @@
 			this.viewDaysTabPanel = new XanderUI.XUIFlatTab();
 			this.tabPage1 = new System.Windows.Forms.TabPage();
 			this.gunaGradient2Panel21 = new Guna.UI.WinForms.GunaGradient2Panel();
+			this.btnPrint = new XanderUI.XUIButton();
 			this.label4 = new System.Windows.Forms.Label();
 			this.cbWeek = new Guna.UI2.WinForms.Guna2ComboBox();
 			this.lbGroup = new System.Windows.Forms.Label();
@@ -73,7 +74,7 @@
 			this.titleWeekDay = new System.Windows.Forms.Label();
 			this.saveEditDay = new Guna.UI2.WinForms.Guna2Button();
 			this.gunaGradient2Panel11 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+			this.addTeacher5 = new Guna.UI2.WinForms.Guna2Button();
 			this.label16 = new System.Windows.Forms.Label();
 			this.lecture5 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
 			this.tbListTeacher5 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -84,7 +85,7 @@
 			this.lessonBindingSource6 = new System.Windows.Forms.BindingSource(this.components);
 			this.timeTableDataSet10 = new DataLessonsCours3.timeTableDataSet10();
 			this.gunaGradient2Panel10 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+			this.addTeacher4 = new Guna.UI2.WinForms.Guna2Button();
 			this.label15 = new System.Windows.Forms.Label();
 			this.lecture4 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
 			this.tbListTeacher4 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -95,7 +96,7 @@
 			this.lessonBindingSource5 = new System.Windows.Forms.BindingSource(this.components);
 			this.timeTableDataSet9 = new DataLessonsCours3.timeTableDataSet9();
 			this.gunaGradient2Panel9 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+			this.addTeacher3 = new Guna.UI2.WinForms.Guna2Button();
 			this.label14 = new System.Windows.Forms.Label();
 			this.lecture3 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
 			this.tbListTeacher3 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -106,7 +107,7 @@
 			this.lessonBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
 			this.timeTableDataSet8 = new DataLessonsCours3.timeTableDataSet8();
 			this.gunaGradient2Panel7 = new Guna.UI.WinForms.GunaGradient2Panel();
-			this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+			this.addTeacher2 = new Guna.UI2.WinForms.Guna2Button();
 			this.label13 = new System.Windows.Forms.Label();
 			this.lecture2 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
 			this.tbListTeacher2 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -134,11 +135,6 @@
 			this.addExam = new Guna.UI2.WinForms.Guna2Button();
 			this.tabPage4 = new System.Windows.Forms.TabPage();
 			this.dataGridTeacher = new Guna.UI2.WinForms.Guna2DataGridView();
-			this.idteacherDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.cathedraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.firstNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.otchestvoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.teacherBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
 			this.timeTableDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
 			this.timeTableDataSet = new DataLessonsCours3.timeTableDataSet();
@@ -149,13 +145,6 @@
 			this.label1 = new System.Windows.Forms.Label();
 			this.tabPage5 = new System.Windows.Forms.TabPage();
 			this.dataGridViewLesson = new Guna.UI2.WinForms.Guna2DataGridView();
-			this.cathedraDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.fullNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.shortNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.idlessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.linkMudlDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.lessonBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
 			this.timeTableDataSet5 = new DataLessonsCours3.timeTableDataSet5();
 			this.gunaGradient2Panel3 = new Guna.UI.WinForms.GunaGradient2Panel();
@@ -165,11 +154,6 @@
 			this.label2 = new System.Windows.Forms.Label();
 			this.tabPage6 = new System.Windows.Forms.TabPage();
 			this.guna2DataGridView4 = new Guna.UI2.WinForms.Guna2DataGridView();
-			this.idofficeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.cathedraDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.computerClassDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-			this.electronicBoardDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-			this.capacityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.officeBindingSource = new System.Windows.Forms.BindingSource(this.components);
 			this.timeTableDataSet2 = new DataLessonsCours3.timeTableDataSet2();
 			this.gunaGradient2Panel8 = new Guna.UI.WinForms.GunaGradient2Panel();
@@ -201,6 +185,23 @@
 			this.officeTableAdapter3 = new DataLessonsCours3.timeTableDataSet12TableAdapters.OfficeTableAdapter();
 			this.officeTableAdapter4 = new DataLessonsCours3.timeTableDataSet13TableAdapters.OfficeTableAdapter();
 			this.officeTableAdapter5 = new DataLessonsCours3.timeTableDataSet14TableAdapters.OfficeTableAdapter();
+			this.idteacherDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cathedraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.firstNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.otchestvoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cathedraDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.fullNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.shortNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.idlessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.linkMudlDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.idofficeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cathedraDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.computerClassDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+			this.electronicBoardDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+			this.capacityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.navigationPanel.SuspendLayout();
 			this.gunaGradient2Panel1.SuspendLayout();
@@ -551,6 +552,7 @@
 			this.gunaGradient2Panel21.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.gunaGradient2Panel21.BackColor = System.Drawing.Color.Transparent;
+			this.gunaGradient2Panel21.Controls.Add(this.btnPrint);
 			this.gunaGradient2Panel21.Controls.Add(this.label4);
 			this.gunaGradient2Panel21.Controls.Add(this.cbWeek);
 			this.gunaGradient2Panel21.Controls.Add(this.lbGroup);
@@ -564,11 +566,32 @@
 			this.gunaGradient2Panel21.Size = new System.Drawing.Size(1656, 73);
 			this.gunaGradient2Panel21.TabIndex = 5;
 			// 
+			// btnPrint
+			// 
+			this.btnPrint.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.btnPrint.ButtonImage = ((System.Drawing.Image)(resources.GetObject("btnPrint.ButtonImage")));
+			this.btnPrint.ButtonStyle = XanderUI.XUIButton.Style.MaterialRounded;
+			this.btnPrint.ButtonText = "Печать";
+			this.btnPrint.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
+			this.btnPrint.ClickTextColor = System.Drawing.Color.DodgerBlue;
+			this.btnPrint.CornerRadius = 5;
+			this.btnPrint.Horizontal_Alignment = System.Drawing.StringAlignment.Center;
+			this.btnPrint.HoverBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(225)))), ((int)(((byte)(225)))));
+			this.btnPrint.HoverTextColor = System.Drawing.Color.Black;
+			this.btnPrint.ImagePosition = XanderUI.XUIButton.imgPosition.Left;
+			this.btnPrint.Location = new System.Drawing.Point(11, 10);
+			this.btnPrint.Name = "btnPrint";
+			this.btnPrint.Size = new System.Drawing.Size(125, 50);
+			this.btnPrint.TabIndex = 14;
+			this.btnPrint.TextColor = System.Drawing.Color.Black;
+			this.btnPrint.Vertical_Alignment = System.Drawing.StringAlignment.Center;
+			this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
+			// 
 			// label4
 			// 
 			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.label4.ForeColor = System.Drawing.Color.White;
-			this.label4.Location = new System.Drawing.Point(465, 18);
+			this.label4.Location = new System.Drawing.Point(505, 18);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(104, 29);
 			this.label4.TabIndex = 3;
@@ -592,7 +615,7 @@
 			this.cbWeek.HoverState.Parent = this.cbWeek;
 			this.cbWeek.ItemHeight = 30;
 			this.cbWeek.ItemsAppearance.Parent = this.cbWeek;
-			this.cbWeek.Location = new System.Drawing.Point(573, 17);
+			this.cbWeek.Location = new System.Drawing.Point(613, 17);
 			this.cbWeek.Name = "cbWeek";
 			this.cbWeek.ShadowDecoration.Parent = this.cbWeek;
 			this.cbWeek.Size = new System.Drawing.Size(140, 36);
@@ -603,7 +626,7 @@
 			// 
 			this.lbGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.lbGroup.ForeColor = System.Drawing.Color.White;
-			this.lbGroup.Location = new System.Drawing.Point(123, 18);
+			this.lbGroup.Location = new System.Drawing.Point(163, 18);
 			this.lbGroup.Name = "lbGroup";
 			this.lbGroup.Size = new System.Drawing.Size(104, 29);
 			this.lbGroup.TabIndex = 1;
@@ -627,7 +650,7 @@
 			this.cbGroupStudent.HoverState.Parent = this.cbGroupStudent;
 			this.cbGroupStudent.ItemHeight = 30;
 			this.cbGroupStudent.ItemsAppearance.Parent = this.cbGroupStudent;
-			this.cbGroupStudent.Location = new System.Drawing.Point(231, 17);
+			this.cbGroupStudent.Location = new System.Drawing.Point(271, 17);
 			this.cbGroupStudent.Name = "cbGroupStudent";
 			this.cbGroupStudent.ShadowDecoration.Parent = this.cbGroupStudent;
 			this.cbGroupStudent.Size = new System.Drawing.Size(210, 36);
@@ -645,7 +668,7 @@
 			this.mainLayout.Margin = new System.Windows.Forms.Padding(4);
 			this.mainLayout.Name = "mainLayout";
 			this.mainLayout.Padding = new System.Windows.Forms.Padding(5);
-			this.mainLayout.Size = new System.Drawing.Size(1663, 552);
+			this.mainLayout.Size = new System.Drawing.Size(1663, 772);
 			this.mainLayout.TabIndex = 1;
 			// 
 			// guna2DataGridView2
@@ -777,7 +800,7 @@
 			// gunaGradient2Panel11
 			// 
 			this.gunaGradient2Panel11.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel11.Controls.Add(this.guna2Button4);
+			this.gunaGradient2Panel11.Controls.Add(this.addTeacher5);
 			this.gunaGradient2Panel11.Controls.Add(this.label16);
 			this.gunaGradient2Panel11.Controls.Add(this.lecture5);
 			this.gunaGradient2Panel11.Controls.Add(this.tbListTeacher5);
@@ -792,23 +815,24 @@
 			this.gunaGradient2Panel11.Size = new System.Drawing.Size(527, 138);
 			this.gunaGradient2Panel11.TabIndex = 23;
 			// 
-			// guna2Button4
+			// addTeacher5
 			// 
-			this.guna2Button4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.guna2Button4.BorderRadius = 5;
-			this.guna2Button4.BorderThickness = 2;
-			this.guna2Button4.CheckedState.Parent = this.guna2Button4;
-			this.guna2Button4.CustomImages.Parent = this.guna2Button4;
-			this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
-			this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.guna2Button4.ForeColor = System.Drawing.Color.White;
-			this.guna2Button4.HoverState.Parent = this.guna2Button4;
-			this.guna2Button4.Location = new System.Drawing.Point(322, 76);
-			this.guna2Button4.Name = "guna2Button4";
-			this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-			this.guna2Button4.Size = new System.Drawing.Size(49, 41);
-			this.guna2Button4.TabIndex = 21;
-			this.guna2Button4.Text = "+";
+			this.addTeacher5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.addTeacher5.BorderRadius = 5;
+			this.addTeacher5.BorderThickness = 2;
+			this.addTeacher5.CheckedState.Parent = this.addTeacher5;
+			this.addTeacher5.CustomImages.Parent = this.addTeacher5;
+			this.addTeacher5.FillColor = System.Drawing.Color.Transparent;
+			this.addTeacher5.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.addTeacher5.ForeColor = System.Drawing.Color.White;
+			this.addTeacher5.HoverState.Parent = this.addTeacher5;
+			this.addTeacher5.Location = new System.Drawing.Point(322, 76);
+			this.addTeacher5.Name = "addTeacher5";
+			this.addTeacher5.ShadowDecoration.Parent = this.addTeacher5;
+			this.addTeacher5.Size = new System.Drawing.Size(49, 41);
+			this.addTeacher5.TabIndex = 21;
+			this.addTeacher5.Text = "+";
+			this.addTeacher5.Click += new System.EventHandler(this.addTeacher5_Click);
 			// 
 			// label16
 			// 
@@ -860,11 +884,11 @@
 			this.tbListTeacher5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
 			this.tbListTeacher5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher5.FocusedState.Parent = this.tbListTeacher5;
-			this.tbListTeacher5.Font = new System.Drawing.Font("Segoe UI", 7F);
+			this.tbListTeacher5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.tbListTeacher5.ForeColor = System.Drawing.Color.White;
 			this.tbListTeacher5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher5.HoverState.Parent = this.tbListTeacher5;
-			this.tbListTeacher5.Location = new System.Drawing.Point(171, 76);
+			this.tbListTeacher5.Location = new System.Drawing.Point(156, 76);
 			this.tbListTeacher5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.tbListTeacher5.MaxLength = 50;
 			this.tbListTeacher5.Multiline = true;
@@ -874,7 +898,7 @@
 			this.tbListTeacher5.ReadOnly = true;
 			this.tbListTeacher5.SelectedText = "";
 			this.tbListTeacher5.ShadowDecoration.Parent = this.tbListTeacher5;
-			this.tbListTeacher5.Size = new System.Drawing.Size(144, 58);
+			this.tbListTeacher5.Size = new System.Drawing.Size(159, 58);
 			this.tbListTeacher5.TabIndex = 13;
 			// 
 			// cbEditOffice5
@@ -952,7 +976,7 @@
 			// gunaGradient2Panel10
 			// 
 			this.gunaGradient2Panel10.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel10.Controls.Add(this.guna2Button3);
+			this.gunaGradient2Panel10.Controls.Add(this.addTeacher4);
 			this.gunaGradient2Panel10.Controls.Add(this.label15);
 			this.gunaGradient2Panel10.Controls.Add(this.lecture4);
 			this.gunaGradient2Panel10.Controls.Add(this.tbListTeacher4);
@@ -967,23 +991,24 @@
 			this.gunaGradient2Panel10.Size = new System.Drawing.Size(527, 138);
 			this.gunaGradient2Panel10.TabIndex = 22;
 			// 
-			// guna2Button3
+			// addTeacher4
 			// 
-			this.guna2Button3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.guna2Button3.BorderRadius = 5;
-			this.guna2Button3.BorderThickness = 2;
-			this.guna2Button3.CheckedState.Parent = this.guna2Button3;
-			this.guna2Button3.CustomImages.Parent = this.guna2Button3;
-			this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
-			this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.guna2Button3.ForeColor = System.Drawing.Color.White;
-			this.guna2Button3.HoverState.Parent = this.guna2Button3;
-			this.guna2Button3.Location = new System.Drawing.Point(322, 76);
-			this.guna2Button3.Name = "guna2Button3";
-			this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
-			this.guna2Button3.Size = new System.Drawing.Size(49, 41);
-			this.guna2Button3.TabIndex = 21;
-			this.guna2Button3.Text = "+";
+			this.addTeacher4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.addTeacher4.BorderRadius = 5;
+			this.addTeacher4.BorderThickness = 2;
+			this.addTeacher4.CheckedState.Parent = this.addTeacher4;
+			this.addTeacher4.CustomImages.Parent = this.addTeacher4;
+			this.addTeacher4.FillColor = System.Drawing.Color.Transparent;
+			this.addTeacher4.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.addTeacher4.ForeColor = System.Drawing.Color.White;
+			this.addTeacher4.HoverState.Parent = this.addTeacher4;
+			this.addTeacher4.Location = new System.Drawing.Point(322, 76);
+			this.addTeacher4.Name = "addTeacher4";
+			this.addTeacher4.ShadowDecoration.Parent = this.addTeacher4;
+			this.addTeacher4.Size = new System.Drawing.Size(49, 41);
+			this.addTeacher4.TabIndex = 21;
+			this.addTeacher4.Text = "+";
+			this.addTeacher4.Click += new System.EventHandler(this.addTeacher4_Click);
 			// 
 			// label15
 			// 
@@ -1035,11 +1060,11 @@
 			this.tbListTeacher4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
 			this.tbListTeacher4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher4.FocusedState.Parent = this.tbListTeacher4;
-			this.tbListTeacher4.Font = new System.Drawing.Font("Segoe UI", 7F);
+			this.tbListTeacher4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.tbListTeacher4.ForeColor = System.Drawing.Color.White;
 			this.tbListTeacher4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher4.HoverState.Parent = this.tbListTeacher4;
-			this.tbListTeacher4.Location = new System.Drawing.Point(171, 76);
+			this.tbListTeacher4.Location = new System.Drawing.Point(156, 76);
 			this.tbListTeacher4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.tbListTeacher4.MaxLength = 50;
 			this.tbListTeacher4.Multiline = true;
@@ -1049,7 +1074,7 @@
 			this.tbListTeacher4.ReadOnly = true;
 			this.tbListTeacher4.SelectedText = "";
 			this.tbListTeacher4.ShadowDecoration.Parent = this.tbListTeacher4;
-			this.tbListTeacher4.Size = new System.Drawing.Size(144, 58);
+			this.tbListTeacher4.Size = new System.Drawing.Size(159, 58);
 			this.tbListTeacher4.TabIndex = 13;
 			// 
 			// cbEditOffice4
@@ -1127,7 +1152,7 @@
 			// gunaGradient2Panel9
 			// 
 			this.gunaGradient2Panel9.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel9.Controls.Add(this.guna2Button2);
+			this.gunaGradient2Panel9.Controls.Add(this.addTeacher3);
 			this.gunaGradient2Panel9.Controls.Add(this.label14);
 			this.gunaGradient2Panel9.Controls.Add(this.lecture3);
 			this.gunaGradient2Panel9.Controls.Add(this.tbListTeacher3);
@@ -1142,23 +1167,24 @@
 			this.gunaGradient2Panel9.Size = new System.Drawing.Size(527, 138);
 			this.gunaGradient2Panel9.TabIndex = 22;
 			// 
-			// guna2Button2
+			// addTeacher3
 			// 
-			this.guna2Button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.guna2Button2.BorderRadius = 5;
-			this.guna2Button2.BorderThickness = 2;
-			this.guna2Button2.CheckedState.Parent = this.guna2Button2;
-			this.guna2Button2.CustomImages.Parent = this.guna2Button2;
-			this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
-			this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.guna2Button2.ForeColor = System.Drawing.Color.White;
-			this.guna2Button2.HoverState.Parent = this.guna2Button2;
-			this.guna2Button2.Location = new System.Drawing.Point(322, 76);
-			this.guna2Button2.Name = "guna2Button2";
-			this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-			this.guna2Button2.Size = new System.Drawing.Size(49, 41);
-			this.guna2Button2.TabIndex = 21;
-			this.guna2Button2.Text = "+";
+			this.addTeacher3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.addTeacher3.BorderRadius = 5;
+			this.addTeacher3.BorderThickness = 2;
+			this.addTeacher3.CheckedState.Parent = this.addTeacher3;
+			this.addTeacher3.CustomImages.Parent = this.addTeacher3;
+			this.addTeacher3.FillColor = System.Drawing.Color.Transparent;
+			this.addTeacher3.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.addTeacher3.ForeColor = System.Drawing.Color.White;
+			this.addTeacher3.HoverState.Parent = this.addTeacher3;
+			this.addTeacher3.Location = new System.Drawing.Point(322, 76);
+			this.addTeacher3.Name = "addTeacher3";
+			this.addTeacher3.ShadowDecoration.Parent = this.addTeacher3;
+			this.addTeacher3.Size = new System.Drawing.Size(49, 41);
+			this.addTeacher3.TabIndex = 21;
+			this.addTeacher3.Text = "+";
+			this.addTeacher3.Click += new System.EventHandler(this.addTeacher3_Click);
 			// 
 			// label14
 			// 
@@ -1210,11 +1236,11 @@
 			this.tbListTeacher3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
 			this.tbListTeacher3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher3.FocusedState.Parent = this.tbListTeacher3;
-			this.tbListTeacher3.Font = new System.Drawing.Font("Segoe UI", 7F);
+			this.tbListTeacher3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.tbListTeacher3.ForeColor = System.Drawing.Color.White;
 			this.tbListTeacher3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher3.HoverState.Parent = this.tbListTeacher3;
-			this.tbListTeacher3.Location = new System.Drawing.Point(171, 76);
+			this.tbListTeacher3.Location = new System.Drawing.Point(156, 76);
 			this.tbListTeacher3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.tbListTeacher3.MaxLength = 50;
 			this.tbListTeacher3.Multiline = true;
@@ -1224,7 +1250,7 @@
 			this.tbListTeacher3.ReadOnly = true;
 			this.tbListTeacher3.SelectedText = "";
 			this.tbListTeacher3.ShadowDecoration.Parent = this.tbListTeacher3;
-			this.tbListTeacher3.Size = new System.Drawing.Size(144, 58);
+			this.tbListTeacher3.Size = new System.Drawing.Size(159, 58);
 			this.tbListTeacher3.TabIndex = 13;
 			// 
 			// cbEditOffice3
@@ -1302,7 +1328,7 @@
 			// gunaGradient2Panel7
 			// 
 			this.gunaGradient2Panel7.BackColor = System.Drawing.Color.Transparent;
-			this.gunaGradient2Panel7.Controls.Add(this.guna2Button1);
+			this.gunaGradient2Panel7.Controls.Add(this.addTeacher2);
 			this.gunaGradient2Panel7.Controls.Add(this.label13);
 			this.gunaGradient2Panel7.Controls.Add(this.lecture2);
 			this.gunaGradient2Panel7.Controls.Add(this.tbListTeacher2);
@@ -1317,23 +1343,24 @@
 			this.gunaGradient2Panel7.Size = new System.Drawing.Size(527, 138);
 			this.gunaGradient2Panel7.TabIndex = 22;
 			// 
-			// guna2Button1
+			// addTeacher2
 			// 
-			this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
-			this.guna2Button1.BorderRadius = 5;
-			this.guna2Button1.BorderThickness = 2;
-			this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-			this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-			this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
-			this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.guna2Button1.ForeColor = System.Drawing.Color.White;
-			this.guna2Button1.HoverState.Parent = this.guna2Button1;
-			this.guna2Button1.Location = new System.Drawing.Point(322, 76);
-			this.guna2Button1.Name = "guna2Button1";
-			this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-			this.guna2Button1.Size = new System.Drawing.Size(49, 41);
-			this.guna2Button1.TabIndex = 21;
-			this.guna2Button1.Text = "+";
+			this.addTeacher2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.addTeacher2.BorderRadius = 5;
+			this.addTeacher2.BorderThickness = 2;
+			this.addTeacher2.CheckedState.Parent = this.addTeacher2;
+			this.addTeacher2.CustomImages.Parent = this.addTeacher2;
+			this.addTeacher2.FillColor = System.Drawing.Color.Transparent;
+			this.addTeacher2.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.addTeacher2.ForeColor = System.Drawing.Color.White;
+			this.addTeacher2.HoverState.Parent = this.addTeacher2;
+			this.addTeacher2.Location = new System.Drawing.Point(322, 76);
+			this.addTeacher2.Name = "addTeacher2";
+			this.addTeacher2.ShadowDecoration.Parent = this.addTeacher2;
+			this.addTeacher2.Size = new System.Drawing.Size(49, 41);
+			this.addTeacher2.TabIndex = 21;
+			this.addTeacher2.Text = "+";
+			this.addTeacher2.Click += new System.EventHandler(this.addTeacher2_Click);
 			// 
 			// label13
 			// 
@@ -1385,11 +1412,11 @@
 			this.tbListTeacher2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
 			this.tbListTeacher2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher2.FocusedState.Parent = this.tbListTeacher2;
-			this.tbListTeacher2.Font = new System.Drawing.Font("Segoe UI", 7F);
+			this.tbListTeacher2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.tbListTeacher2.ForeColor = System.Drawing.Color.White;
 			this.tbListTeacher2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher2.HoverState.Parent = this.tbListTeacher2;
-			this.tbListTeacher2.Location = new System.Drawing.Point(171, 76);
+			this.tbListTeacher2.Location = new System.Drawing.Point(156, 76);
 			this.tbListTeacher2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.tbListTeacher2.MaxLength = 50;
 			this.tbListTeacher2.Multiline = true;
@@ -1399,7 +1426,7 @@
 			this.tbListTeacher2.ReadOnly = true;
 			this.tbListTeacher2.SelectedText = "";
 			this.tbListTeacher2.ShadowDecoration.Parent = this.tbListTeacher2;
-			this.tbListTeacher2.Size = new System.Drawing.Size(144, 58);
+			this.tbListTeacher2.Size = new System.Drawing.Size(159, 58);
 			this.tbListTeacher2.TabIndex = 13;
 			// 
 			// cbEditOffice2
@@ -1561,11 +1588,11 @@
 			this.tbListTeacher1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(88)))), ((int)(((byte)(122)))));
 			this.tbListTeacher1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher1.FocusedState.Parent = this.tbListTeacher1;
-			this.tbListTeacher1.Font = new System.Drawing.Font("Segoe UI", 7F);
+			this.tbListTeacher1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.tbListTeacher1.ForeColor = System.Drawing.Color.White;
 			this.tbListTeacher1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher1.HoverState.Parent = this.tbListTeacher1;
-			this.tbListTeacher1.Location = new System.Drawing.Point(171, 76);
+			this.tbListTeacher1.Location = new System.Drawing.Point(156, 76);
 			this.tbListTeacher1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.tbListTeacher1.MaxLength = 50;
 			this.tbListTeacher1.Multiline = true;
@@ -1575,7 +1602,7 @@
 			this.tbListTeacher1.ReadOnly = true;
 			this.tbListTeacher1.SelectedText = "";
 			this.tbListTeacher1.ShadowDecoration.Parent = this.tbListTeacher1;
-			this.tbListTeacher1.Size = new System.Drawing.Size(144, 58);
+			this.tbListTeacher1.Size = new System.Drawing.Size(159, 58);
 			this.tbListTeacher1.TabIndex = 13;
 			// 
 			// cbEditOffice1
@@ -1807,46 +1834,6 @@
 			this.dataGridTeacher.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
 			this.dataGridTeacher.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
 			// 
-			// idteacherDataGridViewTextBoxColumn
-			// 
-			this.idteacherDataGridViewTextBoxColumn.DataPropertyName = "id_teacher";
-			this.idteacherDataGridViewTextBoxColumn.HeaderText = "id_teacher";
-			this.idteacherDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.idteacherDataGridViewTextBoxColumn.Name = "idteacherDataGridViewTextBoxColumn";
-			this.idteacherDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// cathedraDataGridViewTextBoxColumn
-			// 
-			this.cathedraDataGridViewTextBoxColumn.DataPropertyName = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn.HeaderText = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.cathedraDataGridViewTextBoxColumn.Name = "cathedraDataGridViewTextBoxColumn";
-			this.cathedraDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// nameDataGridViewTextBoxColumn
-			// 
-			this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
-			this.nameDataGridViewTextBoxColumn.HeaderText = "name";
-			this.nameDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-			this.nameDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// firstNameDataGridViewTextBoxColumn
-			// 
-			this.firstNameDataGridViewTextBoxColumn.DataPropertyName = "firstName";
-			this.firstNameDataGridViewTextBoxColumn.HeaderText = "firstName";
-			this.firstNameDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.firstNameDataGridViewTextBoxColumn.Name = "firstNameDataGridViewTextBoxColumn";
-			this.firstNameDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// otchestvoDataGridViewTextBoxColumn
-			// 
-			this.otchestvoDataGridViewTextBoxColumn.DataPropertyName = "otchestvo";
-			this.otchestvoDataGridViewTextBoxColumn.HeaderText = "otchestvo";
-			this.otchestvoDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.otchestvoDataGridViewTextBoxColumn.Name = "otchestvoDataGridViewTextBoxColumn";
-			this.otchestvoDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
 			// teacherBindingSource1
 			// 
 			this.teacherBindingSource1.DataMember = "Teacher";
@@ -2029,62 +2016,6 @@
 			this.dataGridViewLesson.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
 			this.dataGridViewLesson.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
 			// 
-			// cathedraDataGridViewTextBoxColumn1
-			// 
-			this.cathedraDataGridViewTextBoxColumn1.DataPropertyName = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn1.HeaderText = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn1.MinimumWidth = 6;
-			this.cathedraDataGridViewTextBoxColumn1.Name = "cathedraDataGridViewTextBoxColumn1";
-			this.cathedraDataGridViewTextBoxColumn1.ReadOnly = true;
-			// 
-			// fullNameLessonDataGridViewTextBoxColumn
-			// 
-			this.fullNameLessonDataGridViewTextBoxColumn.DataPropertyName = "fullNameLesson";
-			this.fullNameLessonDataGridViewTextBoxColumn.HeaderText = "fullNameLesson";
-			this.fullNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.fullNameLessonDataGridViewTextBoxColumn.Name = "fullNameLessonDataGridViewTextBoxColumn";
-			this.fullNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// shortNameLessonDataGridViewTextBoxColumn
-			// 
-			this.shortNameLessonDataGridViewTextBoxColumn.DataPropertyName = "shortNameLesson";
-			this.shortNameLessonDataGridViewTextBoxColumn.HeaderText = "shortNameLesson";
-			this.shortNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.shortNameLessonDataGridViewTextBoxColumn.Name = "shortNameLessonDataGridViewTextBoxColumn";
-			this.shortNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// numberPracticeHoursSemesterDataGridViewTextBoxColumn
-			// 
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberPracticeHoursSemester";
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberPracticeHoursSemester";
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.Name = "numberPracticeHoursSemesterDataGridViewTextBoxColumn";
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// numberLectureHoursSemesterDataGridViewTextBoxColumn
-			// 
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberLectureHoursSemester";
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberLectureHoursSemester";
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.Name = "numberLectureHoursSemesterDataGridViewTextBoxColumn";
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// idlessonDataGridViewTextBoxColumn
-			// 
-			this.idlessonDataGridViewTextBoxColumn.DataPropertyName = "id_lesson";
-			this.idlessonDataGridViewTextBoxColumn.HeaderText = "id_lesson";
-			this.idlessonDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.idlessonDataGridViewTextBoxColumn.Name = "idlessonDataGridViewTextBoxColumn";
-			this.idlessonDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// linkMudlDataGridViewTextBoxColumn
-			// 
-			this.linkMudlDataGridViewTextBoxColumn.DataPropertyName = "linkMudl";
-			this.linkMudlDataGridViewTextBoxColumn.HeaderText = "linkMudl";
-			this.linkMudlDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.linkMudlDataGridViewTextBoxColumn.Name = "linkMudlDataGridViewTextBoxColumn";
-			this.linkMudlDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
 			// lessonBindingSource1
 			// 
 			this.lessonBindingSource1.DataMember = "Lesson";
@@ -2259,46 +2190,6 @@
 			this.guna2DataGridView4.ThemeStyle.RowsStyle.Height = 24;
 			this.guna2DataGridView4.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
 			this.guna2DataGridView4.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			// 
-			// idofficeDataGridViewTextBoxColumn
-			// 
-			this.idofficeDataGridViewTextBoxColumn.DataPropertyName = "id_office";
-			this.idofficeDataGridViewTextBoxColumn.HeaderText = "id_office";
-			this.idofficeDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.idofficeDataGridViewTextBoxColumn.Name = "idofficeDataGridViewTextBoxColumn";
-			this.idofficeDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// cathedraDataGridViewTextBoxColumn2
-			// 
-			this.cathedraDataGridViewTextBoxColumn2.DataPropertyName = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn2.HeaderText = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn2.MinimumWidth = 6;
-			this.cathedraDataGridViewTextBoxColumn2.Name = "cathedraDataGridViewTextBoxColumn2";
-			this.cathedraDataGridViewTextBoxColumn2.ReadOnly = true;
-			// 
-			// computerClassDataGridViewCheckBoxColumn
-			// 
-			this.computerClassDataGridViewCheckBoxColumn.DataPropertyName = "computerClass";
-			this.computerClassDataGridViewCheckBoxColumn.HeaderText = "computerClass";
-			this.computerClassDataGridViewCheckBoxColumn.MinimumWidth = 6;
-			this.computerClassDataGridViewCheckBoxColumn.Name = "computerClassDataGridViewCheckBoxColumn";
-			this.computerClassDataGridViewCheckBoxColumn.ReadOnly = true;
-			// 
-			// electronicBoardDataGridViewCheckBoxColumn
-			// 
-			this.electronicBoardDataGridViewCheckBoxColumn.DataPropertyName = "electronicBoard";
-			this.electronicBoardDataGridViewCheckBoxColumn.HeaderText = "electronicBoard";
-			this.electronicBoardDataGridViewCheckBoxColumn.MinimumWidth = 6;
-			this.electronicBoardDataGridViewCheckBoxColumn.Name = "electronicBoardDataGridViewCheckBoxColumn";
-			this.electronicBoardDataGridViewCheckBoxColumn.ReadOnly = true;
-			// 
-			// capacityDataGridViewTextBoxColumn
-			// 
-			this.capacityDataGridViewTextBoxColumn.DataPropertyName = "capacity";
-			this.capacityDataGridViewTextBoxColumn.HeaderText = "capacity";
-			this.capacityDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.capacityDataGridViewTextBoxColumn.Name = "capacityDataGridViewTextBoxColumn";
-			this.capacityDataGridViewTextBoxColumn.ReadOnly = true;
 			// 
 			// officeBindingSource
 			// 
@@ -2489,6 +2380,147 @@
 			// 
 			this.officeTableAdapter5.ClearBeforeFill = true;
 			// 
+			// idteacherDataGridViewTextBoxColumn
+			// 
+			this.idteacherDataGridViewTextBoxColumn.DataPropertyName = "id_teacher";
+			this.idteacherDataGridViewTextBoxColumn.HeaderText = "id_teacher";
+			this.idteacherDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.idteacherDataGridViewTextBoxColumn.Name = "idteacherDataGridViewTextBoxColumn";
+			this.idteacherDataGridViewTextBoxColumn.ReadOnly = true;
+			this.idteacherDataGridViewTextBoxColumn.Visible = false;
+			// 
+			// cathedraDataGridViewTextBoxColumn
+			// 
+			this.cathedraDataGridViewTextBoxColumn.DataPropertyName = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn.HeaderText = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.cathedraDataGridViewTextBoxColumn.Name = "cathedraDataGridViewTextBoxColumn";
+			this.cathedraDataGridViewTextBoxColumn.ReadOnly = true;
+			this.cathedraDataGridViewTextBoxColumn.Visible = false;
+			// 
+			// nameDataGridViewTextBoxColumn
+			// 
+			this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
+			this.nameDataGridViewTextBoxColumn.HeaderText = "name";
+			this.nameDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+			this.nameDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// firstNameDataGridViewTextBoxColumn
+			// 
+			this.firstNameDataGridViewTextBoxColumn.DataPropertyName = "firstName";
+			this.firstNameDataGridViewTextBoxColumn.HeaderText = "firstName";
+			this.firstNameDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.firstNameDataGridViewTextBoxColumn.Name = "firstNameDataGridViewTextBoxColumn";
+			this.firstNameDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// otchestvoDataGridViewTextBoxColumn
+			// 
+			this.otchestvoDataGridViewTextBoxColumn.DataPropertyName = "otchestvo";
+			this.otchestvoDataGridViewTextBoxColumn.HeaderText = "otchestvo";
+			this.otchestvoDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.otchestvoDataGridViewTextBoxColumn.Name = "otchestvoDataGridViewTextBoxColumn";
+			this.otchestvoDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// cathedraDataGridViewTextBoxColumn1
+			// 
+			this.cathedraDataGridViewTextBoxColumn1.DataPropertyName = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn1.HeaderText = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn1.MinimumWidth = 6;
+			this.cathedraDataGridViewTextBoxColumn1.Name = "cathedraDataGridViewTextBoxColumn1";
+			this.cathedraDataGridViewTextBoxColumn1.ReadOnly = true;
+			this.cathedraDataGridViewTextBoxColumn1.Visible = false;
+			// 
+			// fullNameLessonDataGridViewTextBoxColumn
+			// 
+			this.fullNameLessonDataGridViewTextBoxColumn.DataPropertyName = "fullNameLesson";
+			this.fullNameLessonDataGridViewTextBoxColumn.HeaderText = "fullNameLesson";
+			this.fullNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.fullNameLessonDataGridViewTextBoxColumn.Name = "fullNameLessonDataGridViewTextBoxColumn";
+			this.fullNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// shortNameLessonDataGridViewTextBoxColumn
+			// 
+			this.shortNameLessonDataGridViewTextBoxColumn.DataPropertyName = "shortNameLesson";
+			this.shortNameLessonDataGridViewTextBoxColumn.HeaderText = "shortNameLesson";
+			this.shortNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.shortNameLessonDataGridViewTextBoxColumn.Name = "shortNameLessonDataGridViewTextBoxColumn";
+			this.shortNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// numberPracticeHoursSemesterDataGridViewTextBoxColumn
+			// 
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberPracticeHoursSemester";
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberPracticeHoursSemester";
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.Name = "numberPracticeHoursSemesterDataGridViewTextBoxColumn";
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// numberLectureHoursSemesterDataGridViewTextBoxColumn
+			// 
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberLectureHoursSemester";
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberLectureHoursSemester";
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.Name = "numberLectureHoursSemesterDataGridViewTextBoxColumn";
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// idlessonDataGridViewTextBoxColumn
+			// 
+			this.idlessonDataGridViewTextBoxColumn.DataPropertyName = "id_lesson";
+			this.idlessonDataGridViewTextBoxColumn.HeaderText = "id_lesson";
+			this.idlessonDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.idlessonDataGridViewTextBoxColumn.Name = "idlessonDataGridViewTextBoxColumn";
+			this.idlessonDataGridViewTextBoxColumn.ReadOnly = true;
+			this.idlessonDataGridViewTextBoxColumn.Visible = false;
+			// 
+			// linkMudlDataGridViewTextBoxColumn
+			// 
+			this.linkMudlDataGridViewTextBoxColumn.DataPropertyName = "linkMudl";
+			this.linkMudlDataGridViewTextBoxColumn.HeaderText = "linkMudl";
+			this.linkMudlDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.linkMudlDataGridViewTextBoxColumn.Name = "linkMudlDataGridViewTextBoxColumn";
+			this.linkMudlDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// idofficeDataGridViewTextBoxColumn
+			// 
+			this.idofficeDataGridViewTextBoxColumn.DataPropertyName = "id_office";
+			this.idofficeDataGridViewTextBoxColumn.HeaderText = "id_office";
+			this.idofficeDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.idofficeDataGridViewTextBoxColumn.Name = "idofficeDataGridViewTextBoxColumn";
+			this.idofficeDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// cathedraDataGridViewTextBoxColumn2
+			// 
+			this.cathedraDataGridViewTextBoxColumn2.DataPropertyName = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn2.HeaderText = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn2.MinimumWidth = 6;
+			this.cathedraDataGridViewTextBoxColumn2.Name = "cathedraDataGridViewTextBoxColumn2";
+			this.cathedraDataGridViewTextBoxColumn2.ReadOnly = true;
+			this.cathedraDataGridViewTextBoxColumn2.Visible = false;
+			// 
+			// computerClassDataGridViewCheckBoxColumn
+			// 
+			this.computerClassDataGridViewCheckBoxColumn.DataPropertyName = "computerClass";
+			this.computerClassDataGridViewCheckBoxColumn.HeaderText = "computerClass";
+			this.computerClassDataGridViewCheckBoxColumn.MinimumWidth = 6;
+			this.computerClassDataGridViewCheckBoxColumn.Name = "computerClassDataGridViewCheckBoxColumn";
+			this.computerClassDataGridViewCheckBoxColumn.ReadOnly = true;
+			// 
+			// electronicBoardDataGridViewCheckBoxColumn
+			// 
+			this.electronicBoardDataGridViewCheckBoxColumn.DataPropertyName = "electronicBoard";
+			this.electronicBoardDataGridViewCheckBoxColumn.HeaderText = "electronicBoard";
+			this.electronicBoardDataGridViewCheckBoxColumn.MinimumWidth = 6;
+			this.electronicBoardDataGridViewCheckBoxColumn.Name = "electronicBoardDataGridViewCheckBoxColumn";
+			this.electronicBoardDataGridViewCheckBoxColumn.ReadOnly = true;
+			// 
+			// capacityDataGridViewTextBoxColumn
+			// 
+			this.capacityDataGridViewTextBoxColumn.DataPropertyName = "capacity";
+			this.capacityDataGridViewTextBoxColumn.HeaderText = "capacity";
+			this.capacityDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.capacityDataGridViewTextBoxColumn.Name = "capacityDataGridViewTextBoxColumn";
+			this.capacityDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2614,11 +2646,6 @@
 		private System.Windows.Forms.BindingSource teacherBindingSource;
 		private timeTableDataSetTableAdapters.TeacherTableAdapter teacherTableAdapter;
 		private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView2;
-		private System.Windows.Forms.DataGridViewTextBoxColumn idteacherDataGridViewTextBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn cathedraDataGridViewTextBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn firstNameDataGridViewTextBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn otchestvoDataGridViewTextBoxColumn;
 		private System.Windows.Forms.BindingSource teacherBindingSource1;
 		private System.Windows.Forms.BindingSource timeTableDataSetBindingSource;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel3;
@@ -2641,11 +2668,6 @@
 		private timeTableDataSet2 timeTableDataSet2;
 		private System.Windows.Forms.BindingSource officeBindingSource;
 		private timeTableDataSet2TableAdapters.OfficeTableAdapter officeTableAdapter;
-		private System.Windows.Forms.DataGridViewTextBoxColumn idofficeDataGridViewTextBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn cathedraDataGridViewTextBoxColumn2;
-		private System.Windows.Forms.DataGridViewCheckBoxColumn computerClassDataGridViewCheckBoxColumn;
-		private System.Windows.Forms.DataGridViewCheckBoxColumn electronicBoardDataGridViewCheckBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn capacityDataGridViewTextBoxColumn;
 		private Guna.UI2.WinForms.Guna2ComboBox cbGroupStudent;
 		private GroupStudIdShortName groupStudIdShortName;
 		private System.Windows.Forms.BindingSource groupStudentBindingSource;
@@ -2662,13 +2684,6 @@
 		private System.Windows.Forms.BindingSource lessonBindingSource1;
 		private timeTableDataSet5TableAdapters.LessonTableAdapter lessonTableAdapter1;
 		private Guna.UI2.WinForms.Guna2DataGridView dataGridViewLesson;
-		private System.Windows.Forms.DataGridViewTextBoxColumn cathedraDataGridViewTextBoxColumn1;
-		private System.Windows.Forms.DataGridViewTextBoxColumn fullNameLessonDataGridViewTextBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn shortNameLessonDataGridViewTextBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn numberPracticeHoursSemesterDataGridViewTextBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn numberLectureHoursSemesterDataGridViewTextBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn idlessonDataGridViewTextBoxColumn;
-		private System.Windows.Forms.DataGridViewTextBoxColumn linkMudlDataGridViewTextBoxColumn;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel6;
 		private Guna.UI2.WinForms.Guna2ComboBox cbEditLesson1;
 		private timeTableDataSet6 timeTableDataSet6;
@@ -2687,28 +2702,28 @@
 		private System.Windows.Forms.Label label12;
 		private Guna.UI2.WinForms.Guna2ComboBox cbGroupEdit;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel11;
-		private Guna.UI2.WinForms.Guna2Button guna2Button4;
+		private Guna.UI2.WinForms.Guna2Button addTeacher5;
 		private System.Windows.Forms.Label label16;
 		private Guna.UI2.WinForms.Guna2CustomCheckBox lecture5;
 		private Guna.UI2.WinForms.Guna2TextBox tbListTeacher5;
 		private Guna.UI2.WinForms.Guna2ComboBox cbEditOffice5;
 		private Guna.UI2.WinForms.Guna2ComboBox cbEditLesson5;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel10;
-		private Guna.UI2.WinForms.Guna2Button guna2Button3;
+		private Guna.UI2.WinForms.Guna2Button addTeacher4;
 		private System.Windows.Forms.Label label15;
 		private Guna.UI2.WinForms.Guna2CustomCheckBox lecture4;
 		private Guna.UI2.WinForms.Guna2TextBox tbListTeacher4;
 		private Guna.UI2.WinForms.Guna2ComboBox cbEditOffice4;
 		private Guna.UI2.WinForms.Guna2ComboBox cbEditLesson4;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel9;
-		private Guna.UI2.WinForms.Guna2Button guna2Button2;
+		private Guna.UI2.WinForms.Guna2Button addTeacher3;
 		private System.Windows.Forms.Label label14;
 		private Guna.UI2.WinForms.Guna2CustomCheckBox lecture3;
 		private Guna.UI2.WinForms.Guna2TextBox tbListTeacher3;
 		private Guna.UI2.WinForms.Guna2ComboBox cbEditOffice3;
 		private Guna.UI2.WinForms.Guna2ComboBox cbEditLesson3;
 		private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel7;
-		private Guna.UI2.WinForms.Guna2Button guna2Button1;
+		private Guna.UI2.WinForms.Guna2Button addTeacher2;
 		private System.Windows.Forms.Label label13;
 		private Guna.UI2.WinForms.Guna2CustomCheckBox lecture2;
 		private Guna.UI2.WinForms.Guna2TextBox tbListTeacher2;
@@ -2740,6 +2755,24 @@
 		private System.Windows.Forms.BindingSource officeBindingSource5;
 		private timeTableDataSet14TableAdapters.OfficeTableAdapter officeTableAdapter5;
 		private System.Windows.Forms.Label titleWeekDay;
+		private XanderUI.XUIButton btnPrint;
+		private System.Windows.Forms.DataGridViewTextBoxColumn idteacherDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn cathedraDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn firstNameDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn otchestvoDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn cathedraDataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn fullNameLessonDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn shortNameLessonDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn numberPracticeHoursSemesterDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn numberLectureHoursSemesterDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn idlessonDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn linkMudlDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn idofficeDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn cathedraDataGridViewTextBoxColumn2;
+		private System.Windows.Forms.DataGridViewCheckBoxColumn computerClassDataGridViewCheckBoxColumn;
+		private System.Windows.Forms.DataGridViewCheckBoxColumn electronicBoardDataGridViewCheckBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn capacityDataGridViewTextBoxColumn;
 	}
 }
 

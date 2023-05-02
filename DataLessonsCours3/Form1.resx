@@ -211,6 +211,16 @@
   <metadata name="groupStudIdShortName.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>1362, 69</value>
   </metadata>
+  <data name="btnPrint.ButtonImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABkAAAAaCAYAAABCfffNAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAAOVJREFUSEvtlVENwjAURSsBCUhAAg5AAhKQgANwAA6QAA7AARKwwD2lbbZlpeu2
+        Ah87ycmabHs3a/s6E2Ehdz1cyk7M5U1uesh7nYJ46PgeZsPXEJZkCoH/CJlJdtZKnt0414PcujH1anDj
+        Lq8jSr29tJDK/i7BSTL9Zi2ZyxKwPrZ2GBRgCsnityG+KftabcJoCPv6KdsaLOVDUs8TavMXvDBwjHl2
+        0Yz0oYWbBFGcc2tIiK/DlZAazCVfwTk2JIRDkjqsT5QxpyvKV0LYCENCwkKn4Ohn4XLlvY9r0aTaYF1t
+        wZgXtX5oWHeOmLMAAAAASUVORK5CYII=
+</value>
+  </data>
   <metadata name="officeBindingSource5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>1195, 284</value>
   </metadata>

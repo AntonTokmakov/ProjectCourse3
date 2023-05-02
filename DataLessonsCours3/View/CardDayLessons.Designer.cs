@@ -68,7 +68,7 @@
 			this.gunaGradient2Panel4.Margin = new System.Windows.Forms.Padding(20, 18, 20, 18);
 			this.gunaGradient2Panel4.Name = "gunaGradient2Panel4";
 			this.gunaGradient2Panel4.Radius = 10;
-			this.gunaGradient2Panel4.Size = new System.Drawing.Size(584, 309);
+			this.gunaGradient2Panel4.Size = new System.Drawing.Size(610, 309);
 			this.gunaGradient2Panel4.TabIndex = 8;
 			// 
 			// gunaGradient2Panel5
@@ -96,7 +96,7 @@
 			this.gunaGradient2Panel5.Margin = new System.Windows.Forms.Padding(4);
 			this.gunaGradient2Panel5.Name = "gunaGradient2Panel5";
 			this.gunaGradient2Panel5.Radius = 10;
-			this.gunaGradient2Panel5.Size = new System.Drawing.Size(584, 261);
+			this.gunaGradient2Panel5.Size = new System.Drawing.Size(610, 261);
 			this.gunaGradient2Panel5.TabIndex = 1;
 			// 
 			// label5
@@ -104,7 +104,7 @@
 			this.label5.AutoSize = true;
 			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.label5.ForeColor = System.Drawing.Color.White;
-			this.label5.Location = new System.Drawing.Point(9, 208);
+			this.label5.Location = new System.Drawing.Point(6, 208);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(27, 29);
 			this.label5.TabIndex = 15;
@@ -115,7 +115,7 @@
 			this.label4.AutoSize = true;
 			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.label4.ForeColor = System.Drawing.Color.White;
-			this.label4.Location = new System.Drawing.Point(9, 159);
+			this.label4.Location = new System.Drawing.Point(6, 159);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(27, 29);
 			this.label4.TabIndex = 14;
@@ -126,7 +126,7 @@
 			this.label3.AutoSize = true;
 			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.label3.ForeColor = System.Drawing.Color.White;
-			this.label3.Location = new System.Drawing.Point(9, 111);
+			this.label3.Location = new System.Drawing.Point(6, 111);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(27, 29);
 			this.label3.TabIndex = 13;
@@ -137,7 +137,7 @@
 			this.label2.AutoSize = true;
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.label2.ForeColor = System.Drawing.Color.White;
-			this.label2.Location = new System.Drawing.Point(9, 63);
+			this.label2.Location = new System.Drawing.Point(6, 63);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(27, 29);
 			this.label2.TabIndex = 12;
@@ -148,7 +148,7 @@
 			this.label1.AutoSize = true;
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.label1.ForeColor = System.Drawing.Color.White;
-			this.label1.Location = new System.Drawing.Point(9, 14);
+			this.label1.Location = new System.Drawing.Point(6, 14);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(27, 29);
 			this.label1.TabIndex = 11;
@@ -160,17 +160,17 @@
 			this.firstLessonLabel.Cursor = System.Windows.Forms.Cursors.Default;
 			this.firstLessonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.firstLessonLabel.ForeColor = System.Drawing.Color.Black;
-			this.firstLessonLabel.Location = new System.Drawing.Point(42, 15);
+			this.firstLessonLabel.Location = new System.Drawing.Point(34, 15);
 			this.firstLessonLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.firstLessonLabel.Name = "firstLessonLabel";
-			this.firstLessonLabel.Size = new System.Drawing.Size(460, 33);
+			this.firstLessonLabel.Size = new System.Drawing.Size(521, 33);
 			this.firstLessonLabel.TabIndex = 10;
 			this.firstLessonLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// link5
 			// 
 			this.link5.Image = ((System.Drawing.Image)(resources.GetObject("link5.Image")));
-			this.link5.Location = new System.Drawing.Point(521, 203);
+			this.link5.Location = new System.Drawing.Point(563, 203);
 			this.link5.Margin = new System.Windows.Forms.Padding(4);
 			this.link5.Name = "link5";
 			this.link5.Size = new System.Drawing.Size(43, 39);
@@ -184,17 +184,17 @@
 			this.fiveLessonLabel.Cursor = System.Windows.Forms.Cursors.Default;
 			this.fiveLessonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.fiveLessonLabel.ForeColor = System.Drawing.Color.Black;
-			this.fiveLessonLabel.Location = new System.Drawing.Point(43, 208);
+			this.fiveLessonLabel.Location = new System.Drawing.Point(35, 208);
 			this.fiveLessonLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.fiveLessonLabel.Name = "fiveLessonLabel";
-			this.fiveLessonLabel.Size = new System.Drawing.Size(459, 33);
+			this.fiveLessonLabel.Size = new System.Drawing.Size(520, 33);
 			this.fiveLessonLabel.TabIndex = 8;
 			this.fiveLessonLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// link4
 			// 
 			this.link4.Image = ((System.Drawing.Image)(resources.GetObject("link4.Image")));
-			this.link4.Location = new System.Drawing.Point(521, 155);
+			this.link4.Location = new System.Drawing.Point(563, 155);
 			this.link4.Margin = new System.Windows.Forms.Padding(4);
 			this.link4.Name = "link4";
 			this.link4.Size = new System.Drawing.Size(43, 39);
@@ -208,17 +208,17 @@
 			this.fourLessonLabel.Cursor = System.Windows.Forms.Cursors.Default;
 			this.fourLessonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.fourLessonLabel.ForeColor = System.Drawing.Color.Black;
-			this.fourLessonLabel.Location = new System.Drawing.Point(43, 160);
+			this.fourLessonLabel.Location = new System.Drawing.Point(35, 160);
 			this.fourLessonLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.fourLessonLabel.Name = "fourLessonLabel";
-			this.fourLessonLabel.Size = new System.Drawing.Size(459, 33);
+			this.fourLessonLabel.Size = new System.Drawing.Size(520, 33);
 			this.fourLessonLabel.TabIndex = 6;
 			this.fourLessonLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// link3
 			// 
 			this.link3.Image = ((System.Drawing.Image)(resources.GetObject("link3.Image")));
-			this.link3.Location = new System.Drawing.Point(521, 106);
+			this.link3.Location = new System.Drawing.Point(563, 106);
 			this.link3.Margin = new System.Windows.Forms.Padding(4);
 			this.link3.Name = "link3";
 			this.link3.Size = new System.Drawing.Size(43, 39);
@@ -232,17 +232,17 @@
 			this.thirdLessonLabel.Cursor = System.Windows.Forms.Cursors.Default;
 			this.thirdLessonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.thirdLessonLabel.ForeColor = System.Drawing.Color.Black;
-			this.thirdLessonLabel.Location = new System.Drawing.Point(41, 111);
+			this.thirdLessonLabel.Location = new System.Drawing.Point(33, 111);
 			this.thirdLessonLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.thirdLessonLabel.Name = "thirdLessonLabel";
-			this.thirdLessonLabel.Size = new System.Drawing.Size(461, 33);
+			this.thirdLessonLabel.Size = new System.Drawing.Size(522, 33);
 			this.thirdLessonLabel.TabIndex = 4;
 			this.thirdLessonLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// link2
 			// 
 			this.link2.Image = ((System.Drawing.Image)(resources.GetObject("link2.Image")));
-			this.link2.Location = new System.Drawing.Point(521, 58);
+			this.link2.Location = new System.Drawing.Point(563, 58);
 			this.link2.Margin = new System.Windows.Forms.Padding(4);
 			this.link2.Name = "link2";
 			this.link2.Size = new System.Drawing.Size(43, 39);
@@ -256,17 +256,17 @@
 			this.secondLessonLabel.Cursor = System.Windows.Forms.Cursors.Default;
 			this.secondLessonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.secondLessonLabel.ForeColor = System.Drawing.Color.Black;
-			this.secondLessonLabel.Location = new System.Drawing.Point(42, 63);
+			this.secondLessonLabel.Location = new System.Drawing.Point(34, 63);
 			this.secondLessonLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.secondLessonLabel.Name = "secondLessonLabel";
-			this.secondLessonLabel.Size = new System.Drawing.Size(460, 33);
+			this.secondLessonLabel.Size = new System.Drawing.Size(521, 33);
 			this.secondLessonLabel.TabIndex = 2;
 			this.secondLessonLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// link1
 			// 
 			this.link1.Image = ((System.Drawing.Image)(resources.GetObject("link1.Image")));
-			this.link1.Location = new System.Drawing.Point(521, 9);
+			this.link1.Location = new System.Drawing.Point(563, 9);
 			this.link1.Margin = new System.Windows.Forms.Padding(4);
 			this.link1.Name = "link1";
 			this.link1.Size = new System.Drawing.Size(43, 39);
@@ -294,7 +294,7 @@
 			this.Controls.Add(this.gunaGradient2Panel4);
 			this.Margin = new System.Windows.Forms.Padding(20, 18, 20, 18);
 			this.Name = "CardDayLessons";
-			this.Size = new System.Drawing.Size(585, 305);
+			this.Size = new System.Drawing.Size(610, 305);
 			this.gunaGradient2Panel4.ResumeLayout(false);
 			this.gunaGradient2Panel5.ResumeLayout(false);
 			this.gunaGradient2Panel5.PerformLayout();

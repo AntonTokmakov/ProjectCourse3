@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -30,16 +31,25 @@ namespace DataLessonsCours3.View
 		private void save_Click(object sender, EventArgs e)
 		{
 			List<string[]> rows = new List<string[]>(); //	массив с выбраными преподавателями
+			int count = 0;
 			foreach (DataGridViewRow row in dataGridViewTeacher.Rows)
 			{
 				bool value = Convert.ToBoolean(row.Cells[5].Value);
 				if (value)
 				{
-					string[] cells = new string[dataGridViewTeacher.Columns.Count];
-					for (int i = 0; i < dataGridViewTeacher.Columns.Count; i++)
+					count++;
+					if (count > 4)
 					{
-						cells[i] = row.Cells[i].Value.ToString();
+						new MessageForm("Выберите не больше 4 преподавателей на пару.", "Система").ShowDialog();
+						return;
 					}
+					string[] cells = new string[3];
+					//for (int i = 0; i < dataGridViewTeacher.Columns.Count; i++)
+					//{
+						cells[0] = row.Cells[0].Value.ToString().Trim();
+						cells[1] = row.Cells[3].Value.ToString().Trim();
+						cells[2] = row.Cells[2].Value.ToString().Trim();
+					//}
 					rows.Add(cells);
 				}
 			}
