@@ -47,6 +47,8 @@ namespace DataLessonsCours3
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet15.Auntefication". При необходимости она может быть перемещена или удалена.
+			this.aunteficationTableAdapter.Fill(this.timeTableDataSet15.Auntefication);
 			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet14.Office". При необходимости она может быть перемещена или удалена.
 			this.officeTableAdapter5.Fill(this.timeTableDataSet14.Office);
 			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet13.Office". При необходимости она может быть перемещена или удалена.
@@ -91,7 +93,7 @@ namespace DataLessonsCours3
 		{
 			InitializeComponent();
 			/////////////////////////////////////////////////////////////////////////////////										при записи он говорит, что кабинет занят про другие пары
-			user.Item4 = 2;                                                                             ////////////// УДАЛИТЬ
+			user.Item4 = 3;                                                                             ////////////// УДАЛИТЬ
 			////////////////////////////////////////////////////////////////////////////////
 
 			cbLesson = new Guna2ComboBox[] { cbEditLesson1, cbEditLesson2, cbEditLesson3, cbEditLesson4, cbEditLesson5 };
@@ -148,9 +150,6 @@ namespace DataLessonsCours3
 					}
 					else
 						new MessageForm("У вас не достаточно прав", "Система").ShowDialog();
-					/*foreach (var day in daysLesson)
-					{
-					}*/
 					break;
 					
 				case 2:  // exam panel
@@ -243,6 +242,16 @@ namespace DataLessonsCours3
 					}
 					break;
 				case 4:
+					if (user.Item4 >= 3)
+					{
+						viewDaysTabPanel.SelectTab(6);
+					}
+					else
+					{
+						new MessageForm("У вас не достаточно прав", "Система").ShowDialog();
+					}
+					break;
+				case 5:
 					if (user.Item4 >= 3)
 					{
 						viewDaysTabPanel.SelectTab(6);
@@ -611,7 +620,7 @@ namespace DataLessonsCours3
 									addTeacher += nowDayTeacher[i][j][0] + ", ";
 								}
 							}
-							addTeacher.Substring(0, addTeacher.Length - 1);
+							addTeacher = addTeacher.Substring(0, addTeacher.Length - 2);
 							addTeacher += ")";
 							break;
 						case 4:
@@ -623,7 +632,7 @@ namespace DataLessonsCours3
 									addTeacher += nowDayTeacher[i][j][0] + ", ";
 								}
 							}
-							addTeacher.Substring(0, addTeacher.Length - 1);
+							addTeacher = addTeacher.Substring(0, addTeacher.Length - 2);
 							addTeacher += ")";
 							break;
 						default:
@@ -900,7 +909,8 @@ namespace DataLessonsCours3
 				user.Item2 = "";
 				user.Item3 = "";
 				user.Item4 = 0;
-
+				lbNowUser.Text = "";
+				viewDaysTabPanel.SelectTab(0);
 				LogIn.Text = "Войти";
 			}
 			else
@@ -908,6 +918,7 @@ namespace DataLessonsCours3
 				Auntification auntification = new Auntification();
 				auntification.ShowDialog();
 				user = auntification.GetIdUser;
+				lbNowUser.Text = user.Item2 + " " + user.Item3;
 				if (user.Item1 != 0) LogIn.Text = "Выйти";
 			}
 
@@ -977,5 +988,84 @@ namespace DataLessonsCours3
 		{
 			e.Graphics.DrawString(printText, new Font("Arial", 11), Brushes.Black, 7, 7);
 		}
+
+		#region Пользователи
+
+		private void btnAddUser_Click(object sender, EventArgs e)
+		{
+			new AddUser().ShowDialog();
+			this.aunteficationTableAdapter.Fill(this.timeTableDataSet15.Auntefication);
+		}
+
+		private void guna2Button2_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				int eventRow = DataGridViewUser.SelectedCells[0].RowIndex;
+				int id_user = Convert.ToInt32(DataGridViewUser.Rows[eventRow].Cells[0].Value.ToString().Trim());
+				string name = DataGridViewUser.Rows[eventRow].Cells[1].Value.ToString().Trim();
+				string firstName = DataGridViewUser.Rows[eventRow].Cells[2].Value.ToString().Trim();
+				string login = DataGridViewUser.Rows[eventRow].Cells[3].Value.ToString().Trim();
+				string password = DataGridViewUser.Rows[eventRow].Cells[4].Value.ToString().Trim();
+				int right = Convert.ToInt32(DataGridViewUser.Rows[eventRow].Cells[5].Value.ToString().Trim());
+				new AddUser(id_user, name, firstName, login, password, right).ShowDialog();
+			}
+			catch (Exception)
+			{
+				MessageBox.Show("Выбирите ячейку для просмотра информации", "Система");
+			}
+			this.aunteficationTableAdapter.Fill(this.timeTableDataSet15.Auntefication);
+		}
+
+		private void guna2Button1_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				int eventRow = DataGridViewUser.SelectedCells[0].RowIndex;
+				int idUser = Convert.ToInt32(DataGridViewUser.Rows[eventRow].Cells[0].Value.ToString().Trim());
+				DialogResult result1 = MessageBox.Show("Удалить пользователя из информационной системы?", "Удаление пользователя", MessageBoxButtons.YesNoCancel);
+				if (result1 == DialogResult.Yes)
+				{
+					DB db = new DB();
+					string query = "DELETE FROM Auntefication WHERE id_user = @id";
+					using (SqlCommand command = new SqlCommand(query, db.getConnection()))
+					{
+						command.Parameters.AddWithValue("@id", idUser);
+						db.getConnection().Open();
+						int result = command.ExecuteNonQuery();
+
+						if (result == 1)
+						{
+							notifyIcon1.Icon = SystemIcons.Hand;
+							notifyIcon1.BalloonTipTitle = "Удаление пользователя";
+							notifyIcon1.BalloonTipText = "Пользователь удален из системы";
+							notifyIcon1.BalloonTipIcon = ToolTipIcon.Info;
+							notifyIcon1.Visible = true;
+							notifyIcon1.ShowBalloonTip(80000);
+						}
+						else
+						{
+							notifyIcon1.Icon = SystemIcons.Hand;
+							notifyIcon1.BalloonTipTitle = "Ошибка";
+							notifyIcon1.BalloonTipText = "Пользователь не удален";
+							notifyIcon1.BalloonTipIcon = ToolTipIcon.Error;
+							notifyIcon1.Visible = true;
+							notifyIcon1.ShowBalloonTip(80000);
+						}
+						db.getConnection().Close();
+					}
+				}
+			}
+			catch (Exception)
+			{
+				MessageBox.Show("Выбирите ячейку для удаления пользователя", "Система");
+			}
+			this.aunteficationTableAdapter.Fill(this.timeTableDataSet15.Auntefication);
+		}
+
+		#endregion
+
+
+
 	}
 }

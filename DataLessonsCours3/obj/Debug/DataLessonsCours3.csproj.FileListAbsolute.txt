@@ -21,3 +21,27 @@ C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\obj\Debug\DataLe
 C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.EdirAddTeacher.resources
 C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.Auntification.resources
 C:\Users\Anton\source\repos\DataLessonsCours3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.MessageForm.resources
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\bin\Debug\DataLessonsCours3.exe.config
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\bin\Debug\DataLessonsCours3.exe
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\bin\Debug\DataLessonsCours3.pdb
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\bin\Debug\Guna.UI.dll
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\bin\Debug\Guna.UI2.dll
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\bin\Debug\XanderUI.dll
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.csproj.AssemblyReference.cache
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.Form1.resources
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.Properties.Resources.resources
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.AddLesson.resources
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.AddTeacher.resources
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.Auntification.resources
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.CardDayLessons.resources
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.CardExam.resources
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.EdirAddTeacher.resources
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.EditDayCard.resources
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.MessageForm.resources
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.csproj.GenerateResource.cache
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.csproj.CoreCompileInputs.cache
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.csproj.CopyComplete
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.exe
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.pdb
+C:\Users\Anton\Desktop\Проект готовый\ProjectCourse3\DataLessonsCours3\obj\Debug\DataLessonsCours3.View.AddUser.resources

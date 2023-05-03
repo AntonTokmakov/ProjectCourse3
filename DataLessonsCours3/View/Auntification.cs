@@ -63,7 +63,7 @@ namespace DataLessonsCours3.View
 						idUser = reader.GetInt32(0);
 						name = reader.GetValue(1).ToString();
 						firstName = reader.GetValue(2).ToString();
-						accessRigth = reader.GetInt32(0);
+						accessRigth = reader.GetInt32(3);
 					}
 					reader.Close();
 					db.closeConnection();

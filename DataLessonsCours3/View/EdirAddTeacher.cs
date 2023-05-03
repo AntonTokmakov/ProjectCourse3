@@ -44,12 +44,9 @@ namespace DataLessonsCours3.View
 						return;
 					}
 					string[] cells = new string[3];
-					//for (int i = 0; i < dataGridViewTeacher.Columns.Count; i++)
-					//{
-						cells[0] = row.Cells[0].Value.ToString().Trim();
-						cells[1] = row.Cells[3].Value.ToString().Trim();
-						cells[2] = row.Cells[2].Value.ToString().Trim();
-					//}
+					cells[0] = row.Cells[0].Value.ToString().Trim();
+					cells[1] = row.Cells[3].Value.ToString().Trim();
+					cells[2] = row.Cells[2].Value.ToString().Trim();
 					rows.Add(cells);
 				}
 			}

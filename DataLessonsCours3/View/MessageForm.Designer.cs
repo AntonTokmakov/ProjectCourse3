@@ -43,8 +43,8 @@
 			this.gunaGradient2Panel5.Controls.Add(this.save);
 			this.gunaGradient2Panel5.Controls.Add(this.lbText);
 			this.gunaGradient2Panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.gunaGradient2Panel5.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
-			this.gunaGradient2Panel5.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
+			this.gunaGradient2Panel5.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(118)))), ((int)(((byte)(174)))));
+			this.gunaGradient2Panel5.GradientColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(118)))), ((int)(((byte)(174)))));
 			this.gunaGradient2Panel5.Location = new System.Drawing.Point(0, 76);
 			this.gunaGradient2Panel5.Margin = new System.Windows.Forms.Padding(4);
 			this.gunaGradient2Panel5.Name = "gunaGradient2Panel5";
