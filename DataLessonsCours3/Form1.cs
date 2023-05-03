@@ -95,8 +95,8 @@ namespace DataLessonsCours3
 		public Form1()
 		{
 			InitializeComponent();
-			/////////////////////////////////////////////////////////////////////////////////										при записи он говорит, что кабинет занят про другие пары
-			user.Item4 = 3;                                                                             ////////////// УДАЛИТЬ
+			/////////////////////////////////////////////////////////////////////////////////
+			//user.Item4 = 3;                                                                             ////////////// УДАЛИТЬ
 			////////////////////////////////////////////////////////////////////////////////
 
 			cbLesson = new Guna2ComboBox[] { cbEditLesson1, cbEditLesson2, cbEditLesson3, cbEditLesson4, cbEditLesson5 };
@@ -1003,6 +1003,11 @@ namespace DataLessonsCours3
 
 		private void cbbChangeView_SelectedIndexChanged(object sender, EventArgs e)
 		{
+			if (true)
+			{
+
+			}
+
 			switch (cbbChangeView.SelectedIndex)
 			{
 				case 0:
