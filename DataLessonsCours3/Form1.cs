@@ -90,7 +90,7 @@ namespace DataLessonsCours3
 		public Form1()
 		{
 			InitializeComponent();
-			/////////////////////////////////////////////////////////////////////////////////
+			/////////////////////////////////////////////////////////////////////////////////										при записи он говорит, что кабинет занят про другие пары
 			user.Item4 = 2;                                                                             ////////////// УДАЛИТЬ
 			////////////////////////////////////////////////////////////////////////////////
 
@@ -634,7 +634,60 @@ namespace DataLessonsCours3
 					db.openConnection();
 
 
+
 					string query = $"DECLARE @ids TABLE(id int);" +
+					" DECLARE @id int;" +
+						" INSERT INTO @ids(id)" +
+						" SELECT id FROM AppointmentLesson WHERE week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson AND  id <> @idLes; " +
+					" IF NOT EXISTS(SELECT * FROM Teacher_AppointmentLesson WHERE id_appointmentLesson IN(SELECT id FROM @ids) AND id_teacher IN" + addTeacher + ")" +
+						" BEGIN" +
+							" IF NOT EXISTS(SELECT * FROM AppointmentLesson WHERE id = @idLes)" +
+							" BEGIN" +
+							" IF EXISTS(SELECT * FROM AppointmentLesson WHERE office = @office AND week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson)" +
+								" BEGIN" +
+									" SELECT 'Кабинет занят' AS Warning;" +
+								" END" +
+								" ELSE" +
+								" BEGIN" +
+									" INSERT INTO AppointmentLesson(office, lesson, week, weekDay, numberLesson, typeLesson)" +
+									" VALUES(@office, @lesson, @week, @weekDay, @numberLesson, @typeLesson); " +
+										" SET @id = SCOPE_IDENTITY(); " +
+										" INSERT INTO Teacher_AppointmentLesson(id_appointmentLesson, id_teacher)" +
+									" SELECT @id, id_teacher FROM Teacher WHERE id_teacher IN" + addTeacher + "; " +
+										" INSERT INTO Group_AppointmentLessons(group_student, id_appointment_lesson)" +
+									" VALUES(@group, @id)" +
+								"END" +
+							" END" +
+							" ELSE" +
+							" BEGIN" +
+							" IF EXISTS(SELECT * FROM AppointmentLesson WHERE office = @office AND week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson AND  id <> @idLes)" +
+								" BEGIN" +
+									" SELECT 'Кабинет занят' AS Warning;" +
+								" END" +
+								" ELSE" +
+								" BEGIN" +
+									" UPDATE AppointmentLesson" +
+									" SET office = @office, lesson = @lesson, week = @week, weekDay = @weekDay, numberLesson = @numberLesson, typeLesson = @typeLesson" +
+									" WHERE id = @idLes; " +
+										" DELETE FROM Teacher_AppointmentLesson WHERE id_appointmentLesson = @idLes" +
+									" DELETE FROM Group_AppointmentLessons WHERE id_appointment_lesson = @idLes" +
+									" INSERT INTO Teacher_AppointmentLesson(id_appointmentLesson, id_teacher)" +
+									" SELECT @idLes, id_teacher FROM Teacher WHERE id_teacher IN" + addTeacher + "; " +
+									" INSERT INTO Group_AppointmentLessons(group_student, id_appointment_lesson)" +
+									" VALUES(@group, @idLes)" +
+								"END" +
+							" END" +
+						" END" +
+						" ELSE" +
+						" BEGIN" +
+							" DELETE FROM AppointmentLesson WHERE id = @id; " +
+							" SELECT 'Преподаватель занят' AS Warning; " +
+							" END";
+
+
+
+
+					/*string query = $"DECLARE @ids TABLE(id int);" +
 					" DECLARE @id int;" +
 					" IF EXISTS(SELECT * FROM AppointmentLesson WHERE office = @office AND week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson)" +
 					" BEGIN" +
@@ -674,7 +727,7 @@ namespace DataLessonsCours3
 							" DELETE FROM AppointmentLesson WHERE id = @id; " +
 							" SELECT 'Преподаватель занят' AS Warning; " +
 							" END" +
-						" END";
+						" END";*/
 
 					/*string query = $"DECLARE @ids TABLE (id int);"
                     + " DECLARE @id int;"

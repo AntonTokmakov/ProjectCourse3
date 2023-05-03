@@ -30,18 +30,18 @@
 		{
 			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.navigationPanel = new System.Windows.Forms.FlowLayoutPanel();
 			this.mainPage = new System.Windows.Forms.Label();
@@ -135,6 +135,11 @@
 			this.addExam = new Guna.UI2.WinForms.Guna2Button();
 			this.tabPage4 = new System.Windows.Forms.TabPage();
 			this.dataGridTeacher = new Guna.UI2.WinForms.Guna2DataGridView();
+			this.idteacherDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cathedraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.firstNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.otchestvoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.teacherBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
 			this.timeTableDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
 			this.timeTableDataSet = new DataLessonsCours3.timeTableDataSet();
@@ -145,6 +150,13 @@
 			this.label1 = new System.Windows.Forms.Label();
 			this.tabPage5 = new System.Windows.Forms.TabPage();
 			this.dataGridViewLesson = new Guna.UI2.WinForms.Guna2DataGridView();
+			this.cathedraDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.fullNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.shortNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.idlessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.linkMudlDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.lessonBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
 			this.timeTableDataSet5 = new DataLessonsCours3.timeTableDataSet5();
 			this.gunaGradient2Panel3 = new Guna.UI.WinForms.GunaGradient2Panel();
@@ -154,6 +166,11 @@
 			this.label2 = new System.Windows.Forms.Label();
 			this.tabPage6 = new System.Windows.Forms.TabPage();
 			this.guna2DataGridView4 = new Guna.UI2.WinForms.Guna2DataGridView();
+			this.idofficeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cathedraDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.computerClassDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+			this.electronicBoardDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+			this.capacityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.officeBindingSource = new System.Windows.Forms.BindingSource(this.components);
 			this.timeTableDataSet2 = new DataLessonsCours3.timeTableDataSet2();
 			this.gunaGradient2Panel8 = new Guna.UI.WinForms.GunaGradient2Panel();
@@ -185,23 +202,6 @@
 			this.officeTableAdapter3 = new DataLessonsCours3.timeTableDataSet12TableAdapters.OfficeTableAdapter();
 			this.officeTableAdapter4 = new DataLessonsCours3.timeTableDataSet13TableAdapters.OfficeTableAdapter();
 			this.officeTableAdapter5 = new DataLessonsCours3.timeTableDataSet14TableAdapters.OfficeTableAdapter();
-			this.idteacherDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.cathedraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.firstNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.otchestvoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.cathedraDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.fullNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.shortNameLessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.idlessonDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.linkMudlDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.idofficeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.cathedraDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.computerClassDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-			this.electronicBoardDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-			this.capacityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.navigationPanel.SuspendLayout();
 			this.gunaGradient2Panel1.SuspendLayout();
@@ -520,7 +520,7 @@
 			this.viewDaysTabPanel.Controls.Add(this.tabPage4);
 			this.viewDaysTabPanel.Controls.Add(this.tabPage5);
 			this.viewDaysTabPanel.Controls.Add(this.tabPage6);
-			this.viewDaysTabPanel.HeaderBackgroundColor = System.Drawing.Color.White;
+			this.viewDaysTabPanel.HeaderBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.viewDaysTabPanel.InActiveHeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.viewDaysTabPanel.InActiveTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(38)))), ((int)(((byte)(64)))));
 			this.viewDaysTabPanel.ItemSize = new System.Drawing.Size(240, 16);
@@ -673,30 +673,30 @@
 			// 
 			// guna2DataGridView2
 			// 
-			dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-			this.guna2DataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+			dataGridViewCellStyle25.BackColor = System.Drawing.Color.White;
+			this.guna2DataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
 			this.guna2DataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
 			this.guna2DataGridView2.BackgroundColor = System.Drawing.Color.White;
 			this.guna2DataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.guna2DataGridView2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
 			this.guna2DataGridView2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-			dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-			dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.guna2DataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+			dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+			dataGridViewCellStyle26.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			dataGridViewCellStyle26.ForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+			dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.guna2DataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
 			this.guna2DataGridView2.ColumnHeadersHeight = 4;
-			dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle3;
+			dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle27.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle27.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			dataGridViewCellStyle27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle27;
 			this.guna2DataGridView2.EnableHeadersVisualStyles = false;
 			this.guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
 			this.guna2DataGridView2.Location = new System.Drawing.Point(8, 8);
@@ -889,7 +889,7 @@
 			this.tbListTeacher5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher5.HoverState.Parent = this.tbListTeacher5;
 			this.tbListTeacher5.Location = new System.Drawing.Point(156, 76);
-			this.tbListTeacher5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbListTeacher5.Margin = new System.Windows.Forms.Padding(4);
 			this.tbListTeacher5.MaxLength = 50;
 			this.tbListTeacher5.Multiline = true;
 			this.tbListTeacher5.Name = "tbListTeacher5";
@@ -1065,7 +1065,7 @@
 			this.tbListTeacher4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher4.HoverState.Parent = this.tbListTeacher4;
 			this.tbListTeacher4.Location = new System.Drawing.Point(156, 76);
-			this.tbListTeacher4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbListTeacher4.Margin = new System.Windows.Forms.Padding(4);
 			this.tbListTeacher4.MaxLength = 50;
 			this.tbListTeacher4.Multiline = true;
 			this.tbListTeacher4.Name = "tbListTeacher4";
@@ -1241,7 +1241,7 @@
 			this.tbListTeacher3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher3.HoverState.Parent = this.tbListTeacher3;
 			this.tbListTeacher3.Location = new System.Drawing.Point(156, 76);
-			this.tbListTeacher3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbListTeacher3.Margin = new System.Windows.Forms.Padding(4);
 			this.tbListTeacher3.MaxLength = 50;
 			this.tbListTeacher3.Multiline = true;
 			this.tbListTeacher3.Name = "tbListTeacher3";
@@ -1417,7 +1417,7 @@
 			this.tbListTeacher2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher2.HoverState.Parent = this.tbListTeacher2;
 			this.tbListTeacher2.Location = new System.Drawing.Point(156, 76);
-			this.tbListTeacher2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbListTeacher2.Margin = new System.Windows.Forms.Padding(4);
 			this.tbListTeacher2.MaxLength = 50;
 			this.tbListTeacher2.Multiline = true;
 			this.tbListTeacher2.Name = "tbListTeacher2";
@@ -1593,7 +1593,7 @@
 			this.tbListTeacher1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbListTeacher1.HoverState.Parent = this.tbListTeacher1;
 			this.tbListTeacher1.Location = new System.Drawing.Point(156, 76);
-			this.tbListTeacher1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.tbListTeacher1.Margin = new System.Windows.Forms.Padding(4);
 			this.tbListTeacher1.MaxLength = 50;
 			this.tbListTeacher1.Multiline = true;
 			this.tbListTeacher1.Name = "tbListTeacher1";
@@ -1765,8 +1765,8 @@
 			this.dataGridTeacher.AllowUserToAddRows = false;
 			this.dataGridTeacher.AllowUserToDeleteRows = false;
 			this.dataGridTeacher.AllowUserToOrderColumns = true;
-			dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-			this.dataGridTeacher.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+			dataGridViewCellStyle28.BackColor = System.Drawing.Color.White;
+			this.dataGridTeacher.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle28;
 			this.dataGridTeacher.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -1776,14 +1776,14 @@
 			this.dataGridTeacher.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.dataGridTeacher.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
 			this.dataGridTeacher.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-			dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(70)))), ((int)(((byte)(121)))));
-			dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.dataGridTeacher.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+			dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(70)))), ((int)(((byte)(121)))));
+			dataGridViewCellStyle29.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			dataGridViewCellStyle29.ForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+			dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.dataGridTeacher.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle29;
 			this.dataGridTeacher.ColumnHeadersHeight = 27;
 			this.dataGridTeacher.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idteacherDataGridViewTextBoxColumn,
@@ -1792,14 +1792,14 @@
             this.firstNameDataGridViewTextBoxColumn,
             this.otchestvoDataGridViewTextBoxColumn});
 			this.dataGridTeacher.DataSource = this.teacherBindingSource1;
-			dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.dataGridTeacher.DefaultCellStyle = dataGridViewCellStyle6;
+			dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle30.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle30.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			dataGridViewCellStyle30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			dataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.dataGridTeacher.DefaultCellStyle = dataGridViewCellStyle30;
 			this.dataGridTeacher.EnableHeadersVisualStyles = false;
 			this.dataGridTeacher.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
 			this.dataGridTeacher.Location = new System.Drawing.Point(3, 95);
@@ -1833,6 +1833,48 @@
 			this.dataGridTeacher.ThemeStyle.RowsStyle.Height = 24;
 			this.dataGridTeacher.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
 			this.dataGridTeacher.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			// 
+			// idteacherDataGridViewTextBoxColumn
+			// 
+			this.idteacherDataGridViewTextBoxColumn.DataPropertyName = "id_teacher";
+			this.idteacherDataGridViewTextBoxColumn.HeaderText = "id_teacher";
+			this.idteacherDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.idteacherDataGridViewTextBoxColumn.Name = "idteacherDataGridViewTextBoxColumn";
+			this.idteacherDataGridViewTextBoxColumn.ReadOnly = true;
+			this.idteacherDataGridViewTextBoxColumn.Visible = false;
+			// 
+			// cathedraDataGridViewTextBoxColumn
+			// 
+			this.cathedraDataGridViewTextBoxColumn.DataPropertyName = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn.HeaderText = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.cathedraDataGridViewTextBoxColumn.Name = "cathedraDataGridViewTextBoxColumn";
+			this.cathedraDataGridViewTextBoxColumn.ReadOnly = true;
+			this.cathedraDataGridViewTextBoxColumn.Visible = false;
+			// 
+			// nameDataGridViewTextBoxColumn
+			// 
+			this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
+			this.nameDataGridViewTextBoxColumn.HeaderText = "name";
+			this.nameDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+			this.nameDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// firstNameDataGridViewTextBoxColumn
+			// 
+			this.firstNameDataGridViewTextBoxColumn.DataPropertyName = "firstName";
+			this.firstNameDataGridViewTextBoxColumn.HeaderText = "firstName";
+			this.firstNameDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.firstNameDataGridViewTextBoxColumn.Name = "firstNameDataGridViewTextBoxColumn";
+			this.firstNameDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// otchestvoDataGridViewTextBoxColumn
+			// 
+			this.otchestvoDataGridViewTextBoxColumn.DataPropertyName = "otchestvo";
+			this.otchestvoDataGridViewTextBoxColumn.HeaderText = "otchestvo";
+			this.otchestvoDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.otchestvoDataGridViewTextBoxColumn.Name = "otchestvoDataGridViewTextBoxColumn";
+			this.otchestvoDataGridViewTextBoxColumn.ReadOnly = true;
 			// 
 			// teacherBindingSource1
 			// 
@@ -1945,8 +1987,8 @@
 			// 
 			this.dataGridViewLesson.AllowUserToAddRows = false;
 			this.dataGridViewLesson.AllowUserToDeleteRows = false;
-			dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-			this.dataGridViewLesson.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+			dataGridViewCellStyle31.BackColor = System.Drawing.Color.White;
+			this.dataGridViewLesson.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
 			this.dataGridViewLesson.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -1956,14 +1998,14 @@
 			this.dataGridViewLesson.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.dataGridViewLesson.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
 			this.dataGridViewLesson.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-			dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-			dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.dataGridViewLesson.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+			dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+			dataGridViewCellStyle32.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			dataGridViewCellStyle32.ForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+			dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.dataGridViewLesson.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
 			this.dataGridViewLesson.ColumnHeadersHeight = 27;
 			this.dataGridViewLesson.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.cathedraDataGridViewTextBoxColumn1,
@@ -1974,14 +2016,14 @@
             this.idlessonDataGridViewTextBoxColumn,
             this.linkMudlDataGridViewTextBoxColumn});
 			this.dataGridViewLesson.DataSource = this.lessonBindingSource1;
-			dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.dataGridViewLesson.DefaultCellStyle = dataGridViewCellStyle9;
+			dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle33.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle33.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			dataGridViewCellStyle33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			dataGridViewCellStyle33.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.dataGridViewLesson.DefaultCellStyle = dataGridViewCellStyle33;
 			this.dataGridViewLesson.EnableHeadersVisualStyles = false;
 			this.dataGridViewLesson.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
 			this.dataGridViewLesson.Location = new System.Drawing.Point(7, 95);
@@ -2015,6 +2057,64 @@
 			this.dataGridViewLesson.ThemeStyle.RowsStyle.Height = 24;
 			this.dataGridViewLesson.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
 			this.dataGridViewLesson.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			// 
+			// cathedraDataGridViewTextBoxColumn1
+			// 
+			this.cathedraDataGridViewTextBoxColumn1.DataPropertyName = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn1.HeaderText = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn1.MinimumWidth = 6;
+			this.cathedraDataGridViewTextBoxColumn1.Name = "cathedraDataGridViewTextBoxColumn1";
+			this.cathedraDataGridViewTextBoxColumn1.ReadOnly = true;
+			this.cathedraDataGridViewTextBoxColumn1.Visible = false;
+			// 
+			// fullNameLessonDataGridViewTextBoxColumn
+			// 
+			this.fullNameLessonDataGridViewTextBoxColumn.DataPropertyName = "fullNameLesson";
+			this.fullNameLessonDataGridViewTextBoxColumn.HeaderText = "fullNameLesson";
+			this.fullNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.fullNameLessonDataGridViewTextBoxColumn.Name = "fullNameLessonDataGridViewTextBoxColumn";
+			this.fullNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// shortNameLessonDataGridViewTextBoxColumn
+			// 
+			this.shortNameLessonDataGridViewTextBoxColumn.DataPropertyName = "shortNameLesson";
+			this.shortNameLessonDataGridViewTextBoxColumn.HeaderText = "shortNameLesson";
+			this.shortNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.shortNameLessonDataGridViewTextBoxColumn.Name = "shortNameLessonDataGridViewTextBoxColumn";
+			this.shortNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// numberPracticeHoursSemesterDataGridViewTextBoxColumn
+			// 
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberPracticeHoursSemester";
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberPracticeHoursSemester";
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.Name = "numberPracticeHoursSemesterDataGridViewTextBoxColumn";
+			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// numberLectureHoursSemesterDataGridViewTextBoxColumn
+			// 
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberLectureHoursSemester";
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberLectureHoursSemester";
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.Name = "numberLectureHoursSemesterDataGridViewTextBoxColumn";
+			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// idlessonDataGridViewTextBoxColumn
+			// 
+			this.idlessonDataGridViewTextBoxColumn.DataPropertyName = "id_lesson";
+			this.idlessonDataGridViewTextBoxColumn.HeaderText = "id_lesson";
+			this.idlessonDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.idlessonDataGridViewTextBoxColumn.Name = "idlessonDataGridViewTextBoxColumn";
+			this.idlessonDataGridViewTextBoxColumn.ReadOnly = true;
+			this.idlessonDataGridViewTextBoxColumn.Visible = false;
+			// 
+			// linkMudlDataGridViewTextBoxColumn
+			// 
+			this.linkMudlDataGridViewTextBoxColumn.DataPropertyName = "linkMudl";
+			this.linkMudlDataGridViewTextBoxColumn.HeaderText = "linkMudl";
+			this.linkMudlDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.linkMudlDataGridViewTextBoxColumn.Name = "linkMudlDataGridViewTextBoxColumn";
+			this.linkMudlDataGridViewTextBoxColumn.ReadOnly = true;
 			// 
 			// lessonBindingSource1
 			// 
@@ -2122,8 +2222,8 @@
 			// 
 			this.guna2DataGridView4.AllowUserToAddRows = false;
 			this.guna2DataGridView4.AllowUserToDeleteRows = false;
-			dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-			this.guna2DataGridView4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+			dataGridViewCellStyle34.BackColor = System.Drawing.Color.White;
+			this.guna2DataGridView4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle34;
 			this.guna2DataGridView4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -2133,14 +2233,14 @@
 			this.guna2DataGridView4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.guna2DataGridView4.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
 			this.guna2DataGridView4.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-			dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-			dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.guna2DataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+			dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+			dataGridViewCellStyle35.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			dataGridViewCellStyle35.ForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle35.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+			dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.guna2DataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle35;
 			this.guna2DataGridView4.ColumnHeadersHeight = 27;
 			this.guna2DataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idofficeDataGridViewTextBoxColumn,
@@ -2149,14 +2249,14 @@
             this.electronicBoardDataGridViewCheckBoxColumn,
             this.capacityDataGridViewTextBoxColumn});
 			this.guna2DataGridView4.DataSource = this.officeBindingSource;
-			dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
-			dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-			dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-			dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.guna2DataGridView4.DefaultCellStyle = dataGridViewCellStyle12;
+			dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle36.BackColor = System.Drawing.Color.White;
+			dataGridViewCellStyle36.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			dataGridViewCellStyle36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+			dataGridViewCellStyle36.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.guna2DataGridView4.DefaultCellStyle = dataGridViewCellStyle36;
 			this.guna2DataGridView4.EnableHeadersVisualStyles = false;
 			this.guna2DataGridView4.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
 			this.guna2DataGridView4.Location = new System.Drawing.Point(7, 95);
@@ -2190,6 +2290,47 @@
 			this.guna2DataGridView4.ThemeStyle.RowsStyle.Height = 24;
 			this.guna2DataGridView4.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
 			this.guna2DataGridView4.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+			// 
+			// idofficeDataGridViewTextBoxColumn
+			// 
+			this.idofficeDataGridViewTextBoxColumn.DataPropertyName = "id_office";
+			this.idofficeDataGridViewTextBoxColumn.HeaderText = "id_office";
+			this.idofficeDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.idofficeDataGridViewTextBoxColumn.Name = "idofficeDataGridViewTextBoxColumn";
+			this.idofficeDataGridViewTextBoxColumn.ReadOnly = true;
+			// 
+			// cathedraDataGridViewTextBoxColumn2
+			// 
+			this.cathedraDataGridViewTextBoxColumn2.DataPropertyName = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn2.HeaderText = "cathedra";
+			this.cathedraDataGridViewTextBoxColumn2.MinimumWidth = 6;
+			this.cathedraDataGridViewTextBoxColumn2.Name = "cathedraDataGridViewTextBoxColumn2";
+			this.cathedraDataGridViewTextBoxColumn2.ReadOnly = true;
+			this.cathedraDataGridViewTextBoxColumn2.Visible = false;
+			// 
+			// computerClassDataGridViewCheckBoxColumn
+			// 
+			this.computerClassDataGridViewCheckBoxColumn.DataPropertyName = "computerClass";
+			this.computerClassDataGridViewCheckBoxColumn.HeaderText = "computerClass";
+			this.computerClassDataGridViewCheckBoxColumn.MinimumWidth = 6;
+			this.computerClassDataGridViewCheckBoxColumn.Name = "computerClassDataGridViewCheckBoxColumn";
+			this.computerClassDataGridViewCheckBoxColumn.ReadOnly = true;
+			// 
+			// electronicBoardDataGridViewCheckBoxColumn
+			// 
+			this.electronicBoardDataGridViewCheckBoxColumn.DataPropertyName = "electronicBoard";
+			this.electronicBoardDataGridViewCheckBoxColumn.HeaderText = "electronicBoard";
+			this.electronicBoardDataGridViewCheckBoxColumn.MinimumWidth = 6;
+			this.electronicBoardDataGridViewCheckBoxColumn.Name = "electronicBoardDataGridViewCheckBoxColumn";
+			this.electronicBoardDataGridViewCheckBoxColumn.ReadOnly = true;
+			// 
+			// capacityDataGridViewTextBoxColumn
+			// 
+			this.capacityDataGridViewTextBoxColumn.DataPropertyName = "capacity";
+			this.capacityDataGridViewTextBoxColumn.HeaderText = "capacity";
+			this.capacityDataGridViewTextBoxColumn.MinimumWidth = 6;
+			this.capacityDataGridViewTextBoxColumn.Name = "capacityDataGridViewTextBoxColumn";
+			this.capacityDataGridViewTextBoxColumn.ReadOnly = true;
 			// 
 			// officeBindingSource
 			// 
@@ -2379,147 +2520,6 @@
 			// officeTableAdapter5
 			// 
 			this.officeTableAdapter5.ClearBeforeFill = true;
-			// 
-			// idteacherDataGridViewTextBoxColumn
-			// 
-			this.idteacherDataGridViewTextBoxColumn.DataPropertyName = "id_teacher";
-			this.idteacherDataGridViewTextBoxColumn.HeaderText = "id_teacher";
-			this.idteacherDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.idteacherDataGridViewTextBoxColumn.Name = "idteacherDataGridViewTextBoxColumn";
-			this.idteacherDataGridViewTextBoxColumn.ReadOnly = true;
-			this.idteacherDataGridViewTextBoxColumn.Visible = false;
-			// 
-			// cathedraDataGridViewTextBoxColumn
-			// 
-			this.cathedraDataGridViewTextBoxColumn.DataPropertyName = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn.HeaderText = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.cathedraDataGridViewTextBoxColumn.Name = "cathedraDataGridViewTextBoxColumn";
-			this.cathedraDataGridViewTextBoxColumn.ReadOnly = true;
-			this.cathedraDataGridViewTextBoxColumn.Visible = false;
-			// 
-			// nameDataGridViewTextBoxColumn
-			// 
-			this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
-			this.nameDataGridViewTextBoxColumn.HeaderText = "name";
-			this.nameDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-			this.nameDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// firstNameDataGridViewTextBoxColumn
-			// 
-			this.firstNameDataGridViewTextBoxColumn.DataPropertyName = "firstName";
-			this.firstNameDataGridViewTextBoxColumn.HeaderText = "firstName";
-			this.firstNameDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.firstNameDataGridViewTextBoxColumn.Name = "firstNameDataGridViewTextBoxColumn";
-			this.firstNameDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// otchestvoDataGridViewTextBoxColumn
-			// 
-			this.otchestvoDataGridViewTextBoxColumn.DataPropertyName = "otchestvo";
-			this.otchestvoDataGridViewTextBoxColumn.HeaderText = "otchestvo";
-			this.otchestvoDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.otchestvoDataGridViewTextBoxColumn.Name = "otchestvoDataGridViewTextBoxColumn";
-			this.otchestvoDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// cathedraDataGridViewTextBoxColumn1
-			// 
-			this.cathedraDataGridViewTextBoxColumn1.DataPropertyName = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn1.HeaderText = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn1.MinimumWidth = 6;
-			this.cathedraDataGridViewTextBoxColumn1.Name = "cathedraDataGridViewTextBoxColumn1";
-			this.cathedraDataGridViewTextBoxColumn1.ReadOnly = true;
-			this.cathedraDataGridViewTextBoxColumn1.Visible = false;
-			// 
-			// fullNameLessonDataGridViewTextBoxColumn
-			// 
-			this.fullNameLessonDataGridViewTextBoxColumn.DataPropertyName = "fullNameLesson";
-			this.fullNameLessonDataGridViewTextBoxColumn.HeaderText = "fullNameLesson";
-			this.fullNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.fullNameLessonDataGridViewTextBoxColumn.Name = "fullNameLessonDataGridViewTextBoxColumn";
-			this.fullNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// shortNameLessonDataGridViewTextBoxColumn
-			// 
-			this.shortNameLessonDataGridViewTextBoxColumn.DataPropertyName = "shortNameLesson";
-			this.shortNameLessonDataGridViewTextBoxColumn.HeaderText = "shortNameLesson";
-			this.shortNameLessonDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.shortNameLessonDataGridViewTextBoxColumn.Name = "shortNameLessonDataGridViewTextBoxColumn";
-			this.shortNameLessonDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// numberPracticeHoursSemesterDataGridViewTextBoxColumn
-			// 
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberPracticeHoursSemester";
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberPracticeHoursSemester";
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.Name = "numberPracticeHoursSemesterDataGridViewTextBoxColumn";
-			this.numberPracticeHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// numberLectureHoursSemesterDataGridViewTextBoxColumn
-			// 
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.DataPropertyName = "numberLectureHoursSemester";
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.HeaderText = "numberLectureHoursSemester";
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.Name = "numberLectureHoursSemesterDataGridViewTextBoxColumn";
-			this.numberLectureHoursSemesterDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// idlessonDataGridViewTextBoxColumn
-			// 
-			this.idlessonDataGridViewTextBoxColumn.DataPropertyName = "id_lesson";
-			this.idlessonDataGridViewTextBoxColumn.HeaderText = "id_lesson";
-			this.idlessonDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.idlessonDataGridViewTextBoxColumn.Name = "idlessonDataGridViewTextBoxColumn";
-			this.idlessonDataGridViewTextBoxColumn.ReadOnly = true;
-			this.idlessonDataGridViewTextBoxColumn.Visible = false;
-			// 
-			// linkMudlDataGridViewTextBoxColumn
-			// 
-			this.linkMudlDataGridViewTextBoxColumn.DataPropertyName = "linkMudl";
-			this.linkMudlDataGridViewTextBoxColumn.HeaderText = "linkMudl";
-			this.linkMudlDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.linkMudlDataGridViewTextBoxColumn.Name = "linkMudlDataGridViewTextBoxColumn";
-			this.linkMudlDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// idofficeDataGridViewTextBoxColumn
-			// 
-			this.idofficeDataGridViewTextBoxColumn.DataPropertyName = "id_office";
-			this.idofficeDataGridViewTextBoxColumn.HeaderText = "id_office";
-			this.idofficeDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.idofficeDataGridViewTextBoxColumn.Name = "idofficeDataGridViewTextBoxColumn";
-			this.idofficeDataGridViewTextBoxColumn.ReadOnly = true;
-			// 
-			// cathedraDataGridViewTextBoxColumn2
-			// 
-			this.cathedraDataGridViewTextBoxColumn2.DataPropertyName = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn2.HeaderText = "cathedra";
-			this.cathedraDataGridViewTextBoxColumn2.MinimumWidth = 6;
-			this.cathedraDataGridViewTextBoxColumn2.Name = "cathedraDataGridViewTextBoxColumn2";
-			this.cathedraDataGridViewTextBoxColumn2.ReadOnly = true;
-			this.cathedraDataGridViewTextBoxColumn2.Visible = false;
-			// 
-			// computerClassDataGridViewCheckBoxColumn
-			// 
-			this.computerClassDataGridViewCheckBoxColumn.DataPropertyName = "computerClass";
-			this.computerClassDataGridViewCheckBoxColumn.HeaderText = "computerClass";
-			this.computerClassDataGridViewCheckBoxColumn.MinimumWidth = 6;
-			this.computerClassDataGridViewCheckBoxColumn.Name = "computerClassDataGridViewCheckBoxColumn";
-			this.computerClassDataGridViewCheckBoxColumn.ReadOnly = true;
-			// 
-			// electronicBoardDataGridViewCheckBoxColumn
-			// 
-			this.electronicBoardDataGridViewCheckBoxColumn.DataPropertyName = "electronicBoard";
-			this.electronicBoardDataGridViewCheckBoxColumn.HeaderText = "electronicBoard";
-			this.electronicBoardDataGridViewCheckBoxColumn.MinimumWidth = 6;
-			this.electronicBoardDataGridViewCheckBoxColumn.Name = "electronicBoardDataGridViewCheckBoxColumn";
-			this.electronicBoardDataGridViewCheckBoxColumn.ReadOnly = true;
-			// 
-			// capacityDataGridViewTextBoxColumn
-			// 
-			this.capacityDataGridViewTextBoxColumn.DataPropertyName = "capacity";
-			this.capacityDataGridViewTextBoxColumn.HeaderText = "capacity";
-			this.capacityDataGridViewTextBoxColumn.MinimumWidth = 6;
-			this.capacityDataGridViewTextBoxColumn.Name = "capacityDataGridViewTextBoxColumn";
-			this.capacityDataGridViewTextBoxColumn.ReadOnly = true;
 			// 
 			// Form1
 			// 
