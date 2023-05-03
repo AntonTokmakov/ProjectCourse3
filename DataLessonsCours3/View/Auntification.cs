@@ -45,6 +45,34 @@ namespace DataLessonsCours3.View
 			}
 		}
 
+		private void btnShowLogin_Click(object sender, EventArgs e)
+		{
+			if (tbLogin.PasswordChar == '*')
+			{
+				tbLogin.PasswordChar = '\0';
+				btnShowLogin.Text = "***";
+			}
+			else
+			{
+				tbLogin.PasswordChar = '*';
+				btnShowLogin.Text = "123";
+			}
+		}
+
+		private void btnShowPassword_Click(object sender, EventArgs e)
+		{
+			if (tbPassword.PasswordChar == '*')
+			{
+				tbPassword.PasswordChar = '\0';
+				btnShowLogin.Text = "***";
+			}
+			else
+			{
+				tbPassword.PasswordChar = '*';
+				btnShowLogin.Text = "123";
+			}
+		}
+
 		private void btnSave_Click(object sender, EventArgs e)
 		{
 			if (!(tbPassword.Text.Equals("") && tbLogin.Text.Equals("") && tbFirstName.Text.Equals("") && tbName.Text.Equals("")))

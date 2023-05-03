@@ -15,9 +15,16 @@ namespace DataLessonsCours3.View
 	{
 
 		private string[][] result;
+		bool check = false;
 		public EdirAddTeacher()
 		{
 			InitializeComponent();
+
+		}
+		public EdirAddTeacher(bool check)
+		{
+			InitializeComponent();
+			this.check = check;
 
 		}
 
@@ -40,7 +47,12 @@ namespace DataLessonsCours3.View
 					count++;
 					if (count > 4)
 					{
-						new MessageForm("Выберите не больше 4 преподавателей на пару.", "Система").ShowDialog();
+						new MessageForm("Выберите не больше 4 преподавателей на пару", "Система").ShowDialog();
+						return;
+					}
+					if (count > 1 && check)
+					{
+						new MessageForm("Выберите одного преподавателя", "Система").ShowDialog();
 						return;
 					}
 					string[] cells = new string[3];

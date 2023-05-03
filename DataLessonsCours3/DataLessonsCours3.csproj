@@ -118,6 +118,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>timeTableDataSet15.xsd</DependentUpon>
     </Compile>
+    <Compile Include="timeTableDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>timeTableDataSet16.xsd</DependentUpon>
+    </Compile>
     <Compile Include="timeTableDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -374,6 +379,17 @@
     </None>
     <None Include="timeTableDataSet15.xss">
       <DependentUpon>timeTableDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="timeTableDataSet16.xsc">
+      <DependentUpon>timeTableDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="timeTableDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>timeTableDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="timeTableDataSet16.xss">
+      <DependentUpon>timeTableDataSet16.xsd</DependentUpon>
     </None>
     <None Include="timeTableDataSet2.xsc">
       <DependentUpon>timeTableDataSet2.xsd</DependentUpon>

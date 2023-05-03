@@ -34,9 +34,9 @@
 			this.lbTitle = new System.Windows.Forms.Label();
 			this.tbPassword = new Guna.UI2.WinForms.Guna2TextBox();
 			this.panel1 = new System.Windows.Forms.Panel();
-			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.tbLogin = new Guna.UI2.WinForms.Guna2TextBox();
+			this.label1 = new System.Windows.Forms.Label();
 			this.btnSave = new Guna.UI2.WinForms.Guna2Button();
 			this.lbRegistration = new System.Windows.Forms.Label();
 			this.panel2 = new System.Windows.Forms.Panel();
@@ -46,6 +46,8 @@
 			this.tbName = new Guna.UI2.WinForms.Guna2TextBox();
 			this.panel3 = new System.Windows.Forms.Panel();
 			this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+			this.btnShowLogin = new Guna.UI2.WinForms.Guna2Button();
+			this.btnShowPassword = new Guna.UI2.WinForms.Guna2Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
@@ -91,7 +93,7 @@
 			this.tbPassword.ForeColor = System.Drawing.Color.Black;
 			this.tbPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbPassword.HoverState.Parent = this.tbPassword;
-			this.tbPassword.Location = new System.Drawing.Point(36, 53);
+			this.tbPassword.Location = new System.Drawing.Point(37, 134);
 			this.tbPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.tbPassword.MaxLength = 50;
 			this.tbPassword.Name = "tbPassword";
@@ -99,39 +101,30 @@
 			this.tbPassword.PlaceholderText = "";
 			this.tbPassword.SelectedText = "";
 			this.tbPassword.ShadowDecoration.Parent = this.tbPassword;
-			this.tbPassword.Size = new System.Drawing.Size(443, 44);
+			this.tbPassword.Size = new System.Drawing.Size(382, 44);
 			this.tbPassword.TabIndex = 3;
 			// 
 			// panel1
 			// 
+			this.panel1.Controls.Add(this.btnShowPassword);
+			this.panel1.Controls.Add(this.btnShowLogin);
 			this.panel1.Controls.Add(this.label2);
-			this.panel1.Controls.Add(this.tbLogin);
 			this.panel1.Controls.Add(this.label1);
+			this.panel1.Controls.Add(this.tbLogin);
 			this.panel1.Controls.Add(this.tbPassword);
 			this.panel1.Location = new System.Drawing.Point(12, 170);
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(522, 201);
 			this.panel1.TabIndex = 4;
 			// 
-			// label1
-			// 
-			this.label1.AutoSize = true;
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label1.ForeColor = System.Drawing.Color.White;
-			this.label1.Location = new System.Drawing.Point(40, 13);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(120, 36);
-			this.label1.TabIndex = 4;
-			this.label1.Text = "Пароль";
-			// 
 			// label2
 			// 
 			this.label2.AutoSize = true;
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.label2.ForeColor = System.Drawing.Color.White;
-			this.label2.Location = new System.Drawing.Point(40, 110);
+			this.label2.Location = new System.Drawing.Point(41, 4);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(103, 36);
+			this.label2.Size = new System.Drawing.Size(82, 29);
 			this.label2.TabIndex = 6;
 			this.label2.Text = "Логин";
 			// 
@@ -152,7 +145,7 @@
 			this.tbLogin.ForeColor = System.Drawing.Color.Black;
 			this.tbLogin.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.tbLogin.HoverState.Parent = this.tbLogin;
-			this.tbLogin.Location = new System.Drawing.Point(36, 150);
+			this.tbLogin.Location = new System.Drawing.Point(37, 44);
 			this.tbLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.tbLogin.MaxLength = 50;
 			this.tbLogin.Name = "tbLogin";
@@ -160,8 +153,19 @@
 			this.tbLogin.PlaceholderText = "";
 			this.tbLogin.SelectedText = "";
 			this.tbLogin.ShadowDecoration.Parent = this.tbLogin;
-			this.tbLogin.Size = new System.Drawing.Size(443, 44);
+			this.tbLogin.Size = new System.Drawing.Size(382, 44);
 			this.tbLogin.TabIndex = 5;
+			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label1.ForeColor = System.Drawing.Color.White;
+			this.label1.Location = new System.Drawing.Point(41, 94);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(96, 29);
+			this.label1.TabIndex = 4;
+			this.label1.Text = "Пароль";
 			// 
 			// btnSave
 			// 
@@ -300,6 +304,38 @@
 			this.notifyIcon1.Text = "notifyIcon1";
 			this.notifyIcon1.Visible = true;
 			// 
+			// btnShowLogin
+			// 
+			this.btnShowLogin.CheckedState.Parent = this.btnShowLogin;
+			this.btnShowLogin.CustomImages.Parent = this.btnShowLogin;
+			this.btnShowLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.btnShowLogin.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.btnShowLogin.ForeColor = System.Drawing.Color.Black;
+			this.btnShowLogin.HoverState.Parent = this.btnShowLogin;
+			this.btnShowLogin.Location = new System.Drawing.Point(426, 44);
+			this.btnShowLogin.Name = "btnShowLogin";
+			this.btnShowLogin.ShadowDecoration.Parent = this.btnShowLogin;
+			this.btnShowLogin.Size = new System.Drawing.Size(54, 44);
+			this.btnShowLogin.TabIndex = 15;
+			this.btnShowLogin.Text = "****";
+			this.btnShowLogin.Click += new System.EventHandler(this.btnShowLogin_Click);
+			// 
+			// btnShowPassword
+			// 
+			this.btnShowPassword.CheckedState.Parent = this.btnShowPassword;
+			this.btnShowPassword.CustomImages.Parent = this.btnShowPassword;
+			this.btnShowPassword.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(230)))), ((int)(((byte)(166)))));
+			this.btnShowPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.btnShowPassword.ForeColor = System.Drawing.Color.Black;
+			this.btnShowPassword.HoverState.Parent = this.btnShowPassword;
+			this.btnShowPassword.Location = new System.Drawing.Point(426, 134);
+			this.btnShowPassword.Name = "btnShowPassword";
+			this.btnShowPassword.ShadowDecoration.Parent = this.btnShowPassword;
+			this.btnShowPassword.Size = new System.Drawing.Size(54, 44);
+			this.btnShowPassword.TabIndex = 16;
+			this.btnShowPassword.Text = "****";
+			this.btnShowPassword.Click += new System.EventHandler(this.btnShowPassword_Click);
+			// 
 			// Auntification
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -344,5 +380,7 @@
 		private Guna.UI2.WinForms.Guna2TextBox tbName;
 		private System.Windows.Forms.Panel panel3;
 		private System.Windows.Forms.NotifyIcon notifyIcon1;
+		private Guna.UI2.WinForms.Guna2Button btnShowPassword;
+		private Guna.UI2.WinForms.Guna2Button btnShowLogin;
 	}
 }

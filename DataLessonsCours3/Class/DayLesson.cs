@@ -9,6 +9,7 @@ using DataLessonsCours3.View;
 using System.Data.SqlClient;
 using System.Security.Cryptography;
 using System.Security.AccessControl;
+using System.Collections;
 
 namespace DataLessonsCours3.Class
 {
@@ -92,6 +93,26 @@ namespace DataLessonsCours3.Class
 			}
 			return day;
 		}
+
+
+		public void selectDBView()
+		{
+			/*DB db = new DB();
+			db.openConnection();
+
+			SqlCommand command = new SqlCommand(quest, db.getConnection());
+			command.Parameters.AddWithValue("@group", group);
+			command.Parameters.AddWithValue("@weekDay", weekDay);
+			command.Parameters.AddWithValue("@week", week);
+			SqlDataReader reader = command.ExecuteReader();
+			int count = 1;
+			while (reader.Read())
+			{
+				if ()
+			}*/
+
+		}
+
 
 		public string[][][] GetDay
 		{

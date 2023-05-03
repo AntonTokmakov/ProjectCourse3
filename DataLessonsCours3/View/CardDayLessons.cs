@@ -8,28 +8,30 @@ namespace DataLessonsCours3.View
 {
 	public partial class CardDayLessons : UserControl
 	{
-		/*public CardDayLessons(SqlDataReader reader)
+		public CardDayLessons(SqlDataReader reader, int weekDay)
 		{
 			InitializeComponent();
+			string[] weekDayName = new string[] { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота" };
 
-
-            //reader.GetString(7).Trim() + " " + reader.GetString(9).Trim()
-            System.Windows.Forms.Label[] labels = new System.Windows.Forms.Label[] { firstLessonLabel, secondLessonLabel, thirdLessonLabel, fourLessonLabel, fiveLessonLabel};
+			nameDayLabel.Text = weekDayName[weekDay];
+			System.Windows.Forms.Label[] labels = new System.Windows.Forms.Label[] { firstLessonLabel, secondLessonLabel, thirdLessonLabel, fourLessonLabel, fiveLessonLabel};
 			int count = 1;
-			while (reader.Read())
+			/*while (reader.Read())
 			{
-				if (count == Convert.ToInt32(reader.GetValue(0)))
+				if (count == Convert.ToInt32(reader.GetValue(1)))
 				{
-					if (1 == Convert.ToInt32(reader.GetValue(3)))
-					{
-						labels[count-1].ForeColor = Color.FromArgb(177, 4, 4);
-					}
-					labels[count-1].Text = reader.GetString(2) + " " + reader.GetString(4);
-					nameDayLabel.Text = reader.GetString(5);
+					labels[count - 1].Text += reader.GetString(2) + " " + reader.GetString(0) + " " + reader.GetString(3);
 					count++;
 				}
+			}*/
+
+			while (reader.Read())
+			{
+				labels[Convert.ToInt32(reader.GetValue(1)) - 1].Text += reader.GetString(2) + " " + reader.GetString(0) + " " + reader.GetString(3);
+				//count++;
 			}
-		}*/
+
+		}
 
 		public CardDayLessons(string[][][] day, int weekDay)
 		{

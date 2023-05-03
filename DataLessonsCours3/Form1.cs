@@ -19,6 +19,7 @@ using System.Drawing.Printing;
 using static System.Net.Mime.MediaTypeNames;
 using Microsoft.SqlServer.Server;
 using static System.ComponentModel.Design.ObjectSelectorEditor;
+using System.Collections;
 
 namespace DataLessonsCours3
 {
@@ -47,6 +48,8 @@ namespace DataLessonsCours3
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
+			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet16.Office". При необходимости она может быть перемещена или удалена.
+			this.officeTableAdapter6.Fill(this.timeTableDataSet16.Office);
 			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet15.Auntefication". При необходимости она может быть перемещена или удалена.
 			this.aunteficationTableAdapter.Fill(this.timeTableDataSet15.Auntefication);
 			// TODO: данная строка кода позволяет загрузить данные в таблицу "timeTableDataSet14.Office". При необходимости она может быть перемещена или удалена.
@@ -538,6 +541,7 @@ namespace DataLessonsCours3
 					}
 				}
 				catch (Exception) { }
+				saveEditDay.Enabled = true;
 			}
 		}
 
@@ -551,7 +555,6 @@ namespace DataLessonsCours3
 
 			string[][] editLessons = new string[5][];
 			int count = 4;
-			int weekDay;
 			for (int i = 0; i < editLessons.Length; i++)		// номер пары
 			{
 				string a = cbLesson[i].SelectedIndex.ToString();
@@ -559,7 +562,7 @@ namespace DataLessonsCours3
 				string id = day[i][0] == null ? "" : Convert.ToInt32(day[i][0][0]).ToString();
 				editLessons[i] = new string[count];
 				editLessons[i][0] = id;
-				if (!(a.Equals("0") || b.Equals(" ") /*|| */))															//////////////////////////////    user.Item1
+				if (!(a.Equals("0") || b.Equals(" ") || tbTeacher[i].Text.Equals("")))															//////////////////////////////    user.Item1
 				{
 					editLessons[i][1] = a;
 					editLessons[i][2] = b;
@@ -693,9 +696,6 @@ namespace DataLessonsCours3
 							" SELECT 'Преподаватель занят' AS Warning; " +
 							" END";
 
-
-
-
 					/*string query = $"DECLARE @ids TABLE(id int);" +
 					" DECLARE @id int;" +
 					" IF EXISTS(SELECT * FROM AppointmentLesson WHERE office = @office AND week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson)" +
@@ -737,7 +737,6 @@ namespace DataLessonsCours3
 							" SELECT 'Преподаватель занят' AS Warning; " +
 							" END" +
 						" END";*/
-
 					/*string query = $"DECLARE @ids TABLE (id int);"
                     + " DECLARE @id int;"
 					+ " IF EXISTS (SELECT * FROM AppointmentLesson WHERE office = @office AND week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson)"
@@ -758,7 +757,6 @@ namespace DataLessonsCours3
 					+ " BEGIN"
 					+ " DELETE FROM AppointmentLesson WHERE id = @id;"
 					+ " SELECT 'Преподаватель занят' AS Warning; END END";*/
-
 					/*string query = $"DECLARE @ids TABLE (id int);" +
 					$"DECLARE @id int;" +
 					$"IF EXISTS (SELECT * FROM AppointmentLesson WHERE office = @office AND week = @week AND weekDay = @weekDay AND numberLesson = @numberLesson)" +
@@ -816,7 +814,6 @@ namespace DataLessonsCours3
 				   "SELECT 'Преподаватель занят' AS Warning; " +
 				   "END END";*/
 
-
 					SqlCommand command = new SqlCommand(query, db.getConnection());
 					int id = editLessons[i][0].Equals("") ? 2000 : Convert.ToInt32(editLessons[i][0]);
 					command.Parameters.AddWithValue("@idLes", id);
@@ -830,73 +827,13 @@ namespace DataLessonsCours3
 					SqlDataReader reader = command.ExecuteReader();
 					if (reader.Read())
 					{
-						//MessageBox.Show(reader.GetString(0), "Система");
 						new MessageForm(reader.GetString(0), "Система").ShowDialog();
 					}
 					reader.Close();
 					db.closeConnection(); 
-
-
-					/*DB db = new DB();
-					db.openConnection();
-					string query = "MERGE INTO AppointmentLesson AS target " +
-				   "USING (SELECT @id AS id, @office AS office, @lesson AS lesson, @week AS week, @weekDay AS weekDay, @numberLesson AS numberLesson, @typeLesson AS typeLesson) AS source " +
-				   "ON target.id = source.id " +
-				   "WHEN MATCHED THEN " +
-				   "    UPDATE SET office = source.office, lesson = source.lesson, week = source.week, weekDay = source.weekDay, numberLesson = source.numberLesson, typeLesson = source.typeLesson " +
-				   "WHEN NOT MATCHED THEN " +
-				   "    INSERT (office, lesson, week, weekDay, numberLesson, typeLesson) VALUES (source.office, source.lesson, source.week, source.weekDay, source.numberLesson, source.typeLesson);";
-					SqlCommand command = new SqlCommand(query, db.getConnection());
-					int id = editLessons[i][0].Equals("") ? 2000 : Convert.ToInt32(editLessons[i][0]);
-					command.Parameters.AddWithValue("@id", id);
-					command.Parameters.AddWithValue("@office", editLessons[i][2]);
-					command.Parameters.AddWithValue("@lesson", Convert.ToInt32(editLessons[i][1]) + 1);
-					command.Parameters.AddWithValue("@week", cbWeekEdit.SelectedIndex + 1);
-					command.Parameters.AddWithValue("@weekDay", nowWeekDay + 1);
-					command.Parameters.AddWithValue("@numberLesson", i + 1);
-					command.Parameters.AddWithValue("@typeLesson", Convert.ToInt32(editLessons[i][3]) + 1);
-					SqlDataReader reader = command.ExecuteReader();
-					db.closeConnection();*/
-
 				}
-
 			}
-
-			/*if (day != null)
-			{
-				string text = "";
-				try
-				{
-					for (int i = 0; i < cbLesson.Length; i++)
-					{
-						if (!(day[i] == null))
-						{
-							for (int j = 0; j + 1 < day[i].Length; j++)
-							{
-								if (!(day[i][j] == null))
-								{
-									if (j == 0)
-									{
-										cbLesson[i].SelectedIndex = Convert.ToInt32(day[i][j][12]) - 1;
-										int indexOffice = cbOffice[i].FindString(day[i][j][13]);
-										cbOffice[i].SelectedIndex = indexOffice;
-										bool checkLecture = day[i][j][4].ToString().Equals("1") ? true : false;
-										cbLecture[i].Checked = checkLecture;
-										text = day[i][j][9] + " " + day[i][j][8] + "\n ";
-									}
-									else
-									{
-										text += day[i][j][9] + " " + day[i][j][8] + "\n ";
-									}
-								}
-							}
-							tbTeacher[i].Text = text;
-							text = "";
-						}
-					}
-				}
-				catch (Exception) { }
-			}*/
+			cbWeekEdit_SelectedIndexChanged(sender, e);
 		}
 
 		#endregion
@@ -1062,10 +999,68 @@ namespace DataLessonsCours3
 			}
 			this.aunteficationTableAdapter.Fill(this.timeTableDataSet15.Auntefication);
 		}
-
 		#endregion
 
+		private void cbbChangeView_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			switch (cbbChangeView.SelectedIndex)
+			{
+				case 0:
+					settingPanel.SelectedIndex = 0;
+					break;
+				case 1:
+					settingPanel.SelectedIndex = 2;
+					break;
+				default:
+					break;
+			}
+		}
+
+		private void cbWeekChangeView_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			mainLayout.Controls.Clear();
+			try
+			{
+				for (int i = 0; i < daysLesson.Length; i++)
+				{
+					DB db = new DB();
+					db.openConnection();
+					string quest = "SELECT DISTINCT AppointmentLesson.numberLesson, AppointmentLesson.office\r\nFROM Week, NumberLesson, WeekDay, Office, AppointmentLesson\r\nWHERE AppointmentLesson.week = Week.id_week\r\nAND AppointmentLesson.numberLesson = NumberLesson.id_number_lesson\r\nAND AppointmentLesson.office = Office.id_office\r\nAND AppointmentLesson.weekDay = WeekDay.id_weekDay\r\nAND WeekDay.id_weekDay = @weekDay\r\nAND Week.id_week = @week;";
+					SqlCommand command = new SqlCommand(quest, db.getConnection());
+					command.Parameters.AddWithValue("@weekDay", i + 1);
+					command.Parameters.AddWithValue("@week", cbWeekChangeView.SelectedIndex + 1);
+					SqlDataReader reader = command.ExecuteReader();
 
 
+					//string[][][] dayL = daysLesson[i].selectDB();
+					CardDayLessons DayCard = new CardDayLessons(reader, i);
+					mainLayout.Controls.Add(DayCard);
+				}
+			}
+			catch (Exception) { }
+		}
+
+		private void findTeacher_Click(object sender, EventArgs e)
+		{
+			mainLayout.Controls.Clear();
+			EdirAddTeacher addTeacher = new EdirAddTeacher(true);
+			addTeacher.ShowDialog();
+			string[][] teacher = addTeacher.checkTeacher;
+			if (teacher[0] == null) return;
+			tbTeacherView.Text = teacher[0][1] + " " + teacher[0][2];
+			for (int i = 0; i < daysLesson.Length; i++)
+			{
+				DB db = new DB();
+				db.openConnection();
+				string quest = "SELECT AppointmentLesson.office, AppointmentLesson.numberLesson, Lesson.shortNameLesson AS lessonName, GroupStudent.shortNameGroup AS groupName\r\nFROM AppointmentLesson\r\nJOIN Teacher_AppointmentLesson ON AppointmentLesson.id = Teacher_AppointmentLesson.id_appointmentLesson\r\nJOIN Teacher ON Teacher_AppointmentLesson.id_teacher = Teacher.id_teacher\r\nJOIN Group_AppointmentLessons ON AppointmentLesson.id = Group_AppointmentLessons.id_appointment_lesson\r\nJOIN GroupStudent ON Group_AppointmentLessons.group_student = GroupStudent.idGroup\r\nJOIN Lesson ON AppointmentLesson.lesson = Lesson.id_lesson\r\nWHERE Teacher.id_teacher = @id_teacher AND AppointmentLesson.week = @week AND AppointmentLesson.weekDay = @weekDay;";
+				SqlCommand command = new SqlCommand(quest, db.getConnection());
+				command.Parameters.AddWithValue("@id_teacher", teacher[0][0]);
+				command.Parameters.AddWithValue("@weekDay", i + 1);
+				command.Parameters.AddWithValue("@week", cbTeacherView.SelectedIndex + 1);
+				SqlDataReader reader = command.ExecuteReader();
+				CardDayLessons DayCard = new CardDayLessons(reader, i);
+				mainLayout.Controls.Add(DayCard);
+			}
+		}
 	}
 }
